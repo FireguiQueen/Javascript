@@ -12,10 +12,10 @@ _Os comentários podem ser usados para documentar o que uma função ou método 
 _Os comentários podem ajudar a tornar o código mais fácil de manter, pois permitem que outros programadores entendam a lógica por trás do código e façam alterações com mais segurança._</br>
 
 * __Identificar problemas:__ </br>
-Os comentários podem ser usados para identificar problemas em potencial no código, como seções que precisam de refatoração ou partes que podem ser otimizadas.</br>
+_Os comentários podem ser usados para identificar problemas em potencial no código, como seções que precisam de refatoração ou partes que podem ser otimizadas._ </br>
 
-* __Comunicar com outros programadores:__ 
-</br>Os comentários podem ser usados para se comunicar com outros programadores, incluindo informações sobre o código, alertas de problemas ou sugestões de melhorias.</br>
+* __Comunicar com outros programadores:__ </br>
+_Os comentários podem ser usados para se comunicar com outros programadores, incluindo informações sobre o código, alertas de problemas ou sugestões de melhorias._</br>
 
 Em resumo, os comentários são uma ferramenta importante para tornar o código mais legível e fácil de entender, além de facilitar a manutenção e a colaboração entre programadores.
 
