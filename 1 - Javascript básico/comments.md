@@ -29,7 +29,7 @@ ___________________________________________________________________
 // Só é possível uma linha por comentário 
 ```
 
-## Comentário de diversas linhas
+## Comentário de block
 ```js
 /*  
     Comentário onde podemos utilizar de diversas linhas
