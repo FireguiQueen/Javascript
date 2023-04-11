@@ -12,3 +12,8 @@ Você é livre para escolher qual será utilizada, mas há um porém.
 // você será obrigado a utilizar outro caracter para formar a string, como no exemplo abaixo.
 console.log("He's a nice guy");
 
+
+// Em outros casos, seu string irá precisar armazenar aspas duplas e aspas simples, então
+// você será obrigado a utilizar crase (``) para formar a string.
+// Pois perceba que a frase já possui aspas duplas e simples. 
+console.log(`Last year he told me "I'll be rich, like a monkey"`)
