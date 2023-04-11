@@ -6,6 +6,7 @@ __Explicar o objetivo de uma seção de código:__ </br>Os comentários podem se
 
 __Documentar funções e métodos:__ </br>Os comentários podem ser usados para documentar o que uma função ou método faz, bem como para fornecer informações sobre seus parâmetros e valores de retorno.
 
+__Facilitar a manutenção:__ </br>Os comentários podem ajudar a tornar o código mais fácil de manter, pois permitem que outros programadores entendam a lógica por trás do código e façam alterações com mais segurança.
 
 __Identificar problemas:__ </br>Os comentários podem ser usados para identificar problemas em potencial no código, como seções que precisam de refatoração ou partes que podem ser otimizadas.
 
