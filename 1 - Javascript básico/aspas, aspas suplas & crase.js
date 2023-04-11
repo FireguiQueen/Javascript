@@ -20,11 +20,15 @@ console.log("He's a nice guy");
 // Pois perceba que a frase já possui aspas duplas e simples. 
 console.log(`Last year he told me "I'll be rich, like a monkey"`)
 
+
+
 // As crases também são importantes para chamar variáveis. Através delas, podemos usar ${} e chamar uma variável.
+// Perceba que ambas dão o "mesmo" resultado, porém tivemos menos trabalho usando as template strings.
 
 // Método convencional:
-const frase_1 = "Valar Morghulis..";
-console.log('A frase' + frase_1 + 'é do Game of Thrones, uma série maravilhosa!');
+const frase_1 = "Valar Morghulis";
+console.log('A frase "' + frase_1 + '" é do Game of Thrones, uma série maravilhosa!');
 
 // Método "avançado" (template strings):
-const frase_2
+const frase_2 = "This is not meth";
+console.log(`A frase "${frase_2}" é do Breaking Bad, minha série favorita!`);
