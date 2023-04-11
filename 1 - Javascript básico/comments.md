@@ -4,7 +4,7 @@ Os comentários em programação são usados para adicionar notas explicativas a
 
 </br>
 
-#### __Explicar o objetivo de uma seção de código:__ </br>
+* __Explicar o objetivo de uma seção de código:__ </br>
 Os comentários podem ser usados para descrever o propósito de uma seção de código, tornando mais fácil para outros programadores entenderem o que está sendo feito.</br>
 
 #### __Documentar funções e métodos:__ </br>
