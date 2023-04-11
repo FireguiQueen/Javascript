@@ -2,12 +2,10 @@
 
 Os comentários em programação são usados para adicionar notas explicativas ao código, com o objetivo de tornar o código mais compreensível para outros programadores, bem como para o próprio autor do código. Abaixo estão algumas das utilidades dos comentários no mundo da programação:
 
-</br>
-
-* __Explicar o objetivo de uma seção de código:__ </br>
+* __Explicar o objetivo de uma seção de código:__ 
 Os comentários podem ser usados para descrever o propósito de uma seção de código, tornando mais fácil para outros programadores entenderem o que está sendo feito.</br>
 
-* __Documentar funções e métodos:__ </br>
+* __Documentar funções e métodos:__ 
 Os comentários podem ser usados para documentar o que uma função ou método faz, bem como para fornecer informações sobre seus parâmetros e valores de retorno.</br>
 
 * __Facilitar a manutenção:__ </br>
