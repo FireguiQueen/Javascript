@@ -19,12 +19,20 @@ _Os comentários podem ser usados para se comunicar com outros programadores, in
 
 Em resumo, os comentários são uma ferramenta importante para tornar o código mais legível e fácil de entender, além de facilitar a manutenção e a colaboração entre programadores.
 
+</br>
 
+___________________________________________________________________
+
+## Comentário de uma linha
+```js
 // Comentário em linha
 // Só é possível uma linha por comentário 
+```
 
-
+## Comentário de diversas linhas
+```js
 /*  
     Comentário onde podemos utilizar de diversas linhas
     até fechar o mesmo usando asterísco (*) e barra ().
 */
+```
