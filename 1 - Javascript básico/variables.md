@@ -19,6 +19,8 @@ Os identificadores devem possuir significado, e possuem regras para serem escrit
 * O primeiro caractere deve ser uma letra ou underscore (_)
 * Identificadores só podem possuir letras, números ou underscores (_)
 
+</br>
+</br>
 
 ## Reatribuindo valores
 Como o próprio nome já diz, variáveis variam, ou seja, seus valores podem mudar. </br>
