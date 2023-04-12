@@ -8,6 +8,31 @@ As variáveis também são importantes porque _permitem que os programas interaj
 </br>
 </br>
 
+## Reatribuindo valores
+Como o próprio nome já diz, variáveis variam, ou seja, seus valores podem mudar. </br>
+Com excessão da "const", onde o dado armazenado não pode ser alterado. </br>
+
+* Reatribuindo o valor
+```js
+let nome = "Pablo";
+console.log(nome); // output: Pablo
+
+// Reatribuindo o valor da variável.: 
+nome = "Julia";
+console.log(nome); // output: Julia
+```
+* Maneira incorreta (declarar novamente a variável)
+```js
+let numero = 10;
+console.log(numero); // output: 10
+
+// Jamais poderemos fazer da maneira abaixo, pois estamos DECLARANDO NOVAMENTE a variável, e não reatribuindo o valor.
+let numero = 5;
+console.log(numero) // output: ERROR;
+```
+</br>
+</br>
+
 ## Let, const & e var
 São os três tipos de variáveis da linguagem javascript. 
 Cada uma possui sua diferença e importância, mas em geral devemos __EVITAR__ o uso de `var`
