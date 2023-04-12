@@ -10,5 +10,5 @@ As variáveis também são importantes porque _permitem que os programas interaj
 
 ## Let, const & e var
 São os três tipos de variáveis da linguagem javascript. 
-Cada uma possui sua diferença e importância.
+Cada uma possui sua diferença e importância, mas em geral devemos __EVITAR__ o uso de `var`
 
