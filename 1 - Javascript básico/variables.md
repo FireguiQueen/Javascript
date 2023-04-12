@@ -13,7 +13,7 @@ Os identificadores são os nomes das variáveis. No exemplo abaixo, o nosso iden
 ```js
 let pessoa = "Pablo";
 ```
-Os identificadores possuem regras para serem escritos, sendo elas: 
+Os identificadores devem possuir significado, e possuem regras para serem escritos, sendo elas.: 
 * Nomes não podem ser palavras reservadas
 * Espaços em branco não são permitidos
 * O primeiro caractere deve ser uma letra ou underscore (_)
