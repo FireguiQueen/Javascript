@@ -53,3 +53,8 @@ Cada uma possui sua diferença e importância, mas em geral devemos __EVITAR__ o
 
 ### Const
 A const é uma variável constante, ou seja, depois que um valor foi atribuido a mesma, ele será imutável, ou seja, o valor não poderá ser reatribuido.
+Diferente da variável `let`, nós não podemos declarar uma `const` sem inicializar ela, ou seja, fazer com que ela receba um valor. Fazer isto resultará em erro, pois como já foi dito anteriormente, variáveis constantes não podem ter seus valores reatribuidos. 
+```js
+const myEmail; // Isto resultará em erro.
+myEmail = 'fireguiquenbr@gmail.com';
+```
