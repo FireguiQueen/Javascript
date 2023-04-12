@@ -51,3 +51,5 @@ console.log(numero) // output: ERROR;
 São os três tipos de variáveis da linguagem javascript. 
 Cada uma possui sua diferença e importância, mas em geral devemos __EVITAR__ o uso de `var`
 
+### Const
+A const é uma variável constante, ou seja, depois que um valor foi atribuido a mesma, ele será imutável, ou seja, o valor não poderá ser reatribuido.
