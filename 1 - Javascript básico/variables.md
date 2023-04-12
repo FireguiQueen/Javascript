@@ -8,6 +8,18 @@ As variáveis também são importantes porque _permitem que os programas interaj
 </br>
 </br>
 
+## Identificadores
+Os identificadores são os nomes das variáveis. No exemplo abaixo, o nosso identificador é a palavra "pessoa".  
+```js
+let pessoa = "Pablo";
+```
+Os identificadores possuem regras para serem escritos, sendo elas: 
+* Nomes não podem ser palavras reservadas
+* Espaços em branco não são permitidos
+* O primeiro caractere deve ser uma letra ou underscore (_)
+* Identificadores só podem possuir letras, números ou underscores (_)
+
+
 ## Reatribuindo valores
 Como o próprio nome já diz, variáveis variam, ou seja, seus valores podem mudar. </br>
 Com excessão da "const", onde o dado armazenado não pode ser alterado. </br>

@@ -32,3 +32,5 @@ console.log('A frase "' + frase_1 + '" é do Game of Thrones, uma série maravil
 // Método "avançado" (template strings):
 const frase_2 = "This is not meth";
 console.log(`A frase "${frase_2}" é do Breaking Bad, minha série favorita!`);
+
+
