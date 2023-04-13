@@ -4,13 +4,19 @@ Tem (n) de altura, e seu IMC é de (n).
 (pessoa) nasceu em (n) ano.
 */
 
+const date = new Date;
 
-const nome = 'Guilherme P';
+const nome = 'Guilherme Pires';
 const altura = '1.74 cm';
-const peso = '68 kg';
-let imc = peso / (altura**2) // peso / (altura²)
+const peso = '68kg';
+const idade = 17
+const anoAtual = date.getFullYear();
+let imc = Number(peso.replace('kg','')) / (Number(altura.replace(' cm', ''))**2) // peso / (altura²)
 
-console.log(`${imc}
-
+console.log(`
+${nome} tem ${idade} anos, pesa ${peso}.
+Tem ${altura}, e seu IMC é de ${imc}.
+${nome} nasceu em ${anoAtual - idade}
 
 `)
+
