@@ -61,7 +61,7 @@ var pessoa = "Julia";
 var pessoa = "Otávio";
 console.log(pessoa);    // output: Otávio;
 ```
-Mas lembrando que, o que foi feito acima __não__ é uma boa prática e não faz o menor sentido fazer isto. Mas já com o "let" isto é impossível, pois com o `LET` _não_ podemos declarar mais de uma vez um mesmo identificador.:
+Mas lembrando que, o que foi feito acima __não__ é uma boa prática e não faz o menor sentido fazer isto. O que foi feito acima seria impossível de fazer usando "let", pois com o `LET` um identificador __não__ pode ser declarado mais de uma vez.
 ```js
 let carro = "Tesla X";
 let carro = "Fiat Uno"; // output: o identificador 'carro' já foi declarado.  
