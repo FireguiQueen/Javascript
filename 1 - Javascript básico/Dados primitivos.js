@@ -7,6 +7,8 @@
     dados de várias maneiras, formando a base para estruturas de dados mais complexas e tipos 
     de dados personalizados.
 */
+// Em javascript, podemos usar a função "typeof" para ser o tipo de dado um valor.
+console.log(typeof('oi'))
 
 
 
@@ -17,6 +19,7 @@
 */
 const frase = "Olá, isto é uma string!"
 console.log(typeof frase)
+
 
 
 
@@ -32,9 +35,11 @@ console.log(typeof saldoConta)
 
 
 
+
 // Undefined
 /*
     Como o próprio nome já nos diz, "undefined" é um valor que não foi definido.
     Podemos observar a aparição do "undefined" quando não definimos valores.
 */
 let pessoa;
+console.log(pessoa)
