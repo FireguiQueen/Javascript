@@ -62,7 +62,13 @@ console.log(pessoa);    // output: Otávio;
 Mas lembrando que, o que foi feito acima __não__ é uma boa prática e não faz o menor sentido fazer isto. Mas já com o "let" isto é impossível, pois com o `LET` _não_ podemos declarar mais de uma vez uma mesma variável.:
 ```js
 let carro = "Tesla X";
-let carro = "Fiat Uno"; // output: syntaxe error 
+let carro = "Fiat Uno"; // output: o identificador 'carro' já foi declarado.  
+```
+Em suma, podemos declarar o mesmo identificador infinitas vezes quando utilizamos _var_, mas quando usamos _let_, podemos declarar o identificador apenas uma vez. 
+Vale ressaltar que _declaração_ é diferente de _reatribuição_. Enquanto "redeclarações" podem ser feitas apenas quando usamos var, reatribuições possuem uma extrema importância, e podem tanto ser usadas com `let` tanto quanto `var`. No exemplo abaixo, podemos observar o que é uma reatribuição.:
+```js
+let pessoa = "Julia";
+pessoa = "Flora";
 ```
 
 ### Const
