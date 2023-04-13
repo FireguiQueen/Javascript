@@ -51,15 +51,17 @@ console.log(numero) // output: ERROR;
 São os três tipos de variáveis da linguagem javascript. 
 Cada uma possui sua diferença e importância, mas em geral devemos __EVITAR__ o uso de `var`
 
+</br>
+
 ### Let & var: Diferenças básicas
-Quando estamos utilizando `var`, podemos declarar a variável diversas vezes, e coloque enfâse no "declarar", pois no código abaixo, nós não estamos reatribuindo valores, e sim DECLARANDO a variável divesas vezes..:
+Quando estamos utilizando `var`, podemos declarar a variável diversas vezes, e coloque enfâse no "declarar", pois no código abaixo, nós não estamos reatribuindo valores, e sim DECLARANDO a variável divesas vezes.:
 ```js
 var pessoa = "Pablo";
 var pessoa = "Julia"; 
 var pessoa = "Otávio";
 console.log(pessoa);    // output: Otávio;
 ```
-Mas lembrando que, o que foi feito acima __não__ é uma boa prática e não faz o menor sentido fazer isto. Mas já com o "let" isto é impossível, pois com o `LET` _não_ podemos declarar mais de uma vez uma mesma variável.:
+Mas lembrando que, o que foi feito acima __não__ é uma boa prática e não faz o menor sentido fazer isto. Mas já com o "let" isto é impossível, pois com o `LET` _não_ podemos declarar mais de uma vez um mesmo identificador.:
 ```js
 let carro = "Tesla X";
 let carro = "Fiat Uno"; // output: o identificador 'carro' já foi declarado.  
