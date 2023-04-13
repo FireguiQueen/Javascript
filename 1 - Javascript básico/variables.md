@@ -51,6 +51,20 @@ console.log(numero) // output: ERROR;
 São os três tipos de variáveis da linguagem javascript. 
 Cada uma possui sua diferença e importância, mas em geral devemos __EVITAR__ o uso de `var`
 
+### Let & var: Diferenças básicas
+Quando estamos utilizando `var`, podemos declarar a variável diversas vezes, e coloque enfâse no "declarar", pois no código abaixo, nós não estamos reatribuindo valores, e sim DECLARANDO a variável divesas vezes..:
+```js
+var pessoa = "Pablo";
+var pessoa = "Julia"; 
+var pessoa = "Otávio";
+console.log(pessoa);    // output: Otávio;
+```
+Mas lembrando que, o que foi feito acima __não__ é uma boa prática e não faz o menor sentido fazer isto. Mas já com o "let" isto é impossível, pois com o `LET` _não_ podemos declarar mais de uma vez uma mesma variável.:
+```js
+let carro = "Tesla X";
+let carro = "Fiat Uno"; // output: syntaxe error 
+```
+
 ### Const
 A const é uma variável constante, ou seja, depois que um valor foi atribuido a mesma, ele será imutável, ou seja, o valor não poderá ser reatribuido.
 Diferente da variável `let`, nós não podemos declarar uma `const` sem inicializar ela, ou seja, fazer com que ela receba um valor. Fazer isto resultará em erro, pois como já foi dito anteriormente, variáveis constantes não podem ter seus valores reatribuidos. 
