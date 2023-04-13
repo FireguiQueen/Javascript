@@ -22,6 +22,25 @@ Os identificadores devem possuir significado, e possuem regras para serem escrit
 </br>
 </br>
 
+## Declarando identificadores
+Para declarar variáveis é muito simples.:
+```js
+var pessoa = 'Julia';
+
+let carro = 'Tesla';
+
+const animalEstimacao = 'Bolinha';
+```
+Vale lembrar que também podemos declarar uma variável sem valor, e depois podemos fazer uma reatribuição, adicionado um valor a ela.
+```js
+let pessoa;
+pessoa = 'João';
+```
+Mas isto só funciona com `var` e `let`, pois com `const` __não__ podemos reatribuir valores.
+
+</br>
+</br>
+
 ## Reatribuindo valores
 Como o próprio nome já diz, variáveis variam, ou seja, seus valores podem mudar. </br>
 Com excessão da "const", onde o dado armazenado não pode ser alterado. </br>
@@ -45,7 +64,8 @@ let numero = 5;
 console.log(numero) // output: ERROR;
 ```
 </br>
-</br>
+
+________________________________________________________
 
 ## Let, const & e var
 São os três tipos de variáveis da linguagem javascript. 
