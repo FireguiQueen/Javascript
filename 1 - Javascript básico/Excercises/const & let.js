@@ -15,7 +15,7 @@ let imc = Number(peso.replace('kg','')) / (Number(altura.replace(' cm', ''))**2)
 
 console.log(`
 ${nome} tem ${idade} anos, pesa ${peso}.
-Tem ${altura}, e seu IMC é de ${imc}.
+Tem ${altura}, e seu IMC é de ${imc.toFixed()}.
 ${nome} nasceu em ${anoAtual - idade}
 
 `)
