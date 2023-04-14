@@ -77,5 +77,5 @@ const background = null;
     Dependendo do resultado (true/false), podemos fazer com que ocorra alguma ação, então por exemplo,
     se a aprovação do aluno Gustavo for igual a "true", emita um certificado parabenizando-o. Se a aprovação
     for "false", emita um aviso e envie ao aluno. 
-/*
+*/
 
