@@ -69,7 +69,7 @@ const saldoTotal = contaBancaria + 5000;
 
 // Jeito prático
 let contaBancaria = 44100; 
-contaBancaria += 5000;
+contaBancaria += 5000; // seria equivalente ao digitar: contaBancaria = contaBancaria + 5000;
 ```
 Perceba que o segundo método ficou bem mais simples e limpo. Isto porque, podemos usar um operador _antes_ do operador de atribuição (=). Quando fazemos isto, estamos dizendo que será o valor próprio da variável + outro valor. </br>
 
