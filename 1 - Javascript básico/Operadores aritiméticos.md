@@ -1,4 +1,5 @@
 # Aritiméticos
-* + _(divisão)_
-* - _(subtração)_
-* / _(divisão)_
+* _divisão:_ +
+* _subtração:_-   
+* _multiplicação:_ *
+* _divisão:_ /
