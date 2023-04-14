@@ -43,3 +43,18 @@ console.log(typeof saldoConta)
 */
 let pessoa;
 console.log(pessoa)
+
+
+// Null
+/*
+    Não confunda "undefined" com "null", mesmo que ambos apontem para lugar nenhum na memória, esses dados são diferentes.
+    O "null" é um tipo que nós, os desenvolvedores colocamos proprositalmente.
+
+    Vamos supor que você esteja numa rede social, e nela, você pode alterar a cor do background do seu perfil.
+    Haverá diversas opções.: vermelho, azul, verde e uma das mais importantes -> "nenhuma".
+    Então podemos pensar que, quando o usuário escolher a opção "nenhuma" cor, o valor da variável "background"
+    pode ser nulo. Logo, neste exemplo, o "null" pode ser usado para representar a ausência de um valor válido.
+
+    E também utilizamos "null" quando precisamos que uma variável ou qualquer outra coisa não pode ter um tipo definido.
+
+*/
