@@ -17,5 +17,5 @@ console.log(num1 + num2);
 // Usando para concatenação
 const idade = 50;
 const pessoa = 'Maria';
-console.log(pessoa + ' tem ' + idade + ' anos' )
+console.log(pessoa + ' tem ' + idade + ' anos' );
 ```
