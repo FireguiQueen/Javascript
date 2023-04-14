@@ -46,7 +46,7 @@ saldo++
 A diferença está na ordem de como será executado.
 Por exemplo, se colocarmos o "++" antes do valor, estamos dizendo que já será incrementado o "+1" ao nosso valor. Se colocarmos o "++" depois do valor, primeiro será mostrado o valor e depois será adicionado +1.
 
-Em geral, isto fará pouca diferença. Mas podemos fazer ela usando o `console.log`
+Em geral, isto fará pouca diferença. Mas podemos ver esta diferença usando o `console.log`
 ```js
 let numero = 1
 console.log(numero++); // output: 1
