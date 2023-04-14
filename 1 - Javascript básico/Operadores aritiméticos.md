@@ -3,3 +3,6 @@
 * _subtração:_-   
 * _multiplicação:_ *
 * _divisão:_ /
+* _potência:_ **
+* _resto da divisão:_ %
+
