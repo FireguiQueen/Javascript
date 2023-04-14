@@ -56,5 +56,26 @@ console.log(pessoa)
     pode ser nulo. Logo, neste exemplo, o "null" pode ser usado para representar a ausência de um valor válido.
 
     E também utilizamos "null" quando precisamos que uma variável ou qualquer outra coisa não pode ter um tipo definido.
-
 */
+const background = null;
+
+
+
+// Boolean
+/*
+    Um valor booleano se refere a somente uma coisa: falso ou verdadeiro.
+    
+    Podemos pensar numa academia, onde trará descontos a clientes que estão treinando há mais de 
+    dois anos.
+    Podemos dizer que, se um cliente treina há dois anos, o valor será true, caso treine há menos de dois anos,
+    será false.
+
+    Também podemos pensar num sistema escolar de aprovação/reprovação.
+    Se um aluno for aprovado, será true, se for reprovado será false.
+
+    Mas o boolean vai um pouco além dos exemplos acima.
+    Dependendo do resultado (true/false), podemos fazer com que ocorra alguma ação, então por exemplo,
+    se a aprovação do aluno Gustavo for igual a "true", emita um certificado parabenizando-o. Se a aprovação
+    for "false", emita um aviso e envie ao aluno. 
+/*
+
