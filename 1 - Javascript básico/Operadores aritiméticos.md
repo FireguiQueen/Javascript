@@ -56,7 +56,7 @@ Como já foi dito, isto ocorre justamente porque primeiro o valor é exibido e D
 
 </br>
 
-### E quando precisamos somar/diminuir um número além de 1?
+### Operadores de atribuição
 Vamos supor que você possua uma conta bancária, e o saldo atual dela é de R$44.000,00  </br>
 Porém, uma pessoa faz uma transfêrencia a você, no valor de R$5.000
 Sendo assim, precisamos somar o seu saldo ATUAL + valor da transferência (para sabermos o saldo final). Temos dois jeitos de fazer isto.:
