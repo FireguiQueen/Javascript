@@ -76,7 +76,7 @@ Perceba que o segundo método ficou bem mais simples e limpo. Isto porque, podem
 Isto também funciona com outros operadores.:
 ```js
 let contaBancaria = 25000; 
-contaBancaria *= 2;
+contaBancaria *= 2; // seria equivalente ao digitar: contaBancaria = contaBancaria * 2
 
 console.log(contaBancaria); // output: 50.000
 ```
