@@ -55,3 +55,28 @@ console.log(numero);   // output: 2
 Como já foi dito, isto ocorre justamente porque primeiro o valor é exibido e DEPOIS é incrementado +1 ao seu valor.
 
 </br>
+
+### E quando precisamos somar/diminuir um número além de 1?
+Vamos supor que você possua uma conta bancária, e o saldo atual dela é de R$44.000,00  </br>
+Porém, uma pessoa faz uma transfêrencia a você, no valor de R$5.000
+Sendo assim, precisamos somar o seu saldo ATUAL + valor da transferência (para sabermos o saldo final). Temos dois jeitos de fazer isto.:
+
+```js
+// Jeito não prático
+let contaBancaria = 44100;
+const saldoTotal = contaBancaria + 5000;
+
+
+// Jeito prático
+let contaBancaria = 44100; 
+contaBancaria += 5000;
+```
+Perceba que o segundo método ficou bem mais simples e limpo. Isto porque, podemos usar um operador _antes_ do operador de atribuição (=). Quando fazemos isto, estamos dizendo que será o valor próprio da variável + outro valor. </br>
+
+Isto também funciona com outros operadores.:
+```js
+let contaBancaria = 25000; 
+contaBancaria *= 2;
+
+console.log(contaBancaria); // output: 50.000
+```
