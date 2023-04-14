@@ -20,10 +20,11 @@ const pessoa = 'Maria';
 console.log(pessoa + ' tem ' + idade + ' anos' );
 ```
 
+</br>
 __________________________________________________
 
 
-## Operador de incrimento e decremento
+## Operadores: incremento & decremento
 Utilizamos do "++" quando precisamos somar "+1" ao nosso valor. O "--" é quando precisamos diminuir "-1" do nosso valor. </br>
 O "++" é como se fosse "some mais um" e "--" é como se fosse "menos um".. Veja no exemplo abaixo.:
 ```js
@@ -52,3 +53,4 @@ console.log(numero);   // output: 2
 ```
 Como já foi dito, isto ocorre justamente porque primeiro o valor é exibido e DEPOIS é incrementado +1 ao seu valor.
 
+</br>
