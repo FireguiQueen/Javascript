@@ -34,3 +34,11 @@ const frase_2 = "This is not meth";
 console.log(`A frase "${frase_2}" é do Breaking Bad, minha série favorita!`);
 
 
+
+
+// Vamos supor que, por algum motivo, você precise fazer uma string com aspas duplas e 
+// nesta mesma string, você também irá precisar colocar aspas duplas
+
+// O caractere '\' seria uma solução. Veja o exemplo abaixo.
+// Você irá colocar a '\' antes das aspas duplas, e antes dela fechar.
+console.log("Ele me disse \"Deseja crecer? Coma, não importe o que for, apenas coma\"  ")
