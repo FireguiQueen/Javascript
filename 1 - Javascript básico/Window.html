@@ -1,5 +1,12 @@
 <!--Neste arquivo, o JS foi usado de maneira interna, no próprio arquivo HTML
     Mas isto não é recomendado. Neste arquivo foi feito assim apenas pela praticidade. -->
+
+<!-- 
+    Este arquivo é mais voltado a você, o leitor, saber que dependendo do AMBIENTE utilizado, 
+    determinado comando não irá funcionar.
+
+    Como estamos trabalhando com o navegador, o comando "window" é exclusivo deste ambiente.
+-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,7 +20,8 @@
         // Cria um janela de alerta.
         window.alert('Isto é um alerta');
 
-        // 
+        // Cria uma janela de confirmação. Aparece dois botões: "confirmar" & "cancelar"
+        window.confirm('Clique em "ok" para confirmar');
     </script>
 </body>
 </html>
