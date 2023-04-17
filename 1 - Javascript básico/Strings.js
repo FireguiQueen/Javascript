@@ -13,7 +13,6 @@ console.log(`HHM`);
 */  console.log("He's a nice guy");
 
 
-
 /* 
     Em outros casos, seu string irá precisar armazenar aspas duplas e aspas simples, então
     você será obrigado a utilizar crase (``) para formar a string.
@@ -92,3 +91,41 @@ console.log(frase_3.slice(4))       // Podemos informar que queremos fatiar a pa
 // Também podemos adicionar o segundo parâmetro, onde iremos definir até onde ele pode fatiar.
 // É importante saber que, "got" termina no indice 6, mas se colocarmos "6" no segundo parâmetro, ele irá cortar a letra "t" de "got".
 console.log(frase_3.slice(4, 7)) 
+
+
+
+
+// *********************************************************************************
+
+
+
+// split
+/*
+    Transformamos nossa string em um array.
+    Podemos passar no mínimo um parâmetro e no máximo dois parâmetros.
+    No primeiro colocamos a partir de qual caracter será formado cada item do array
+    No segundo colocamos quantas vezes queremos o javascript faça isso, assim que ele parar de "splitar", nossa string não será mais lida.
+
+    Vale lembrar que o caracter escolhido sempre será excluido.
+*/
+const frase_5 = 'Gustavo Fring is a nice guy';
+console.log(frase_5.split('a'))
+
+
+
+
+// *********************************************************************************
+
+
+
+
+// ToUpperCase() & toLowerCase()
+/*
+    ToUpperCase() deixa sua string em maíuscula, e toLowerCase() deixa em minúscula.
+*/
+const frase_4 = 'Faça chuva ou faça sol, eu estarei lá.';
+console.log(frase_4.toUpperCase());
+console.log(frase_4.toLowerCase());
+
+// *********************************************************************************
+
