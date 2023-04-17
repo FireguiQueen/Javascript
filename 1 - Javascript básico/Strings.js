@@ -1,29 +1,29 @@
+/*
+    Em relação as aspas, aspas duplas e crase, não há NENHUMA diferença em questões de memória/eficiência.
+    Você é livre para escolher qual será utilizada, mas há um porém.
+*/
 console.log('HHM');
 console.log("HHM");
 console.log(`HHM`);
 
-/*
-OBS:
-    Em relação as aspas, aspas duplas e crase, não há NENHUMA diferença em questões de memória/eficiência.
-    Você é livre para escolher qual será utilizada, mas há um porém.
-*/
 
-
-// Muita das vezes sua string irá precisar possuir aspas simples (''). Sendo assim,
-// você será obrigado a utilizar outro caracter para formar a string, como no exemplo abaixo.
-console.log("He's a nice guy");
+/* 
+    Muita das vezes sua string irá precisar possuir aspas simples (''). Sendo assim,
+    você será obrigado a utilizar outro caracter para formar a string, como no exemplo abaixo.
+*/  console.log("He's a nice guy");
 
 
 
-// Em outros casos, seu string irá precisar armazenar aspas duplas e aspas simples, então
-// você será obrigado a utilizar crase (``) para formar a string.
-// Pois perceba que a frase já possui aspas duplas e simples. 
-console.log(`Last year he told me "I'll be rich, like a monkey"`)
+/* 
+    Em outros casos, seu string irá precisar armazenar aspas duplas e aspas simples, então
+    você será obrigado a utilizar crase (``) para formar a string.
+    Pois perceba que a frase já possui aspas duplas e simples. 
+*/  console.log(`Last year he told me "I'll be rich, like a monkey"`);
 
 
 
-// As crases também são importantes para chamar variáveis. Através delas, podemos usar ${} e chamar uma variável.
-// Perceba que ambas dão o "mesmo" resultado, porém tivemos menos trabalho usando as template strings.
+// As crases também são importantes para chamar variáveis. Usamos ${} parar chamar uma variável.
+// Ambas dão o mesmo resultado, porém tivemos menos trabalho usando as template strings (${}).
 
 // Método convencional:
 const frase_1 = "Valar Morghulis";
@@ -54,8 +54,41 @@ console.log("Ele me disse \"Deseja crecer? Coma, não importe o que for, apenas 
     Iterar é um termo usado na programação para se referir ao processo de percorrer uma coleção de dados, como uma lista, um array, um objeto ou uma string, item por item. 
     Sendo assim, cada caractere em nossa string é representado por um índice.
 */
-// Nesta frase temos 28 caracteres, onde 23 são letras e 5 são espaços.  
-// Lembrando que sempre começamos a contar do 0. Então.: 0 = 'E', 1 = 'l', 2 = 'e', 3 = ' '.
-// Podemos pedir determinado indice usando colchetes. 
+
+// Nesta frase temos 28 caracteres. Onde 23 caracteres são letras e 5 são espaços em branco.  
+// Lembrando que sempre começamos a contar do 0. Então temos: 0 = 'E', 1 = 'l', 2 = 'e', 3 = ' '.
+// Ao colocar um número nos colchetes, estamos pedindo qual caractere está naquele índice. 
 let frase = "Ele é uma pessoa muito legal"
 console.log(frase[2])
+
+
+// Podemos saber o indice de determinada palavra usando indexOf.
+console.log(frase.indexOf('pessoa')) // "pessoa" está no número 10.
+
+// Nesta função, podemos passar dois parâmetros.: 
+// qual palavra desejamos achar o indice & a partir de qual indice devemos procurar esta palavra
+console.log(frase.indexOf('pessoa', 10))
+
+// Se colocarmos um indice onde a palavra "pessoa" não exista mais, será retornado um valor negativo.
+// Isto informa que a palavra não existe a partir daquele determinado indice
+console.log(frase.indexOf('pessoa', 11));
+
+
+
+// *************************************************************
+
+// Slice
+/* 
+    Slice significa "pedaço". Ou seja, iremos pedir um pedaço de determinada string.
+
+    Podemos passar no mínimo um parâmetro e no máximo dois parâmetros.
+    O primeiro parâmetro usamos para escolher A PARTIR de qual indíce ele irá fatiar
+    O segundo parâmetro usamos para escolher ATÉ qual indíce ele irá fatiar.
+*/  
+const frase_3 = 'You got my eyess';
+console.log(frase_3.indexOf('got')) // "got" está no indíce 4.
+console.log(frase_3.slice(4))       // Podemos informar que queremos fatiar a partir de "got"
+
+// Também podemos adicionar o segundo parâmetro, onde iremos definir até onde ele pode fatiar.
+// É importante saber que, "got" termina no indice 6, mas se colocarmos "6" no segundo parâmetro, ele irá cortar a letra "t" de "got".
+console.log(frase_3.slice(4, 7)) 
