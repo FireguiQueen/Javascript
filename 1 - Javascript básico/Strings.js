@@ -49,4 +49,13 @@ console.log("Ele me disse \"Deseja crecer? Coma, não importe o que for, apenas 
 
 /*
     Strings são objetos iteráveis.
-    
+    Isto significa que você pode iterar sobre seus caracteres usando um loop ou um método de iteração.
+
+    Iterar é um termo usado na programação para se referir ao processo de percorrer uma coleção de dados, como uma lista, um array, um objeto ou uma string, item por item. 
+    Sendo assim, cada caractere em nossa string é representado por um índice.
+*/
+// Nesta frase temos 28 caracteres, onde 23 são letras e 5 são espaços.  
+// Lembrando que sempre começamos a contar do 0. Então.: 0 = 'E', 1 = 'l', 2 = 'e', 3 = ' '.
+// Podemos pedir determinado indice usando colchetes. 
+let frase = "Ele é uma pessoa muito legal"
+console.log(frase[2])
