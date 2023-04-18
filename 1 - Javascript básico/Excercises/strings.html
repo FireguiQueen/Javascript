@@ -11,6 +11,7 @@
             padding: 0;
         }
         body{
+            background-attachment: fixed;
             width: 100%;
             height: 100vh;
             background-image: linear-gradient(to left, rgb(10, 10, 68), black);
@@ -28,21 +29,36 @@
             color: white;
             padding: 20px;
         }
+        putData{
+            color: rgba(128, 128, 128, 0.785);
+        }
+        span{
+            display: block;
+        }
     </style>
 </head>
 <body>
     <h1>Dados pessoais </h1>
 
     <h2>Nome completo: <span class="putName putData"></span></h2>
-    <h2>Idade: <span class="putAge putData"> </span></h2>
-    <h2>Dta. Nascimento: <span class="born putData"> </span></h2>
+
+    <h2>Quantidade de letras do seu nome: <span id="comprimento"> </span> </h2>
+    <h2>A segunda letra do seu nome é: <span id="segundaLetra"> </span> </h2>
+    <h2>As últimas 3 letras do seu nome são.: <span id="Ultimas3Letras"> </span> </h2>
+    <h2>As palavras do seu nome são.: <span id="nomePalavras"> </span> </h2>
+    <h2>Nome com letra maíscula <span id="upper"> </span> </h2>
+    <h2>Nome com letra minúscula <span id="lower"> </span> </h2>
 
     <script>
         const name = window.prompt('Digite seu nome.:')
-        const age = window.prompt('Digite sua idade.:')
 
-        let pessoaNome = document.getElementsByClassName('putName')
-        pessoaNome.innerHTML = name
+        document.getElementById('comprimento').innerHTML = name.length; 
+        document.getElementById('segundaLetra').innerHTML = name[1]; 
+        document.getElementById('Ultimas3Letras').innerHTML = ; 
+
+
+
+
     </script>
 </body>
 </html>
