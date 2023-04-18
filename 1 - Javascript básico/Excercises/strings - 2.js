@@ -8,15 +8,15 @@
 // Nome com letras maísculas; 
 // Nome com letras minúsculas; 
 
-const name = 'Alina Gingertail'
-console.log(`Quantia sem espaço(s): ${name.replaceAll(' ', '').length} 
-Quantia com espaço(s): ${name.length}`);
+const nome = 'Alina Gingertail'
+console.log(`Quantia sem espaço(s): ${nome.replaceAll(' ', '').length} 
+Quantia com espaço(s): ${nome.length}`);
 
-console.log(name[1]);
+console.log(nome[1]);
 
-console.log(name.slice(-3))
+console.log(nome.slice(-3))
 
-console.log(name.split(' '))
+console.log(nome.split(' '))
 
-console.log(name.toUpperCase())
-console.log(name.toLowerCase())
+console.log(nome.toUpperCase())
+console.log(nome.toLowerCase())
