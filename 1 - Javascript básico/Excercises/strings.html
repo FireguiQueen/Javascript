@@ -58,7 +58,7 @@
 
         document.getElementById('nomeCompleto').innerHTML = name;
         document.getElementById('comprimento').innerHTML = name.replaceAll(' ', '').length; 
-        document.getElementById('segundaLetra').innerHTML = name[1] === undefined? 'Seu nome possui apenas uma letra' : name[1]; 
+        document.getElementById('segundaLetra').innerHTML = typeof name[1] === number? 'Seu nome não possui letras' : name[1]; 
         document.getElementById('Ultimas3Letras').innerHTML = name.slice(-3);
         
         

@@ -16,4 +16,7 @@ console.log(name[1]);
 
 console.log(name.slice(-3))
 
-console.log(name.split)
+console.log(name.split(' '))
+
+console.log(name.toUpperCase())
+console.log(name.toLowerCase())
