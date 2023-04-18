@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pessoal information</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(to left, rgb(10, 10, 68), black);
+            background-repeat: no-repeat;
+
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-direction: column;
+        }
+        h1{
+            margin: 50px 0 100px 0;
+        }
+        h2 {
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dados pessoais </h1>
+
+    <h2>Nome completo: <span class="putName putData"></span></h2>
+    <h2>Idade: <span class="putAge putData"> </span></h2>
+    <h2>Dta. Nascimento: <span class="born putData"> </span></h2>
+
+    <script>
+        const name = window.prompt('Digite seu nome.:')
+        const age = window.prompt('Digite sua idade.:')
+
+        let pessoaNome = document.body
+        pessoaNome.innerHTML = name
+    </script>
+</body>
+</html>
