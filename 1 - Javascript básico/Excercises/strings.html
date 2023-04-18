@@ -45,6 +45,9 @@
     <h2>Quantidade de letras do seu nome: <span id="comprimento"> </span> </h2>
     <h2>A segunda letra do seu nome é: <span id="segundaLetra"> </span> </h2>
     <h2>As últimas 3 letras do seu nome são.: <span id="Ultimas3Letras"> </span> </h2>
+
+
+
     <h2>As palavras do seu nome são.: <span id="nomePalavras"> </span> </h2>
     <h2>Nome com letra maíscula <span id="upper"> </span> </h2>
     <h2>Nome com letra minúscula <span id="lower"> </span> </h2>
@@ -52,9 +55,16 @@
     <script>
         const name = window.prompt('Digite seu nome.:')
 
-        document.getElementById('comprimento').innerHTML = name.length; 
-        document.getElementById('segundaLetra').innerHTML = name[1]; 
-        document.getElementById('Ultimas3Letras').innerHTML = ; 
+        document.getElementById('comprimento').innerHTML = name.replaceAll(' ', '').length; 
+        document.getElementById('segundaLetra').innerHTML = name[1] === undefined? 'Seu nome possui apenas uma letra' : name[1]; 
+        document.getElementById('Ultimas3Letras').innerHTML = name.slice(-3);
+        
+        
+
+        document.getElementById('nomePalavras').innerHTML = name.split(' '); 
+        document.getElementById('upper').innerHTML = name.toUpperCase();
+        document.getElementById('lower').innerHTML = name.toLowerCase(); 
+
 
 
 
