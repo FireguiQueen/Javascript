@@ -111,11 +111,7 @@ console.log(frase_3.slice(4, 7))
 const frase_5 = 'Gustavo Fring is a nice guy';
 console.log(frase_5.split('a'))
 
-
-
-
 // *********************************************************************************
-
 
 
 
