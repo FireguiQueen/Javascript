@@ -19,3 +19,6 @@ Número arredondado para cima: ${itIsInteger? 'impossível arredondar pois é um
 Número com duas casas decimais: ${num.toFixed(2)}
 
 `)
+
+
+console.log(typeof(2 + 'a2'))
