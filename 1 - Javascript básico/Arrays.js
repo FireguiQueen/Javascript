@@ -31,10 +31,24 @@ console.log(pessoas)
 
 
 
-//                     EMPURRANDO (adicionando) UM ITEM AO FINAL DO ARRAY
+//                     EMPURRANDO (adicionando) UM OU MAIS ITENS AO FINAL DO ARRAY
 // Neste exemplo empurramos dois itens: 'alice' e 'juju'.. Mas podemos empurrar quantos itens quisermos
 pessoas.push('Alice', 'Juju');
 console.log(pessoas)
 
 
-//                    REMOVENDO
+//                    REMOVENDO UM ITEM AO FINAL DO ARRAY
+pessoas.pop()
+console.log(pessoas)
+
+
+//                   ADICIONANDO UM OU MAIS ITENS AO INÍCIO DO ARRAY
+// Usamos "unshift" pois é o contrário de "shift". "Shift" significa mudança, mudança relacionada a remoção de um item
+pessoas.unshift('Aline');
+console.log(pessoas)
+
+
+
+//                  REMOVENDO UM ITEM DO INÍCIO DO ARRAY
+pessoas.shift()
+console.log(pessoas)
