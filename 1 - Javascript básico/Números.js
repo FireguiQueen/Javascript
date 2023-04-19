@@ -48,8 +48,13 @@ console.log(Math.round(num6))
 
 //                          Pegando o maior número de uma sequência
 // 'max()' é usado para pegar o maior número entre os números que serão apresentados.
-// "Max" significa máximo, ou seja, qual seria o númer máximo.
+// "Max" significa máximo, ou seja, qual seria o número máximo.
 console.log(Math.max(402, 200, 600, 120));
+
+
+//                          Pegando o menor número de uma sequência
+// 'min()' é usado para pegar o menor número entre os números que serão apresentados.
+// "Min" significa mínimo, ou seja, qual seria o número mínimo.
 
 
 //                               IEEE 754-2008
