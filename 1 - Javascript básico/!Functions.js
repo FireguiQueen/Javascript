@@ -32,6 +32,21 @@ function saudacao(nome){         // declarando a função e um parâmetro;
 saudacao('Otávio');  // invocando a função e passando o argumento para substituir o parâmetro.
 
 
-//
+/*
+    Perceba que no exemplo acima, a nossa função não retornou nenhum valor.
+    Tanto é que, se você digitar `console.log(saudacao('..'))` a função irá se excutar, retornando:
+    'Olá, ..'
+    Porém, isto també nos dará um "undefined", isto porque a função não retorna nenhum valor.
+    A única coisa que esta função faz é executar o bloco de códigos que está no corpo dela.
+
+    Vamos supor que você precise de uma função que retorne um valor onde será inserido numa tag
+    HTML. Para isto, você irá precisar usar a keyword "return".
+*/
+    function soma(num1, num2){
+        return num1 + num2
+    }
+    // lembre-se, esta função está apenas RETORNANDO um valor, mas agora precisamos de um lugar para este valor aparecer
+    console.log(soma(1,2))
+
 
 
