@@ -15,4 +15,7 @@ console.log(Number.isInteger(num2));
 //                              VERIFICANDO SE O VALOR É NaN
 // Acessamos o objeto "number", depois acessamos o método "isNaN" e colocamos qual valor
 // queremos saber se é 'not a number' ou não.
+const num3 = 7 * 'oi'
+console.log(Number.isNaN(num3))
+
 
