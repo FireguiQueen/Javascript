@@ -8,7 +8,7 @@ Portanto, é importante estar ciente das limitações do uso de métodos especí
 
 </br>
 
-## Constantes e sua imutalidade
+## Alterando valores internos do valor da constante
 Todos sabemos que, a partir do momento que definimos uma variável usando `const` seu valor _não_ poderá ser alterado. </br>
 Porém, existe uma diferença entre variável e valor. Variáveis são como apelidos para um valor, como se fosse uma pequena caixa, e se a caixa se chama "nome", esta caixa possivelmente armazena um nome. </br>
 Já valores são os dados que realmente ficam salvos na memória e sustentam determinado tipo. Alguns tipos de valores são imutáveis, como number, string, boolean, undefined, null, symbol e bigint (os primitivos todos são imutáveis). Outros tipos são mutáveis, como arrays e objetos 
