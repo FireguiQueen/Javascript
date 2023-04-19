@@ -25,7 +25,13 @@
 */
 
 
-// Function declaration
-function nomeDaFuncao(){
+// FUNCTION DECLARATION
+function saudacao(nome){         // declarando a função e um parâmetro;
+    console.log(`Olá, ${nome}`); // corpo da função (o que ela irá fazer quando for invocada);
+}                
+saudacao('Otávio');  // invocando a função e passando o argumento para substituir o parâmetro.
 
-}
+
+//
+
+
