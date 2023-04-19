@@ -18,7 +18,11 @@
     Primeiramente nós declaramos uma função utilizando a keyword "function".
     Depois colocamos um nome para esta função. As regras para criar o nome são as mesmas dos nomes das variáveis.
     Após o nome, abrimos e fechamos parêntesis '()'. 
-    Não somos obrigados a colocar nada nestes parêntesis, mas o que colocamos são chamados de "" 
+    Não somos obrigados a colocar nada nestes parêntesis, mas o que colocamos são chamados de "parâmetros".
+    
+    Os parâmetros são como variáveis vazias, que terão seus valores atrubuidos quando invocarmos uma função.
+    E assim que o parâmetro receber um valor, ele irá passar para o código que está no corpo da função
+*/
 
 
 // Function declaration
