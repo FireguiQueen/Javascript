@@ -57,7 +57,6 @@
         const name = window.prompt('Digite seu nome.:')
         const age = Number.parseInt(window.prompt('Digte idfade'));
 
-        alert(typeof age === Number? 'teste' : 'insira uma idade válida')
         document.getElementById('nomeCompleto').innerHTML = name;
         document.getElementById('comprimento').innerHTML = name.replaceAll(' ', '').length; 
         document.getElementById('segundaLetra').innerHTML = typeof name[1] === number? 'Seu nome não possui letras' : name[1]; 
