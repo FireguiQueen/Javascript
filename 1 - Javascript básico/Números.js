@@ -21,7 +21,8 @@ console.log(Number.isNaN(num3))
 
 
 
-//***************************************************************** */
+//***************************************************************************************
+
 
 
 //                            Arredondando para baixo (objeto: Math)  
@@ -42,6 +43,10 @@ console.log(Math.ceil(num5))
 // "Around" significa literalmente "arredondar". Estamos arredondando para o número inteiro mais próximo.
 const num6 = 502
 console.log(Math.round(num6))
+
+
+
+
 
 
 //                               IEEE 754-2008
