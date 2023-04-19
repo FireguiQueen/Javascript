@@ -49,7 +49,7 @@ console.log(Math.round(num6))
 //                          Pegando o maior número de uma sequência
 // 'max()' é usado para pegar o maior número entre os números que serão apresentados.
 // "Max" significa máximo, ou seja, qual seria o númer máximo.
-console.log(Math.max(402, 14, 44))
+console.log(Math.max(402, 200, 600, 120));
 
 
 //                               IEEE 754-2008
