@@ -1,4 +1,4 @@
-//                                  Limitando casas decimais de valores quebrados
+//                              LIMITANDO CASAS DECIMAIS DE NÚMEROS QUEBRADOS
 // Podemos imaginar que "toFixed" significar "fixar". Ou seja, fixar um número de casas decimais.
 const num1 = 3.14159265
 console.log(num1.toFixed(2)) // dentro dos parentesis colacamos quantas casas queremos que apareça
@@ -25,20 +25,20 @@ console.log(Number.isNaN(num3))
 
 
 
-//                            Arredondando para baixo (objeto: Math)  
+//                            ARREDONDANDO PARA BAIXO (objeto: Math)  
 // 'floor()' é usado para arredondar um número para baixo para o próximo número inteiro.
 // "Floor" significa "chão/piso". Sendo assim, é como se o número arredondando fosse o "chão" do número original.
 const num4 = 7.5
 console.log(Math.floor(num4))
 
 
-//                            Arredondando para cima (objeto: Math)  
+//                            ARREDONDANDO PARA CIMA (objeto: Math)  
 // 'ceil()' é usado para arredondar um número para cima para o próximo número inteiro.
 // "Ceil" significa "teto". Sendo assim, é como se o número arredondado fosse o teto do número original.
 const num5 = 1.3
 console.log(Math.ceil(num5))
 
-//                 Arredondando um número quebrado para o número inteiro mais próximo
+//                 ARREDONDANDO UM NÚMERO QUEBRADO PARA O NÚMERO INTEIRO MAIS PRÓXIMO
 // 'round()' é usado para arredondar um número quebrado para o número inteiro mais próximo.
 // "Around" significa literalmente "arredondar". Estamos arredondando para o número inteiro mais próximo.
 const num6 = 502
@@ -46,15 +46,19 @@ console.log(Math.round(num6))
 
 
 
-//                          Pegando o maior número de uma sequência
+//                          PEGANDO O MAIOR NÚMERO DE UMA SEQUÊNCIA
 // 'max()' é usado para pegar o maior número entre os números que serão apresentados.
 // "Max" significa máximo, ou seja, qual seria o número máximo.
 console.log(Math.max(402, 200, 600, 120));
 
 
-//                          Pegando o menor número de uma sequência
+//                          PEGANDO O MENOR NÚMERO DE UMA SEQUÊNCIA
 // 'min()' é usado para pegar o menor número entre os números que serão apresentados.
 // "Min" significa mínimo, ou seja, qual seria o número mínimo.
+console.log(Math.min(200, 100, 50, 125));
+
+
+
 
 
 //                               IEEE 754-2008
