@@ -63,20 +63,31 @@ console.log(Math.min(200, 100, 50, 125));
 
 //                               IEEE 754-2008
 /*
-Em JavaScript (e em muitas outras linguagens de programação), o armazenamento de números em ponto flutuante segue o padrão IEEE 754. Esse padrão define a maneira como os números de ponto flutuante são representados e operados, mas pode resultar em algumas imprecisões devido às limitações de representação.
+Em JavaScript (e em muitas outras linguagens de programação), o armazenamento de números em 
+ponto flutuante (números quebrados) segue o padrão IEEE 754. 
+Esse padrão define a maneira como os números quebrados são representados e operados, 
+mas pode resultar em algumas imprecisões devido às limitações de representação.
 
-No caso específico de somar 0.1 e 0.7 em JavaScript, o resultado pode ser impreciso devido à forma como esses números são representados em ponto flutuante. Quando você soma 0.1 e 0.7, o resultado correto é 0.8, mas a representação interna desses números em ponto flutuante pode ser algo como:
+No caso específico de somar '0.1' e '0.7' em JavaScript, o resultado pode ser impreciso 
+devido à forma como esses números são representados em ponto flutuante. 
+Quando você soma 0.1 e 0.7, o resultado correto é 0.8..
 
+Mas a representação interna desses  números em ponto flutuante pode ser algo como:
 0.1 = 0.0001100110011001100110011001100110011001100110011... (repetindo infinitamente)
-0.7 = 0.101100110011001100110011001100110011001100110011... (repetindo infinitamente)
+0.7 = 0.101100110011001100110011001100110011001100110011...  (repetindo infinitamente)
 
 Quando você soma esses dois números, o resultado correto seria:
 0.1 + 0.7 = 0.8 = 0.1000000000000000055511151231257827021181583404541015625 (em notação científica)
 
-Observe que a representação em ponto flutuante do resultado correto também tem algumas casas decimais extras que se repetem infinitamente.
-No entanto, como a representação interna de 0.1 e 0.7 em ponto flutuante é imprecisa, o resultado da soma pode ser algo como:
+Observe que a representação em ponto flutuante do resultado correto também tem algumas casas
+decimais extras que se repetem infinitamente.
+No entanto, como a representação interna de 0.1 e 0.7 em ponto flutuante é imprecisa, 
+o resultado da soma pode ser algo como:
 
 0.1 + 0.7 = 0.7999999999999999
 
-Isso ocorre porque a soma é realizada com base nas representações internas dos números em ponto flutuante, que têm algumas limitações em relação à precisão. No entanto, observe que esse valor é muito próximo do resultado correto e pode ser arredondado para 0.8 com o uso do método "toFixed" em JavaScript.
+Isso ocorre porque a soma é realizada com base nas representações internas dos números em ponto flutuante, 
+que têm algumas limitações em relação à precisão. 
+No entanto, observe que esse valor é muito próximo do resultado correto e 
+pode ser arredondado para 0.8 com o uso do método "toFixed()" ou usando "Math.round()"".
 */
