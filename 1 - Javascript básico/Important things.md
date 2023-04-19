@@ -21,7 +21,8 @@ const pessoa = "Flora";
 pessoa = "Julia"; 
 ```
 
-Por outro lado, podemos fazer isto pois NÃO estamos reatribuindo o valor da variável e sim alterando um VALOR INTERNO do valor de uma constante:
+Por outro lado, podemos fazer isto pois em nenhum momento nós reatribuimos o valor desta constante. O que foi feito foi a alteração de um VALOR INTERNO do valor original.
+Neste caso, o valor interno é o elemento flora (indice 1), e o valor original é um objeto Array.
 ```js
 const pessoas = ['Julia', 'Flora', 'Pablo'];
 pessoas[1] = 'Amanda';
