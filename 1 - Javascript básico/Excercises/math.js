@@ -20,5 +20,3 @@ Número com duas casas decimais: ${num.toFixed(2)}
 
 `)
 
-
-console.log(typeof(2 + 'a2'))
