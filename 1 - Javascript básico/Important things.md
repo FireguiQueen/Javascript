@@ -10,4 +10,21 @@ Portanto, é importante estar ciente das limitações do uso de métodos especí
 
 ## Constantes e sua imutalidade
 Todos sabemos que, a partir do momento que definimos uma variável usando `const` seu valor _não_ poderá ser alterado. </br>
-Mas há um porém.
+Porém, existe uma diferença entre variável e valor. Variáveis são como apelidos para um valor, como se fosse uma pequena caixa, e se a caixa se chama "nome", esta caixa possivelmente armazena um nome. </br>
+Já valores são os dados que realmente ficam salvos na memória e sustentam determinado tipo. Alguns tipos de valores são imutáveis, como number, string, boolean, undefined, null, symbol e bigint (os primitivos todos são imutáveis). Outros tipos são mutáveis, como arrays e objetos 
+</br> 
+Valores mutáveis geralmente são estruturas de dados mais complexas que sustentam outros valores ou comportamentos internamente. Como é o caso do array, que pode ser composto por vários outros tipos de dados.
+
+Em suma não podemos fazer isto pois constantes não permitem reatribuições diretas e de valores primitivos.:
+```js
+const pessoa = "Flora";
+pessoa = "Julia"; 
+```
+
+Por outro lado, podemos fazer isto pois NÃO estamos reatribuindo o valor da variável e sim alterando um VALOR INTERNO do valor de uma constante:
+```js
+const pessoas = ['Julia', 'Flora', 'Pablo'];
+pessoas[1] = 'Amanda';
+```
+</br>
+Por este motivo, pode-se usar const com objetos mutáveis e ainda assim alterar seus valores internos. A única coisa que não vamos conseguir fazer é reatribuir o valor da variável.
