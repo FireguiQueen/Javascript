@@ -50,3 +50,20 @@ saudacao('Otávio');  // invocando a função e passando o argumento para substi
 
 
 
+
+// DEFINIR UM VALOR PADRÃO AOS PARÂMETROS
+/*
+    Vamos supor que você possua uma função de soma.
+    Esta função possui dois parâmetros.
+
+    Caso o usuário tente somar sem passar os argumentos ao invocar a função, teremos um 
+    "NaN".
+    Para "resolver" isto (entre aspas pois não é necessariamente um problema), podemos dizer
+    que o parâmetro possui um valor padrão, como no exemplo abaixo, onde possuímos dois parâmetros
+    e caso você não passe os argumentos para eles, o valor será 0.
+*/
+function sum(num1 = 0, num2 = 0){
+    console.log(num1 + num2)
+}
+sum() // 0 
+
