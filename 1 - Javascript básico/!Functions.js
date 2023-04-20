@@ -13,7 +13,8 @@
     Escopo: As funções têm seu próprio escopo, o que significa que as variáveis ​​definidas dentro de uma função não afetam as variáveis ​​definidas fora dela. Isso ajuda a evitar conflitos e erros no seu código.
 */
 
-// Entendendo uma função
+
+//                              ENTENDENDO UMA FUNÇÃO
 /*
     Primeiramente nós declaramos uma função utilizando a keyword "function".
     Depois colocamos um nome para esta função. As regras para criar o nome são as mesmas dos nomes das variáveis.
@@ -25,14 +26,15 @@
 */
 
 
+
+
 // FUNCTION DECLARATION
 function saudacao(nome){         // declarando a função e um parâmetro;
     console.log(`Olá, ${nome}`); // corpo da função (o que ela irá fazer quando for invocada);
 }                
 saudacao('Otávio');  // invocando a função e passando o argumento para substituir o parâmetro.
 
-
-/*
+    /*
     Perceba que no exemplo acima, a nossa função não retornou nenhum valor.
     Tanto é que, se você digitar `console.log(saudacao('..'))` a função irá se excutar, retornando:
     'Olá, ..'
@@ -41,7 +43,7 @@ saudacao('Otávio');  // invocando a função e passando o argumento para substi
 
     Vamos supor que você precise de uma função que retorne um valor onde será inserido numa tag
     HTML. Para isto, você irá precisar usar a keyword "return".
-*/
+    */
     function soma(num1, num2){
         return num1 + num2
     }
@@ -51,7 +53,8 @@ saudacao('Otávio');  // invocando a função e passando o argumento para substi
 
 
 
-// DEFINIR UM VALOR PADRÃO AOS PARÂMETROS
+
+// DEFININDO UM VALOR PADRÃO AOS PARÂMETROS
 /*
     Vamos supor que você possua uma função de soma.
     Esta função possui dois parâmetros.
@@ -70,6 +73,8 @@ sum() // 0
 
 
 
+
+
 // ARROW FUNCTION
 /*
     - Quando há somente um parâmetro, os parêntesis não são obrigatórios
@@ -77,6 +82,8 @@ sum() // 0
 */
 const DigaOi = name => `Oi ${name}.`
 console.log(DigaOi('Guilherme'))
+
+
 
 
 
