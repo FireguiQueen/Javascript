@@ -67,3 +67,13 @@ function sum(num1 = 0, num2 = 0){
 }
 sum() // 0 
 
+
+
+
+// FUNCTIONS ARROW
+/*
+    - Quando há somente um parâmetro, os parêntesis não são obrigatórios
+    - Quando há somente uma linha de código no corpo da função, as chaves e nem "return" são necessários
+*/
+const DigaOi = name => `Oi ${name}.`
+console.log(DigaOi('Guilherme'))
