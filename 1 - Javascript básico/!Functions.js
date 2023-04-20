@@ -70,10 +70,46 @@ sum() // 0
 
 
 
-// FUNCTIONS ARROW
+// ARROW FUNCTION
 /*
     - Quando há somente um parâmetro, os parêntesis não são obrigatórios
     - Quando há somente uma linha de código no corpo da função, as chaves e nem "return" são necessários
 */
 const DigaOi = name => `Oi ${name}.`
 console.log(DigaOi('Guilherme'))
+
+
+
+
+// FUNCTION FACTORY
+/*
+    - Utilizadas para criar novos objetos de maneira mais prática;
+    - Menos repetição desncessária, código mais limpo
+
+    * Vamos supor que você precisa cadastrar celulares em seu código utilizando objetos.
+    * Cada celular possui uma marca, um modelo, tamanho, capacidade da bateria e outros atributos.
+    * Para você não criar infinitos objetos com parâmetros repetidos, você pode usar esta function.
+*/
+function criarCelular(marca, modelo, tamanhoTela, capacidadeBateria){
+    return{
+        modelo: modelo,
+        marca: marca,
+        tamanhoTela: tamanhoTela,
+        capacidadeBateria: capacidadeBateria
+    }
+}
+// Agora podemos criar diversos celulares de maneira prática.:
+const celular_01 = criarCelular('Motorola', 'Mto G5', 4.7, 5000);
+const celular_02 = criarCelular('Asus', 'A-Play', 5.4, 8000);
+
+
+// Para encurtar a função, podemos digitar apenas o nome do parâmetro. 
+function creatCellphone(marca, modelo, tamanhoTela, capacidadeBateria){
+    return{
+        marca,
+        modelo,
+        tamanhoTela,
+        capacidadeBateria
+    }
+}
+const celular_03 = creatCellphone('Asus', 'SUS-p9', 7.4, 12000);
