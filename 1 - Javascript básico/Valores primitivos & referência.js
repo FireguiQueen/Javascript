@@ -11,9 +11,9 @@
     console.log(typeof('oi'))
 
 
-// Strings
+// Strings (primitivo)
 /*
-    A "string" é uma cadeia de caracteres.
+    A "string" é uma cadeia de caracterese.
     Veremos strings quando utilizamos aspas (" "), aspas simples (' ') e crase (` `).
 */
 const frase = "Olá, isto é uma string!"
@@ -21,7 +21,7 @@ console.log(typeof frase)
 
 
 
-// Number
+// Number (primitivo)
 /*
     O "number" são números que não são strings.
     No mundo real, podemos dizer que temos: números inteiros e quebrados.
@@ -33,7 +33,7 @@ console.log(typeof saldoConta)
 
 
 
-// Undefined
+// Undefined (primitivo)
 /*
     Como o próprio nome já nos diz, "undefined" é um valor que não foi definido.
     Podemos observar a aparição do "undefined" quando não definimos valores.
@@ -42,7 +42,7 @@ let pessoa;
 console.log(pessoa)
 
 
-// Null
+// Null (primitivo)
 /*
     Não confunda "undefined" com "null", mesmo que ambos apontem para lugar nenhum na memória, esses dados são diferentes.
     O "null" é um tipo que nós, os desenvolvedores colocamos proprositalmente.
@@ -58,7 +58,7 @@ const background = null;
 
 
 
-// Boolean
+// Boolean (primitivo)
 /*
     Um valor booleano se refere a somente uma coisa: falso ou verdadeiro.
     
