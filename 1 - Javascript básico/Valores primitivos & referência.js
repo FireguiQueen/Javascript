@@ -11,7 +11,6 @@
 console.log(typeof('oi'))
 
 
-
 // Strings
 /*
     A "string" é uma cadeia de caracteres.
@@ -19,7 +18,6 @@ console.log(typeof('oi'))
 */
 const frase = "Olá, isto é uma string!"
 console.log(typeof frase)
-
 
 
 
@@ -32,7 +30,6 @@ console.log(typeof frase)
 */
 const saldoConta = 45235
 console.log(typeof saldoConta)
-
 
 
 
