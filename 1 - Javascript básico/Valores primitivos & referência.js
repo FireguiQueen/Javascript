@@ -7,7 +7,7 @@
     dados de várias maneiras, formando a base para estruturas de dados mais complexas e tipos 
     de dados personalizados.
 */
-//  Em javascript, podemos usar a função "typeof" para sabr o tipo de dado um valor.
+//  Em javascript, podemos usar a função "typeof" para sabr o tipo de dado de um valor.
     console.log(typeof('oi'))
 
 
