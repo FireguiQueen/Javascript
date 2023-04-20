@@ -26,6 +26,38 @@
 */
 
 
+//                              ENTENDENDO O QUE É UM MÉTODO
+/*
+    Um método é apenas uma função que pertence a um objeto, nada além disso
+
+    O "this" é muito utilizado nos métodos, e eles se referem ao próprio objeto, no contexto do escopo.
+
+*/ 
+let pessoa_01 = {
+    name: 'Guilherme',
+    sobrenome: 'Pires',
+
+    saudacao: function(){
+        return `Olá, eu me chamo ${this.name}` // seria como dizer "pessoa_01.name"
+    }
+}
+console.log(pessoa_01.saudacao())
+
+
+// Podemos simplificar como o método está no corpo do objeto.
+pessoa_01 = {
+    name: 'Flora',
+    sobrenome: 'Pires',
+
+    saudacao(){                                // foi simplificado; não precisa da palavra "function"
+        return `Olá, eu me chamo ${this.name}` // seria como dizer "pessoa_01.name"
+    }
+}
+console.log(pessoa_01.saudacao())
+
+
+
+
 
 
 // FUNCTION DECLARATION
