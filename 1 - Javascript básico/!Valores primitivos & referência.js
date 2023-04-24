@@ -1,4 +1,4 @@
-//              Dados primitivos
+//              Valores Primitivos
 /*  
     Dados primitivos são os tipos de dados mais básicos e fundamentais em uma linguagem de 
     programação. Esses tipos de dados são os blocos de construção essenciais para se trabalhar 
@@ -82,3 +82,17 @@ console.log(background)
 const alunoGustavo = true;
 console.log(alunoGustavo == true? 'Parabéns, Gustavo' : 'Você foi reprovado');
 
+
+
+//******************************************************************************** */
+
+//              Valores por Referência
+/*  
+    Dados primitivos são os tipos de dados mais básicos e fundamentais em uma linguagem de 
+    programação. Esses tipos de dados são os blocos de construção essenciais para se trabalhar 
+    com variáveis, expressões e algoritmos.
+
+    Eles são importantes porque permitem que nós realizemos cálculos e manipulação de
+    dados de várias maneiras, formando a base para estruturas de dados mais complexas e tipos 
+    de dados personalizados.
+*/
