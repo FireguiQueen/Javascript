@@ -88,7 +88,7 @@ console.log(alunoGustavo == true? 'Parabéns, Gustavo' : 'Você foi reprovado');
 
 //              Valores por Referência
 /*  
-    Valores por referência são valores que são atribuídos a uma variável e são armazenados 
+    Valores por referência (Arrays, functions & objects) são valores que são atribuídos a uma variável e são armazenados 
     na memória como um endereço de referência, em vez de serem armazenados diretamente 
     como um valor.
 
