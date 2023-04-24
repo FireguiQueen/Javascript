@@ -1,17 +1,20 @@
 //              Dados primitivos
-/*  Dados primitivos são os tipos de dados mais básicos e fundamentais em uma linguagem de 
+/*  
+    Dados primitivos são os tipos de dados mais básicos e fundamentais em uma linguagem de 
     programação. Esses tipos de dados são os blocos de construção essenciais para se trabalhar 
     com variáveis, expressões e algoritmos.
 
-    Eles são importantes porque permitem que os programadores realizem cálculos e manipulem 
+    Eles são importantes porque permitem que nós realizemos cálculos e manipulação de
     dados de várias maneiras, formando a base para estruturas de dados mais complexas e tipos 
     de dados personalizados.
 */
-//  Em javascript, podemos usar a função "typeof" para sabr o tipo de dado de um valor.
+
+//  EM JAVASCRIPT, PODEMOS USAR A FUNÇÃO "TYPEOF" PARA SABR O TIPO DE DADO DE UM VALOR.
     console.log(typeof('oi'))
 
 
-// Strings (primitivo)
+
+// STRINGS (primitivo)
 /*
     A "string" é uma cadeia de caracterese.
     Veremos strings quando utilizamos aspas (" "), aspas simples (' ') e crase (` `).
@@ -21,7 +24,7 @@ console.log(typeof frase)
 
 
 
-// Number (primitivo)
+// NUMBER (primitivo)
 /*
     O "number" são números que não são strings.
     No mundo real, podemos dizer que temos: números inteiros e quebrados.
@@ -33,7 +36,7 @@ console.log(typeof saldoConta)
 
 
 
-// Undefined (primitivo)
+// UNDEFINED (primitivo)
 /*
     Como o próprio nome já nos diz, "undefined" é um valor que não foi definido.
     Podemos observar a aparição do "undefined" quando não definimos valores.
@@ -42,7 +45,7 @@ let pessoa;
 console.log(pessoa)
 
 
-// Null (primitivo)
+// NULL (primitivo)
 /*
     Não confunda "undefined" com "null", mesmo que ambos apontem para lugar nenhum na memória, esses dados são diferentes.
     O "null" é um tipo que nós, os desenvolvedores colocamos proprositalmente.
@@ -58,7 +61,7 @@ const background = null;
 
 
 
-// Boolean (primitivo)
+// BOOLEAN (primitivo)
 /*
     Um valor booleano se refere a somente uma coisa: falso ou verdadeiro.
     
@@ -72,7 +75,7 @@ const background = null;
 
     Mas o boolean vai um pouco além dos exemplos acima.
     Dependendo do resultado (true/false), podemos fazer com que ocorra alguma ação, então por exemplo,
-    se a aprovação do aluno Gustavo for igual a "true", emita um certificado parabenizando-o. Se a aprovação
-    for "false", emita um aviso e envie ao aluno. 
+    se a aprovação do aluno Gustavo for igual a "true", emita um certificado parabenizando-o. 
+    Se a aprovação for "false", emita um aviso e envie ao aluno. 
 */
 
