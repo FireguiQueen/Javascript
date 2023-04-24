@@ -88,11 +88,16 @@ console.log(alunoGustavo == true? 'Parabéns, Gustavo' : 'Você foi reprovado');
 
 //              Valores por Referência
 /*  
-    Dados primitivos são os tipos de dados mais básicos e fundamentais em uma linguagem de 
-    programação. Esses tipos de dados são os blocos de construção essenciais para se trabalhar 
-    com variáveis, expressões e algoritmos.
+    Valores por referência são valores que são atribuídos a uma variável e são armazenados 
+    na memória como um endereço de referência, em vez de serem armazenados diretamente 
+    como um valor.
 
-    Eles são importantes porque permitem que nós realizemos cálculos e manipulação de
-    dados de várias maneiras, formando a base para estruturas de dados mais complexas e tipos 
-    de dados personalizados.
+    Ao trabalhar com valores por referência, é importante lembrar que ao modificar uma variável,
+    você pode estar modificando o valor original que está armazenado na memória, uma vez que 
+    todas as variáveis que fazem referência ao mesmo endereço apontarão para o mesmo valor.
+
+    Os valores por referência são valores mais complexos, responsáveis por desenvolver estruturas
+    grandes de dados. Todo valor por referência armazena valores, sejam eles primitivos ou até mesmo
+    outros valores por referência. Afinal, é possível ter um objeto dentro de outro objeto, é possível
+    ter um objeto dentro de um array.. E assim por diante.
 */
