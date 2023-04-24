@@ -105,3 +105,14 @@ console.log(alunoGustavo == true? 'Parabéns, Gustavo' : 'Você foi reprovado');
 
 
 // PRIMITIVOS OU POR REFERÊNCIA: diferenças práticas
+/*
+    Valores primitivos são imútaveis, isto significa que eles não podem ser alterados.
+    Mas não confunda atribuição de valores com ALTERAÇÃO NO VALOR.
+
+    No exemplo abaixo, temos um valor primitivo (string), e logo abaixo, na próxima linha 
+    estamos dizendo que o valor original será outro valor.
+    Mas isto NÃO é alteração dentro do valor, isto é apenas uma reatribuição de valores
+    de variável
+*/
+let name = 'Gus Fring'
+name = "Heiseing Berg"
