@@ -115,4 +115,4 @@ console.log(alunoGustavo == true? 'Parabéns, Gustavo' : 'Você foi reprovado');
     de variável
 */
 let name = 'Gus Fring'
-name = "Heiseing Berg"
+name = 'Heiseing Berg' // Não estamos alterando o dado, e sim reatribuindo um novo valor a variável "name"
