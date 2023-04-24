@@ -58,6 +58,7 @@ console.log(pessoa)
     E também utilizamos "null" quando precisamos que uma variável ou qualquer outra coisa não pode ter um tipo definido.
 */
 const background = null;
+console.log(background)
 
 
 
@@ -78,4 +79,6 @@ const background = null;
     se a aprovação do aluno Gustavo for igual a "true", emita um certificado parabenizando-o. 
     Se a aprovação for "false", emita um aviso e envie ao aluno. 
 */
+const alunoGustavo = true;
+console.log(alunoGustavo == true? 'Parabéns, Gustavo' : 'Você foi reprovado');
 
