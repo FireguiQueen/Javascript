@@ -175,11 +175,11 @@ console.log(person_02);
     essa nova variável não é uma cópia do valor original, mas sim uma nova referência 
     para o mesmo valor na memória.
 */
-const alunosIdades = [14, 13, 14, 16, 14, 15, 13, 14];
-let referencia = alunosIdades;
+const alunosIdades = [14, 13];
+let alterarIdade = alunosIdades; // agora "alterarIdade" aponta ao mesmo lugar da memória onde "alunosidades" aponta.
 
 /*
-    Mesmo alterando a variável "referencia", nós iremos alterar o valor da constante "alunosIdades".
+    Mesmo alterando a variável "alterarIdade", nós iremos alterar o valor da constante "alunosIdades".
     Como já foi dito, quando usamos um valor por referência, NÃO estamos fazendo cópias.
 */
 referencia[0] = 13; // perceba que alteramos a "cópia", mas isto será refletido no valor orignal.
