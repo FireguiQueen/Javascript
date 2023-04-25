@@ -182,5 +182,17 @@ let alterarIdade = alunosIdades; // agora "alterarIdade" aponta ao mesmo lugar d
     Mesmo alterando a variável "alterarIdade", nós iremos alterar o valor da constante "alunosIdades".
     Como já foi dito, quando usamos um valor por referência, NÃO estamos fazendo cópias.
 */
-referencia[0] = 13; // perceba que alteramos a "cópia", mas isto será refletido no valor orignal.
+alterarIdade[0] = 13; // perceba que alteramos a "cópia", mas isto será refletido no valor orignal.
 console.log(alunosIdades)
+
+
+// PODEMOS DEIXAR OS VALORES INDEPENDENTES USANDO O SPREAD (...)
+const a = {
+    name: 'Gus',
+}
+const b = {...a} // B copiou os valores de A, mas agora eles são independentes.
+
+
+// PODEMOS ALTERAR O VALOR DE 'B' SEM ALTERAR OS VALORES DE 'A'
+b.name = 'Mike'
+console.log(a.name)
