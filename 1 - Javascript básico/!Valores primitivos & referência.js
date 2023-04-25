@@ -107,18 +107,55 @@ console.log(alunoGustavo == true? 'Parabéns, Gustavo' : 'Você foi reprovado');
 // PRIMITIVOS OU POR REFERÊNCIA: diferenças práticas
 /*
     Valores primitivos são imútaveis, isto significa que eles não podem ser alterados.
-    Mas não confunda atribuição de valores com ALTERAÇÃO NO VALOR.
+    Mas não confunda atribuição de valores com ALTERAÇÃO de VALORES.
 
-    No exemplo abaixo, temos um valor primitivo (string), e logo abaixo, na próxima linha 
-    estamos dizendo que o valor original será outro valor.
+    No exemplo abaixo, temos um valor primitivo (string), e logo abaixo, estamos dizendo 
+    que o valor original "Gus" será "Heiseinberg".
     Mas isto NÃO é alteração dentro do valor, isto é apenas uma reatribuição de valores
-    de variável
+    de variável.
+
+    A reatribuição de um novo valor a uma variável contendo um valor primitivo é, 
+    na verdade, a criação de um novo valor e não uma modificação do valor original.
 */
 let name = 'Gus Fring'
 name = 'Heiseing Berg' // Não estamos alterando o dado, e sim reatribuindo um novo valor a variável "name"
 
-
 // JÁ NO EXEMPLO ABAIXO, ESTAMOS TENTANDO ALTERAR O VALOR, MAS ISTO É IMPOSSÍVEL POIS O VALOR É PRIMITIVO
 let personagem = 'Jessie'
 personagem[0] = 'P'
-console.log(personagem)
+console.log(personagem[0], personagem) // perceba que o valor primitivo não foi alterado
+
+
+
+//                                      CÓPIAS 
+/*
+    Quando dizemos que uma variável irá receber o valor PRIMITIVO de outra variável,
+    é criado uma cópia.
+    
+    Por exemplo.:
+    Você possui uma foto.
+    Você faz uma cópia desta foto, e agora você possui duas fotos idênticas.
+    Mas agora você é capaz de alterar a foto original, seja rabiscando ou desenhando nela,
+    e isto não irá afetar a cópia.
+
+    A mesma coisa vale caso você queira alterar a cópia, você pode rabiscar nela, pois você 
+    não irá fazer alterações na foto original.
+
+    É basicamente isto o que ocorre quando estamos usando valores primitivos.
+    São criadas cópias.
+*/
+let person_01 = 'Evandro';
+let person_02 = person_01; // agora esta variável é uma cópia da variável person_01.
+
+/* 
+    Isto significa que podemos alterar até mesmo a variável original, e a cópia irá continuar 
+    retornando o primeiro valor da variável original.
+*/
+// MESMO ALTERANDO A VARIÁVEL ORIGINAL, A CÓPIA IRÁ RETORNAR "EVANDRO", POIS FOI O VALOR QUE ELA LOCALIZOU QUANDO FOI CRIADA.
+person_01 = 'Paulo';
+console.log(person_02); 
+
+
+
+//                                      REFERÊNCIAS 
+ 
