@@ -158,4 +158,20 @@ console.log(person_02);
 
 
 //                                      REFERÊNCIAS 
- 
+/*
+    Pense na referência como se fosse um atalho de um arquivo .JPEG
+    Se você abrir o arquivo usando o atalho, você chegará na imagem original.
+
+    Isto quer dizer que, se você chegar na imagem usando o atalho, e fazer edições na imagem,
+    o seu arquivo JPEG original será alterado.
+    
+    E quando estamos fazendo o uso de valores por referência, significa que, independentemente
+    de qual variável alteremos, o valor original será alterado.
+*/
+const alunosIdades = [14, 13, 14, 16, 14, 15, 13, 14];
+const referencia = alunoIdades;
+
+/*
+    mesmo alterando a constante "referencia", nós iremos alterar o valor da variável "alunosIdades".
+    Como já foi dito, quando usamos um valor por referência, NÃO estamos fazendo cópias.
+*/
