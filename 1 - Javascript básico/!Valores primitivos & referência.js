@@ -176,7 +176,7 @@ console.log(person_02);
     para o mesmo valor na memória.
 */
 const alunosIdades = [14, 13];
-let alterarIdade = alunosIdades; // agora "alterarIdade" aponta ao mesmo lugar da memória onde "alunosidades" aponta.
+let alterarIdade = alunosIdades; // agora "alterarIdade" aponta ao mesmo lugar da memória onde "alunosidades" aponta. Ou seja, ambas variáveis apontam para o mesmo lugar na memória.
 
 /*
     Mesmo alterando a variável "alterarIdade", nós iremos alterar o valor da constante "alunosIdades".
