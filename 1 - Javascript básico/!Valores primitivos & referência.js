@@ -167,11 +167,20 @@ console.log(person_02);
     
     E quando estamos fazendo o uso de valores por referência, significa que, independentemente
     de qual variável alteremos, o valor original será alterado.
+
+    Ao criar uma variável e colocar um valor por referência (arrays, objetos & funções) estamos
+    dizendo que este valor é referenciado por aquela variável.
+
+    Então qando você cria uma nova variável com um valor por referência, 
+    essa nova variável não é uma cópia do valor original, mas sim uma nova referência 
+    para o mesmo valor na memória.
 */
 const alunosIdades = [14, 13, 14, 16, 14, 15, 13, 14];
-const referencia = alunoIdades;
+let referencia = alunosIdades;
 
 /*
-    mesmo alterando a constante "referencia", nós iremos alterar o valor da variável "alunosIdades".
+    Mesmo alterando a variável "referencia", nós iremos alterar o valor da constante "alunosIdades".
     Como já foi dito, quando usamos um valor por referência, NÃO estamos fazendo cópias.
 */
+referencia[0] = 13; // perceba que alteramos a "cópia", mas isto será refletido no valor orignal.
+console.log(alunosIdades)
