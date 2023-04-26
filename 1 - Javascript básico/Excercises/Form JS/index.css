@@ -1,5 +1,23 @@
 fieldset{
     border: none;
-    outline: none;
-    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: start;
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    gap: 10px;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    padding-inline: 10px;
+}
+input:focus{
+    border: none;
 }
