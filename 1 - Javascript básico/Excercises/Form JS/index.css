@@ -1,23 +1,42 @@
 fieldset{
     border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 body{
     display: flex;
     justify-content: start;
 }
-label{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 27px;
-    gap: 10px;
-}
+
 
 input{
+    display: block;
+
     height: 30px;
     width: 200px;
     padding-inline: 10px;
 }
 input:focus{
     border: none;
+}
+
+label{
+    border: 1px solid red;
+}
+span{
+    display: block;
+}
+
+input:hover > #move {
+    animation: moveToRight linear 200ms;
+}
+
+@keyframes moveToRight {
+    from{
+        transform: translateX(0px);
+
+    } to{
+        transform: translateX(33px);
+    }
 }
