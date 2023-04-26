@@ -21,14 +21,16 @@ input:focus{
     border: none;
 }
 
-label{
-    border: 1px solid red;
-}
+
 span{
     display: block;
+    border: 1px solid red;
+    animation: moveToRight linear 200ms forwards;
+
+
 }
 
-input:hover > #move {
+input:focus  #move {
     animation: moveToRight linear 200ms;
 }
 
