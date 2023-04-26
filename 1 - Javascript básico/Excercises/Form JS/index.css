@@ -1,14 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-left: 14px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: start;
+
+
+    background-image: linear-gradient(rgb(18, 18, 18), rgb(8, 8, 22));
+    height: 100vh;
+    width: 100%;
+
+}
 fieldset{
     border: none;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-body{
-    display: flex;
-    justify-content: start;
-}
 
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
 input{
     display: block;
@@ -16,29 +34,41 @@ input{
     height: 30px;
     width: 200px;
     padding-inline: 10px;
+
+    background-color: rgb(255, 255, 255);
+    border: none;
 }
 input:focus{
     border: none;
 }
 
 
-span{
-    display: block;
-    border: 1px solid red;
-    animation: moveToRight linear 200ms forwards;
 
+label{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+#move{
+    color: white;
+    font-weight: 500;
+    transition: transform linear 100ms;
 
 }
 
-input:focus  #move {
-    animation: moveToRight linear 200ms;
+input:focus{
+    background-color: transparent;
+    transition: background-color linear 200ms;
+
+    outline: none;
+    color: white;
 }
 
-@keyframes moveToRight {
-    from{
-        transform: translateX(0px);
 
-    } to{
-        transform: translateX(33px);
-    }
+input:focus + #move {
+    transform: translateX(33px);
+    transition: transform cubic-bezier(0.075, 0.82, 0.265, 2) 300ms;
 }
+
+

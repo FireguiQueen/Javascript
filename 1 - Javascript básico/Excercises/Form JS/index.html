@@ -10,31 +10,34 @@
 <body>
     <form>
         <fieldset id="dados-pessoais">
-            <label>
-                <span id="move">Nome</span> 
-                <input type="text" placeholder="digite seu nome"/> 
+
+            <label class="move">
+                <input type="text" title="nome" pattern="[1-9][0-9]{0,1}|100" required placeholder="digite seu nome"/> 
+                <div id='move'> Nome </div>
+            </label> 
+
+            <label class="move">
+                <input type="text" title="idade" required placeholder="17 "/> 
+                <div id='move'> Idade </div>
             </label> 
             
-
-
-            <label>
-                <span id="move">Idade</span> 
-                <input type="text" placeholder="17"/>
+            <label class="move">
+                <input type="text" title="cpf" required placeholder="000.000.000-00"/> 
+                <div id='move'> CPF </div>
             </label> 
-            
-
-            <label>
-                <span id="move">CPF</span> 
-                <input type="text" placeholder="000.000.000-00"/>
-            </label>
             
         </fieldset>
     
         <fieldset id="dados-caracteristicas">
-            <label>Peso <input type="text" placeholder="70kg"/></label> 
-            
+            <label class="move">
+                <input type="text" required placeholder="1.72"/> 
+                <div id='move'>Altura </div>
+            </label>       
 
-            <label>Altura <input type="text" placeholder="1.75"/></label> 
+            <label class="move">
+                <input type="text" required placeholder="68kg"/> 
+                <div id='move'>Peso </div>
+            </label>      
         </fieldset>
 
     </form>
