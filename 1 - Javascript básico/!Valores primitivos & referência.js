@@ -13,11 +13,11 @@
     console.log(typeof('oi'))
 
 
-    
+
 
 // STRINGS (primitivo)
 /*
-    A "string" é uma cadeia de caracterese.
+    A "string" é uma cadeia de caracteres.
     Veremos strings quando utilizamos aspas (" "), aspas simples (' ') e crase (` `).
 */
 const frase = "Olá, isto é uma string!"
