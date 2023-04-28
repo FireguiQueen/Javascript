@@ -5,9 +5,9 @@
 }
 body{
     padding-left: 14px;
-    padding-top: 50px;
     display: flex;
     justify-content: start;
+    align-items: center;
     background-attachment: fixed;
     background-image: linear-gradient(rgb(18, 18, 18), rgb(8, 8, 22));
     height: 100vh;
@@ -18,31 +18,36 @@ fieldset{
     border: none;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 70px;
 }
 
 form{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 70px;
 }
 
 input{
     color: rgba(255, 255, 255, 0.276);
     display: block;
     border: none;
+    
 
-    height: 30px;
-    width: 200px;
+    height: 60px;
+    width: 400px;
     padding-inline: 10px;
 
     background-color: rgba(214, 211, 211, 0.154);
     border-radius: 4px;
 }
 
+input[type=submit]:hover{
+    background-color: rgb(243, 10, 68);
+}
 
 
 label{
+    font-size: xx-large;
     display: flex;
     flex-direction: column-reverse;
 }
