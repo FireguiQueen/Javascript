@@ -39,7 +39,7 @@ console.log(pessoas);
 //                     EMPURRANDO (adicionando) UM OU MAIS ITENS AO FINAL DO ARRAY
 // Neste exemplo empurramos dois itens: 'alice' e 'juju'.. Mas podemos empurrar quantos itens quisermos
 pessoas.push('Alice', 'Juju');
-console.log(pessoas)
+console.log(pessoas);
 
 
 
