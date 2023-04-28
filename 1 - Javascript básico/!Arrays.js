@@ -17,13 +17,13 @@ let pessoas = ['Pablo', 'Flora', 'Nathalia'];
 
 
 //                      ACESSANDO UM ITEM DO ARRAY
-console.log(pessoas[0]) 
+console.log(pessoas[0]);
 
 
 
 
 //                     QUANTANDO QUANTOS ITENS O ARRAY POSSUI
-console.log(pessoas.length)
+console.log(pessoas.length);
 
 
 
