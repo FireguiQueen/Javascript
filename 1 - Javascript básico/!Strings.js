@@ -62,7 +62,7 @@ console.log(frase[2])
 
 
 // Podemos saber o indice de determinada palavra usando indexOf.
-console.log(frase.indexOf('pessoa')) // "pessoa" está no número 10.
+console.log(frase.indexOf('pessoa')) // "pessoa" está no número 10  (pois o 'p' começa no indice 10).
 
 // Nesta função, podemos passar dois parâmetros.: 
 // qual palavra desejamos achar o indice & a partir de qual indice devemos procurar esta palavra
