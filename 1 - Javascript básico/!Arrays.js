@@ -69,8 +69,8 @@ console.log(pessoas);
 //                  REMOVENDO UM ITEM ESPECÍFICO E SEM ALTERAR OS INDÍCES
 // Indices:    0       1        2         3    
 const nomes = ['Hugo', 'Maria', 'Gaspar', 'Cleiton'];
-delete nomes[2]
-console.log(nomes)
+delete nomes[2];
+console.log(nomes);
 
 
 
