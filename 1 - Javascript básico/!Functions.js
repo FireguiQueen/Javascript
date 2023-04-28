@@ -41,7 +41,7 @@ let pessoa_01 = {
         return `Olá, eu me chamo ${this.name}` // seria como dizer "pessoa_01.name"
     }
 }
-console.log(pessoa_01.saudacao())
+console.log(pessoa_01.saudacao());
 
 
 // Podemos simplificar como o método está no corpo do objeto.
@@ -53,7 +53,7 @@ pessoa_01 = {
         return `Olá, eu me chamo ${this.name}` // seria como dizer "pessoa_01.name"
     }
 }
-console.log(pessoa_01.saudacao())
+console.log(pessoa_01.saudacao());
 
 
 
