@@ -44,8 +44,8 @@ console.log(pessoas);
 
 
 //                    REMOVENDO UM ITEM AO FINAL DO ARRAY
-pessoas.pop()
-console.log(pessoas)
+pessoas.pop();
+console.log(pessoas);
 
 
 
