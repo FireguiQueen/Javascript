@@ -31,7 +31,7 @@ console.log(pessoas.length);
 //                     ALTERANDO UM ITEM DO ARRAY
 // Neste exemplo mudamos o indice 0 (Pablo) para o nome "Julia"
 pessoas[0] = 'Julia'
-console.log(pessoas)
+console.log(pessoas);
 
 
 
