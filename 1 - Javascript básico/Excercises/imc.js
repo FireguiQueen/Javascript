@@ -2,6 +2,9 @@
 (pessoa) tem (n) anos, pesa (n)kg.
 Tem (n) de altura, e seu IMC é de (n).
 (pessoa) nasceu em (n) ano.
+
+cálculo:
+    peso / (altura²)
 */
 
 const date = new Date;
