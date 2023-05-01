@@ -109,3 +109,15 @@ console.log(`Olá, ${myName}!`);
 
 // utilizando aspas simples.: 
 console.log('Olá, ' + myName + '!');
+
+
+/* 
+(pessoa) tem (n) anos, pesa (n)kg.
+Tem (n) de altura, e seu IMC é de (n).
+(pessoa) nasceu em (n) ano.
+
+cálculo:
+    peso / (altura²)
+*/
+
+function sayIMC(name, weight)
