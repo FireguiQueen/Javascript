@@ -36,7 +36,7 @@ console.log(pessoas);
 
 
 
-//                     EMPURRANDO (adicionando) UM OU MAIS ITENS AO FINAL DO ARRAY
+//                 EMPURRANDO (adicionando) UM OU MAIS ITENS AO FINAL DO ARRAY
 // Neste exemplo empurramos dois itens: 'alice' e 'juju'.. Mas podemos empurrar quantos itens quisermos
 pessoas.push('Alice', 'Juju');
 console.log(pessoas);
@@ -67,6 +67,16 @@ console.log(pessoas);
 
 
 //                  REMOVENDO UM ITEM ESPECÍFICO E SEM ALTERAR OS INDÍCES
+/* 
+    Por padrão, ao remover um elemento do array, o próximo elemente (ao lado direito) tomaria 
+    seu lugar, mudando seu índice e os índices dos próximos elementos. 
+    
+    Fazer isto significa os índices dos elementos não serão alterados.. 
+    Cleiton continuára sendo o índice 3. E
+
+    E isto só ocorre pois estamos removendo o elemento, mas ele ainda irá continuar no ARRAY, porém
+    vázio.
+*/
 // Indices:    0       1        2         3    
 const nomes = ['Hugo', 'Maria', 'Gaspar', 'Cleiton'];
 delete nomes[2];
