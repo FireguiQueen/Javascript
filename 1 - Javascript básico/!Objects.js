@@ -14,7 +14,7 @@
     Valores são os valores que serão dados as propriedades, por exemplo a palavra 'verde' é o valor
     da propriedade 'cor'.
     E por fim, os métodos são funções que estão dentro de objetos. Podemos imaginar que seria algo como.:
-    Se você encostar na caneca, ela irá ascender um LED laranja. 
+    Se você encostar na caneca, ela irá acender um LED laranja. 
 */
 
 const pessoa_01 = {         // Utilize chaves '{}' para inicializar um objeto
