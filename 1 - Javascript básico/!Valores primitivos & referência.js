@@ -1,4 +1,4 @@
-//              Valores Primitivos
+//                                  VALORES PRIMITIVOS
 /*  
     Dados primitivos são os tipos de dados mais básicos e fundamentais em uma linguagem de 
     programação. Esses tipos de dados são os blocos de construção essenciais para se trabalhar 
@@ -53,7 +53,7 @@ console.log(pessoa)
 
     Vamos supor que você esteja numa rede social, e nela, você pode alterar a cor do background do seu perfil.
     Haverá diversas opções.: vermelho, azul, verde e uma das mais importantes -> "nenhuma".
-    Então podemos pensar que, quando o usuário escolher a opção "nenhuma" cor, o valor da variável "background"
+    Então podemos pensar que, quando o usuário escolher a opção "nenhuma cor", o valor da variável "background"
     pode ser nulo. Logo, neste exemplo, o "null" pode ser usado para representar a ausência de um valor válido.
 
     E também utilizamos "null" quando precisamos que uma variável ou qualquer outra coisa não pode ter um tipo definido.
@@ -87,7 +87,9 @@ console.log(alunoGustavo == true? 'Parabéns, Gustavo' : 'Você foi reprovado');
 
 //******************************************************************************** */
 
-//              Valores por Referência
+
+
+//                              VALORES POR REFERÊNCIA
 /*  
     Valores por referência (Arrays, functions & objects) são valores que são atribuídos a uma variável e são armazenados 
     na memória como um endereço de referência, em vez de serem armazenados diretamente 
@@ -173,9 +175,13 @@ console.log(person_02);
     Ao criar uma variável e colocar um valor por referência (arrays, objetos & funções) estamos
     dizendo que este valor é referenciado por aquela variável.
 
-    Então qando você cria uma nova variável com um valor por referência, 
+    Então quando você cria uma nova variável com um valor por referência, 
     essa nova variável não é uma cópia do valor original, mas sim uma nova referência 
     para o mesmo valor na memória.
+
+    Em suma, as variáveis apontarão para o mesmo local na memória. Sendo assim, se você alterar
+    a variável X, a variável Y também será alterada, pois você não modificou unicamente a variável, e sim
+    o valor que ela aponta na memória.
 */
 const alunosIdades = [14, 13];
 let alterarIdade = alunosIdades; // agora "alterarIdade" aponta ao mesmo lugar da memória onde "alunosidades" aponta. Ou seja, ambas variáveis apontam para o mesmo lugar na memória.
