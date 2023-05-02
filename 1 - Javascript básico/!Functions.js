@@ -141,7 +141,9 @@ function criarCelular(marca, modelo, tamanhoTela, capacidadeBateria){
 const celular_01 = criarCelular('Motorola', 'Mto G5', 4.7, 5000);
 const celular_02 = criarCelular('Asus', 'A-Play', 5.4, 8000);
 
-// PARA ENCURTAR A FUNÇÃO, PODEMOS DIGITAR APENAS O NOME DO PARÂMETRO. 
+
+
+//          PARA ENCURTAR A FUNÇÃO, PODEMOS DIGITAR APENAS O NOME DO PARÂMETRO. 
 function creatCellphone(marca, modelo, tamanhoTela, capacidadeBateria){
     return{
         marca,
