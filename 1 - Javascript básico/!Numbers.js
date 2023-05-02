@@ -72,7 +72,7 @@ No caso específico de somar '0.1' e '0.7' em JavaScript, o resultado pode ser i
 devido à forma como esses números são representados em ponto flutuante. 
 Quando você soma 0.1 e 0.7, o resultado correto é 0.8
 
-Mas a representação interna desses  números em ponto flutuante pode ser algo como:
+Mas a representação interna desses números em ponto flutuante pode ser algo como:
 0.1 = 0.0001100110011001100110011001100110011001100110011... (repetindo infinitamente)
 0.7 = 0.101100110011001100110011001100110011001100110011...  (repetindo infinitamente)
 
