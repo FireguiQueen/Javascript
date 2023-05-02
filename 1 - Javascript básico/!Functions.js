@@ -97,7 +97,7 @@ saudacao('Otávio');  // invocando a função e passando o argumento para substi
     que o parâmetro possui um valor padrão, como no exemplo abaixo, onde possuímos dois parâmetros
     e caso você não passe os argumentos para eles, o valor será 0.
 */
-function sum(num1 = 0, num2 = 0){
+function sum(num1 = 0 , num2 = 0 ){
     console.log(num1 + num2)
 }
 sum() // 0 
@@ -112,8 +112,8 @@ sum() // 0
     - Quando há somente um parâmetro, os parêntesis não são obrigatórios
     - Quando há somente uma linha de código no corpo da função, as chaves e nem "return" são necessários
 */
-const DigaOi = name => `Oi ${name}.`
-console.log(DigaOi('Guilherme'))
+const digaOi = name => `Oi ${name}.`
+console.log(digaOi('Guilherme'));
 
 
 
@@ -127,7 +127,7 @@ console.log(DigaOi('Guilherme'))
 
     * Vamos supor que você precisa cadastrar celulares em seu código utilizando objetos.
     * Cada celular possui uma marca, um modelo, tamanho, capacidade da bateria e outros atributos.
-    * Para você não criar infinitos objetos com parâmetros repetidos, você pode usar esta function.
+    * Para você não criar infinitos objetos com parâmetros repetidos, você pode usar esta function que séra utilizada como molde.
 */
 function criarCelular(marca, modelo, tamanhoTela, capacidadeBateria){
     return{
