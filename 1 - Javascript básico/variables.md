@@ -36,14 +36,14 @@ Vale lembrar que também podemos declarar uma variável sem valor, e depois pode
 let pessoa;
 pessoa = 'João';
 ```
-Mas isto só funciona com `var` e `let`, pois com `const` __não__ podemos reatribuir valores.
+Mas isto só funciona com `var` e `let`, pois com `const` __não__ podemos reatribuir valores primitivos.
 
 </br>
 </br>
 
 ## Reatribuindo valores
 Como o próprio nome já diz, variáveis variam, ou seja, seus valores podem mudar. </br>
-Com excessão da "const", onde o dado armazenado não pode ser alterado. </br>
+Com excessão da "const", onde o dado armazenado não pode ser alterado (apenas valores internos do dado armazenado, como por exemplo valores de um array, esses podem ser alterados, mesmo estando em uma const). </br>
 
 * Reatribuindo o valor
 ```js
