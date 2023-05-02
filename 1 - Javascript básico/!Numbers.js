@@ -68,9 +68,9 @@ ponto flutuante (números quebrados) segue o padrão IEEE 754.
 Esse padrão define a maneira como os números quebrados são representados e operados, 
 mas pode resultar em algumas imprecisões devido às limitações de representação.
 
-Se somarmos '0.1' e '0.7' o resultado seria 0.8
+Se somarmos '0.1' e '0.7' o resultado correto seria 0.8
 Mas em JavaScript, o resultado será 0.7999..  
-Isto ocorrer devido à forma como esses números são representados em ponto flutuante. 
+Isto ocorre devido à forma como esses números são representados em ponto flutuante. 
 
 
 A representação interna desses números em ponto flutuante pode ser algo como:
