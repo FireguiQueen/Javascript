@@ -28,7 +28,7 @@
 
 //                              ENTENDENDO O QUE É UM MÉTODO
 /*
-    Um método é apenas uma função que pertence a um objeto, nada além disso
+    Um método é apenas uma função que pertence a um objeto, nada além disso.
 
     O "this" é muito utilizado nos métodos, e eles se referem ao próprio objeto, no contexto do escopo.
 
