@@ -92,5 +92,5 @@ valor real, que é 0.7999999.
 Isso ocorre porque a soma é realizada com base nas representações internas dos números em ponto flutuante, 
 que têm algumas limitações em relação à precisão. 
 No entanto, observe que esse valor é muito próximo do resultado correto e 
-pode ser arredondado para 0.8 com o uso do método "toFixed()" ou usando "Math.round()"".
+pode ser arredondado para 0.8 com o uso do método "toFixed()" ou usando "Math.round()".
 */
