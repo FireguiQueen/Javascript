@@ -19,7 +19,7 @@ formulario.addEventListener('submit', function(evento){
     }
     pessoas.push(newPerson(nome, idade, altura, peso))
     console.log(pessoas)
-    const inputs = document.querySelectorAll('input');
+    const inputs = document.querySelectorAll('input[type=text]');
     inputs.forEach(e => e.value = '')
 
 })

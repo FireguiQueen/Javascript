@@ -4,31 +4,44 @@
     box-sizing: border-box;
 }
 body{
-    padding-left: 14px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+    display: grid;
+    padding-top: 15px;
+    grid-template-areas: "form resultado";
+    grid-template-columns: 40%;
+    padding-left: 18px;
+
     background-attachment: fixed;
     background-image: linear-gradient(rgb(18, 18, 18), rgb(8, 8, 22));
     height: 100vh;
     width: 100%;
 
 }
+form{
+    grid-area: "form";
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+section#informacoes-resultantes{
+    grid-area: "resultado";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.341);
+}
 fieldset{
     border: none;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 65px;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 70px;
-}
+
 
 input{
     color: rgba(255, 255, 255, 0.276);
+    transition: background-color linear 200ms;
+
     display: block;
     border: none;
     
@@ -41,12 +54,24 @@ input{
     border-radius: 4px;
 }
 
+input[type=submit]{
+    background-color: rgba(214, 211, 211, 0.154);
+    transition: transform linear 200ms;
+
+}
 input[type=submit]:hover{
     background-color: rgb(243, 10, 68);
+    transform:  translateX(23px) scale(1.02);
+    transition: transform linear 200ms;
+
+    color: rgb(248, 248, 248);
+    font-weight: 600;
+
 }
 
 
 label{
+    letter-spacing: 2px;
     font-size: xx-large;
     display: flex;
     flex-direction: column-reverse;
@@ -55,12 +80,15 @@ label{
 
 #move{
     color: white;
+    margin-bottom: 10px;
+    height: fit-content;
+    width: fit-content;
     font-weight: 500;
     transition: transform linear 200ms;
 
 }
 
-input:focus{
+input[type=text]:focus{
     border-bottom: .5px solid rgb(220, 216, 216);
 
     background-color: transparent;
