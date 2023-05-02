@@ -40,7 +40,7 @@ console.log(Math.ceil(num5))
 
 //                 ARREDONDANDO UM NÚMERO QUEBRADO PARA O NÚMERO INTEIRO MAIS PRÓXIMO
 // 'round()' é usado para arredondar um número quebrado para o número inteiro mais próximo.
-// "Round" significa "arredondar". Estamos arredondando para o número inteiro mais próximo.
+// O verbo "Round" significa "arredondar". Estamos arredondando para o número inteiro mais próximo.
 const num6 = 502
 console.log(Math.round(num6))
 
