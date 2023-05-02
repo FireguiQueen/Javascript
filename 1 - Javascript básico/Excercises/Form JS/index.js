@@ -9,7 +9,7 @@ formulario.addEventListener('submit', function(evento){
     const altura = document.querySelector('fieldset input#altura').value
     const peso = document.querySelector('fieldset input#peso').value
     
-    function newPerson(name, age, height, weight){
+    function newPerson(name = null, age = null, height = null, weight = null){
         return{
             name,
             age,
