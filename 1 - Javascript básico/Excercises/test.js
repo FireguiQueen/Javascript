@@ -120,4 +120,43 @@ cálculo:
     peso / (altura²)
 */
 
-function sayIMC(name, weight)
+function sayIMC(name, age, weight, height){
+    return{
+        name,
+        age,
+        weight,
+        height,
+
+        IMC(){
+            const date = new Date;
+            const dateY = date.getFullYear();
+            const IMC = this.weight / (this.height **2)
+
+
+
+            //     peso / (altura²)
+            const aboutYou =  `Você se chama ${this.name} e nasceu em ${dateY - age}.`
+            const yourIMC = `Seu IMC é ${IMC.toFixed(0)}.`
+
+            
+            if(IMC >= 20 && IMC <= 30){
+                return `
+                    ${aboutYou}
+                    ${yourIMC}
+                    Você está saudável.
+                `
+            } else{ `
+                ${aboutYou}
+                ${yourIMC}
+                Você não está saudável.    
+                `       
+            }
+
+        }
+    }
+}
+
+
+const pessoa01 = sayIMC('Guilherme', 17, 68, 1.72);
+
+console.log(pessoa01.IMC())
