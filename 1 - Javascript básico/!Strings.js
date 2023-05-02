@@ -99,7 +99,7 @@ console.log(frase_3.slice(4, 7))
 
 
 
-// split
+// Split
 /*
     Transformamos nossa string em um array.
     Podemos passar no mínimo um parâmetro e no máximo dois parâmetros.
