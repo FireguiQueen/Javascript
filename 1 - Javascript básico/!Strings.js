@@ -24,7 +24,7 @@ console.log(`HHM`);
 // As crases também são importantes para chamar variáveis. Usamos ${} parar chamar uma variável.
 // Ambas dão o mesmo resultado, porém tivemos menos trabalho usando as template strings (${}).
 
-// Método convencional:
+// Método convencional (concatenação):
 const frase_1 = "Valar Morghulis";
 console.log('A frase "' + frase_1 + '" é do Game of Thrones, uma série maravilhosa!');
 
