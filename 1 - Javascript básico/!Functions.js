@@ -36,7 +36,7 @@
 let pessoa_01 = {
     name: 'Guilherme',
     sobrenome: 'Pires',
-
+ 
     saudacao: function(){
         return `Olá, eu me chamo ${this.name}` // seria como dizer "pessoa_01.name"
     }
