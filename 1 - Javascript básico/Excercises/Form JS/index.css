@@ -28,6 +28,8 @@ section#informacoes-resultantes{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.341);
+}h1#resultado{
+    color: white;
 }
 fieldset{
     border: none;

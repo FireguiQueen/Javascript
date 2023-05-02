@@ -35,7 +35,7 @@
     
         <fieldset id="dados-caracteristicas">
             <label class="move">
-                <input type="text" id="altura" title="altura" required placeholder="1.72"/> 
+                <input type="text" id="altura" title="altura" pattern="^[0-9]{1}\.[0-9]{2}$" required placeholder="1.72"/> 
                 <div id='move'>Altura </div>
             </label>       
 
@@ -45,11 +45,11 @@
             </label>      
         </fieldset>
 
-        <input type="submit" class="capturarEnvio" value="E N V I A R"/>
+        <input type="submit" class="capturarEnvio"  value="E N V I A R"/>
     </form>
     
     <section id="informacoes-resultantes">
-        <h1 id="resultado"> AAAAAAAA!!!!!! </h1>
+        <h1 id="resultado"> </h1>
     </section>
     <script src="./index.js"> </script>
 </body>
