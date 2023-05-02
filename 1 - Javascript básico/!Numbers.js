@@ -68,23 +68,26 @@ ponto flutuante (números quebrados) segue o padrão IEEE 754.
 Esse padrão define a maneira como os números quebrados são representados e operados, 
 mas pode resultar em algumas imprecisões devido às limitações de representação.
 
-No caso específico de somar '0.1' e '0.7' em JavaScript, o resultado pode ser impreciso 
-devido à forma como esses números são representados em ponto flutuante. 
-Quando você soma 0.1 e 0.7, o resultado correto é 0.8
+Se somarmos '0.1' e '0.7' o resultado seria 0.8
+Mas em JavaScript, o resultado será 0.7999..  
+Isto ocorrer devido à forma como esses números são representados em ponto flutuante. 
 
-Mas a representação interna desses números em ponto flutuante pode ser algo como:
+
+A representação interna desses números em ponto flutuante pode ser algo como:
 0.1 = 0.0001100110011001100110011001100110011001100110011... (repetindo infinitamente)
 0.7 = 0.101100110011001100110011001100110011001100110011...  (repetindo infinitamente)
 
 Quando você soma esses dois números, o resultado correto seria:
 0.1 + 0.7 = 0.8 = 0.1000000000000000055511151231257827021181583404541015625 (em notação científica)
 
-Observe que a representação em ponto flutuante do resultado correto também tem algumas casas
-decimais extras que se repetem infinitamente.
-No entanto, como a representação interna de 0.1 e 0.7 em ponto flutuante é imprecisa, 
-o resultado da soma pode ser algo como:
+Mas em binário, nosso resultado é.:
+1.0100110011001100110011001100110011001100110011001101...
 
-0.1 + 0.7 = 0.7999999999999999
+
+-> Devido à limitação de precisão na representação em ponto flutuante, 
+o resultado é uma representação binária que é ligeiramente menor do que 0.8. 
+Quando exibido em formato decimal, essa representação binária resulta em uma aproximação do 
+valor real, que é 0.7999999.
 
 Isso ocorre porque a soma é realizada com base nas representações internas dos números em ponto flutuante, 
 que têm algumas limitações em relação à precisão. 
