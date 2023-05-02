@@ -14,7 +14,7 @@ console.log(`HHM`);
 
 
 /* 
-    Em outros casos, seu string irá precisar armazenar aspas duplas e aspas simples, então
+    Em outros casos, sua string irá precisar armazenar aspas duplas e aspas simples, então
     você será obrigado a utilizar crase (``) para formar a string.
     Pois perceba que a frase já possui aspas duplas e simples. 
 */  console.log(`Last year he told me "I'll be rich, like a monkey"`);
