@@ -78,7 +78,7 @@ console.log(frase.indexOf('pessoa', 11));
 
 // Slice
 /* 
-    Slice significa "pedaço". Ou seja, iremos pedir um pedaço de determinada string.
+    Slice significa "pedaço". Ou seja, iremos pedir um pedaço de determinada parte da string.
 
     Podemos passar no mínimo um parâmetro e no máximo dois parâmetros.
     O primeiro parâmetro usamos para escolher A PARTIR de qual indíce ele irá fatiar
