@@ -18,7 +18,7 @@ console.log(10 > 10);
 ### >= _(maior ou igual)_
 Este sinal analisa se o operando da esquerda é __maior__ ou __igual__ ao da direita.
 ```js
-console.log(10 > 10);
+console.log(10 >= 10);
 // output: true (10 não é maior que 10.. Mas 10 é IGUAL a 10)
 ```
 
@@ -35,7 +35,7 @@ console.log(5 < 10);
 ### <= _(menor ou igual)_
 Este sinal analisa se o operando da esquerda é __menor__ ou __igual__ ao da direita. 
 ```js
-console.log(5 < 5);
+console.log(5 <= 5);
 // output: true (5 não é menor do que 5.. Mas 5 é igual a 5)
 ```
 
