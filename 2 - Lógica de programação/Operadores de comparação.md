@@ -33,7 +33,11 @@ console.log(5 < 10);
 ```
 
 ### < _(menor ou igual)_
-Este sinal analisa se o operando da esquerda é __
+Este sinal analisa se o operando da esquerda é __menor__ ou __igual__ ao da direita. 
+```js
+console.log(5 < 5);
+// output: true (5 não é menor do que 5.. Mas 5 é igual a 5)
+```
 
 </br>
 
