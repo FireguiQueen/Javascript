@@ -41,5 +41,18 @@ console.log(5 <= 5);
 
 </br>
 
+## == _(igualdade)_
+Este sinal verifica se ambos os operandos são IGUAIS. Mas este sinal não analisa os tipos de dados de cada operando, por consequência, podemos ter o número '55' em formato _string_ que será igual ao número '55' em formato de _number_.
+```js
+console.log('55' == 55);
+// output: true (Pois este sinal analisa apenas valores. Sendo assim, '55' é igual a 55)
+```
+
+### === _(igualdade estrita)_
+Este sinal verifica se ambos os operandos são iguais, e além disto, ele também analisa o tipo de dado de cada um. Sendo assim nesta situação, o número '55' em formato _string_ não será igual ao '55' em formato _number_
+```js
+console.log('55' === 55);
+// output: FALSE (Este sinal analisa VALORES e TIPOS. Sendo assim, '55' não é igual a 55 do tipo number)
+```
 
 
