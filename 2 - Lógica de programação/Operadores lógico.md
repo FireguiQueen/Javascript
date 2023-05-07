@@ -32,3 +32,13 @@ console.log(conta_01 > 50 || conta_02 > 300);
 
 </br>
 
+## !
+Este operador significa "NOT" (negação).
+O operador `!` nega o valor boolean de uma expressão, como consequência, o valor inverso será dado. Por exemplo, caso sua expressão seja 'true', mas você coloque este operador, o valor dela será 'false'.
+```js
+// Se estamos negando o "true", teremos um 'false' como resposta.
+console.log(!true); 
+
+// Também podemos utilizar este operador mais uma vez.
+// O resultado será true, pois primeiro negamos que será true, e negamos novamente que será 'false'.
+console.log(!!true);
