@@ -23,11 +23,21 @@ Por exemplo, uma string vazia é do tipo "string", mas é avaliada como "falsy" 
 ____________________________________________________
 
 # Operador condicional (?)
-Javascript possui apenas um único operador condicional, ele é um operador ternário. 
+Javascript possui apenas um único operador condicional, ele é um operador ternário. </br>
 Operadores ternários recebem três operando, sendo.:
 > _condição_ ? _resultado caso condição = true_ &nbsp;&nbsp;:&nbsp;&nbsp; _resultado caso condição = false_
 
+O operador de condição é representado pelo caractere _?_. </br>
+E ele funciona basicamente como uma interrogação na vida real. </br>
+Nós iremos perguntar se a condição é falsa ou verdadeira, caso seja verdadeira, excute o primeiro operando a direita. Caso seja falsa, excute o segundo operando a direita.
 
+```js
+const idade = 18;
+
+// No exemplo abaixo perguntamos.:
+// A idade é maior ou igual a 18? Caso seja verdade, excute a primeira string, caso seja falso, execute a segunda string.
+console.log(idade >= 18? 'Você é de maior, possui 18 anos ou mais!' : 'Você é de menor!');
+```
 
 # Operadores lógicos
 Operadores lógicos são utilizados para avaliar expressões booleanas.
