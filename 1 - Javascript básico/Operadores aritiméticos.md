@@ -1,4 +1,5 @@
-# Aritiméticos
+# Operadores aritiméticos
+
 * _adição/concatenação:_ +
 * _subtração:_-   
 * _multiplicação:_ *
