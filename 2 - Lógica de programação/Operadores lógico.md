@@ -13,6 +13,8 @@ let saldoBancario_02 = 53000;
 console.log(saldoBancario > 10000 && saldoBancario_02 > 40000);
 
 // Neste caso, ambas as expressões são verdadeiras, logo, teremos "true" como resultado no console.
+
+// Algo curioso dos operadores lógicos é que, caso não pass
 ```
 
 </br>
@@ -42,3 +44,21 @@ console.log(!true);
 // Também podemos utilizar este operador mais uma vez.
 // O resultado será true, pois primeiro negamos que será true, e negamos novamente que será 'false'.
 console.log(!!true);
+```
+
+</br>
+</br>
+
+_________________________________________________________________
+
+## Exemplos práticos utilizando operadores lógicos
+
+> Vamos supor que você possui um site, onde pega a _altura_ e o _peso_ da pessoa.
+> Você quer montar um sistema onde, se a _altura_ __e__ _peso_ da pessoa for maior que determinado número, será retornada uma mensagem dizendo para ela emagrecer.
+
+```js
+
+let peso = 68kg; 
+let altura = 1.73; 
+
+console.log()
