@@ -19,9 +19,10 @@ Por exemplo, uma string vazia é do tipo "string", mas é avaliada como "falsy" 
 * A propriedade um objeto que inclua um desses valores acima
 
 </br>
-</br>
 
 ____________________________________________________
+
+</br>
 
 # Operadores lógicos
 Operadores lógicos são utilizados para avaliar expressões booleanas.
