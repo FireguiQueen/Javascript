@@ -22,10 +22,10 @@ Por exemplo, uma string vazia é do tipo "string", mas é avaliada como "falsy" 
 
 ____________________________________________________
 
-</br>
-
 # Operadores lógicos
 Operadores lógicos são utilizados para avaliar expressões booleanas.
+
+</br>
 
 ## && 
 Este operador significa "AND".
