@@ -64,7 +64,7 @@ Mas como estamos utilizando este operador, apenas UMA expressão precisa ser ver
 
 ## !
 Este operador significa "NOT" (negação). </br>
-O operador `!` nega o valor boolean de uma expressão, como consequência, o valor inverso será dado. </br> Por exemplo, caso sua expressão seja 'true', mas você coloque este operador, o valor dela será 'false'.
+O operador `!` nega o valor boolean de uma expressão, como consequência, o valor inverso será dado. </br> Por exemplo, caso sua expressão seja 'true' e você coloque este operador, o valor dela será 'false'.
 ```js
 // Se estamos negando o "true", teremos um 'false' como resposta.
 console.log(!true); 
