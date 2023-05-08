@@ -28,7 +28,7 @@ Operadores lógicos são utilizados para avaliar expressões booleanas.
 </br>
 
 ## && 
-Este operador significa "AND".
+Este operador significa "AND". </br>
 O operador `&&` exige que _todas_ as expressões sejam verdadeiras (true). 
 ```js
 let saldoBancario = 42000;
