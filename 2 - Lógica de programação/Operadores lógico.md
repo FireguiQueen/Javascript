@@ -41,21 +41,6 @@ console.log(saldoBancario > 10000 && saldoBancario_02 > 40000);
 // Neste caso, ambas as expressões são verdadeiras, logo, teremos "true" como resultado no console.
 ```
 
-### Curiosidade
-O operador && e o operador || podem ser usados ​​para criar expressões condicionais que avaliam se uma determinada condição é verdadeira ou falsa. Se a primeira expressão em && for falsa, o resultado será a primeira expressão. Caso contrário, o resultado será a última expressão.
-
->
-
-// No exemplo abaixo, temos uma expressão do tipo 'falsy' (não é literalmente falsa, mas strings vazias são consideradas "false"). Teremos uma string vazia retornada no console. 
-console.log('' && 'Olá');
-
-// Vale a pena saber isto pois podemos montar sistemas condicinais sem a necessidade de utilizar o 'if'. Veja o exemplo abaixo.: Caso a expressão seja falsa, o sistema irá printar uma string vazia no console, caso a primeira expressão seja 'true', ele irá analisar a última expressão, e printar ela no console. Porém podemos utilizar funções.
-let queroDizerOI = true;
-function digaOi(){
-    return 'oi'
-}
-console.log(queroDizerOi && digaOi();)
-```
 
 </br>
 
