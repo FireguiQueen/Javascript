@@ -81,14 +81,11 @@ _________________________________________________________________
 
 ## Exemplos práticos utilizando operadores lógicos
 
-> Vamos supor que você possui um site, onde pega a _altura_ e o _peso_ da pessoa.
-> Você quer montar um sistema onde, se a _altura_ __e__ _peso_ da pessoa for maior que determinado número, será retornada uma mensagem dizendo para ela emagrecer.
+> Vamos supor que você possua uma loja que vende vinhos.
+> Como um bom e velho patriota, você vende vinhos apenas para brasileiros que possuem 18 anos ou mais. </br> Então nesta situação temos duas expressões a _nacionalidade_ e a _idade_ da pessoa, e ambas precisam ser avaliadas para você vender o vinho para esta pessoa. 
 
 ```js
+const nacionalidade = 'brasil';
+const idade = '18';
 
-let peso = 68kg; 
-let altura = 1.73; 
-
-if (peso >= 80 && altura <= 1.70){
-    console.log('Você precisa emagrecer')
-}
+console.log(nacionalidade === 'brasil' && idade >= 18? 'Você pode comprar' : 'Você não pode comprar');
