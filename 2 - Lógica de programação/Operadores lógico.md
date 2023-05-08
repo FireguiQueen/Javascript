@@ -89,4 +89,6 @@ _________________________________________________________________
 let peso = 68kg; 
 let altura = 1.73; 
 
-console.log()
+if (peso >= 80 && altura <= 1.70){
+    console.log('Você precisa emagrecer')
+}
