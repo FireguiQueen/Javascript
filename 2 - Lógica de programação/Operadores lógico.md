@@ -13,7 +13,8 @@ Por exemplo, uma string vazia é do tipo "string", mas é avaliada como "falsy" 
 
 ## Truthy
 * true
-*
+* Um número diferente de zero
+* 
 
 # Operadores lógicos
 Operadores lógicos são utilizados para avaliar expressões booleanas.
