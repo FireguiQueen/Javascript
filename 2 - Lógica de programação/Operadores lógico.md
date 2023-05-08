@@ -54,7 +54,10 @@ let conta_02 = 200;
 // "O saldo da conta 1 é maior que 50    OU    o saldo da conta 2 é maior que 300?
 console.log(conta_01 > 50 || conta_02 > 300);
 
-// Neste caso, temos uma expressão que é verdade (conta 1 > 50), porém, temos uma expressão falsa (conta 2 > 300).. Mas como estamos utilizando este operador, apenas UMA expressão precisa ser verdadeira. 
+/* Neste caso, temos uma expressão que é verdade (conta 1 > 50), porém, temos uma 
+expressão falsa (conta 2 > 300).. 
+Mas como estamos utilizando este operador, apenas UMA expressão precisa ser verdadeira. 
+*/
 ```
 
 </br>
