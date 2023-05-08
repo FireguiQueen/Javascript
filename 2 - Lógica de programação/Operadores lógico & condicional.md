@@ -25,7 +25,7 @@ ____________________________________________________
 # Operador condicional 
 Javascript possui apenas um único operador condicional, ele é um operador ternário. 
 Operadores ternários recebem três operando, sendo.:
-_condição_ ? _resultado caso condição = true_ : _resultado caso condição = false_
+> _condição_ ? _resultado caso condição = true_ : _resultado caso condição = false_
 
 # Operadores lógicos
 Operadores lógicos são utilizados para avaliar expressões booleanas.
