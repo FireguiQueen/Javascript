@@ -22,10 +22,12 @@ Por exemplo, uma string vazia é do tipo "string", mas é avaliada como "falsy" 
 
 ____________________________________________________
 
-# Operador condicional 
+# ? _(operador condicional)_ 
 Javascript possui apenas um único operador condicional, ele é um operador ternário. 
 Operadores ternários recebem três operando, sendo.:
 > _condição_ ? _resultado caso condição = true_ &nbsp;&nbsp;:&nbsp;&nbsp; _resultado caso condição = false_
+
+
 
 # Operadores lógicos
 Operadores lógicos são utilizados para avaliar expressões booleanas.
