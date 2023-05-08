@@ -45,7 +45,7 @@ console.log(saldoBancario > 10000 && saldoBancario_02 > 40000);
 </br>
 
 ## || 
-Este operador significa "OR".
+Este operador significa "OR". </br>
 O operador `||` não exige que todas as expressões sejam true, mas exige que uma delas seja verdadeira.
 ```js
 let conta_01 = 100;
