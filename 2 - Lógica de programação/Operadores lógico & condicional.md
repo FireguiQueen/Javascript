@@ -39,6 +39,17 @@ const idade = 18;
 console.log(idade >= 18? 'Você é de maior, possui 18 anos ou mais!' : 'Você é de menor!');
 ```
 
+### Importância 
+Com este operador, podemos substituir condicionais simples que utilizam de `if` e `else`.
+Além de retornar somente strings, também podemos fazer com que este operador excute funções, como no exemplo abaixo.:
+```js
+function digaOi(){
+    return 'Olá'
+}
+// Caso a expressão seja 'true', ele irá executar uma função. 
+console.log(5 > 0? digaOi() : '');
+```
+
 </br>
 
 ____________________________________________________
