@@ -39,6 +39,10 @@ const idade = 18;
 console.log(idade >= 18? 'Você é de maior, possui 18 anos ou mais!' : 'Você é de menor!');
 ```
 
+</br>
+
+____________________________________________________
+
 # Operadores lógicos
 Operadores lógicos são utilizados para avaliar expressões booleanas.
 
