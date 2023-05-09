@@ -1,4 +1,7 @@
-const nacionalidade = 'brasil';
-const idade = '18';
+function digaOi(){
+    return 'Oi'
+}
+const idade = ;
+const nome = 'a'
 
-console.log(nacionalidade === 'brasil' && idade >= 18)
+console.log(idade && nome && digaOi());
