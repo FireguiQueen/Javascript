@@ -120,15 +120,18 @@ _________________________________________________________________
 const nacionalidade = 'brasil';
 const idade = '18';
 
+// Como ambas as condições são verdadeiras (pois a nacionalidade é do brasil e a idade é igual a 18), teremos 'Você pode comprar' como resultado.
 console.log(nacionalidade === 'brasil' && idade >= 18? 'Você pode comprar' : 'Você não pode comprar');
 ```
 
 </br>
 
 > Agora vamos supor que você possua uma loja que vende testosterona em comprimidos. </br> 
-> Neste caso, você só vende para pessoas que treinam a pelo menos dois anos  OU  para pessoas que pesam acima de 87kg. Então nesta situação temos duas expressõe.: `_anos de treino > 2 anos_  OU _peso > 87kg_.`
+> Neste caso, você só vende para pessoas que treinam a pelo menos dois anos  OU  para pessoas que pesam acima de 87kg. </br> Então nesta situação temos duas expressões.: _anos de treino > 2 anos_  OU _peso > 87kg_.
 ```js
 const anosTreinando = 1;
 const peso = 90;
 
-console.log(anosTreinando > 2?)
+// Abaixo, apenas uma das expressões é verdade (pois o peso é acima de 87), mas como estamos usando o operador ||, apenas uma das expressões abaixo precisa ser "true". Sendo assim, teremos 'Você pode comprar os comprimidos' como resultado. 
+console.log(anosTreinando >= 2 || peso > 87? 'Você pode comprar os comprimidos' : 'Você não pode comprar!');
+```
