@@ -126,7 +126,7 @@ console.log(nacionalidade === 'brasil' && idade >= 18? 'Você pode comprar' : 'V
 </br>
 
 > Agora vamos supor que você possua uma loja que vende testosterona em comprimidos. </br> 
-> Neste caso, você só vende para pessoas que treinam a pelo menos dois anos  OU  para pessoas que pesam acima de 87kg. Então nesta situação temos duas expressões _anos de treino > 2 anos_  OU _peso > 87kg_.
+> Neste caso, você só vende para pessoas que treinam a pelo menos dois anos  OU  para pessoas que pesam acima de 87kg. Então nesta situação temos duas expressõe.: `_anos de treino > 2 anos_  OU _peso > 87kg_.`
 ```js
 const anosTreinando = 1;
 const peso = 90;
