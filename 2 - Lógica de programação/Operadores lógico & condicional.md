@@ -147,9 +147,11 @@ ___________________________________________________
 Como vimos anteriormente, em situações simples, é possível eliminar o `ìf` e  `else` usando o perador ternário `?`, e com ele, podemos fazer funções serem executadas caso a condição seja verdadeira, e caso seja falsa, não executar nenhuma função.
 
 Mas saiba que é possível fazer condicionais usando somente operadores lógicos (não significa que seja recomendado fazer isto). 
-No exemplo abaixo temos a seguinte situação: a idade da pessoa e o nome dela.
-Como sabemos números acima de 0 e strings que possum caracteres são consideradas `true`.
-E por isso nossa função será executada, pois neste momento, o Javascript estará percorrendo todas as 3 expressões (idade - nome - Digaoi()). E por padrão, ele retorna o último valor 
+No exemplo abaixo temos a seguinte situação: a _idade_ da pessoa e o _nome_ dela.
+Como sabemos números acima de 0, e strings que possum caracteres são consideradas `true`.
+E por isso nossa função será executada, pois neste momento, o Javascript estará percorrendo todas as 3 expressões (idade - nome - Digaoi()). E por padrão, ele retorna o último valor do tipo verdadeiro.
+
+Caso o valor da constante nome fosse do tipo false, a nossa função não seria executada.
 ```js
 function digaOi(){
     return 'Oi'
