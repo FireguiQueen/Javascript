@@ -27,7 +27,7 @@ Javascript possui apenas um único operador condicional, ele é um operador tern
 Operadores ternários recebem três operando, sendo.:
 > _condição_ ? _resultado caso condição = true_ &nbsp;&nbsp;:&nbsp;&nbsp; _resultado caso condição = false_
 
-O operador de condição é representado pelo caractere _?_. </br>
+O operador de condição é representado pelo caractere '_?_'. </br>
 E ele funciona basicamente como uma interrogação na vida real. </br>
 Nós iremos perguntar se a condição é falsa ou verdadeira, caso seja verdadeira, excute o primeiro operando a direita. Caso seja falsa, excute o segundo operando a direita.
 
