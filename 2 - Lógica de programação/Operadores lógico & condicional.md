@@ -132,6 +132,8 @@ console.log(nacionalidade === 'brasil' && idade >= 18? 'Você pode comprar' : 'V
 const anosTreinando = 1;
 const peso = 90;
 
-// Abaixo, apenas uma das expressões é verdade (pois o peso é acima de 87), mas como estamos usando o operador ||, apenas uma das expressões abaixo precisa ser "true". Sendo assim, teremos 'Você pode comprar os comprimidos' como resultado. 
+// Abaixo, apenas uma das expressões é verdade, pois os anos de treinam não ultrapassem de dois anos, mas o peso é acima de 87. Como estamos usando o operador ||, apenas uma das expressões abaixo precisa ser "true". 
+
+// Sendo assim, teremos 'Você pode comprar os comprimidos' como resultado. 
 console.log(anosTreinando >= 2 || peso > 87? 'Você pode comprar os comprimidos' : 'Você não pode comprar!');
 ```
