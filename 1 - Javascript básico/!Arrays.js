@@ -1,8 +1,8 @@
 //                      O QUE SÃO ARRAYS
 /* 
     Arrays são estruturas de dados usadas em JavaScript para armazenar e acessar coleções de 
-    valores de forma organizada. Um array é uma lista ordenada de elementos que podem ser números, strings, 
-    objetos ou outros arrays.. 
+    valores de forma organizada. Um array é uma lista ordenada de elementos que podem ser números, 
+    strings, objetos ou outros arrays.. 
     -> Em suma, um array é uma lista e pode armazenar qualquer outro tipo de dado.
     
     Cada elemento é identificado por um índice, que começa em 0 para o 
