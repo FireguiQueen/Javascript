@@ -163,7 +163,7 @@ const nome = 'Guilherme'
 console.log(idade && nome && digaOi());
 ```
 
-Abaixo estão alguns exemplos de console.log() com comentários mostrando o resultado que seria impresso no console.
+Abaixo estão alguns exemplos de `console.log()` com comentários mostrando o resultado que seria impresso no console.
 ```js
 console.log(null && true && true);
 // null (pois null resulta em false, e quando é encontrado false, a expressão é printada)
