@@ -1,13 +1,13 @@
-const date = new Date;
-const hour = date.getHours();
+const date = new Date
+const currentTime = date.getHours();
 
-if(hour >= 00 && hour < 04){
-    console.log('Boa madrugada');
+if(currentTime >= 00 && currentTime < 04){
+    console.log('Boa madrugada!');
 } 
-else if(hour >= 04 && hour < 12){
+else if(currentTime >= 04 && currentTime < 12){
     console.log('Bom dia!');
 } 
-else if(hour >= 12 && hour < 18){
+else if(currentTime >= 12 && currentTime < 18){
     console.log('Boa tarde!');
 } 
 else {
