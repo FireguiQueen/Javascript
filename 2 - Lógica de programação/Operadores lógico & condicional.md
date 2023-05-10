@@ -162,3 +162,16 @@ const nome = 'Guilherme'
 // Como a idade e o nome são expressões do tipo "true", ele passou para a próxima expressão (que é uma função), e como ela foi a última expressão, ele irá executar ela.
 console.log(idade && nome && digaOi());
 ```
+
+Abaixo estão alguns exemplos de console.log() com comentários mostrando o resultado que seria impresso no console.
+```js
+console.log(null && true && true);
+// null (pois null resulta em false, e quando é encontrado false, a expressão é printada)
+
+console.log(true && 'Olá');
+// 'Olá' (pois é uma string que possui caracteres, e como foi a última expressão, ela será printada)
+
+
+console.log(undefined && 0);
+// undefined (pois undefined é considerado false neste contexto, e assim que o Javascript detecta uma expressão false, ela é printada)
+```
