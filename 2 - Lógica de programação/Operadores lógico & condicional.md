@@ -150,7 +150,7 @@ Mas saiba que é possível fazer condicionais usando somente operadores lógicos
 
 
 * Quanto utilizamos o `&&`, temos o seguinte padrão.:
-> O Javascript vai analisar a expressão, se ela for verdadeira, ele irá ir para a próxima e assim por diante. Mas caso ele encontre uma expressão que resulta em 'false', ele irá printar ela. E haja somente expressões "true", ele irá printar a última expressão do tipo 'true'. 
+> Como o operador `&&` precisa analisar __todas__ as expressões, o Javascript vai analisar a expressão, se ela for verdadeira, ele irá ir para a próxima e assim por diante. Mas caso ele encontre uma expressão que resulta em 'false', ele irá printar/executar ela. 
 ```js
 function digaOi(){
     return 'Oi'
@@ -159,6 +159,6 @@ const idade = 21;
 const nome = 'Guilherme'
 
 // Cada vez que uma expressão é considerada "true", o javascript passa para a próxima expressão.
-// Como a idade e o nome são expressões do tipo "true".
+// Como a idade e o nome são expressões do tipo "true", ele passou para a próxima expressão (que é uma função), e como ela foi a última expressão, ele irá executar ela.
 console.log(idade && nome && digaOi());
 ```
