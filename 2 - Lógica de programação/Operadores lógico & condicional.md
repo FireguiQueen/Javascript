@@ -175,3 +175,20 @@ console.log(true && 'Olá');
 console.log(undefined && 0);
 // undefined (pois undefined é considerado false neste contexto, e assim que o Javascript detecta uma expressão false, ela é printada)
 ```
+
+</br>
+
+* Quanto utilizamos o `||`, temos o seguinte padrão.:
+> Como o operador `||` necessita que apenas uma das expressões seja "true". Assim que ele encontrar uma expressão do tipo "true" ele irá printar ela. E é isto que o difere do operador `&&`, pois enquanto o `&&` precisa analisar todas as expressões, o operador `||` só precisa encontrar uma expressão que seja 'true'. Vale lembrar que, mesmo as outras expressões sendo do tipo 'true', o Javascript só irá printar/executar a primeira expressão 'true' que ele ver.
+
+Abaixo estão alguns exemplos de `console.log()` com comentários mostrando o resultado que seria impresso no console.
+```js
+console.log(false || true);
+// true 
+
+console.log('' || 'Gui');
+// 'gui'
+
+console.log(20 || undefined);
+// 20
+
