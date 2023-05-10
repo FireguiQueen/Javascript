@@ -160,4 +160,7 @@ function digaOi(){
 const idade = 18;
 const nome = 'Guilherme'
 
+// Como a idade e o nome são expressões consideradas "true", ele irá ir para a próxima expressão.
+// Que na verda é uma função, e como ela é a última expressão true, ela será retornada no console.
 console.log(idade && nome && digaOi());
+```
