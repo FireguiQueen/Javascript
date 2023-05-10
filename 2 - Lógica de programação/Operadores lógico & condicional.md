@@ -151,7 +151,8 @@ No exemplo abaixo temos a seguinte situação: a _idade_ da pessoa e o _nome_ de
 Como sabemos números acima de 0, e strings que possum caracteres são consideradas `true`.
 E por isso nossa função será executada, pois neste momento, o Javascript estará percorrendo todas as 3 expressões (idade - nome - Digaoi()). E por padrão, ele retorna o último valor do tipo verdadeiro.
 
-Caso o valor da constante nome fosse do tipo false, a nossa função não seria executada.
+Quanto utilizamos o `&&`, temos o seguinte padrão.:
+> O Javascript vai analisar a expressão, se ela for verdadeira, ele irá ir para a próxima e assim por diante. Mas caso ele encontre uma expressão que resulta em 'false', ele irá printar ela. 
 ```js
 function digaOi(){
     return 'Oi'
