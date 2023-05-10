@@ -148,20 +148,17 @@ Como vimos anteriormente, em situações simples, é possível substituir o `if`
 
 Mas saiba que é possível fazer condicionais usando somente operadores lógicos e sem usar este operador ternário _(?)_.
 
-No exemplo abaixo temos a seguinte situação: a _idade_ da pessoa e o _nome_ dela.
-Como sabemos números acima de 0, e strings que possum caracteres são consideradas `true`.
-E por isso nossa função será executada, pois neste momento, o Javascript estará percorrendo todas as 3 expressões: `idade` - `nome` - `Digaoi()`. E por padrão, ele retorna o último valor do tipo verdadeiro.
 
-Quanto utilizamos o `&&`, temos o seguinte padrão.:
-> O Javascript vai analisar a expressão, se ela for verdadeira, ele irá ir para a próxima e assim por diante. Mas caso ele encontre uma expressão que resulta em 'false', ele irá printar ela. 
+* Quanto utilizamos o `&&`, temos o seguinte padrão.:
+> O Javascript vai analisar a expressão, se ela for verdadeira, ele irá ir para a próxima e assim por diante. Mas caso ele encontre uma expressão que resulta em 'false', ele irá printar ela. E haja somente expressões "true", ele irá printar a última expressão do tipo 'true'. 
 ```js
 function digaOi(){
     return 'Oi'
 }
-const idade = 18;
+const idade = 21;
 const nome = 'Guilherme'
 
-// Como a idade e o nome são expressões consideradas "true", ele irá ir para a próxima expressão.
-// Que na verda é uma função, e como ela é a última expressão true, ela será retornada no console.
+// Cada vez que uma expressão é considerada "true", o javascript passa para a próxima expressão.
+// Como a idade e o nome são expressões do tipo "true".
 console.log(idade && nome && digaOi());
 ```
