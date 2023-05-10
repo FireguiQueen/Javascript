@@ -144,12 +144,13 @@ console.log(anosTreinando >= 2 || peso > 87? 'Você pode comprar os comprimidos'
 ___________________________________________________
 
 ## Curiosidade
-Como vimos anteriormente, em situações simples, é possível eliminar o `ìf` e  `else` usando o perador ternário `?`, e com ele, podemos fazer funções serem executadas caso a condição seja verdadeira, e caso seja falsa, não executar nenhuma função.
+Como vimos anteriormente, em situações simples, é possível substituir o `ìf` e `else` usando o perador ternário `?`. Com este operador podemos fazer funções serem executadas caso a condição seja verdadeira, e caso seja falsa, não executar nenhuma função.
 
-Mas saiba que é possível fazer condicionais usando somente operadores lógicos (não significa que seja recomendado fazer isto). 
+Mas saiba que é possível fazer condicionais usando somente operadores lógicos e sem usar este operador ternário _(?)_.
+
 No exemplo abaixo temos a seguinte situação: a _idade_ da pessoa e o _nome_ dela.
 Como sabemos números acima de 0, e strings que possum caracteres são consideradas `true`.
-E por isso nossa função será executada, pois neste momento, o Javascript estará percorrendo todas as 3 expressões (idade - nome - Digaoi()). E por padrão, ele retorna o último valor do tipo verdadeiro.
+E por isso nossa função será executada, pois neste momento, o Javascript estará percorrendo todas as 3 expressões: `idade` - `nome` - `Digaoi()`. E por padrão, ele retorna o último valor do tipo verdadeiro.
 
 Quanto utilizamos o `&&`, temos o seguinte padrão.:
 > O Javascript vai analisar a expressão, se ela for verdadeira, ele irá ir para a próxima e assim por diante. Mas caso ele encontre uma expressão que resulta em 'false', ele irá printar ela. 
