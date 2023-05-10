@@ -143,7 +143,7 @@ console.log(anosTreinando >= 2 || peso > 87? 'Você pode comprar os comprimidos'
 
 ___________________________________________________
 
-## Curiosidade
+## Short-circuit
 Como vimos anteriormente, em situações simples, é possível substituir o `if` e `else` usando o perador ternário `?`. Com este operador podemos fazer funções serem executadas caso a condição seja verdadeira, e caso seja falsa, não executar nenhuma função.
 
 Mas saiba que é possível fazer condicionais usando somente operadores lógicos e sem usar este operador ternário _(?)_.
