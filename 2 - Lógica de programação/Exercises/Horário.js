@@ -1,3 +1,7 @@
+/* Pegue o horário atual e dependendo do horário, printe uma mensagem no console, 
+   dizendo boa madrugada, bom dia, boa tarde ou boa noite
+*/
+
 const date = new Date
 const currentTime = date.getHours();
 
