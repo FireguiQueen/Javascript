@@ -7,13 +7,24 @@
     <link href="./assets/CSS/style.css" rel="stylesheet" type="text/css"/> 
     <link href="./assets/IMG/favicon-halter.png" rel="icon" type="image/x-icon"/> 
     
+    <!-- Fonte(s)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+
     <title>IMC - Calc </title>
 </head>
 <body>
     <main> 
         <section id="informação-output">
             <table>
-
+                <thead>
+                    <tr>
+                        <th>IMC</th>
+                        <th>Resultado </th>
+                    </tr>
+                </thead>
             </table>
 
         </section>
@@ -24,13 +35,13 @@
                 <fieldset id="capturar-dados"> 
                     <legend>Calcular IMC </legend>
                     <label>
-                        <div class="peso_altura"> Altura </div> 
                         <input placeholder="Sua altura" id="altura" type="number"/>
+                        <div class="peso_altura"> Altura </div> 
                     </label>
                     
                     <label>
-                        <div class="peso_altura">Peso</div> 
                         <input placeholder="Seu peso" id="peso" type="number"/>
+                        <div class="peso_altura">Peso</div> 
                     </label>
                 </fieldset>
 
