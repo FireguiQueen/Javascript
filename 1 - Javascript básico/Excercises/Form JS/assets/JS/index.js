@@ -27,4 +27,5 @@ formulario.addEventListener('submit', function(evento){
     document.getElementById('resultado').innerHTML = `
     Seu nome é ${nome}, e seu IMC é.: ${imc.toFixed(0)}
     `
+     
 })
