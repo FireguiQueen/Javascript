@@ -19,6 +19,7 @@
     <main> 
         <section id="informação-output">
             <table>
+                <caption>Como funciona </caption>
                 <thead>
                     <tr>
                         <th>IMC</th>
@@ -26,27 +27,27 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th>Menos do que 18,5</th>
+                    <tr id="abaixo">
+                        <th>Menor que 18,5</th>
                         <th>Abaixo do peso</th>
                     </tr>
-                    <tr>
+                    <tr id="normal">
                         <th>Entre 18,5 e 24,9</th>
                         <th>Peso normal</th>
                     </tr>
-                    <tr>
+                    <tr id="sobrepeso">
                         <th>Entre 25 e 29,9</th>
                         <th>Sobrepeso</th>
                     </tr>
-                    <tr>
+                    <tr id="obesidadeI">
                         <th>Entre 30 e 34,9</th>
                         <th>Obesidade grau I</th>
                     </tr>
-                    <tr>
+                    <tr id="obesidadeII">
                         <th>Entre 35 e 39,9</th>
                         <th>Obesidade grau II</th>
                     </tr>
-                    <tr>
+                    <tr id="obesidadeIII">
                         <th>Mais do que 40</th>
                         <th>Obesidade grau III</th>
                     </tr>
@@ -64,16 +65,16 @@
                 <fieldset id="capturar-dados"> 
                     <legend>Calcular IMC </legend>
                     <label>
-                        <input placeholder="Sua altura" id="altura" type="number"/>
+                        <input required placeholder="Sua altura" id="altura" type="number" step="0.01"/>
                         <div class="peso_altura"> Altura </div> 
                     </label>
                     
                     <label>
-                        <input placeholder="Seu peso" id="peso" type="number"/>
+                        <input required placeholder="Seu peso" id="peso" type="number"/>
                         <div class="peso_altura">Peso</div> 
                     </label>
+                    <input type="submit" value="C A L C U L A R" />
                 </fieldset>
-
                 
             </form>
 
