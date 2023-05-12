@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(25, 25, 55), rgba(23, 23, 23, 0.963));
+
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+main{
+    background-color:antiquewhite;
+    width: 25%;
+    height: fit-content;
+}
+
+form{
+    border: 1px solid red;
+    padding: 10px;
+}
+legend{
+    font-size: xx-large;
+    letter-spacing: 1.8px;
+    word-spacing: 3px;
+}
+
+fieldset{
+    border: 1px solid rgb(0, 255, 47);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: none;
+    text-align: center;
+}
+label{
+    border: 1px solid blue;
+    text-align: left;
+}
+
+input{
+    height: 35px;
+    width: 100%;
+    padding-left: 3px;
+}
+
+.peso_altura{
+    font-size: larger;
+    letter-spacing: 3px;
+}
