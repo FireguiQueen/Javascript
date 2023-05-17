@@ -12,6 +12,7 @@
 */
 
 
+
 //                      FAZENDO UM ARRAY
 // Indices:     0       1        2
 let pessoas = ['Pablo', 'Flora', 'Nathalia'];
