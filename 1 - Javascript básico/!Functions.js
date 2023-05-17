@@ -14,6 +14,8 @@
 */
 
 
+
+
 //                              ENTENDENDO UMA FUNÇÃO
 /*
     Primeiramente nós declaramos uma função utilizando a keyword "function".
@@ -24,6 +26,7 @@
     Os parâmetros são como variáveis vazias, que terão seus valores atrubuidos quando invocarmos uma função.
     E assim que o parâmetro receber um valor, ele irá passar para o código que está no corpo da função.
 */
+
 
 
 //                              ENTENDENDO O QUE É UM MÉTODO
@@ -60,7 +63,6 @@ console.log(pessoa_01.saudacao());
 
 
 
-
 //  FUNCTION DECLARATION
 
 function saudacao(nome){         // declarando a função e um parâmetro;
@@ -86,7 +88,7 @@ saudacao('Otávio');  // invocando a função e passando o argumento para substi
 
 
 
-    
+
 //  ARROW FUNCTION
 
 /*
