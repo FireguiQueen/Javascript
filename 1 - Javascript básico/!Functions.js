@@ -22,7 +22,7 @@
     Não somos obrigados a colocar nada nestes parêntesis, mas o que colocamos são chamados de "parâmetros".
     
     Os parâmetros são como variáveis vazias, que terão seus valores atrubuidos quando invocarmos uma função.
-    E assim que o parâmetro receber um valor, ele irá passar para o código que está no corpo da função
+    E assim que o parâmetro receber um valor, ele irá passar para o código que está no corpo da função.
 */
 
 
@@ -60,7 +60,9 @@ console.log(pessoa_01.saudacao());
 
 
 
-// FUNCTION DECLARATION
+
+//  FUNCTION DECLARATION
+
 function saudacao(nome){         // declarando a função e um parâmetro;
     console.log(`Olá, ${nome}`); // corpo da função (o que ela irá fazer quando for invocada);
 }                
@@ -83,6 +85,16 @@ saudacao('Otávio');  // invocando a função e passando o argumento para substi
     console.log(soma(1,2))
 
 
+
+    
+//  ARROW FUNCTION
+
+/*
+    - Quando há somente um parâmetro, os parêntesis não são obrigatórios;
+    - Quando há somente uma linha de código no corpo da função, as chaves e nem "return" são necessários
+*/
+const digaOi = name => `Oi ${name}.`
+console.log(digaOi('Guilherme'));
 
 
 
@@ -107,13 +119,7 @@ sum() // 0
 
 
 
-// ARROW FUNCTION
-/*
-    - Quando há somente um parâmetro, os parêntesis não são obrigatórios
-    - Quando há somente uma linha de código no corpo da função, as chaves e nem "return" são necessários
-*/
-const digaOi = name => `Oi ${name}.`
-console.log(digaOi('Guilherme'));
+
 
 
 
