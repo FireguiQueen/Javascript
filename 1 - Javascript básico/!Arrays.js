@@ -96,3 +96,11 @@ const usernames = ['FireguiQueen', 'x_2KB', 'kovadetha', 'MaeCareca_', 'Darkness
 
 // Agora vamos supor que queremos os itens: x_2KB, kovadetha e MaeCareca_
 console.log(usernames.slice(1, 4)); // colocamos o indice "4" pois o último elemento não é incluido
+
+
+/* Em resumo
+O segundo argumento do método slice em JavaScript representa o índice exclusivo 
+do elemento final que você deseja incluir na nova fatia do array. Isso significa que o índice 
+especificado no segundo argumento não é adicionado, mas sim o elemento anterior 
+a ele é incluído na fatia resultante.
+*/
