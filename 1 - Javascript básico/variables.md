@@ -102,3 +102,4 @@ const myEmail; // Isto resultará em erro.
 myEmail = 'fireguiquenbr@gmail.com';
 ```
 No entanto, é importante notar que, embora uma constante não possa ser reatribuída, se o valor atribuído a ela for um objeto ou um array, as propriedades e elementos desse objeto ou array podem ser modificados, afinal NÃO estamos alterando o valor original da constante, e sim um valor do valor original.
+
