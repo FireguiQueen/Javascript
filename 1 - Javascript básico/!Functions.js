@@ -28,7 +28,6 @@
 */
 
 
-
 //                              ENTENDENDO O QUE É UM MÉTODO
 /*
     Um método é apenas uma função que pertence a um objeto, nada além disso.
