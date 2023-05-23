@@ -51,7 +51,6 @@ console.log(pessoas);
 
 
 
-
 //                   ADICIONANDO UM OU MAIS ITENS AO INÍCIO DO ARRAY
 // Usamos "unshift" pois é o contrário de "shift". "Shift" significa mudança, mudança relacionada a remoção de um item
 pessoas.unshift('Aline');
