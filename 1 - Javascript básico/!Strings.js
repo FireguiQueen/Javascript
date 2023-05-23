@@ -117,7 +117,6 @@ console.log(frase_5.split('a'))
 // *********************************************************************************
 
 
-
 // ToUpperCase() & toLowerCase()
 /*
     ToUpperCase() deixa sua string em maíuscula, e toLowerCase() deixa em minúscula.
