@@ -15,7 +15,7 @@ Já valores são os dados que realmente ficam salvos na memória e sustentam det
 </br> 
 Valores mutáveis são estruturas de dados mais complexas que sustentam outros valores ou comportamentos internamente. Como é o caso do array, que pode ser composto por vários outros tipos de dados.
 
-Em suma não podemos fazer isto pois constantes não permitem reatribuições diretas e de valores primitivos.:
+Não podemos fazer isto pois constantes não permitem reatribuições diretas e de valores primitivos:
 ```js
 const pessoa = "Flora";
 pessoa = "Julia"; 
