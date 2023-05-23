@@ -95,3 +95,5 @@ que têm algumas limitações em relação à precisão.
 No entanto, observe que esse valor é muito próximo do resultado correto e 
 pode ser arredondado para 0.8 com o uso do método "toFixed()" ou usando "Math.round()".
 */
+
+
