@@ -13,7 +13,7 @@ Todos sabemos que, a partir do momento que definimos uma variável usando `const
 Porém, existe uma diferença entre variável e valor. Variáveis são como apelidos para um valor, como se fosse uma pequena caixa, e se a caixa se chama "nome", esta caixa possivelmente armazena um nome. </br>
 Já valores são os dados que realmente ficam salvos na memória e sustentam determinado tipo. Alguns tipos de valores são imutáveis, como number, string, boolean, undefined, null, symbol e bigint (todos os primitivos são imutáveis). Outros tipos são mutáveis, como arrays e objetos 
 </br> 
-Valores mutáveis geralmente são estruturas de dados mais complexas que sustentam outros valores ou comportamentos internamente. Como é o caso do array, que pode ser composto por vários outros tipos de dados.
+Valores mutáveis são estruturas de dados mais complexas que sustentam outros valores ou comportamentos internamente. Como é o caso do array, que pode ser composto por vários outros tipos de dados.
 
 Em suma não podemos fazer isto pois constantes não permitem reatribuições diretas e de valores primitivos.:
 ```js
