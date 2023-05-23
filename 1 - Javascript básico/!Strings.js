@@ -61,6 +61,7 @@ let frase = "Ele é uma pessoa muito legal"
 console.log(frase[2])
 
 
+
 // Podemos saber o indice de determinada palavra usando indexOf.
 console.log(frase.indexOf('pessoa')) // "pessoa" está no número 10  (pois o 'p' começa no indice 10).
 
