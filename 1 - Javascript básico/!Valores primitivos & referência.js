@@ -88,7 +88,6 @@ console.log(alunoGustavo == true? 'Parabéns, Gustavo' : 'Você foi reprovado');
 //******************************************************************************** */
 
 
-
 //                              VALORES POR REFERÊNCIA
 /*  
     Valores por referência (Arrays, functions & objects) são valores que são atribuídos a uma variável e são armazenados 
@@ -104,6 +103,7 @@ console.log(alunoGustavo == true? 'Parabéns, Gustavo' : 'Você foi reprovado');
     outros valores por referência. Afinal, é possível ter um objeto dentro de outro objeto, é possível
     ter um objeto dentro de um array.. E assim por diante.
 */
+
 
 
 
