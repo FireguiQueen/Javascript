@@ -32,11 +32,13 @@ const num4 = 7.5
 console.log(Math.floor(num4))
 
 
+
 //                            ARREDONDANDO PARA CIMA (objeto: Math)  
 // 'ceil()' é usado para arredondar um número para cima para o próximo número inteiro.
 // "Ceil" significa "teto". Sendo assim, é como se o número arredondado fosse o teto do número original.
 const num5 = 1.3
 console.log(Math.ceil(num5))
+
 
 //                 ARREDONDANDO UM NÚMERO QUEBRADO PARA O NÚMERO INTEIRO MAIS PRÓXIMO
 // 'round()' é usado para arredondar um número quebrado para o número inteiro mais próximo.
