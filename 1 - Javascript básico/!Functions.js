@@ -102,7 +102,7 @@ console.log(digaOi('Guilherme'));
 
 /* 
     - É função anônima imediatamente executada
-    - É obrigatório o código anterior a esta função possui ponto e vírgula (;)
+    - É obrigatório o código anterior a esta função possuua ponto e vírgula (;)
     - '()' previne o acesso externo às variáveis declaradas na IIFE, bem como evita que estas variáveis locais poluam o escopo global.
 */
 console.log('oi'); // neste caso, o ponto e vírgula são obrigatórios
