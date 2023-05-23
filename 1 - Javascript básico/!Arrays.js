@@ -84,7 +84,6 @@ console.log(nomes);
 
 
 
-
 //                          PEGANDO INDICES DESEJADOS
 // Useremos o "slice". Vamos "fatiar" quais itens do array nós queremos.
 // Indices:        0               1        2            3             4
