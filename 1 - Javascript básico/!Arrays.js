@@ -58,10 +58,10 @@ console.log(pessoas)
 
 
 
+
 //                  REMOVENDO UM ITEM DO INÍCIO DO ARRAY
 pessoas.shift();
 console.log(pessoas);
-
 
 
 
