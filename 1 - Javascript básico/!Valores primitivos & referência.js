@@ -130,6 +130,7 @@ console.log(personagem[0], personagem) // perceba que o valor primitivo não foi
 
 
 
+
 //                                      CÓPIAS 
 /*
     Quando dizemos que uma variável irá receber o valor PRIMITIVO de outra variável,
