@@ -33,7 +33,6 @@ const frase_2 = "This is not meth";
 console.log(`A frase "${frase_2}" é do Breaking Bad, minha série favorita!`);
 
 
-
 /*
     Vamos supor que, por algum motivo, você precise fazer uma string com aspas duplas e 
     nesta mesma string, você também irá precisar colocar aspas duplas
