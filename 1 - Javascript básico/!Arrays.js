@@ -24,7 +24,6 @@ console.log(pessoas[0]);
 
 
 
-
 //                     QUANTANDO QUANTOS ITENS O ARRAY POSSUI
 console.log(pessoas.length);
 
