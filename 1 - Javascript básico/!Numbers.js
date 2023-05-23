@@ -62,7 +62,6 @@ console.log(Math.min(200, 100, 50, 125));
 
 
 
-
 //                               IEEE 754-2008
 /*
 Em JavaScript (e em muitas outras linguagens de programação), o armazenamento de números em 
