@@ -1,3 +1,5 @@
-const test = document.querySelector('body main label input').value;
+const form = document.querySelector('body main form');
 
-console.log(test.length);
+form.addEventListener('submit', function(e){
+    e.preventDefault();
+});
