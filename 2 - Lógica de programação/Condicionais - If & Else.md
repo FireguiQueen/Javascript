@@ -6,7 +6,7 @@ Podemos imaginar que as estruturas condicionais no mundo da programação são b
 
 ## Exemplo 01
 Vamos imaginar uma condicional na vida real e transformá-la em código.
-Em suma, _SE_ o tempo estiver bom, você irá dizer "Eu vou para a praia", _SE NÃO_ você irá dizer "ficarei em casa". 
+> _SE_ o tempo estiver bom, você irá dizer "Eu vou para a praia", _SE NÃO_ você irá dizer "ficarei em casa". 
 
 ```js
 let timeIsGood = true;
@@ -26,9 +26,9 @@ Mas e se você precissase colocar mais condicionais? </br>
 Por exemplo: Se o tempo estiver com sol, você irá ir para a praia. Se o tempo estiver nublado, você irá ir para a praia, porém, se estiver chovendo, você não irá ir. 
 </br>
 
-Neste caso, devemos utilizar o `else if`. Não somos obrigados a utilizá-lo, mas fazer uma estrutura condicional usando apenas o if é uma péssima ideia. Isso ocorre porque, mesmo que a primeira condição seja verdadeira, o JavaScript continuará analisando as outras condições, o que não é eficiente e pode causar problemas de desempenho.
+Neste caso, devemos utilizar o `else if`. Não somos obrigados a utilizá-lo, mas fazer uma estrutura condicional usando apenas o if é uma péssima ideia.. Isto porque, mesmo que a primeira condição seja verdadeira, o JavaScript continuará analisando as outras condições que são `if`, o que não é eficiente e pode causar problemas de desempenho.
 
-Quando usamos o `else if`, significa que, se o primeiro if for verdadeiro, o JavaScript não verificará a condição presente no else if.
+Em suma, quando usamos somente `if` o Javascript irá analisar todos os 'ifs', independente se o 'if' anterior for verdadeiro. Por isso usamos do `else if`, caso ele seja verdadeira, os próximos 'else ifs' não serão analisados.
 
 * Como nosso código será interpretado utilizando apenas if 
 ```js
