@@ -15,7 +15,12 @@ form.addEventListener('submit', function(e){
 
 
 function takeInformations(name, age, country, email){
-
+    return{
+        name,
+        age,
+        country,
+        email
+    }
 }
 
 // Limpa os valores colocados pelo usuário
