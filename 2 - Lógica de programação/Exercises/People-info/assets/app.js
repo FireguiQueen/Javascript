@@ -7,10 +7,10 @@ form.addEventListener('submit', function(e){
     e.preventDefault();
 
 
-    const input1 = document.querySelector('input')[0].value;
-    const input2 = document.querySelector('input')[1].value;
-    const input3 = document.querySelector('input')[2].value;
-    const input4 = document.querySelector('input')[3].value;
+    const input1 = document.querySelector('input[0]').value;
+    const input2 = document.querySelector('input[1]').value;
+    const input3 = document.querySelector('input[2]').value;
+    const input4 = document.querySelector('input[3]').value;
     people.push(takeInformations(input1, input2, input3, input4));
 
     clearInputs();
