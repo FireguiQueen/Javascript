@@ -16,7 +16,7 @@ form.addEventListener('submit', function(e){
     clearInputs();
 });
 
-
+// Captura informações da pessoa
 function takeInformations(name, age, country, email){
     return{
         name,
