@@ -44,8 +44,8 @@ console.log(`A frase "${frase_2}" é do Breaking Bad, minha série favorita!`);
 console.log("Ele me disse \"Deseja crecer? Coma, não importe o que for, apenas coma\"  ")
 
 
-
 // *********************************************************************************
+
 
 /*
     Strings são objetos iteráveis.
