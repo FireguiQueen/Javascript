@@ -26,7 +26,7 @@ console.log(Number.isNaN(num3))
 
 //                            ARREDONDANDO PARA BAIXO (objeto: Math)  
 // 'floor()' é usado para arredondar um número para baixo para o próximo número inteiro.
-// "Floor" significa "chão/piso". Sendo assim, é como se o número arredondando fosse o "chão" do número original.
+// "Floor" significa "chão/piso". Sendo assim, é como se o número mais baixo fosse o chão, e estamos arredondando até ele.
 const num4 = 7.5
 console.log(Math.floor(num4))
 
