@@ -6,8 +6,8 @@ console.log(num1.toFixed(2)) // dentro dos parentesis colacamos quantas casas qu
 
 
 //                              VERIFICANDO SE O NÚMERO É INTEIRO
-// Acessamos o objeto "number", depois acessamos o método "isInteger" e colocamos qual valor
-// queremos saber se é inteiro ou não. 
+// Acessamos o objeto "number", depois acessamos o método "isInteger" e passamos como argumento
+// qual valor que queremos saber se é do tipo inteiro ou não.
 const num2 = 7
 console.log(Number.isInteger(num2));
 
