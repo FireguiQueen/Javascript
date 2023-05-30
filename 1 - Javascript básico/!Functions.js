@@ -1,8 +1,9 @@
 //  O QUE É UMA FUNÇÃO
 /*
-    Uma função é como se fosse um sub-programa dentro de um programa.
-    Através dela podemos fazer com que o nosso programa excute determinada ação ou retorne 
-    algum valor. Algumas das vantagens de se utilizar funções.:
+    Uma função é como se fosse um sub-programa dentro do programa principal.
+    Através dela, podemos fazer com que o nosso programa excute determinada ação ou retorne 
+    algum valor. 
+    Algumas das vantagens de se utilizar funções.:
 
     Reutilização de código: As funções permitem que você escreva um bloco de código que pode ser reutilizado várias vezes em diferentes partes do seu programa. Isso pode economizar muito tempo e esforço, além de tornar seu código mais modular e organizado.
 
@@ -12,7 +13,6 @@
 
     Escopo: As funções têm seu próprio escopo, o que significa que as variáveis ​​definidas dentro de uma função não afetam as variáveis ​​definidas fora dela. Isso ajuda a evitar conflitos e erros no seu código.
 */
-
 
 
 
