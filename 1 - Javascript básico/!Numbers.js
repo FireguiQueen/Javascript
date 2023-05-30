@@ -66,11 +66,11 @@ console.log(Math.min(200, 100, 50, 125));
 --> Institute of Electrical and Electronics Engineers
 Em JavaScript (e em muitas outras linguagens de programação), o armazenamento de números em 
 ponto flutuante (números quebrados) segue o padrão IEEE 754. 
-Esse padrão define a maneira como os números quebrados são representados e operados, 
-mas pode resultar em algumas imprecisões devido às limitações de representação.
+Esse padrão define a maneira como os números quebrados são representados e operados por debaixo dos panos.. 
+Mas o mesmo pode resultar em algumas imprecisões devido às limitações de representação.
 
 Se somarmos '0.1' e '0.7' o resultado correto seria 0.8
-Mas em JavaScript, o resultado será 0.7999..  
+Mas o resultado será.: 0.7999..  
 Isto ocorre devido à forma como esses números são representados em ponto flutuante. 
 
 
