@@ -82,18 +82,17 @@ console.log(frase.indexOf('pessoa', 11));
 /* 
     Slice significa "pedaço". Ou seja, iremos pedir um pedaço de determinada parte da string.
 
-    Podemos passar no mínimo um parâmetro e no máximo dois parâmetros.
-    O primeiro parâmetro usamos para escolher A PARTIR de qual indíce ele irá fatiar
-    O segundo parâmetro usamos para escolher ATÉ qual indíce ele irá fatiar.
+    Podemos passar no mínimo um argumento e no máximo dois argumentos.
+    O primeiro argumento usamos para escolher A PARTIR de qual indíce ele irá fatiar
+    O segundo argumento usamos para escolher ATÉ qual indíce ele irá fatiar.
 */  
 const frase_3 = 'You got my eyess';
 console.log(frase_3.indexOf('got')) // "got" está no indíce 4.
 console.log(frase_3.slice(4))       // Podemos informar que queremos fatiar a partir de "got"
 
-// Também podemos adicionar o segundo parâmetro, onde iremos definir até onde ele pode fatiar.
-// É importante saber que, "got" termina no indice 6, mas se colocarmos "6" no segundo parâmetro, ele irá cortar a letra "t" de "got".
+// Também podemos adicionar o segundo argumento, onde iremos definir até onde ele pode fatiar.
+// É importante saber que, "got" termina no indice 6, mas se colocarmos "6" no segundo argumento, ele irá cortar a letra "t" de "got".
 console.log(frase_3.slice(4, 7)) 
-
 
 
 // *********************************************************************************
