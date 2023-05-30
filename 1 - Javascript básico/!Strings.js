@@ -95,22 +95,27 @@ console.log(frase_3.slice(4))       // Podemos informar que queremos fatiar a pa
 console.log(frase_3.slice(4, 7)) 
 
 
+
 // *********************************************************************************
+
 
 
 // Split
 /*
     Serve para transformar nossa string em um array.
-    O verbo 'split' significa dividir, ou seja, estamos dividindo nossa string para um array.
+    O verbo 'split' significa dividir, ou seja, estamos dividindo nossos caracteres da string para um array.
     
     Podemos passar no mínimo um argumento e no máximo dois argumentos.
-    No primeiro colocamos qual caractere irá fazer esta divisão entre os itens do array.
-    No segundo colocamos quantas vezes queremos o javascript faça isso, assim que ele parar de "splitar", nossa string não será mais lida.
+    No primeiro, colocamos qual caractere irá fazer esta divisão entre os itens do array.
+    No segundo, colocamos quantas vezes queremos o javascript faça isso, assim que ele parar de "splitar", nossa string não será mais lida.
 
     Vale lembrar que o caracter escolhido sempre será excluido.
 */
+
+// Basicamente o Javascript itera por nossa string inteira, e toda vez que ele encontra o caractere 'a', ele excluir este caractere, e tudo antes dele (ao lado esquerdo) se transforma em um elemento de um array.
 const frase_5 = 'Gustavo Fring is a nice guy';
-console.log(frase_5.split('a'))
+console.log(frase_5.split('a'));
+
 
 // *********************************************************************************
 
