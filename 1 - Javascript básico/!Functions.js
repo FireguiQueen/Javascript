@@ -116,6 +116,7 @@ console.log('oi'); // neste caso, o ponto e vírgula são obrigatórios
 
 
 
+
 // DEFININDO UM VALOR PADRÃO AOS PARÂMETROS
 /*
     Vamos supor que você possua uma função de soma.
