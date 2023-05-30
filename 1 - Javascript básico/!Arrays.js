@@ -86,10 +86,10 @@ console.log(nomes);
 //                          PEGANDO INDICES DESEJADOS
 // Useremos o "slice". Vamos "fatiar" quais itens do array nós queremos.
 // Indices:        0               1        2            3             4
-const usernames = ['FireguiQueen', 'x_2KB', 'kovadetha', 'MaeCareca_', 'Darknesswarrior']
+const usernames = ['FireguiQueen', 'Chagas', 'kovadetha', 'Nius', 'Darknesswarrior', 'Alice']
 
-// Agora vamos supor que queremos os itens: x_2KB, kovadetha e MaeCareca_
-console.log(usernames.slice(1, 4)); // colocamos o indice "4" pois o último elemento não é incluido
+// Agora vamos supor que queremos os itens: Chagas, kovadetha e Nius
+console.log(usernames.slice(1, 4)); // colocamos o indice "4" pois o último elemento não é incluido (ou seja, 'darknesswarrior)
 
 
 /* Em resumo
