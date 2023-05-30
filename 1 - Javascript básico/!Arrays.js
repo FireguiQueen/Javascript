@@ -23,7 +23,7 @@ console.log(pessoas[0]);
 
 
 
-//                     QUANTANDO QUANTOS ITENS O ARRAY POSSUI
+//                     QUANTANDO QUANTOS ELEMENTOS O ARRAY POSSUI
 console.log(pessoas.length);
 
 
