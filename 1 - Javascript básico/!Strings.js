@@ -1,6 +1,6 @@
 /*
-    Em relação as aspas, aspas duplas e crase, não há NENHUMA diferença em questões de memória/eficiência.
-    Você é livre para escolher qual será utilizada, mas há um porém.
+    Em relação as aspas, aspas duplas e crase, não há NENHUMA diferença em questões de 
+    memória/eficiência. Você é livre para escolher qual será utilizada, mas há um porém.
 */
 console.log('HHM');
 console.log("HHM");
@@ -9,15 +9,15 @@ console.log(`HHM`);
 
 /* 
     Muita das vezes sua string irá precisar possuir aspas simples (''). Sendo assim,
-    você será obrigado a utilizar outro caracter para formar a string, como no exemplo abaixo.
-*/  console.log("He's a nice guy");
+    você será 'obrigado' a utilizar outro caracter para formar a string, como no exemplo abaixo.
+    Onde foi utilizado aspas duplas para criar a string, pois no texto foi feito o uso de aspas simples.
+*/  console.log(" He's a nice guy ");
 
 
 /* 
     Em outros casos, sua string irá precisar armazenar aspas duplas e aspas simples, então
-    você será obrigado a utilizar crase (``) para formar a string.
-    Pois perceba que a frase já possui aspas duplas e simples. 
-*/  console.log(`Last year he told me "I'll be rich, like a monkey"`);
+    você será 'obrigado' a utilizar crase (``) para formar a string.
+*/  console.log(` Last year he told me "I'll be rich, like a monkey" `);
 
 
 
