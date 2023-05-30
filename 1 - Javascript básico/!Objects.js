@@ -1,20 +1,24 @@
 // O QUE SÃO
 /*
     Objetos em JS são como os da vida real.
-    Pense em uma caneca. 
-    Uma caneca é um objeto, e esta mesma caneca possui diversos atributos, tais como.:
+    
+    Uma caneca é um objeto, e esta mesma caneca possui diversas propriedades, tais como.:
     cor, espessura, largura, altura, material e assim por diante..
 
-    No Javascript, também utilizamos dos objetos para acessar informações que irão possuir 
-    propriedades e os valores dessas propriedades.
+    Em Javascript, utilizamos dos objetos para acessar informações, e estas informações estão
+    armazenadas nas propriedades de objetos.
+    Por exemplo, você deseja acessar a cor de uma caneca em Javascript, você faria algo como.:
+    console.log(caneca.cor);
 
-    Nos objetos temos propriedades, valores e métodos.
-    As propriedades são os nomes dos atributos, por exemplo a palavra 'cor' é uma
-    propriedade.
-    Valores são os valores que serão dados as propriedades, por exemplo a palavra 'verde' é o valor
-    da propriedade 'cor'.
-    E por fim, os métodos são funções que estão dentro de objetos. Podemos imaginar que seria algo como.:
+    Nos objetos temos propriedades, valores destas propriedades e métodos.
+    No exemplo da caneca, a cor é uma propriedade, e seu valor pode ser qualquer um, 'verde', 'azul' e etc..
+
+    E por fim, os métodos são funções que estão dentro de objetos. 
+    Podemos imaginar que seria algo como.:
     Se você encostar na caneca, ela irá acender um LED laranja. 
+
+    E isto em Javascript, seria algo como.:
+    caneca.acenderLed();
 */
 
 const pessoa_01 = {         // Utilize chaves '{}' para inicializar um objeto
