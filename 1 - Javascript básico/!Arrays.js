@@ -73,7 +73,8 @@ console.log(pessoas);
     Usar o 'delete' faz com que os índices dos elementos não sejam alterados.
     Cleiton continuára sendo o índice 3. 
     E isto só ocorre pois estamos removendo o elemento, mas ele ainda irá continuar no ARRAY, porém
-    vázio.
+    vázio.. Tanto é que, se você deletar o item com o 'delete' e imprimir este item no console,
+    será retornado 'empty item'.
 */
 // Indices:    0       1        2         3    
 const nomes = ['Hugo', 'Maria', 'Gaspar', 'Cleiton'];
