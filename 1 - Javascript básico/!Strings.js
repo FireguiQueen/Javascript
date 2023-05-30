@@ -57,9 +57,9 @@ console.log("Ele me disse \"Deseja crecer? Coma, não importe o que for, apenas 
 
 // Nesta frase temos 28 caracteres. Onde 23 caracteres são letras e 5 são espaços em branco.  
 // Lembrando que sempre começamos a contar do 0. Então temos: 0 = 'E', 1 = 'l', 2 = 'e', 3 = ' '.
-// Ao colocar um número nos colchetes, estamos pedindo qual caractere está naquele índice. 
 let frase = "Ele é uma pessoa muito legal"
-console.log(frase[2])
+console.log(frase[2]); // pedindo qual caractere está neste índice. 
+
 
 
 
