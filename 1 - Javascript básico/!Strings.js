@@ -75,8 +75,8 @@ console.log(frase.indexOf('pessoa', 10))
 console.log(frase.indexOf('pessoa', 11));
 
 
-
 // *************************************************************
+
 
 // Slice
 /* 
