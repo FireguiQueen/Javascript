@@ -100,7 +100,7 @@ console.log(frase_3.slice(4, 7))
 
 // Split
 /*
-    Transformamos nossa string em um array.
+    Serve para transformar nossa string em um array.
     O verbo 'split' significa dividir, ou seja, estamos dividindo nossa string para um array.
     
     Podemos passar no mínimo um argumento e no máximo dois argumentos.
