@@ -89,7 +89,7 @@ console.log(nomes);
 const usernames = ['FireguiQueen', 'Chagas', 'kovadetha', 'Nius', 'Darknesswarrior', 'Alice']
 
 // Agora vamos supor que queremos os itens: Chagas, kovadetha e Nius
-console.log(usernames.slice(1, 4)); // colocamos o indice "4" pois o último elemento não é incluido (ou seja, 'darknesswarrior)
+console.log(usernames.slice(1, 4)); // colocamos o indice "4" pois o último elemento não é incluido (ou seja, 'darknesswarrior' não será incluso)
 
 
 /* Em resumo
