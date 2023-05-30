@@ -21,8 +21,8 @@ console.log(`HHM`);
 
 
 
-// As crases também são importantes para chamar variáveis. Usamos ${} parar chamar uma variável.
-// Ambas dão o mesmo resultado, porém tivemos menos trabalho usando as template strings (${}).
+// Com a crase, podemos invocar variáveis de uma maneira mais simples, usando ${}.
+// Ambos os métodos fazem a mesma coisa, porém temos menos trabalho ao usar as template strings (${}).
 
 // Método convencional (concatenação):
 const frase_1 = "Valar Morghulis";
