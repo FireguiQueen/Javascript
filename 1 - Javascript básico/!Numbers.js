@@ -34,7 +34,7 @@ console.log(Math.floor(num4))
 
 //                            ARREDONDANDO PARA CIMA (objeto: Math)  
 // 'ceil()' é usado para arredondar um número para cima para o próximo número inteiro.
-// "Ceil" significa "teto". Sendo assim, é como se o número arredondado fosse o teto do número original.
+// "Ceil" significa "teto". Sendo assim, é como se o número mais alto fosse o teto, e estamos arredondando até ele.
 const num5 = 1.3
 console.log(Math.ceil(num5))
 
