@@ -63,6 +63,7 @@ console.log(Math.min(200, 100, 50, 125));
 
 //                               IEEE 754-2008
 /*
+--> Institute of Electrical and Electronics Engineers
 Em JavaScript (e em muitas outras linguagens de programação), o armazenamento de números em 
 ponto flutuante (números quebrados) segue o padrão IEEE 754. 
 Esse padrão define a maneira como os números quebrados são representados e operados, 
