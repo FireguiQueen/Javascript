@@ -67,12 +67,11 @@ console.log(pessoas);
 
 //                  REMOVENDO UM ITEM ESPECÍFICO E SEM ALTERAR OS INDÍCES
 /* 
-    Por padrão, ao remover um elemento do array, o próximo elemente (ao lado direito) tomaria 
-    seu lugar, mudando seu índice e os índices dos próximos elementos. 
+    Por padrão, ao remover um elemento do array, o próximo elemento (ao lado direito) tomaria 
+    seu lugar, mudando seu índice e os índices dos próximos elementos que estão a direita. 
     
-    Fazer isto significa os índices dos elementos não serão alterados.. 
-    Cleiton continuára sendo o índice 3. E
-
+    Usar o 'delete' faz com que os índices dos elementos não sejam alterados.
+    Cleiton continuára sendo o índice 3. 
     E isto só ocorre pois estamos removendo o elemento, mas ele ainda irá continuar no ARRAY, porém
     vázio.
 */
