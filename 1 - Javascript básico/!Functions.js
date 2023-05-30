@@ -98,10 +98,13 @@ const digaOi = name => `Oi ${name}.`
 console.log(digaOi('Guilherme'));
 
 
+
+
 // IIFE (Immediately invoked function expression)
 
 /* 
     - É função anônima imediatamente executada
+    - Pode ser armazenada numa variável
     - É obrigatório o código anterior a esta função possuua ponto e vírgula (;)
     - '()' previne o acesso externo às variáveis declaradas na IIFE, bem como evita que estas variáveis locais poluam o escopo global.
 */
