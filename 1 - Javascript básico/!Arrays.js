@@ -5,9 +5,9 @@
     strings, objetos ou outros arrays (quando há arrays em uma array, chamamos de "matrizes"). 
     -> Em suma, um array é uma lista e pode armazenar qualquer outro tipo de dado.
     
-    Cada elemento é identificado por um índice, que começa em 0 para o 
-    primeiro elemento e aumenta em 1 para cada elemento subsequente. Os arrays em JavaScript são 
-    dinâmicos, o que significa que você pode adicionar e remover elementos de um array a qualquer
+    Cada elemento é identificado por um índice, que começa em 0 para o primeiro elemento e 
+    aumenta em 1 para cada elemento subsequente. Os arrays em JavaScript são dinâmicos, 
+    o que significa que você pode adicionar e remover elementos de um array a qualquer
     momento.
 */
 
@@ -15,7 +15,6 @@
 //                      FAZENDO UM ARRAY
 // Indices:     0       1        2
 let pessoas = ['Pablo', 'Flora', 'Nathalia'];
-
 
 
 
