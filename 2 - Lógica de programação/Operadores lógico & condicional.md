@@ -141,7 +141,11 @@ console.log(anosTreinando >= 2 || peso > 87? 'Você pode comprar os comprimidos'
 </br>
 
 > Vamos supor que você possua um web site que faz cálculos de adição. Neste site há dois inputs, e são neles onde o usuário irá colocar os números para fazer a soma. Mas e se o usuário colocar um caractere que NÃO seja do tipo 'number'.. Isto resultará em problemas, pois o output (a resposta do site para o usuário) será algo como.: 'NaN'. </br>
-> Neste caso, podemos fazer 
+> Neste caso, podemos fazer uma estrutura condicional. Ela irá receber um valor, e a primeira coisa que ela irá fazer, será analisar se este valor é TRUE ou FALSE através da conversão forçada pelo Javascript. Caso o usuário tenha colocado apenas números, teremos 'TRUE' como resultado. Caso ele tenha colocado um caractere, teremos 'FALSE' como resultado. 
+> Após isso, podemos fazer uso do operador lógico `!`, com ele, podemos dizer que, _se_ o valor não for true, printe uma mensagem de erro. Veja no exemplo abaixo.:
+
+```js
+
  
 </br>
 </br>
