@@ -6,6 +6,7 @@ function whatsMyIMC(yourWeight, yourHeight){
     
 } 
 
+// Funcão criada exclusivamente para calcular seu IMC
 function calcIMC(weight, height){
     const imc = weight / (height**2);
     return imc
