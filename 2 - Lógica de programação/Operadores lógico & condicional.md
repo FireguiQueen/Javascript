@@ -140,8 +140,9 @@ console.log(anosTreinando >= 2 || peso > 87? 'Você pode comprar os comprimidos'
 
 </br>
 
->
-
+> Vamos supor que você possua um web site que faz cálculos de adição. Neste site há dois inputs, e são neles onde o usuário irá colocar os números para fazer a soma. Mas e se o usuário colocar um caractere que NÃO seja do tipo 'number'.. Isto resultará em problemas, pois o output (a resposta do site para o usuário) será algo como.: 'NaN'. </br>
+> Neste caso, podemos fazer 
+ 
 </br>
 </br>
 
