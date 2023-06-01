@@ -120,7 +120,7 @@ _________________________________________________________________
 const nacionalidade = 'brasil';
 const idade = '18';
 
-// Como ambas as condições são verdadeiras (pois a nacionalidade é do brasil e a idade é igual a 18), teremos 'Você pode comprar' como resultado.
+// Como ambas as condições acima são verdadeiras (pois a nacionalidade é do brasil e a idade é igual a 18), teremos 'Você pode comprar' como resultado.
 console.log(nacionalidade === 'brasil' && idade >= 18? 'Você pode comprar' : 'Você não pode comprar');
 ```
 
