@@ -145,7 +145,7 @@ console.log(anosTreinando >= 2 || peso > 87? 'Você pode comprar os comprimidos'
 > Após isso, podemos fazer uso do operador lógico `!`, com ele, podemos dizer que, _se_ o valor não for true, printe uma mensagem de erro. Veja no exemplo abaixo.:
 
 ```js
- 
+```
  
 </br>
 </br>
