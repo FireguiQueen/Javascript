@@ -125,6 +125,7 @@ console.log(nacionalidade === 'brasil' && idade >= 18? 'Você pode comprar' : 'V
 ```
 
 </br>
+</br>
 
 > Agora vamos supor que você possua uma loja que vende testosterona em comprimidos. </br> 
 > Neste caso, você só vende para pessoas que treinam a pelo menos dois anos  OU  para pessoas que pesam acima de 87kg. </br> Então nesta situação temos duas expressões.: _anos de treino > 2 anos_ OU _peso > 87kg_.
@@ -139,8 +140,9 @@ console.log(anosTreinando >= 2 || peso > 87? 'Você pode comprar os comprimidos'
 ```
 
 </br>
+</br>
 
-Suponha que você tenha um site que realiza cálculos de adição com dois inputs, onde o usuário insere os números a serem somados. Se o usuário inserir um caractere que não seja um número, o resultado será 'NaN', o que pode causar problemas. Para lidar com isso, podemos usar uma estrutura condicional que verifica se o valor inserido é um número. Se for um número, a condição é avaliada como verdadeira. Caso contrário, é avaliada como falsa. Em seguida, podemos utilizar o operador lógico ! para exibir uma mensagem de erro caso o valor não seja verdadeiro. Veja o exemplo abaixo:
+>Suponha que você tenha um site que realiza cálculos de adição com dois inputs, onde o usuário insere os números a serem somados. Se o usuário inserir um caractere que não seja um número, o resultado será 'NaN', o que pode causar problemas. Para lidar com isso, podemos usar uma estrutura condicional que verifica se o valor inserido é um número. Se for um número, a condição é avaliada como verdadeira. Caso contrário, é avaliada como falsa. Em seguida, podemos utilizar o operador lógico ! para exibir uma mensagem de erro caso o valor não seja verdadeiro. Veja o exemplo abaixo:
 
 ```js
 const num1 = 67;
