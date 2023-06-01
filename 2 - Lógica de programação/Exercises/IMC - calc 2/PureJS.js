@@ -2,7 +2,7 @@
 
 
 function whatsMyIMC(yourWeight, yourHeight){
-    return calcIMC(yourWeight, yourHeight);
+    return calcIMC(yourWeight, yourHeight).toFixed(0);
     
 } 
 
