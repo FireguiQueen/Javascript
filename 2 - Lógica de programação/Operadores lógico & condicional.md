@@ -113,7 +113,7 @@ _________________________________________________________________
 
 ## Exemplos práticos utilizando operadores lógicos
 
-> Vamos supor que você possua uma loja que vende vinhos.
+> Vamos supor que você possua uma loja que venda vinhos.
 > Como um bom e velho patriota, você vende vinhos apenas para brasileiros que possuem 18 anos ou mais. </br> Então nesta situação temos duas expressões a _nacionalidade_ e a _idade_ da pessoa, e ambas precisam ser avaliadas para você vender o vinho para esta pessoa. 
 
 ```js
