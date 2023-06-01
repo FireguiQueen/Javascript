@@ -63,7 +63,11 @@ console.log('55' === 55);
 // output: FALSE (Este sinal analisa VALORES e TIPOS. Sendo assim, '55' não é igual a 55 do tipo number)
 ```
 
+
+
 </br>
+
+
 
 ## =! _(diferente)_
 Este sinal analisa se os operandos são diferentes. Ele não irá analisar o tipo de dado, apenas valores.
