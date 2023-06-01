@@ -147,10 +147,14 @@ console.log(anosTreinando >= 2 || peso > 87? 'Você pode comprar os comprimidos'
 ```js
 const num1 = 67;
 const num2 = 1;
+const resultado = num1 + num2
+
+// Agora, caso o usuário coloque um 'E' em algum dos valores, nosso resultado será 'NaN', sendo assim, o Javascript pega este 'NaN' e transforma ele em 'false', após isso, temos uma estrutura condincional, que pega este 'false' e transforma em 'true'.
+// E caso o resultado seja um número, o Javascript irá pegar este número, transformá-lo em 'TRUE', e nossa estrutura condicional irá fazer com que ele vire 'FALSE', fazendo com que a mensagem de erro não seja printada. 
 
 if (!num1){
-    console.log('Por favor insira um valor válido.')
-}
+    console.log('Por favor insira um valor válido.');
+};
 ```
  
 </br>
