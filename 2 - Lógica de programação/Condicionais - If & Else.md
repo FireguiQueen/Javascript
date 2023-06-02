@@ -88,4 +88,15 @@ else
 /* 
 Em estruturas que possuem bastante condicionais, sempre devemos fazer o uso de 'else if', pois assim, caso um deles seja verdadeiro, o próximo não será analisado e assim teremos mais efiência no código. Mas a partir do momento que a estrutura condicional possuir um return, e ele for verdadeiro, nenhum outro 'IF' será analisado pelo javascript, pois o anterior já foi analisado e dado como true, logo não é tão necessário utilizar do 'Else if'.  
 */
-function 
+function howManyPeople(num){
+    if(num > 10)
+        return 'Há mais de 10 pessoas'
+    if(num > 100)
+        return 'Há mais de 100 pessoas'
+    else 
+        return 'Há 10 pessoas ou menos'
+}
+console.log(howManyPeople(1))
+```
+
+}
