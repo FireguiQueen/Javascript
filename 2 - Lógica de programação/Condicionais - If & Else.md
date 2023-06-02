@@ -65,3 +65,6 @@ _______________________________________________________
 
 ### Notas
 - Quando há somente uma linha de código, as chaves não são _obrigatórias_.
+```js
+const pessoas = 1;
+if(pessoas > 10)
