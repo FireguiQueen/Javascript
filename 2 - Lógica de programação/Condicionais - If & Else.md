@@ -64,4 +64,4 @@ else{
 _______________________________________________________
 
 ### Notas
-- Quando há somente uma linha de código, as chaves não são _
+- Quando há somente uma linha de código, as chaves não são _obrigatórias_.
