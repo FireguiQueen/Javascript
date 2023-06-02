@@ -97,5 +97,10 @@ function howManyPeople(num){
         return 'Há menos de 10 pessoas'
 }
 console.log(howManyPeople(1))
+
+/*
+EM SUMA.:
+Quando uma condição é avaliada como verdadeira e há um return dentro do bloco de código correspondente, o valor é retornado e a função é encerrada. Isso significa que o código não irá avaliar as condições subsequentes.
+*/
 ```
 
