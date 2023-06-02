@@ -86,7 +86,7 @@ else
 - Em uma função que possui uma estrutura condicional com __RETURN__, o `if else` não é obrigatório 
 ```js
 /* 
-Em estruturas que possuem bastante condicionais, sempre devemos fazer o uso de 'else if', pois assim, caso um deles seja verdadeiro, o próximo não será analisado e assim 
+Em estruturas que possuem bastante condicionais, sempre devemos fazer o uso de 'else if', pois assim, caso um deles seja verdadeiro, as próximos condicionais não serão analisadas, e então
 teremos mais efiência no código. Mas a partir do momento que a estrutura condicional 
 possuir um return, e ele for verdadeiro, nenhum outro 'IF' será analisado pelo javascript, 
 pois o anterior já foi analisado e dado como true, logo não é tão necessário utilizar do 'Else if'.  
