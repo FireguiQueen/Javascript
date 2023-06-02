@@ -75,6 +75,16 @@ if(pessoasNoBarco > 10) {
 }
 
 // Chaves {} retiradas
-if(pessoasNoBarco > 10) console.log('Há mais de 10 pessoas no barco')
-else console.log('Não há mais de 10 pessoas no barco');
+if(pessoasNoBarco > 10) 
+    console.log('Há mais de 10 pessoas no barco')
+else 
+    console.log('Há 10 pessoas ou menos no barco');
 ```
+
+</br>
+
+- Em uma função que possui uma estrutura condicional com __RETURN__, o `if else` não é obrigatório 
+```js
+/* 
+Em estruturas que possuem bastante condicionais, sempre devemos fazer o uso de 'else if' a partir do momento que a estrutura condicional possuir um return, e ele for verdadeiro, nenhum outro 'IF' será analisado pelo javascript, pois o anterior já foi analisado e dado como true.  
+*/
