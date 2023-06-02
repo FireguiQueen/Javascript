@@ -1,14 +1,10 @@
-const pessoasNoBarco = 10;
-if(pessoasNoBarco > 10) console.log('Há mais de 10 pessoas no barco')
-else console.log('Há 10 pessoas ou menos no barco');
-
 
 function howManyPeople(num){
-    if(num > 10)
-        return 'Há mais de 10 pessoas'
-    if(num > 100)
-        return 'Há mais de 100 pessoas'
+    if(num >= 100)
+        return 'Há 100 ou mais pessoas'
+    if(num >= 10)
+    return 'Há 10 ou mais pessoas'
     else 
-        return 'Há 10 pessoas ou menos'
+        return 'Há menos de 10 pessoas'
 }
-console.log(howManyPeople(100));
+console.log(howManyPeople(1))
