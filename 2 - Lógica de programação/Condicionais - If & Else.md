@@ -73,3 +73,8 @@ if(pessoasNoBarco > 10) {
 } else{
     console.log('Não há mais de 10 pessoas no barco');
 }
+
+// Chaves {} retiradas
+if(pessoasNoBarco > 10) console.log('Há mais de 10 pessoas no barco')
+else console.log('Não há mais de 10 pessoas no barco');
+```
