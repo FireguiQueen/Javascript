@@ -57,3 +57,11 @@ else{
     console.log('O tempo está ruim');
 }
 ```
+
+</br>
+</br>
+
+_______________________________________________________
+
+### Notas
+- Quando há somente uma linha de código, as chaves não são _
