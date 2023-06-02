@@ -66,5 +66,10 @@ _______________________________________________________
 ### Notas
 - Quando há somente uma linha de código, as chaves não são _obrigatórias_.
 ```js
-const pessoas = 1;
-if(pessoas > 10)
+// Jeito padrão 
+const pessoasNoBarco = 52;
+if(pessoasNoBarco > 10) {
+    console.log('Há mais de 10 pessoas no barco')
+} else{
+    console.log('Não há mais de 10 pessoas no barco');
+}
