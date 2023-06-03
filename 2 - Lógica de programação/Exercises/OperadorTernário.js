@@ -7,11 +7,16 @@ const pessoa_01 = {
 }
 
 // Substitua esta estrutura condicional.:
-if(pessoa_01.idade >= 18){
-    console.log('Você é de maior.')
-} else{
-    console.log('Você é de menor.')
-}
+    if(pessoa_01.idade >= 18){
+        console.log('Você é de maior.')
+    } else{
+        console.log('Você é de menor.')
+    }
 
 // Resposta.:
-console.log(pessoa_01 >= 18? 'Você é de maior' : 'Você é de menor')
+console.log(pessoa_01 >= 18? 'Você é de maior.' : 'Você é de menor.')
+
+
+
+
+// Substitua esta estrutura.:
