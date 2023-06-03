@@ -1,0 +1,1 @@
+// Crie códigos usando o operador ternário '?' para substituir as estruturas condicionais abaixo.:
