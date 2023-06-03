@@ -22,11 +22,12 @@ console.log(pessoa_01 >= 18? 'Você é de maior.' : 'Você é de menor.')
 
 
 // Substitua esta estrutura.:
-    if(pessoa_01.idade >= 18 && pessoa_01.country.toLocaleLowerCase() === 'brazil'){
+    if(pessoa_01.idade >= 18 && pessoa_01.country.toLowerCase() === 'brazil'){
         console.log('Você pode vir a festa.')
     } else{
         console.log('Você não pode vir a festa.')
     }
 
 // Resposta.:
-const checkAgeAndCountry = peessoa_01
+const checkAgeAndCountry = (pessoa_01.idade >= 18) && (pessoa_01.country.toLowerCase() === 'brazil')
+console.log(checkAgeAndCountry? 'Você pode vir a festa' : 'Você não pode vir a festa')
