@@ -29,4 +29,4 @@ console.log(pessoa_01 >= 18? 'Você é de maior.' : 'Você é de menor.')
     }
 
 // Resposta.:
-const checkAgeAndCountry = pe
+const checkAgeAndCountry = peessoa_01
