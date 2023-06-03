@@ -14,4 +14,4 @@ if(pessoa_01.idade >= 18){
 }
 
 // Resposta.:
-console.log(pessoa_)
+console.log(pessoa_01 >= 18? 'Você é de maior' : 'Você é de menor')
