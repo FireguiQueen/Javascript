@@ -38,3 +38,13 @@ console.log(lista.slice(1, 2));
 
 
 // FUNCTIONS
+
+// crie um método 
+const caneca = {
+    cor: 'azul',
+    quebrarCaneca(){
+        return 'Você pega a caneca e joga ela no chão. Ela quebrou.'
+    }
+}
+
+console.log(caneca.quebrarCaneca())
