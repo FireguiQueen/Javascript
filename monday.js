@@ -74,3 +74,7 @@ function sum(x =0, y = 0){
 }
 console.log(sum())
 
+
+
+// verifique se é INT
+console.log(Number.isInteger(3))
