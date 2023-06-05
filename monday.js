@@ -64,4 +64,13 @@ console.log(sayHello('gui'));
 // IIFE (Imeadiatly invoked function expression)
 (name =>{
     console.log(`Olá, ${name}`)
-}) ()
+}) ('Gus')
+
+
+
+// Defina valores padrões aos argumentos 
+function sum(x =0, y = 0){
+    return x + y;
+}
+console.log(sum())
+
