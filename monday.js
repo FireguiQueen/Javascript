@@ -28,3 +28,7 @@ lista.shift()
 // remover item sem alterar os indices 
 delete lista[2]
 console.log(lista)
+
+// pegando indices desejados 
+console.log(lista.slice(1, 2));
+
