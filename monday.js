@@ -94,3 +94,10 @@ console.log(Math.floor(3.8))
 
 // pro número inteiro mais próximo
 console.log(Math.round(3.5))
+
+
+// maior número de uma sequencia
+console.log(Math.max(3, 51, 145, 2355125, 12242125, 151259058235, 9589582591235))
+
+// menor número
+console.log(Math.min(154, 59, 12, 5995, 242, 2))
