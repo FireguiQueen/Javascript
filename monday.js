@@ -19,7 +19,8 @@ lista.push('C3PO')
 lista.pop()
 
 // +1 item ao inicio 
-
-
+lista.unshift('Julia')
+console.log(lista)
 
 //-1 item ao inicio
+lista.shift()
