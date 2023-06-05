@@ -6,3 +6,8 @@ console.log(lista[1])
 
 // Conte quantos elementos há
 console.log(lista.length);
+
+
+// Altere um item
+lista[2] = 'R2D2'
+console.log(lista)
