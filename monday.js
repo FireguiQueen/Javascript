@@ -1,3 +1,5 @@
+// ARAYS
+
 // Crie um array.
 const lista = ['gui', 'flora', 'C3PO']
 
@@ -32,3 +34,7 @@ console.log(lista)
 // pegando indices desejados 
 console.log(lista.slice(1, 2));
 
+
+
+
+// FUNCTIONS
