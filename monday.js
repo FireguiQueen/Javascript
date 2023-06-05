@@ -22,4 +22,4 @@ console.log(lista)
 
 
 
-//-1 item ao incio
+//-1 item ao inicio
