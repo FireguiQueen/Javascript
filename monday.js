@@ -24,3 +24,5 @@ console.log(lista)
 
 //-1 item ao inicio
 lista.shift()
+
+// remover item sem alterar os indices 
