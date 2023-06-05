@@ -48,3 +48,9 @@ const caneca = {
 }
 
 console.log(caneca.quebrarCaneca())
+
+
+// crie uma function declaration
+function sayHi(){
+    return 'Hi'
+}
