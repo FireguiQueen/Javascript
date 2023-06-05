@@ -101,3 +101,19 @@ console.log(Math.max(3, 51, 145, 2355125, 12242125, 151259058235, 9589582591235)
 
 // menor número
 console.log(Math.min(154, 59, 12, 5995, 242, 2))
+
+
+
+// OBJECTS
+
+// Crie um objeto
+const pessoa = {
+    cor: 'Branca',
+    name: 'Julião brotheragens',
+    idade: 42,
+    sayHiToMe(me){
+        return `${this.name} falou oi para ${me} `
+    }
+}
+
+console.log(pessoa.sayHiToMe('Guilherme'))
