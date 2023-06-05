@@ -83,11 +83,14 @@ console.log(Number.isInteger(3))
 console.log(41.1414144.toFixed(2))
 
 // verifique se é NaN
-
+console.log(Number.isNaN('3'/3*'a'))
 
 
 // Arredonde pra cima
+console.log(Math.ceil(3.5))
 
 // pra baixo 
+console.log(Math.floor(3.8))
 
 // pro número inteiro mais próximo
+console.log(Math.round(3.5))
