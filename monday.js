@@ -78,3 +78,6 @@ console.log(sum())
 
 // verifique se é INT
 console.log(Number.isInteger(3))
+
+// arrume as casas decimais
+console.log(41.1414144.toFixed(2))
