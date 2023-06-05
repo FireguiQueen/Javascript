@@ -54,3 +54,14 @@ console.log(caneca.quebrarCaneca())
 function sayHi(){
     return 'Hi'
 }
+
+// arrow function
+const sayHello = name =>{
+    return `Hello, ${name}`
+}
+console.log(sayHello('gui'));
+
+// IIFE (Imeadiatly invoked function expression)
+(name =>{
+    console.log(`Olá, ${name}`)
+}) ()
