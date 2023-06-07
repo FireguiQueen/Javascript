@@ -8,8 +8,8 @@ Uma função construtora nada mais é do que um objeto em uma função.
 Este objeto irá possuir propriedades, mas não irá possuir valores.
 Os valores são definidos através dos parâmetros desta função. 
 
-Vamos supor que você seja um professor de matemática.  </br>
-Cada aluno seu será um objeto em javascript, e todos objetos irão possuir as seguintes propriedades.: 
+Vamos supor que você seja um diretor de uma escola.  </br>
+Cada aluno será cadastrado como um objeto em javascript, e todos objetos irão possuir as seguintes propriedades.: 
 - Nome
 - Idade 
 - Etnia 
@@ -53,6 +53,17 @@ const Julia = new Alunos('Julia', 15, 'Branca');
 const Paulo = new Alunos('Paulo', 15, 'Negro');
 const Pablo = new Alunos('Pablo', 15, 'Negro');
 ```
+
+</br>
+
+# New
+A palavra chave 'new' é de extrema importância, pois é ele quem define uma instância nova. Quando usamos ele, seguido pelo nome de uma função construtora, estamos criando um novo objeto com a estrutura definida pela função construtora.
+
+Lembra-se sempre do exemplo que foi dado. </br>
+Há uma estrutura chamada "Alunos", esta estrutura possui três propriedades.
+Para adicionar um novo aluno, basta você fazer uma instância, ou seja, criar um novo objeto com base na estrutura feita anteriormente. 
+E para isto, utilizaremos o "new", pois seria um "novo aluno". 
+
 
 </br>
 </br>
