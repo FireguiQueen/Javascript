@@ -34,4 +34,5 @@ console.log(data_com_ano_alterado);
 ## Alterando a data usando `String`
 ```js
 const data_com_ano_alterado = new Date('2023-06-06 22:32:21');
-console.log()
+console.log(data_com_ano_alterado);
+// output: 
