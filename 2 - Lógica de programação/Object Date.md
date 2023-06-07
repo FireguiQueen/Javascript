@@ -19,6 +19,8 @@ Cada aluno seu será um objeto em javascript, e todos objetos irão possuir as s
 Uma maneira não eficaz, seria criar um objeto novo para cada aluno.
 Invés disso, podemos pegar um objeto pronto e apenas adicionar valores a essas propriedades.
 
+</br>
+
 > Observe a diferença entre utilizar e não utilizar uma função construtora. Veja que há muito mais trabalho e repetição no código. Afinal, se todos os objetos irão _fazer uso_ das mesmas propriedades, por que não utilizar a função construtora? 
 
 ### Criando objetos de maneira normal
@@ -55,6 +57,7 @@ const Pablo = new Alunos('Pablo', 15, 'Negro');
 ```
 
 </br>
+</br>
 
 ## Resumo
-Utilizar uma função construtora, como no exemplo apresentado, é uma abordagem mais eficaz para criar objetos em JavaScript, especialmente quando há muitos objetos com as mesmas propriedades. Isso ajuda a evitar repetições de código e torna o processo de criação e manutenção dos objetos mais fácil e organizado.
+Utilizar uma função construtora, como no exemplo apresentado, é uma abordagem mais eficaz para criar objetos, especialmente quando há muitos objetos com as mesmas propriedades. Isso ajuda a evitar repetições de código e torna o processo de criação e manutenção dos objetos mais fácil e organizado.
