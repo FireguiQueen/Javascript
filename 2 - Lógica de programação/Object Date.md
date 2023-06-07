@@ -16,6 +16,8 @@ Os parâmetros deste objeto seguem esta ordem.:
 </ol>
 Logo, o primeiro argumento irá alterar o ano, o segundo irá alterar o mês e assim sucessivamente. 
 
+```js
+const data_com_ano_alterado = new Date(2020, 3)
 
 
 ```js
