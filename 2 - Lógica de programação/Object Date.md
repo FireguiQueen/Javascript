@@ -1,6 +1,7 @@
 # Date
-O Date nada mais é do que uma função construtora. 
-E através dele, podemos trabalhar com datas com extrema facilidade.
+- Nada mais é do que uma função construtora;
+- Por ser uma função construtora, usaremos o 'new' e criaremos uma variável;
+- Facilita trabalharmos com datas; 
 
 ## Entendendo os parâmetros
 Os parâmetros deste objeto seguem esta ordem.:
@@ -11,5 +12,15 @@ Os parâmetros deste objeto seguem esta ordem.:
     <li>Hour </li>
     <li>Minutes </li>
     <li>Seconds </li>
-    <li>Miliseconds </li>
+    <li>Milliseconds </li>
 </ol>
+Logo, o primeiro argumento irá alterar o ano, o segundo irá alterar o mês e assim sucessivamente. 
+
+
+
+```js
+// Utilizamos do 
+const data = new Date();
+const year = data.getFullYear();
+console.log(year);
+// output: 2023
