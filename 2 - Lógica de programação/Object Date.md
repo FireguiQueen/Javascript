@@ -16,8 +16,8 @@ Cada aluno seu será um objeto em javascript, e todos objetos irão possuir as s
 - Idade 
 - Etnia 
 
-Uma maneira não muito eficiente, seria criar um objeto novo para cada aluno.
-Mas invés disso, podemos pegar um projeto pronto e apenas adicionar as propriedades.
+Uma maneira não eficaz, seria criar um objeto novo para cada aluno.
+Invés disso, podemos pegar um objeto pronto e apenas adicionar valores a essas propriedades.
 Ou seja, usaremos uma função construtora, pois ela é basicamente um protótipo.
 
 Utilizar o this é EXTREMA importância. Pois ele se refere ao identificador atual do objeto.
