@@ -34,17 +34,22 @@ const paulo = {
     idade: 15,
     etnia: 'Negro'
 }
+
+const Pablo = {
+    name: 'Pablo', 
+    idade: 15,
+    etnia: 'Negro'
+}
 ```
 
 ### Utilizando uma função construtora 
 ```js
-const alunos = function(nome, idade, etnia){
+const Alunos = function(nome, idade, etnia){
     this.nome = name,
     this.idade = idade,
     this.etnia = etnia
 }
-const Julia = new alunos('Julia', 15, 'Branca');
-const 
-
-const date = new Date();
-console.log(date)
+const Julia = new Alunos('Julia', 15, 'Branca');
+const Paulo = new Alunos('Paulo', 15, 'Negro');
+const Pablo = new Alunos('Pablo', 15, 'Negro');
+```
