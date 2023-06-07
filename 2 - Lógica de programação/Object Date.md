@@ -19,7 +19,6 @@ Logo, o primeiro argumento irá alterar o ano, o segundo irá alterar o mês e a
 
 
 ```js
-// Utilizamos do 
 const data = new Date();
 const year = data.getFullYear();
 console.log(year);
