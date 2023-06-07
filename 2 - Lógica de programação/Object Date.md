@@ -24,14 +24,14 @@ O segundo parâmetro deste objeto é o mês, e ele segue esta mesma ordem. Isto 
 
 </br>
 
-## Argumentos utilizando `Number`
+## Alterando a data usando `Number`
 ```js
 const data_com_ano_alterado = new Date(2020, 3)
-console.log(data_com_ano_alterado)
+console.log(data_com_ano_alterado);
+// output: 2020, april, 1
 ```
+
+## Alterando a data usando `String`
 ```js
-const data = new Date();
-const year = data.getFullYear();
-console.log(year);
-// output: 2023
-```
+const data_com_ano_alterado = new Date('2023-06-06 22:32:21');
+console.log()
