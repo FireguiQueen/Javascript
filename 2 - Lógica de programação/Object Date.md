@@ -53,3 +53,8 @@ const Julia = new Alunos('Julia', 15, 'Branca');
 const Paulo = new Alunos('Paulo', 15, 'Negro');
 const Pablo = new Alunos('Pablo', 15, 'Negro');
 ```
+
+</br>
+
+## Resumo
+Utilizar uma função construtora, como no exemplo apresentado, é uma abordagem mais eficaz para criar objetos em JavaScript, especialmente quando há muitos objetos com as mesmas propriedades. Isso ajuda a evitar repetições de código e torna o processo de criação e manutenção dos objetos mais fácil e organizado.
