@@ -2,7 +2,6 @@
 O "Date" que utilizamos na verdade é uma função construtora.
 Por isso, utilizamos "new" ao chamar o "Date".
 
-</br>
 
 ## Função construtora 
 Uma função construtora nada mais é do que um objeto dentro de uma função.
