@@ -28,7 +28,8 @@ O segundo parâmetro deste objeto é o mês, e ele segue esta mesma ordem. Isto 
 ```js
 const data_com_ano_alterado = new Date(2020, 3)
 console.log(data_com_ano_alterado);
-// output: 2020, april, 1
+// Como os outros parâmetros não foram definiso, o dia será 1, as horas serão 3, e o restante será 0.
+// output: 2020, april, 1, 3, 00, 00, 00
 ```
 
 ## Alterando a data usando `String`
