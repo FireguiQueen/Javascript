@@ -1,6 +1,7 @@
 # First things first! 
 O "Date" que utilizamos na verdade é uma função construtora.
 Por isso, utilizamos "new" ao chamar o "Date".
+
 </br>
 
 ## Função construtora 
