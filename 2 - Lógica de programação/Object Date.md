@@ -14,14 +14,24 @@ Os parâmetros deste objeto seguem esta ordem.:
     <li>Seconds </li>
     <li>Milliseconds </li>
 </ol>
-Logo, o primeiro argumento irá alterar o ano, o segundo irá alterar o mês e assim sucessivamente. 
 
+Logo, o primeiro argumento irá alterar o ano, o segundo irá alterar o mês e assim sucessivamente.
+
+## Observações
+Caso você deseja definir uma data utilizando os argumentos, saiba que apenas o _ano_ e o _mês_ são obrigatórios, o restante você não precisa colocar. </br>
+Como já sabemos, todo primeiro elemento de um array é representado pelo indíce 0, e não é diferente quando fazemos uso do `Date()`.
+O segundo parâmetro deste objeto é o mês, e ele segue esta mesma ordem. Isto significa que, o mês de janeiro é representado pelo número 0, e não pelo 1.
+
+</br>
+
+## Argumentos utilizando `Number`
 ```js
 const data_com_ano_alterado = new Date(2020, 3)
-
-
+console.log(data_com_ano_alterado)
+```
 ```js
 const data = new Date();
 const year = data.getFullYear();
 console.log(year);
 // output: 2023
+```
