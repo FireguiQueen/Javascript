@@ -4,11 +4,10 @@ Por isso, utilizamos "new" ao chamar o "Date".
 
 
 ## Função construtora 
-Uma função construtora nada mais é do que um objeto dentro de uma função.
+Uma função construtora nada mais é do que um objeto em uma função.
 Este objeto irá possuir propriedades, mas não irá possuir valores.
+Os valores são definidos através dos parâmetros desta função. 
 
-Podemos utilizar da função construtora para criar novos objetos de maneira mais inteligente
-em determinado contexto.
 Vamos supor que você seja um professor de matemática.  </br>
 Cada aluno seu será um objeto em javascript, e todos objetos irão possuir as seguintes propriedades.: 
 - Nome
