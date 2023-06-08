@@ -1,5 +1,5 @@
 function greetings(){
-    const date = new Date(2023, 5, 7, 10);
+    const date = new Date(2023, 5, 7, 1);
     const hour = date.getHours();
     // 'Else if' não são necessários pois estamos utiliando 'return'. 
     // Utilizá-lo apenas iria poluir o código.
