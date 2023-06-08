@@ -1,6 +1,6 @@
 // 'Else if' não são necessários pois estamos utiliando 'return'. 
 // Utilizá-lo apenas iria poluir o código.
-function greetings(){
+function greetings(name){
     const date = new Date();
     const hour = date.getHours();
 
