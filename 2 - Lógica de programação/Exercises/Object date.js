@@ -10,9 +10,9 @@ function greetings(name){
         return formatarMais;
     }
     const sayTime = formatarHora(hour);
-    if (hour >= 12 && hour < 18) return  `Boa tarde! ${sayTime}`;
-    if (hour >= 18 && hour < 24) return  `Boa noite! ${sayTime}`;
-    if (hour >= 00 && hour < 06) return  `Que madrugada, hein! ${sayTime}`
-    if (hour >= 06 && hour < 12) return  `Bom dia! ${sayTime}`
+    if (hour >= 12 && hour < 18) return  `Boa tarde, ${name}! ${sayTime}`;
+    if (hour >= 18 && hour < 24) return  `Boa noite, ${name}! ${sayTime}`;
+    if (hour >= 00 && hour < 06) return  `Que madrugada boa, ${name}! ${sayTime}`
+    if (hour >= 06 && hour < 12) return  `Bom dia, ${name}! ${sayTime}`
 }
-console.log(greetings())
+console.log(greetings('Guilherme'))
