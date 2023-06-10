@@ -23,6 +23,8 @@ Como já sabemos, todo primeiro elemento de um array é representado pelo indíc
 O mês segue esta mesma ordem. Isto significa que, o mês de janeiro é representado pelo número 0, o mês de fevereiro é representado pelo mês 1, e assim por diante..
 </br>
 
+Para pegar o dia da semana, utilizamos o `date.getDay();`. O domingo é representado pelo 0, a segunda-feira é representada pelo dia 1, e assim por diante
+
 
 </br>
 </br>
