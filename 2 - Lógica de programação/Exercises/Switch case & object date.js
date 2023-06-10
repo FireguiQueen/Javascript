@@ -1,25 +1,29 @@
-const date = new Date();
-const diaDaSemana = date.getDay();
+function sayWeekDay(day){
+    switch(day){
+        case 0: 
+            return 'Domingo';
+            break;
+        
+        case 1: 
+            return 'Segunda-feira';
+            break;
+        
+        case 0: 
+            return 'Domingo';
+            break;
+        
+        case 0: 
+            return 'Domingo';
+            break;
+        
+        case 0: 
+            return 'Domingo';
+            break;
+        
+        case 0: 
+            return 'Domingo';
+            break;
+        
 
-console.log(diaDaSemana);
-
-switch(diaDaSemana){
-    case 1:
-        console.log('Segunda');
-        break;
-    case 2:
-        console.log('Terça');
-        break;
-    case 3:
-        console.log('Quarta');
-        break;
-    case 4:
-        console.log('Quinta');
-        break;
-    case 5:
-        console.log('Sexta');
-        break;
-    case 6:
-        console.log('Sábado');
-        break;
+    }
 }
