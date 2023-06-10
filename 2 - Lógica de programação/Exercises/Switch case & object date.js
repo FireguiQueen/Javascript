@@ -1,3 +1,4 @@
+// Responsible to return the day of the week 
 function sayWeekDay(day){
     const weekDays = [
         'Domingo', 'Segunda-feira', 'Terça-feira', 
@@ -20,6 +21,8 @@ function sayWeekDay(day){
             return weekDays[6];
     }
 }
+
+// Responsible to take the day
 function capDay(){
     const date = new Date();
     const dayOfTheWeek = date.getDay();
