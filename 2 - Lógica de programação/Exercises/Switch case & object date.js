@@ -33,8 +33,10 @@ function sayWeekDay(day){
             break;
     }
 }
-
 function capDay(){
-    const date = new Date()
+    const date = new Date();
+    const dayOfTheWeek = date.getDay();
+    return dayOfTheWeek;
 }
-console.log(sayWeekDay(2))
+
+console.log(sayWeekDay(capDay()))
