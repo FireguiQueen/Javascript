@@ -28,7 +28,6 @@ console.log(pessoas.length);
 
 
 
-
 //                     ALTERANDO UM ITEM DO ARRAY
 // Neste exemplo mudamos o indice 0 (Pablo) para o nome "Julia"
 pessoas[0] = 'Julia'
@@ -53,7 +52,7 @@ console.log(pessoas);
 //                   ADICIONANDO UM OU MAIS ITENS AO INÍCIO DO ARRAY
 // Usamos "unshift" pois é o contrário de "shift". "Shift" significa mudança, mudança relacionada a remoção de um item
 pessoas.unshift('Aline');
-console.log(pessoas)
+console.log(pessoas);
 
 
 
@@ -85,7 +84,7 @@ console.log(nomes);
 
 //                          PEGANDO INDICES DESEJADOS
 // Useremos o "slice". Vamos "fatiar" quais itens do array nós queremos.
-// Indices:        0               1        2            3             4
+// Indices:        0               1        2            3             4               5
 const usernames = ['FireguiQueen', 'Chagas', 'kovadetha', 'Nius', 'Darknesswarrior', 'Alice']
 
 // Agora vamos supor que queremos os itens: Chagas, kovadetha e Nius
