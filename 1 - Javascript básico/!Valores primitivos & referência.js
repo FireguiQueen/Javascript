@@ -125,7 +125,6 @@ name = 'Heiseing Berg' // Não estamos alterando o dado, e sim reatribuindo um n
 
 // JÁ NO EXEMPLO ABAIXO, ESTAMOS TENTANDO ALTERAR O VALOR, MAS ISTO É IMPOSSÍVEL POIS O VALOR É PRIMITIVO
 let personagem = 'Jessie'
-personagem[0] = 'P'
 console.log(personagem[0], personagem) // perceba que o valor primitivo não foi alterado
 
 
