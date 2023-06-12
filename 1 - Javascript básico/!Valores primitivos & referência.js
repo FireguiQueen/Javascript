@@ -10,7 +10,7 @@
 */
 
 //  EM JAVASCRIPT, PODEMOS USAR A FUNÇÃO "TYPEOF" PARA SABR O TIPO DE DADO DE UM VALOR.
-    console.log(typeof('oi'))
+    console.log(typeof 2)
 
 
 
