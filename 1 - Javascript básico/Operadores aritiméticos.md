@@ -31,7 +31,7 @@ Utilizamos do "++" quando precisamos somar "+1" ao nosso valor. O "--" é quando
 O "++" é como se fosse "some mais um" e "--" é como se fosse "menos um".. Veja no exemplo abaixo.:
 ```js
 let saldo = 100 
-sado++ 
+saldo++
 consooe.log(saldo) // output: 101 
 ```
 
