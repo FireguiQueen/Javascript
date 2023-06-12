@@ -9,7 +9,7 @@ console.log(num1.toFixed(2)) // dentro dos parentesis colacamos quantas casas qu
 // Acessamos o objeto "number", depois acessamos o método "isInteger" e passamos como argumento
 // qual valor que queremos saber se é do tipo inteiro ou não.
 const num2 = 7
-console.log(Number.isInteger(num2));
+console.log(Number.isInteger(num2)); 
 
 
 //                              VERIFICANDO SE O VALOR É NaN
@@ -42,7 +42,7 @@ console.log(Math.ceil(num5))
 //                 ARREDONDANDO UM NÚMERO QUEBRADO PARA O NÚMERO INTEIRO MAIS PRÓXIMO
 // 'round()' é usado para arredondar um número quebrado para o número inteiro mais próximo.
 // O verbo "Round" significa "arredondar". Estamos arredondando para o número inteiro mais próximo.
-const num6 = 502
+const num6 = 10.6
 console.log(Math.round(num6))
 
 
