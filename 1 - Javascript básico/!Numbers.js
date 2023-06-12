@@ -69,8 +69,8 @@ ponto flutuante (números quebrados) segue o padrão IEEE 754.
 Esse padrão define a maneira como os números quebrados são representados e operados por debaixo dos panos.. 
 Mas o mesmo pode resultar em algumas imprecisões devido às limitações de representação.
 
-Se somarmos '0.1' e '0.7' o resultado correto seria 0.8
-Mas o resultado será.: 0.7999..  
+Se somarmos '0.1' e '0.7' o resultado correto seria 0.8;
+Mas o resultado será.: 0.79999999..  
 Isto ocorre devido à forma como esses números são representados em ponto flutuante. 
 
 
