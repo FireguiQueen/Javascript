@@ -26,3 +26,4 @@ const pessoa_01 = {         // Utilize chaves '{}' para inicializar um objeto
     idade: 14,              // 'idade' é a propriedade, 14 é o valor.        
 }
 console.log(pessoa_01.nome) // Para acessar alguma propriedade do objeto, utilize um ponto final (.)
+
