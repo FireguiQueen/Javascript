@@ -146,6 +146,7 @@ sum() // 0
 
 
 
+
 // FUNCTION FACTORY
 /*
     - Utilizadas para criar novos objetos de maneira mais prática;
