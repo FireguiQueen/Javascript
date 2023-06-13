@@ -29,3 +29,4 @@ pessoas[1] = 'Amanda';
 ```
 </br>
 Por este motivo, pode-se usar const com objetos mutáveis e ainda assim alterar seus valores internos. A única coisa que não vamos conseguir fazer é reatribuir o valor da variável.
+
