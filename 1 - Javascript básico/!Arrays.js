@@ -22,10 +22,8 @@ let pessoas = ['Pablo', 'Flora', 'Nathalia'];
 console.log(pessoas[0]);
 
 
-
 //                     QUANTANDO QUANTOS ELEMENTOS O ARRAY POSSUI
 console.log(pessoas.length);
-
 
 
 //                     ALTERANDO UM ITEM DO ARRAY
@@ -45,7 +43,6 @@ console.log(pessoas);
 //                    REMOVENDO UM ITEM AO FINAL DO ARRAY
 pessoas.pop();
 console.log(pessoas);
-
 
 
 
