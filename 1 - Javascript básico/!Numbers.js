@@ -97,3 +97,4 @@ pode ser arredondado para 0.8 com o uso do método "toFixed()" ou usando "Math.r
 */
 
 
+
