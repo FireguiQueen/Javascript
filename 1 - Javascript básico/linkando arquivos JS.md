@@ -12,3 +12,4 @@ Para utilizar um arquivo JS externo, basta colocar a tag `script` junto ao atrib
     <script src="./index.js"> </script>
 </body>
 ```
+
