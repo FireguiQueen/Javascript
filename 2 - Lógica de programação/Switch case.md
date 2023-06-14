@@ -6,7 +6,10 @@ Geralmente, veremos mais o uso de `if / else`, mas há alguns casos onde o uso d
 
 ## Estruturação 
 Primeiro colocamos a keyword `switch` e abrimos paretensis.
-Dentro deste parentesis iremos colocar o valor que será analisado, e
+Dentro deste parentesis iremos colocar o valor que será analisado. 
+Dentro do switch, iremos colocar a keyword `case: + um valor`, isto signifca que, caso o valor passado dentro do parentesis seja o mesmo do 'case', aquele bloco será rodado. </br>
+Por exemplo.:
+``
 
 ## Exemplo 01
 Estamos desenvolvendo um pequeno programa, onde o mesmo recebe um nome e retorna o significado desta nome. Veja a maneira que construimos esta condicional usando 'switch case' e 'if / else'. 
