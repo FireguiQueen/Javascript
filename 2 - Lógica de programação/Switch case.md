@@ -4,6 +4,10 @@ Geralmente, veremos mais o uso de `if / else`, mas há alguns casos onde o uso d
 
 </br>
 
+## Estruturação 
+Primeiro colocamos a keyword `switch` e abrimos paretensis.
+Dentro deste parentesis iremos colocar 
+
 ## Exemplo 01
 Estamos desenvolvendo um pequeno programa, onde o mesmo recebe um nome e retorna o significado desta nome. Veja a maneira que construimos esta condicional usando 'switch case' e 'if / else'. 
 
