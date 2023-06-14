@@ -7,5 +7,10 @@ Geralmente, veremos mais o uso de `if / else`, mas há alguns casos onde o uso d
 ## Exemplo 01
 Vamos supor que você esteja desenvolvendo um pequeno programa, onde o mesmo recebe um nome e retorna o significado desta nome. Veja a maneira que construimos esta condicional usando 'switch case' e 'if / else'. 
 
-#### If / else
+#### If
 ```js
+// não usaremos o 'else' pois estamos em uma função, o e return já 'desempenha' este papel
+function(name){
+    if(name === 'guilherme')
+        return 'Guilherme significa 
+}
