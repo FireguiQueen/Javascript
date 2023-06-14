@@ -82,3 +82,4 @@ Este sinal analisa se os operandos são diferentes, Ele irá analisa o tipo de d
 console.log(10 =! '10');
 // output: true (pois 10 é diferente de '10' -> são tipos de dados diferentes)
 ```
+
