@@ -52,7 +52,7 @@ const Pablo = new Alunos('Pablo', 15, 'Negro');
 </br>
 
 # New
-A palavra chave 'new' é de extrema importância, pois é ele quem define uma instância nova. Quando usamos ele, seguido pelo nome de uma função construtora, estamos criando um novo objeto com a estrutura definida pela função construtora.
+A palavra chave 'new' é de extrema importância, pois é ele quem define uma instância nova. Quando usamos ela, seguido pelo nome de uma função construtora, estamos criando um novo objeto com a estrutura definida pela função construtora.
 
 Lembra-se sempre do exemplo que foi dado. </br>
 Há uma estrutura chamada "Alunos", esta estrutura possui três propriedades.
