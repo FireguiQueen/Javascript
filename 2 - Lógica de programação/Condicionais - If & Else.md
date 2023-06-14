@@ -28,7 +28,7 @@ Por exemplo: Se o tempo estiver com sol, você irá ir para a praia. Se o tempo 
 
 Neste caso, devemos utilizar o `else if`. Não somos obrigados a utilizá-lo, mas fazer uma estrutura condicional usando apenas o if é uma péssima ideia.. Isto porque, mesmo que a primeira condição seja verdadeira, o JavaScript continuará analisando as outras condições que são `if`, o que não é eficiente e pode causar problemas de desempenho.
 
-Em suma, quando usamos somente `if` o Javascript irá analisar todos os 'ifs', independente se o 'if' anterior for verdadeiro. Por isso usamos do `else if`, caso ele seja verdadeira, os próximos 'else ifs' não serão analisados.
+Em suma, quando usamos somente `if` o Javascript irá analisar todos os 'ifs', independente se o 'if' anterior for verdadeiro. Por isso usamos do `else if`, caso ele seja verdadeiro, os próximos 'else ifs' não serão analisados.
 
 * Como nosso código será interpretado utilizando apenas if 
 ```js
