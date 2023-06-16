@@ -8,7 +8,8 @@ function todaySDate(dayWeek = 'Segunda-feira', dayMonth = '1', month = 'janeiro'
 }
 
 function dayOfTheWeek(){
-    switch(){
+    switch(date.getDay()){
+        // Break it's necessary bcs we're using a function that uses 'return'.
         case 0: 
             return 'Domingo';
     
@@ -32,4 +33,3 @@ function dayOfTheWeek(){
     }
 }
 
-console.log(sayDayOfTheWeek())
