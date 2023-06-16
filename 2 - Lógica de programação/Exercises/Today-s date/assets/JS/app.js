@@ -1,8 +1,10 @@
 // captura o dia de hoje 
 const date = new Date();
 
-function sayDayOfTheWeek(){
-    switch(date.getDay()){
+function say
+
+function dayOfTheWeek(){
+    switch(){
         case 0: 
             return 'Domingo';
     
@@ -26,3 +28,4 @@ function sayDayOfTheWeek(){
     }
 }
 
+console.log(sayDayOfTheWeek())
