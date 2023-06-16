@@ -33,3 +33,10 @@ function dayOfTheWeek(){
     }
 }
 
+function correctMonth(){
+    
+}
+
+console.log(todaySDate())
+
+
