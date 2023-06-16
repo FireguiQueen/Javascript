@@ -27,7 +27,7 @@ Estamos desenvolvendo um pequeno programa, onde o mesmo recebe um nome e retorna
 
 #### If
 ```js
-// não usaremos o 'else' pois estamos em uma função, o e return já 'desempenha' este papel
+// não usaremos o 'else' pois estamos em uma função, o e return já 'desempenha' este papel.
 function(name){
     if(name === 'guilherme')
         return 'Guilherme significa "aquele que deseja proteger, guerreiro"';
@@ -44,6 +44,7 @@ function(name){
 ```js
 function(name){
     switch(name){
+        // o break neste caso também não seria necessário, já 
         case 'guilherme':
             return 'Guilherme significa "aquele que deseja proteger, guerreiro"'
             break;
@@ -51,5 +52,32 @@ function(name){
         case 'flora':
             return 'Flora significa "digna de amor"';
             break;
+    }
+}
+```
+
+</br>
+</br>
+
+## Exemplo 02
+Temos uma loja online onde permite o usuário escolher um celular, e ao escolher, será mostrado a descrição do mesmo. Veja a maneira que construimos esta condicional usando 'switch case' e 'if / else'. 
+
+#### If
+```js
+// não usaremos o 'else' pois estamos em uma função, o e return já 'desempenha' este papel.
+function(celular){
+    if (celular === 'A50')
+        return '..';
+    if (celular === 'Iphone X')
+        return '....';
+}
+```
+
+#### Switch case
+```js
+function(celular){
+    switch(celular){
+        case 'A50': 
+            return 
     }
 }
