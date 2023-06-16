@@ -1,7 +1,11 @@
 // captura o dia de hoje 
 const date = new Date();
 
-function say
+function todaySDate(dayWeek = 'Segunda-feira', dayMonth = '1', month = 'janeiro', year = '1990', hour = '00:00'){
+    return `
+    ${dayWeek}, ${dayMonth} de ${month} de ${year}, às ${hour}
+    `
+}
 
 function dayOfTheWeek(){
     switch(){
