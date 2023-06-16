@@ -24,14 +24,19 @@ switch(pessoa){
 
 > Também podemos fazer o uso do 'default', que desempenha a exato mesmo papel que o 'else', porém, na estruturação switch case.
 ```js
-const numero = 1;
-switch (numero){
-    case numero > 1: 
-        return 'Seu número é maior ou igual a um.'
+const pessoa = 'joao';
+switch(pessoa){
+    case 'Maria':
+        console.log('Seu nome é Maria, e rima com coringa!');
+        break;
+
+    case 'joao':
+        console.log('Seu nome é João, e rima com anão!');
         break;
 
     default:
-        return 'Seu número é menor do que um.'
+        console.log('Nenhum nome foi digitado ou o nome passado não possui informaões');
+
 }
 ```
 
