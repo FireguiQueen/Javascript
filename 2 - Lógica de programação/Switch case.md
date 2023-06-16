@@ -22,6 +22,19 @@ switch(pessoa){
 }
 ```
 
+> Também podemos fazer o uso do 'default', que desempenha a exato mesmo papel que o 'else', porém, na estruturação switch case.
+```js
+const numero = 1;
+switch (numero){
+    case numero > 1: 
+        return 'Seu número é maior ou igual a um.'
+        break;
+
+    default:
+        return 'Seu número é menor do que um.'
+}
+```
+
 ## Exemplo 01
 Estamos desenvolvendo um pequeno programa, onde o mesmo recebe um nome e retorna o significado desta nome. Veja a maneira que construimos esta condicional usando 'switch case' e 'if / else'. 
 
@@ -44,7 +57,7 @@ function(name){
 ```js
 function(name){
     switch(name){
-        // o break neste caso também não seria necessário, já 
+        // o break neste caso também não seria necessário, já que o return 'desempenha' este papel.
         case 'guilherme':
             return 'Guilherme significa "aquele que deseja proteger, guerreiro"'
             break;
@@ -78,6 +91,11 @@ function(celular){
 function(celular){
     switch(celular){
         case 'A50': 
-            return 
+            return '...'
+            break;
+
+        case 'Iphone X':
+            return '..'
+            break;
     }
 }
