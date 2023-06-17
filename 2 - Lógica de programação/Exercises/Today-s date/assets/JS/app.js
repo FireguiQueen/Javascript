@@ -22,6 +22,7 @@ function Weekday(){
     return mondayToSunday[date.getDay()]
 }
 
+// Retorna o mês. Exemplo.: janeiro
 function monthDay(){
     const dayMonth = [
         'Janeiro',
