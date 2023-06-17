@@ -1,7 +1,8 @@
 // Captura o dia 
 const date = new Date();
 
-const teste = document
+const teste = document.getElementById('#sayDayAndTime');
+
 
 function todaySDate(dayWeek = 'Segunda-feira', dayMonth = '1', month = 'janeiro', year = '1990', hour = '00:00'){
     // dia semana, dia mês, mês, ano, horas
