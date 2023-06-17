@@ -2,7 +2,7 @@
 const date = new Date();
 
 const teste = document.getElementById('sayDayAndTime');
-teste.innerText =  'oi'
+teste.innerText = todaySDate();
 
 
 function todaySDate(dayWeek = 'Segunda-feira', dayMonth = '1', month = 'janeiro', year = '1990', hour = '00:00'){
