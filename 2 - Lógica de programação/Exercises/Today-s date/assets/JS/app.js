@@ -17,35 +17,10 @@ function dayOfTheWeek(){
         'Sexta-feira',
         'Sábado'
     ]
-    switch(date.getDay()){
-        // Break it's necessary bcs we're using a function that uses 'return'.
-        case 0: 
-            return dayOfTheWeek[0];
-    
-        case 1:
-            return dayOfTheWeek[1];
-    
-        case 2: 
-            return dayOfTheWeek[2];
-    
-        case 3: 
-            return dayOfTheWeek[3];
-    
-        case 4: 
-            return dayOfTheWeek[4];
-        
-        case 5: 
-            return dayOfTheWeek[5]
-    
-        case 6:
-            return dayOfTheWeek[6];
-    }
+    return(dayWeek[date.getDay()])
 }
 
-function correctMonth(){
 
-}
-
-console.log(todaySDate())
+console.log(dayOfTheWeek())
 
 
