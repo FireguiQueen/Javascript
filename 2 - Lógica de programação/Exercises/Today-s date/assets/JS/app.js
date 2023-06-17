@@ -3,12 +3,12 @@ const date = new Date();
 
 function todaySDate(dayWeek = 'Segunda-feira', dayMonth = '1', month = 'janeiro', year = '1990', hour = '00:00'){
     return `
-    ${dayWeek}, ${dayMonth} de ${month} de ${year}, às ${hour}
+    ${}, ${dayMonth} de ${month} de ${year}, às ${hour}
     `
 }
 
-function dayOfTheWeek(){
-    const dayWeek = [
+function Weekday(){
+    const mondayToSunday = [
         'Domingo',
         'Segunda-feira',
         'Terça-feira',
@@ -17,10 +17,28 @@ function dayOfTheWeek(){
         'Sexta-feira',
         'Sábado'
     ]
-    return(dayWeek[date.getDay()])
+    return mondayToSunday[date.getDay()]
+}
+
+function monthDay(){
+    const dayMonth = [
+        'Janeiro',
+        'Fevereiro',
+        'Março',
+        'Abril',
+        'Maio',
+        'Junho',
+        'Julho',
+        'Agosto',
+        'Setembro',
+        'Outubro',
+        'Novembro',
+        'Dezembro'
+    ]
+    return dayMonth[date.getMonth()]
 }
 
 
-console.log(dayOfTheWeek())
+console.log(dayOfTheWeek(), monthDay())
 
 
