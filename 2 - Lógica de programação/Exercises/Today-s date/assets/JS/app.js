@@ -7,8 +7,7 @@ teste.innerText = todaySDate();
 
 function todaySDate(dayWeek = 'Segunda-feira', dayMonth = '1', month = 'janeiro', year = '1990', hour = '00:00'){
     // dia semana, dia mês, mês, ano, horas
-    return `
-    ${weekDay()}, ${date.getDate()} de ${monthDay()} de ${date.getFullYear()}, às ${correctsTime()}
+    return `${weekDay()}, ${date.getDate()} de ${monthDay()} de ${date.getFullYear()}, às ${correctsTime()}
     `
 }
 
