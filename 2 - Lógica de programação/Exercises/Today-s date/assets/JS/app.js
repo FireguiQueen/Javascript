@@ -2,11 +2,13 @@
 const date = new Date();
 
 function todaySDate(dayWeek = 'Segunda-feira', dayMonth = '1', month = 'janeiro', year = '1990', hour = '00:00'){
+    // dia semana, dia mês, mês, ano, horas
     return `
-    ${}, ${dayMonth} de ${month} de ${year}, às ${hour}
+    ${Weekday()}, ${} de ${monthDay()} de ${year}, às ${hour}
     `
 }
 
+// Retorna o dia da semana. Exemplo: segunda-feira
 function Weekday(){
     const mondayToSunday = [
         'Domingo',
