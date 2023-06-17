@@ -4,12 +4,12 @@ const date = new Date();
 function todaySDate(dayWeek = 'Segunda-feira', dayMonth = '1', month = 'janeiro', year = '1990', hour = '00:00'){
     // dia semana, dia mês, mês, ano, horas
     return `
-    ${Weekday()}, ${} de ${monthDay()} de ${year}, às ${hour}
+    ${weekDay()}, ${date.getDate()} de ${monthDay()} de ${date.getFullYear()}, às ${date.getHours()}:${date.getMinutes()}
     `
 }
 
 // Retorna o dia da semana. Exemplo: segunda-feira
-function Weekday(){
+function weekDay(){
     const mondayToSunday = [
         'Domingo',
         'Segunda-feira',
@@ -42,6 +42,5 @@ function monthDay(){
 }
 
 
-console.log(dayOfTheWeek(), monthDay())
-
+console.log(todaySDate())
 
