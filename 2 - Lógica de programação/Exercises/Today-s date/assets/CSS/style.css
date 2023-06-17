@@ -23,7 +23,7 @@ section{
     align-items: center;
 }
 h1{
-    filter:drop-shadow();
+    filter:drop-shadow(2px 26px 1px rgba(255, 255, 255, 0.131));
 
     text-align: center;
     color: rgb(255, 255, 255);
