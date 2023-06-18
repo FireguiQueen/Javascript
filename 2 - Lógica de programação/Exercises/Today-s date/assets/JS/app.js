@@ -50,7 +50,9 @@ function sayTime(){
         const formatMinutes = date.getMinutes() < 10? `0${date.getMinutes()}` : date.getMinutes();
         return `${formatHour}:${formatMinutes}:${date.getSeconds()}`
     }
-}
-sayTime();
+}    sayTime();
 
 
+setInterval(function(){ 
+    sayTime();
+}, 1000);
