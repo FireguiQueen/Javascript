@@ -48,9 +48,11 @@ function sayTime(){
     function correctsTime(){
         const formatHour = date.getHours() < 10? `0${date.getHours()}` : date.getHours();
         const formatMinutes = date.getMinutes() < 10? `0${date.getMinutes()}` : date.getMinutes();
-        return `${formatHour}:${formatMinutes}:${date.getSeconds()}`
+        const formatSeconds = date.getSeconds() < 10? `0${date.getSeconds()}` : date.getSeconds();
+        return `${formatHour}:${formatMinutes}:${formatSeconds}`
     }
-}    sayTime();
+}
+sayTime();
 
 
 setInterval(function(){ 
