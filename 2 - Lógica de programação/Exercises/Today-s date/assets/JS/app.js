@@ -55,6 +55,4 @@ function sayTime(){
 sayTime();
 
 
-setInterval(function(){ 
-    sayTime();
-}, 1000);
+setInterval(sayTime, 1000);

@@ -29,3 +29,8 @@ h1{
     color: rgb(255, 255, 255);
     font-size: 42px;
 }
+
+
+::selection{
+    background-color: transparent;
+}
