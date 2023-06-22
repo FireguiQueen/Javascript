@@ -7,7 +7,7 @@ Geralmente, veremos mais o uso de `if / else`, mas há alguns casos onde o uso d
 ## Estruturação 
 Primeiro colocamos a keyword `switch` e abrimos parêntesis.
 Dentro deste parêntesis iremos colocar o valor que será analisado. 
-Dentro do switch, iremos colocar a keyword `case: + um valor`, isto signifca que, caso o valor passado dentro do parentesis seja o mesmo do 'case', aquele bloco será rodado. A palavra 'break' possui uma extrema importância, pois ela quem determinada até onde o javascript irá ler caso a condição for verdadeira</br>
+Dentro do switch, iremos colocar a keyword `case: + um valor`, isto signifca que, caso o valor passado dentro do parêntesis seja o mesmo do 'case', aquele bloco será rodado. A palavra 'break' possui uma extrema importância, pois ela quem determinada até onde o javascript irá ler caso a condição for verdadeira</br>
 ```js
 const pessoa = 'joao';
 switch(pessoa){
