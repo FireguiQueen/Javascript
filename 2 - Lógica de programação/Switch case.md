@@ -41,6 +41,8 @@ switch(pessoa){
 }
 ```
 
+</br>
+
 ## Exemplo 01
 Estamos desenvolvendo um pequeno programa, onde o mesmo recebe um nome e retorna o significado desta nome. Veja a maneira que construimos esta condicional usando 'switch case' e 'if / else'. 
 
