@@ -45,7 +45,7 @@ switch(pessoa){
 
 _________________________________________________
 
-## Exemplo 01
+## Exemplo: 01
 Estamos desenvolvendo um pequeno programa, onde o mesmo recebe um nome e retorna o significado desta nome. Veja a maneira que construimos esta condicional usando 'switch case' e 'if / else'. 
 
 ### If
@@ -82,7 +82,7 @@ function(name){
 </br>
 </br>
 
-## Exemplo 02
+## Exemplo: 02
 Temos uma loja online onde permite o usuário escolher um celular, e ao escolher, será mostrado a descrição do mesmo. Veja a maneira que construimos esta condicional usando 'switch case' e 'if / else'. 
 
 #### If
