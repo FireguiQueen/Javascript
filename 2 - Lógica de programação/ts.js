@@ -18,3 +18,8 @@ switch(pessoa){
     default:
         console.log('Nenhum nome foi digitado ou o nome passado não possui informaões');
 }
+
+
+data_com_ano_alterado = new Date('2023-06-06T22:32:21');
+
+console.log(data_com_ano_alterado);
