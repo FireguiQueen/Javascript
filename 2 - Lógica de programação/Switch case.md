@@ -63,9 +63,9 @@ function(name){
 
 ### Switch case
 ```js
+// não usaremos o 'break' neste caso também não seria necessário, já que o return 'desempenha' este papel.
 function(name){
     switch(name){
-        // o break neste caso também não seria necessário, já que o return 'desempenha' este papel.
         case 'guilherme':
             return 'Guilherme significa "aquele que deseja proteger, guerreiro"'
             break;
