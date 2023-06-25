@@ -23,7 +23,8 @@ Os identificadores devem possuir significado, e possuem regras para serem escrit
 </br>
 
 ## Declarando variáveis
-Para se declarar (criar) variáveis é muito simples.:
+Para se declarar (criar) variáveis é muito simples. Seguimos esta ordem?
+> keyword (seja ele const, var ou let) identificador (nome para a variável) sinal de atribuição (conhecido popularmente como 'sinal de igual') valor (valor que esta variável recebe)
 ```js
 var pessoa = 'Julia';
 
