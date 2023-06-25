@@ -30,9 +30,15 @@ var pessoa = 'Flora';
 {
     var pessoa = 'Julia';
 }
-console.log(pessoa) 
+console.log(pessoa) // 'Julia'
 ```
 
 ## Let
 Diferentemente do comportamento mostrado acima, o `let` faz uso de escopos locais.
-Isto significa que, a nossa variável 'let' 
+Isto significa que, o nosso console irá exibir a variável que está no escopo dele.
+```js
+let pessoa = 'Pablo';
+{
+    let pessoa = 'Julião';
+}
+console.log(pessoa) // 'Pablo'
