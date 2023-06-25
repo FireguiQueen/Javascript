@@ -8,12 +8,12 @@ Vamos imaginar uma condicional na vida real e transformá-la em código.
 > _SE NÃO_ você irá dizer "ficarei em casa". 
 
 ```js
-let timeIsGood = true;
+let isWeatherGood = true;
 
-if (timeIsGood === true){
+if (isWeatherGood === true){
     console.log('Eu vou para a praia!')
 } else{
-    console.log('Eu vou ficar em casa, o tempo está péssimo.');
+    console.log('Eu vou ficar em casa, o tempo não está bom.');
 }
 ```
 
