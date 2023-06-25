@@ -48,13 +48,12 @@ console.log(veiculo)
 
 
 
-## Let e Const
-Diferentemente do comportamento mostrado acima, o `let` e o `const` fazen uso de escopos locais.
-Isto significa que, 
+## Let 
+Diferentemente do comportamento mostrado acima, o `let` faz uso de escopos locais.
+Isto significa que, caso a variável não exista no escopo local onde você chamou ela, irá retornar erro.  
 ```js
 // ESCOPO GLOBAL
 
-let pessoa = 'Pablo';
 {   // ESCOPO LOCAL
     let pessoa = 'Julião';
 }
