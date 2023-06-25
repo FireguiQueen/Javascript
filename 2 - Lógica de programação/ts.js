@@ -31,11 +31,11 @@ const teste = new Date().toLocaleDateString('pt-BR', {dateStyle: "full"})
 console.log(teste)
 
 
-/// 
-let mds = 'oi'
-function teste1(){
-    var cu = 'uc'
-    return mds
+
+
+
+var pessoa1 = 'Flora';
+{
+    var pessoa1 = 'Julia';
 }
-console.log(teste1())
-console.log(cu)
+console.log(pessoa1)
