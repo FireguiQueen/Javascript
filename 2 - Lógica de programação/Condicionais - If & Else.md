@@ -44,7 +44,7 @@ else{
 
 </br>
 
-* Como nosso código será interpetado utilizando if & else if
+* Como nosso código será interpetado utilizando `if & else if`
 ```js
 let timeIsGood = 'nublado';
 if(timeIsGood == 'nublado'){    // Condicional analisada, é e considerada true pois o tempo está nublado
