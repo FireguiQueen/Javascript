@@ -3,6 +3,8 @@
 - Por ser uma função construtora, usaremos o 'new' e criaremos uma variável;
 - Facilita trabalharmos com datas; 
 
+</br>
+
 ## Entendendo os parâmetros
 Os parâmetros deste objeto seguem esta ordem.:
 <ol>
@@ -14,6 +16,9 @@ Os parâmetros deste objeto seguem esta ordem.:
     <li>Seconds </li>
     <li>Milliseconds </li>
 </ol>
+
+</br>
+
 
 ## Observações
 Caso você deseja definir sua própria data, saiba que apenas o _ano_ e o _mês_ são obrigatórios, o restante você não precisa colocar (por padrão o dia será definido para 1, o horário será 3 e o restante será 0). 
