@@ -70,13 +70,13 @@ console.log('55' === 55);
 Este sinal analisa se os operandos são diferentes. Ele não irá analisar o tipo de dado, apenas valores.
 ```js
 console.log(10 =! '10');
-// output: false (pois 10 não é diferente de '10')
+// output: false (pois 10 não é diferente de '10' neste contexto em que o tipo de dado não é analisado)
 ```
 
 ### _diferente estrito:_ ==! 
-Este sinal analisa se os operandos são diferentes, Ele irá analisa o tipo de dado.
+Este sinal analisa se os operandos são diferentes, ele irá analisar o tipo de dado.
 ```js
 console.log(10 =! '10');
-// output: true (pois 10 é diferente de '10' -> são tipos de dados diferentes)
+// output: true (pois 10 é diferente de '10'; são tipos de dados diferentes)
 ```
 
