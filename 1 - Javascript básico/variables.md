@@ -8,15 +8,16 @@ As variáveis também são importantes porque _permitem que os programas interaj
 </br>
 
 ## Identificadores
-Os identificadores são os nomes das variáveis. No exemplo abaixo, o nosso identificador é a palavra "pessoa".  
-```js
-let pessoa = "Pablo";
-```
-Os identificadores devem possuir significado, e possuem regras para serem escritos, sendo elas.: 
+Os identificadores são os nomes das variáveis. Os identificadores devem possuir significado, e possuem regras para serem escritos, sendo elas.: 
 * Nomes não podem ser palavras reservadas
 * Espaços em branco não são permitidos
 * O primeiro caractere deve ser uma letra ou underscore (_)
 * Identificadores só podem possuir letras, números ou underscores (_)
+
+Neste exemplo, o nosso identificador é a palavra "pessoa".  
+```js
+let pessoa = "Pablo";
+```
 
 </br>
 </br>
