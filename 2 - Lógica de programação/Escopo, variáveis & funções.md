@@ -37,12 +37,10 @@ console.log(pessoa) // 'Julia'
 Diferentemente do comportamento mostrado acima, o `let` faz uso de escopos locais.
 Isto significa que, o nosso console irá exibir a variável que está no escopo dele.
 ```js
-// ESCOPO GLOBAL 
-let pessoa = 'Pablo';
+// ESCOPO GLOBAL
 
-{
-    // ESCOPO LOCAL
+let pessoa = 'Pablo';
+{   // ESCOPO LOCAL
     let pessoa = 'Julião';
 }
-
 console.log(pessoa) // 'Pablo'

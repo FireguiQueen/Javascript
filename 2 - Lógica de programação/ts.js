@@ -34,8 +34,8 @@ console.log(teste)
 
 
 
-var pessoa1 = 'Flora';
+let pessoa1 = 'Flora';
 {
-    var pessoa1 = 'Julia';
+    pessoa1 = 'Julia';
 }
 console.log(pessoa1)
