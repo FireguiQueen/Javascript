@@ -33,3 +33,7 @@ console.log(teste)
 
 
 
+{
+    var veiculo = 'Caminhão';
+}
+console.log(veiculo)

@@ -34,7 +34,15 @@ var pessoa = 'Flora';
 console.log(pessoa) // 'Julia'
 ```
 
-> Neste exemplo, possuimos também dois escopos: o global e o local. Podemos observar que __NÃO__ há nenhuma variável chamada ".." no escopo global, apenas em um escopo local. Porém, como foi dito anteriormente, `var` 
+> Neste exemplo, possuimos também dois escopos: o global e o local. Podemos observar que __NÃO__ há nenhuma variável chamada "veiculo" no escopo global, apenas em um escopo local, mas mesmo assim conseguimos invocá-la (algo que não seria possível fazer caso usassemos let ou cost).
+```js
+// Escopo global (não possui nenhuma variável)
+
+{   // Escopo local (possui uma variável)
+    var veiculo = 'Caminhão';
+}
+console.log(veiculo)
+```
 
 
 
