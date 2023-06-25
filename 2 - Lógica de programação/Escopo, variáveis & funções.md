@@ -51,7 +51,7 @@ console.log(veiculo)
 ## Let 
 Diferentemente do comportamento mostrado acima, o `let` não pode ser usado de maneira global.
 
-> Neste exemplo, declaramos uma variável usando `let`, esta variável se encontra em um escopo local. Ao tentarmos
+> Neste exemplo, declaramos uma variável usando `let`, esta variável se encontra em um escopo local. Ao tentarmos chamá-la, teremos um erro.
 ```js
 // ESCOPO GLOBAL (não possui nenhuma variável)
 
