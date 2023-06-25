@@ -23,9 +23,8 @@ if (isWeatherGood === true){
 </br>
 
 ## Exemplo 02
-No exemplo 01, tivemos apenas uma condições, se o tempo estiver bom, você irá ir para a praia, se não estiver, você não irá ir.
-Mas e se você precissase colocar mais condicionais? </br> 
-Por exemplo: Se o tempo estiver com sol, você irá ir para a praia. Se o tempo estiver nublado, você irá ir para a praia, porém, se estiver chovendo, você não irá ir. 
+No exemplo 01, tivemos apenas uma condicional, se o tempo estiver bom, você irá ir para a praia, se não estiver, você não irá ir. Mas e se você precissase colocar mais condicionais? </br> 
+_Por exemplo: Se o tempo estiver com sol, você irá ir para a praia. Se o tempo estiver nublado, você irá ir para a praia, porém, se estiver chovendo, você não irá ir_ 
 </br>
 
 Neste caso, devemos utilizar o `else if`. Não somos obrigados a utilizá-lo, mas fazer uma estrutura condicional usando apenas o if é uma péssima ideia.. Isto porque, mesmo que a primeira condição seja verdadeira, o JavaScript continuará analisando as outras condições que são `if`, o que não é eficiente e pode causar problemas de desempenho.
