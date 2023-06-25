@@ -53,7 +53,7 @@ console.log('55' == 55);
 // output: true (Pois este sinal analisa apenas valores. Sendo assim, '55' é igual a 55)
 ```
 
-### === _(igualdade estrita)_
+### _igualdade estrita:_ === 
 Este sinal verifica se ambos os operandos são iguais, e além disto, ele também analisa o tipo de dado de cada um. Sendo assim nesta situação, o número '55' em formato _string_ não será igual ao '55' em formato _number_
 ```js
 console.log('55' === 55);
@@ -66,14 +66,14 @@ console.log('55' === 55);
 
 
 
-## =! _(diferente)_
+## _diferente:_ =! 
 Este sinal analisa se os operandos são diferentes. Ele não irá analisar o tipo de dado, apenas valores.
 ```js
 console.log(10 =! '10');
 // output: false (pois 10 não é diferente de '10')
 ```
 
-### ==! _(diferente estrito)_
+### _diferente estrito:_ ==! 
 Este sinal analisa se os operandos são diferentes, Ele irá analisa o tipo de dado.
 ```js
 console.log(10 =! '10');
