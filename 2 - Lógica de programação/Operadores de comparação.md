@@ -9,14 +9,14 @@ console.log(100 > 10);
 </br>
 
 
-## > _(maior que)_
+## _maior que:_ > 
 Este sinal faz uma comparação, analisando se o operando da esquerda é __maior__ que o da direita.
 ```js
 console.log(10 > 10);
 // output: false (pois 10 não é maior que 10)
 ```
 
-### >= _(maior ou igual)_
+### _maior ou igual:_ >= 
 Este sinal analisa se o operando da esquerda é __maior__ ou __igual__ ao da direita.
 ```js
 console.log(10 >= 10);
@@ -28,14 +28,14 @@ console.log(10 >= 10);
 
 
 
-## < _(menor que)_
+## _menor que:_ < 
 Este sinal faz uma comparação, analisando se o operando da esquerda é __menor__ que o da direita.
 ```js
 console.log(5 < 10);
 // output: true (pois 5 é menor do que 10)
 ```
 
-### <= _(menor ou igual)_
+### _menor ou igual:_ <= 
 Este sinal analisa se o operando da esquerda é __menor__ ou __igual__ ao da direita. 
 ```js
 console.log(5 <= 5);
@@ -43,12 +43,10 @@ console.log(5 <= 5);
 ```
 
 
-
 </br>
 
 
-
-## == _(igualdade)_
+## _igualdade:_ == 
 Este sinal verifica se ambos os operandos são IGUAIS. Mas este sinal não analisa os tipos de dados de cada operando, por consequência, podemos ter o número '55' em formato _string_ que será igual ao número '55' em formato de _number_.
 ```js
 console.log('55' == 55);
