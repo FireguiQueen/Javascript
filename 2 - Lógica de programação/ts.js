@@ -39,8 +39,7 @@ console.log(teste)
 console.log(veiculo)
 
 
-let pessoa5;
-{
-    pessoa5 = 'juju';
+{   // ESCOPO LOCAL
+    let pessoa5 = 'Julião';
 }
-console.log(pessoa5);
+console.log(pessoa5) // NENHUMA VARIÁVEL FOI DEFINIDA

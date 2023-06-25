@@ -49,12 +49,13 @@ console.log(veiculo)
 
 
 ## Let 
-Diferentemente do comportamento mostrado acima, o `let` faz uso de escopos locais.
-Isto significa que, caso a variável não exista no escopo local onde você chamou ela, irá retornar erro.  
+Diferentemente do comportamento mostrado acima, o `let` não pode ser usado de maneira global.
+
+> Neste exemplo, declaramos uma variável usando `let`, esta variável se encontra em um escopo local. Ao tentarmos
 ```js
-// ESCOPO GLOBAL
+// ESCOPO GLOBAL (não possui nenhuma variável)
 
 {   // ESCOPO LOCAL
     let pessoa = 'Julião';
 }
-console.log(pessoa) // 'Pablo'
+console.log(pessoa) // "Pessoa" is not defined
