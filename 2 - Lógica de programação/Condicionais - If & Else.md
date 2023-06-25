@@ -90,7 +90,7 @@ Em estruturas que possuem bastante condicionais, sempre devemos fazer o uso de '
 pois assim, caso um deles seja verdadeiro, as próximos condicionais não serão analisadas, e então
 teremos mais efiência no código. Mas a partir do momento que a estrutura condicional 
 possuir um return, e ele for verdadeiro, nenhum outro 'IF' será analisado pelo javascript, 
-pois o anterior já foi analisado e dado como true, logo não é tão necessário utilizar do 'else if'.  
+pois o anterior já foi analisado e dado como true, logo não é necessário utilizar do 'else if'.  
 */
 function howManyPeople(num){
     if(num >= 100)
