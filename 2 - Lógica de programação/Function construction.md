@@ -1,8 +1,9 @@
-## Função construtora 
+# Função construtora 
 Uma função construtora nada mais é do que um objeto em uma função.
 Este objeto irá possuir propriedades, mas não irá possuir valores.
-Os valores são definidos através dos parâmetros desta função. 
+Ela é utilizada como esqueleto para futuros novos objetos, e os valores dele são definidos através dos argumentos que serão dados a esta função. 
 
+## Analogia 
 Vamos supor que você seja um diretor de uma escola.  </br>
 Cada aluno será cadastrado como um objeto em javascript, e todos objetos irão possuir as seguintes propriedades.: 
 - Nome
