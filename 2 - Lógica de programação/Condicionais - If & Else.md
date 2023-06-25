@@ -83,7 +83,7 @@ else
 
 </br>
 
-- Em uma função que possui uma estrutura condicional com __RETURN__, o `if else` não é obrigatório 
+- Caso a estrutura condicional faça uso do "RETURN", o `else if` não é obrigatório
 ```js
 /* 
 Em estruturas que possuem bastante condicionais, sempre devemos fazer o uso de 'else if', 
