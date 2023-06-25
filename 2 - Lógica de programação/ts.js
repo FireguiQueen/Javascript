@@ -33,9 +33,3 @@ console.log(teste)
 
 
 
-
-let pessoa1 = 'Flora';
-{
-    pessoa1 = 'Julia';
-}
-console.log(pessoa1)

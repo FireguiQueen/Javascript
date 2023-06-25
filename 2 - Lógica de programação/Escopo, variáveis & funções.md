@@ -24,7 +24,8 @@ ___________________________________________________________
 
 ## Var
 O comportamento de uma variável `var` é com base no escopo global.
-Observe que criamos duas variáveis com o mesmo nome, e por fim, printamos ela em nosso console. Pelo fato da `var` ser global, o valor dela será com base no último que foi escrito. O último valor escrito a esta variável foi o nome "Julia".
+
+> Neste exemplo, riamos duas variáveis com o mesmo nome, e por fim, printamos ela em nosso console. Pelo fato da `var` ser global, o valor dela será com base no último valor que foi escrito.
 ```js
 var pessoa = 'Flora';
 {
@@ -33,9 +34,11 @@ var pessoa = 'Flora';
 console.log(pessoa) // 'Julia'
 ```
 
-## Let
-Diferentemente do comportamento mostrado acima, o `let` faz uso de escopos locais.
-Isto significa que, o nosso console irá exibir a variável que está no escopo dele.
+
+
+## Let e Const
+Diferentemente do comportamento mostrado acima, o `let` e o `const` fazen uso de escopos locais.
+Isto significa que, 
 ```js
 // ESCOPO GLOBAL
 
