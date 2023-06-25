@@ -23,3 +23,9 @@ switch(pessoa){
 data_com_ano_alterado = new Date('2023-06-06T22:32:21');
 
 console.log(data_com_ano_alterado);
+
+
+/// 
+console.log('-------------')
+const teste = new Date().toLocaleDateString('pt-BR', {dateStyle: "full"})
+console.log(teste)
