@@ -4,7 +4,8 @@ Podemos imaginar que as estruturas condicionais no mundo da programação são b
 
 ## Exemplo 01
 Vamos imaginar uma condicional na vida real e transformá-la em código.
-> _SE_ o tempo estiver bom, você irá dizer "Eu vou para a praia", _SE NÃO_ você irá dizer "ficarei em casa". 
+> _SE_ o tempo estiver bom, você irá dizer "Eu vou para a praia" </br> 
+> _SE NÃO_ você irá dizer "ficarei em casa". 
 
 ```js
 let timeIsGood = true;
