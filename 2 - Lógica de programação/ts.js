@@ -37,3 +37,10 @@ console.log(teste)
     var veiculo = 'Caminhão';
 }
 console.log(veiculo)
+
+
+let pessoa5;
+{
+    pessoa5 = 'juju';
+}
+console.log(pessoa5);
