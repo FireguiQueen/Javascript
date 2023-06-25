@@ -2,7 +2,7 @@
 `if` e `else` (ou somente if; pois o 'else não é obrigatório) é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa o código dentro de else (caso haja um).
 Podemos imaginar que as estruturas condicionais no mundo da programação são bem parecidas com a da vida real. 
 
-## Exemplo 01
+### Exemplo 01
 Vamos imaginar uma condicional na vida real e transformá-la em código.
 > _SE_ o tempo estiver bom, você irá dizer "Eu vou para a praia" </br> 
 > _SE NÃO_ você irá dizer "ficarei em casa". 
@@ -22,7 +22,7 @@ if (isWeatherGood === true){
 
 </br>
 
-## Exemplo 02
+### Exemplo 02
 No exemplo 01, tivemos apenas uma condicional, se o tempo estiver bom, você irá ir para a praia, se não estiver, você não irá ir. Mas e se você precissase colocar mais condicionais? </br> 
 _Por exemplo: Se o tempo estiver com sol, você irá ir para a praia. Se o tempo estiver nublado, você irá ir para a praia, porém, se estiver chovendo, você não irá ir_ 
 </br>
@@ -63,7 +63,7 @@ else{
 
 _______________________________________________________
 
-### Notas
+## Notas
 - Quando há somente uma linha de código, as chaves não são _obrigatórias_.
 ```js
 // Jeito padrão 
