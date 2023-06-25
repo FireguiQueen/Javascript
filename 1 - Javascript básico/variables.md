@@ -6,7 +6,6 @@ Por exemplo, em vez de repetir o valor "10" várias vezes em um programa, você 
 As variáveis também são importantes porque _permitem que os programas interajam com o usuário_ ou com outros sistemas, armazenando e processando dados de entrada e saída.
 
 </br>
-</br>
 
 ## Identificadores
 Os identificadores são os nomes das variáveis. No exemplo abaixo, o nosso identificador é a palavra "pessoa".  
