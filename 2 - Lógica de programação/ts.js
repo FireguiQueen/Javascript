@@ -29,3 +29,13 @@ console.log(data_com_ano_alterado);
 console.log('-------------')
 const teste = new Date().toLocaleDateString('pt-BR', {dateStyle: "full"})
 console.log(teste)
+
+
+/// 
+let mds = 'oi'
+function teste1(){
+    var cu = 'uc'
+    return mds
+}
+console.log(teste1())
+console.log(cu)
