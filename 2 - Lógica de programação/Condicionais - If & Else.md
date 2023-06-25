@@ -15,6 +15,9 @@ if (isWeatherGood === true){
 } else{
     console.log('Eu vou ficar em casa, o tempo não está bom.');
 }
+
+// output:
+// "Eu vou para a praia!" 
 ```
 
 </br>
