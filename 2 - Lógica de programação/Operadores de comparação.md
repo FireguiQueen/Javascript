@@ -7,7 +7,6 @@ console.log(100 > 10);
 
 
 </br>
-</br>
 
 
 ## > _(maior que)_
