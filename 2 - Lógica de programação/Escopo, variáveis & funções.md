@@ -34,6 +34,8 @@ var pessoa = 'Flora';
 console.log(pessoa) // 'Julia'
 ```
 
+> Neste exemplo, possuimos também dois escopos: o global e o local. Podemos observar que __NÃO__ há nenhuma variável chamada ".." no escopo global, apenas em um escopo local. Porém, como foi dito anteriormente, `var` 
+
 
 
 ## Let e Const
