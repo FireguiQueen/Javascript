@@ -20,7 +20,6 @@ let pessoa = "Pablo";
 ```
 
 </br>
-</br>
 
 ## Declarando variáveis
 Para se declarar (criar) variáveis é muito simples. Seguimos esta ordem?
