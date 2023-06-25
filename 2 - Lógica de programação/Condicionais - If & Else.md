@@ -1,5 +1,5 @@
 # Condicionais
-`if` e `else` (ou somente if) é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa as afirmações dentro de else (caso haja um).
+`if` e `else` (ou somente if; pois o 'else não é obrigatório) é uma estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira. Se for falsa, executa o código dentro de else (caso haja um).
 Podemos imaginar que as estruturas condicionais no mundo da programação são bem parecidas com a da vida real. 
 
 ## Exemplo 01
