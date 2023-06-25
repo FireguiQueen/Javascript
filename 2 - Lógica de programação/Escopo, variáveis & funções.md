@@ -1,7 +1,5 @@
-# Variáveis
-
-## Escopo 
-Antes de nos aprofundarmos nas "principais" diferenças entre as variáveis (const, let e var), precisamos ter o conhecimento sobre os escopos.
+# Escopo 
+Antes de nos aprofundarmos nas "principais" diferenças entre as variáveis (const, let e var) relacionadas ao escopo, precisamos ter o conhecimento sobre os escopos.
 Escopos são como caixas, e por este motivo, você pode criar diversas variáveis que possuem do mesmo nome, entretanto, elas devem estar em escopos distintos.
 De uma forma muito simples podemos identificar um escopo, basta procurar pelas chaves ({}).
 
@@ -19,3 +17,13 @@ function digaOI(){
     return 'Oi!"'
 }
 ```
+
+</br>
+
+___________________________________________________________
+
+## Var
+O comportamento de uma variável `var` é com base no escopo global.
+
+Primeiramente, variáveis `var` 
+

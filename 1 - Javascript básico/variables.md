@@ -23,7 +23,7 @@ Os identificadores devem possuir significado, e possuem regras para serem escrit
 </br>
 
 ## Declarando variáveis
-Para declarar variáveis é muito simples.:
+Para se declarar (criar) variáveis é muito simples.:
 ```js
 var pessoa = 'Julia';
 
