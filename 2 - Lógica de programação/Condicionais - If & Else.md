@@ -42,6 +42,8 @@ else{
 }
 ```
 
+</br>
+
 * Como nosso código será interpetado utilizando if & else if
 ```js
 let timeIsGood = 'nublado';
