@@ -60,3 +60,8 @@ Diferentemente do comportamento mostrado acima, o `let` não pode ser usado de m
     let pessoa = 'Julião';
 }
 console.log(pessoa) // "Pessoa" is not defined
+```
+
+</br>
+
+_________________________________
