@@ -65,3 +65,27 @@ console.log(pessoa) // "Pessoa" is not defined
 </br>
 
 _________________________________
+
+## Var e escopo de função
+As funções possui um escopo um pouco diferente. Antigamente, nas versões mais antigas do ECMAScript, não havia outras formas de declarar variáveis, havia apenas o `var`.
+A única forma de se possuir variáveis `var` com diferentes valores seria através de escopos de função.
+
+> Neste exemplo há uma função, perceba que a nossa variável `var` não existe fora dela.
+```js
+function pessoa(){
+    var pessoa = 'Gus';
+}
+console.log(pessoa) // 'pessoa' is not defined
+```
+
+</br>
+
+> Neste exemplo, há duas funções, ambas possuem variáveis com o mesmo nome e valores diferentes, e isto não seria possível com escopos globais, pois no final, ambas teriam o mesmo valor
+```js
+function pessoa01(){
+    var name = 'Walter White';
+}
+
+function pessoa02(){
+    var name = 'Jessie Pinkman';
+}
