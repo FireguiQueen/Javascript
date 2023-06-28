@@ -27,3 +27,15 @@ const pessoa_01 = {         // Utilize chaves '{}' para inicializar um objeto
 }
 console.log(pessoa_01.nome) // Para acessar alguma propriedade do objeto, utilize um ponto final (.)
 
+
+
+// Objetos também podem possuir objetos dentro
+const pessoa = {
+    name: 'Otavio',
+    company_id: 4912541,
+
+    address: {
+        rua: 'V25',
+        district: 'Cambridge'
+    }
+}
