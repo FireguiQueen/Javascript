@@ -21,7 +21,7 @@ let pessoa_03 = 'Maria';
     tem um array que contém os valores que serão alocados nas variáveis.
     É importante notar que a ordem das variáveis deve corresponder à ordem dos valores no array
 */
-[pessoa_01, pessoa_02, pessoa_03] = ['Gustavo', 'Walter White', 'Jown Snow'];
+[pessoa_01, pessoa_02, pessoa_03] = ['Gustavo', 'Walter White', 'Jon Snow'];
 
 // Veremos que todas as variáveis agora possuem novos valores
 console.log(pessoa_01, pessoa_02, pessoa_03)
