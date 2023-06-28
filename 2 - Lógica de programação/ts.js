@@ -39,7 +39,9 @@ console.log(teste)
 console.log(veiculo)
 
 
-{   // ESCOPO LOCAL
-    let pessoa5 = 'Julião';
+
+
+{   // Escopo local (possui uma variável)
+    var veiculo = 'Caminhão';
 }
-console.log(pessoa5) // NENHUMA VARIÁVEL FOI DEFINIDA
+console.log(veiculo)
