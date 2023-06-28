@@ -30,4 +30,24 @@ console.log(pessoa_01, pessoa_02, pessoa_03);
 
 
 // Podemos fazer a mesma coisa com os elementos de um array.
+// Note que estamos pegando os elementos e atribuindo uma VARIÁVEL a eles (e não um valor).
 const lista_nomes = ['Otavio', 'Paulo', 'Osvaldo'];
+const [pessoa_1, pessoa_2, pessoa_3] = lista_nomes
+
+
+// Não é obrigatório criar variáveis a todos os valores de um array.
+const [pessoa1] = lista_nomes;
+console.log(pessoa1)
+
+
+/*
+    Caso você queira pegar o resto, basta colocar o operador "rest" (...)
+    Este operador irá criar uma variável que possui um array, e este array irá possuir 
+    todos os valores que não tiveram uma variável atribuida a eles. Por exemplo.:
+*/
+const nomes = ['Julio', 'Érik', 'Paula', 'Mario', 'Leonardo'];
+let [nome_1, nome_2, ...nomesRestantes] = nomes;
+
+console.log(nome_1) // Julio
+console.log(nome_2) // Érik
+console.log(nomesRestantes) // ['Paula', 'Mario', 'Leonardo'];
