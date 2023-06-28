@@ -1,5 +1,5 @@
 # Escopo 
-Antes de nos aprofundarmos nas "principais" diferenças entre as variáveis (const, let e var) relacionadas ao escopo, precisamos ter o conhecimento sobre os escopos.
+Antes de nos aprofundarmos nas "principais" _diferenças_ entre as variáveis (const, let e var) relacionadas ao escopo, precisamos ter o conhecimento sobre os escopos.
 Escopos são como caixas, e por este motivo, você pode criar diversas variáveis que possuem do mesmo nome, entretanto, elas devem estar em escopos distintos.
 De uma forma muito simples podemos identificar um escopo, basta procurar pelas chaves ({}).
 
@@ -12,7 +12,7 @@ const pessoa = {
 } 
 
 // Criamos uma função chamada "digaOI"
-// Veja que esta função possuia seu próprio escopo
+// Veja que esta função possui seu próprio escopo
 function digaOI(){
     return 'Oi!"'
 }
