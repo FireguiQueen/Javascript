@@ -6,10 +6,8 @@
     propriedades específicas de um objeto.
 */
 
-
-const teste = {
-    name: 'oi'
-    
+// Reatribuindo valores de uma propriedade do objeto
+const pessoa = {
+    name: 'Julia'
 }
-
-console.log(teste.name)
+pessoa.name = 'Amanda';

@@ -30,7 +30,7 @@ console.log(pessoa_01, pessoa_02, pessoa_03);
 
 
 // Podemos fazer a mesma coisa com os elementos de um array.
-// Note que estamos pegando os elementos e atribuindo uma VARIÁVEL diferente a cada um eles (e não um valor).
+// Estamos pegando os elementos e atribuindo uma VARIÁVEL diferente a cada um eles.
 const lista_nomes = ['Otavio', 'Paulo', 'Osvaldo'];
 const [pessoa_1, pessoa_2, pessoa_3] = lista_nomes
 
