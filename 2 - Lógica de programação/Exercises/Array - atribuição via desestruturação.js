@@ -40,4 +40,6 @@ console.log(firstPerson, secondPerson)
 // Considere o seguinte array:
 // Atribua os três últimos valores do array a três variáveis diferentes.
 const students = ['John', 'Jane', 'Alex', 'Emily', 'Michael'];
+const [aa, bb,cc, ...rest] = students.slice(-3);
+console.log(aa, bb ,cc, rest)
 
