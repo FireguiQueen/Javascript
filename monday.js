@@ -1,119 +1,107 @@
 // ARAYS
 
-// Crie um array.
-const lista = ['gui', 'flora', 'C3PO']
+
+// Crie um array e coloque um ou mais elementos.
+const list = ['Julia', 'Nicolas']
 
 // Acesse um item 
-console.log(lista[1])
+console.log(list[0])
+
 
 // Conte quantos elementos há
-console.log(lista.length);
+console.log(list.length)
 
-
-// Altere um item
-lista[2] = 'R2D2'
-console.log(lista)
+// Altere um elemento
+list[0] = 'Amanda'
+console.log(list)
 
 // +1 item ao final da lista
-lista.push('C3PO')
+list.push('Olavo')
+console.log(list)
 
 // -1 item ao final da lista
-lista.pop()
+list.pop()
 
 // +1 item ao inicio 
-lista.unshift('Julia')
-console.log(lista)
+list.unshift('Juju')
 
 //-1 item ao inicio
-lista.shift()
+list.shift()
 
 // remover item sem alterar os indices 
-delete lista[2]
-console.log(lista)
+delete list[0]
+console.log(list)
 
 // pegando indices desejados 
-console.log(lista.slice(1, 2));
-
+console.log(list.slice(1))
 
 
 
 // FUNCTIONS
 
 // crie um método 
-const caneca = {
-    cor: 'azul',
-    quebrarCaneca(){
-        return 'Você pega a caneca e joga ela no chão. Ela quebrou.'
+const oi = {
+
+    saudacao(){
+        return 'oi!'
     }
 }
-
-console.log(caneca.quebrarCaneca())
-
+console.log(oi.saudacao())
 
 // crie uma function declaration
-function sayHi(){
-    return 'Hi'
+function pessoa(){
+
 }
 
 // arrow function
-const sayHello = name =>{
-    return `Hello, ${name}`
+const pessoa1 = () => {
+
 }
-console.log(sayHello('gui'));
 
 // IIFE (Imeadiatly invoked function expression)
-(name =>{
-    console.log(`Olá, ${name}`)
-}) ('Gus')
+(function(){
+
+})
 
 
 
 // Defina valores padrões aos argumentos 
-function sum(x =0, y = 0){
-    return x + y;
-}
-console.log(sum())
+const sum = (x=0, y=0) => x+y;
+console.log(sum(23,5))
+
 
 
 
 // verifique se é INT
-console.log(Number.isInteger(3))
+console.log(Number.isInteger(2)) // true
 
 // arrume as casas decimais
-console.log(41.1414144.toFixed(2))
+const num = 1.535425
+console.log(num.toFixed(0))
+console.log(Math.floor(num))
 
 // verifique se é NaN
-console.log(Number.isNaN('3'/3*'a'))
-
+console.log(Number.isNaN('2'/7 *'a'))
 
 // Arredonde pra cima
-console.log(Math.ceil(3.5))
+console.log(Math.ceil(2.5))
 
 // pra baixo 
-console.log(Math.floor(3.8))
+console.log(Math.floor(2.1))
 
 // pro número inteiro mais próximo
-console.log(Math.round(3.5))
-
+console.log(Math.round(2.6))
 
 // maior número de uma sequencia
-console.log(Math.max(3, 51, 145, 2355125, 12242125, 151259058235, 9589582591235))
+console.log(Math.max(2,525,2352525,35123))
 
 // menor número
-console.log(Math.min(154, 59, 12, 5995, 242, 2))
-
+console.log(Math.min(4, 14141.0, 141.0, 33))
 
 
 // OBJECTS
 
 // Crie um objeto
-const pessoa = {
-    cor: 'Branca',
-    name: 'Julião brotheragens',
-    idade: 42,
-    sayHiToMe(me){
-        return `${this.name} falou oi para ${me} `
-    }
-}
+const oi1 = { 
 
-console.log(pessoa.sayHiToMe('Guilherme'))
+}

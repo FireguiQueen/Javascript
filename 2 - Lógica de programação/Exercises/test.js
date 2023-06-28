@@ -8,3 +8,13 @@ function howManyPeople(num){
         return 'Há menos de 10 pessoas'
 }
 console.log(howManyPeople(1))
+
+
+
+
+const mmm = {
+    name: 'oi'
+}
+
+const {name: cu} = mmm;
+console.log(cu)
