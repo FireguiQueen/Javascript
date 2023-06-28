@@ -23,9 +23,8 @@ function digaOI(){
 ___________________________________________________________
 
 ## Var
-O comportamento de uma variável `var` é com base no escopo global.
-
-> Neste exemplo, Criamos duas variáveis com o mesmo nome, e por fim, printamos ela em nosso console. Pelo fato da `var` ser global, o valor final dela será o último valor que foi escrito.
+A declaração `var` é usada para criar uma variável com escopo de função ou, se declarada fora de qualquer função, com escopo global.
+> Neste exemplo, Criamos duas variáveis com o mesmo nome, e por fim, printamos ela em nosso console. Como `var` não tem escopo de bloco, ambas as declarações se referem à mesma variável.
 ```js
 var pessoa = 'Flora';
 {
