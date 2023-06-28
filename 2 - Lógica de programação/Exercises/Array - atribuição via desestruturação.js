@@ -33,6 +33,8 @@ console.log(x, y, z)
 // Considere o seguinte array:
 // Atribua os dois primeiros valores do array às variáveis `firstPerson` e `secondPerson`.
 const names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve'];
+const [firstPerson, secondPerson] = names;
+console.log(firstPerson, secondPerson)
 
 
 // Considere o seguinte array:
