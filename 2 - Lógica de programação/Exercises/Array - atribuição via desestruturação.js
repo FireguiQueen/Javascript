@@ -7,6 +7,8 @@ console.log(a, b, c, d, e);
 // Considere o seguinte array
 // Atribua os valores do array às variáveis `fruit1`, `fruit2`, `fruit3` e `fruit4`.
 const fruits = ['apple', 'banana', 'orange', 'kiwi'];
+const [fruit1, fruit2, fruit3, fruit4] = fruits;
+console.log(fruit1, fruit2, fruit3);
 
 
 // Considere o seguinte array
