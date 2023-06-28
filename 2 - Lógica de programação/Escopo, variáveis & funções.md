@@ -25,7 +25,7 @@ ___________________________________________________________
 ## Var
 O comportamento de uma variável `var` é com base no escopo global.
 
-> Neste exemplo, riamos duas variáveis com o mesmo nome, e por fim, printamos ela em nosso console. Pelo fato da `var` ser global, o valor dela será com base no último valor que foi escrito.
+> Neste exemplo, Criamos duas variáveis com o mesmo nome, e por fim, printamos ela em nosso console. Pelo fato da `var` ser global, o valor final dela será o último valor que foi escrito.
 ```js
 var pessoa = 'Flora';
 {
