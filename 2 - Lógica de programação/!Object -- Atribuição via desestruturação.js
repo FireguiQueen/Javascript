@@ -6,7 +6,7 @@
     propriedades específicas de um objeto.
 */
 
-/;
+
 const teste = {
     name: 'oi'
     
