@@ -6,7 +6,6 @@
     propriedades específicas de um objeto.
 */
 
-
 // Reatribuir valores para uma variável é algo bem simples
 let pessoa = 'João'; 
 pessoa = 'Maria'; 
@@ -31,7 +30,7 @@ console.log(pessoa_01, pessoa_02, pessoa_03);
 
 
 // Podemos fazer a mesma coisa com os elementos de um array.
-// Note que estamos pegando os elementos e atribuindo uma VARIÁVEL a eles (e não um valor).
+// Note que estamos pegando os elementos e atribuindo uma VARIÁVEL diferente a cada um eles (e não um valor).
 const lista_nomes = ['Otavio', 'Paulo', 'Osvaldo'];
 const [pessoa_1, pessoa_2, pessoa_3] = lista_nomes
 
