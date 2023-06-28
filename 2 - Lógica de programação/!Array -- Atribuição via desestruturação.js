@@ -6,6 +6,8 @@
     propriedades específicas de um objeto.
 */
 
+// NÃO CONFUNDA REATRIBUIÇÃO DE VALORES COM ATRIBUIÇÂO VIA DESESTRUTURAÇÂO
+
 // Reatribuir valores para uma variável é algo bem simples
 let pessoa = 'João'; 
 pessoa = 'Maria'; 
@@ -14,7 +16,6 @@ pessoa = 'Maria';
 let pessoa_01 = 'Flora';
 let pessoa_02 = 'Otavio';
 let pessoa_03 = 'Maria';
-
 
 /* 
     No lado esquerdo, temos o array que armazena as variáveis que iremos alterar. 

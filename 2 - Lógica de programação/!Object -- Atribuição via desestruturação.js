@@ -6,8 +6,19 @@
     propriedades específicas de um objeto.
 */
 
-// Reatribuindo valores de uma propriedade do objeto
+// OBJETO 
 const pessoa = {
-    name: 'Julia'
+    nome: 'Julia',
+    endereco: {
+        rua: 'Oswaldo pinto',
+        casa: '296'
+    }
 }
+
+// Reatribuindo valores das propriedades do objeto:
 pessoa.name = 'Amanda';
+pessoa.endereco.rua = 'Rogerio Bragas'
+
+
+
+
