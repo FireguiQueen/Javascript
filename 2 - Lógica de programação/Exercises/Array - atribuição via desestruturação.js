@@ -25,6 +25,10 @@ console.log(primaryColor, secondaryColors);
 // Considere o seguinte array:
 // Atribua o primeiro valor do array à variável `x`, o segundo valor à variável `y` e o terceiro valor à variável `z`.
 const coordinates = [10, 20, 30];
+const [x, y, z] = coordinates;
+console.log(x, y, z)
+
+
 
 // Considere o seguinte array:
 // Atribua os dois primeiros valores do array às variáveis `firstPerson` e `secondPerson`.
