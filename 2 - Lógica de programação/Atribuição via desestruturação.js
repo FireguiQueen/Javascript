@@ -7,7 +7,7 @@
 */
 
 
-// Atribuir novos valores a variáveis é algo bem simples
+// Reatribuir valores para uma variável é algo bem simples
 let pessoa = 'João'; 
 pessoa = 'Maria'; 
 
@@ -25,4 +25,9 @@ let pessoa_03 = 'Maria';
 [pessoa_01, pessoa_02, pessoa_03] = ['Chloe', 'Walter White', 'Jon Snow'];
 
 // Veremos que todas as variáveis agora possuem novos valores
-console.log(pessoa_01, pessoa_02, pessoa_03)
+console.log(pessoa_01, pessoa_02, pessoa_03);
+
+
+
+// Podemos fazer a mesma coisa com os elementos de um array.
+const lista_nomes = ['Otavio', 'Paulo', 'Osvaldo'];
