@@ -19,8 +19,6 @@ console.log(pessoa_01 >= 18? 'Você é de maior.' : 'Você é de menor.')
 
 
 
-
-
 // Substitua esta estrutura.:
     if(pessoa_01.idade >= 18 && pessoa_01.country.toLowerCase() === 'brazil'){
         console.log('Você pode vir a festa.')
