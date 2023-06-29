@@ -47,9 +47,3 @@ console.log(cor_da_caneca) // preta;
 const {cor} = caneca;
 console.log(cor) // preta
 
-
-
-
-    
-
-
