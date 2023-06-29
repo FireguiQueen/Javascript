@@ -19,7 +19,30 @@ const pessoa = {
 pessoa.name = 'Amanda';
 pessoa.endereco.rua = 'Rogerio Bragas'
 
+//****************************************************************************// 
 
+// Objeto comum
+const caneca = {
+    cor: 'preta'
+}
+
+// Atribuindo uma variável a propriedade 'cor' do objeto
+/*  
+    Primeiro colocamos qual seria o tipo da variável (const, let ou var). 
+    Depois abrimos chaves, dentro dela selecionamos as propriedades que desejamos.
+    Após selecionar a propriedade, coloque dois pontos e o nome que deseja para a variável
+    Por fim, escolhe o objeto (ele precisa possuir a propriedade colocada anteriormente).
+*/
+const {cor: cor_da_caneca} = caneca;
+
+
+// Simplificando o código
+/*
+    Não precisamos colocar os dois pontos e escolher um nome de variável.
+    Podemos fazer isto diretamente. Por exemplo, se a proriedade se chama "cor",
+    basta colocar "cor" entre as chaves.
+    A sua variável irá se chamar 'cor'.
+*/
 
 
 // Por que "atribuição via desestruturação"?
