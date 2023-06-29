@@ -34,6 +34,7 @@ const caneca = {
     Por fim, escolhe o objeto (ele precisa possuir a propriedade colocada anteriormente).
 */
 const {cor: cor_da_caneca} = caneca;
+console.log(cor_da_caneca) // preta;
 
 
 // Simplificando o código
@@ -43,7 +44,8 @@ const {cor: cor_da_caneca} = caneca;
     basta colocar "cor" entre as chaves.
     A sua variável irá se chamar 'cor'.
 */
-
+const {cor} = caneca;
+console.log(cor) // preta
 
 // Por que "atribuição via desestruturação"?
 /*
