@@ -47,3 +47,7 @@ console.log(cor_da_caneca) // preta;
 const {cor} = caneca;
 console.log(cor) // preta
 
+
+
+const {endereco: full_address, endereco: {rua: street, casa: house}} = pessoa;
+console.log(full_address, street, house)
