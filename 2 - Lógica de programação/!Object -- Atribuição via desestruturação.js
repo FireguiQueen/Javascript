@@ -15,9 +15,9 @@ const pessoa = {
     }
 }
 
-// Reatribuindo valores das propriedades do objeto:
-pessoa.name = 'Amanda';
-pessoa.endereco.rua = 'Rogerio Bragas'
+// Atribuindo variáveis a propriedades (de maneira comum; não estamos desestruturando)
+const nome_da_pessoa = pessoa.nome 
+console.log(nome_da_pessoa)
 
 //****************************************************************************// 
 
@@ -47,16 +47,7 @@ console.log(cor_da_caneca) // preta;
 const {cor} = caneca;
 console.log(cor) // preta
 
-// Por que "atribuição via desestruturação"?
-/*
-    Uma analogia bem simples seria uma casa de tijolos.
-    Você remove o tijolo da casa, e escreve um código nele. Assim quando você for se referir
-    a aquele determinado tijolo, você irá dizer o código dele. 
-    > A casa seria o objeto, o tijolo seria a propriedade, e o código a nossa variável.
 
-    Primeiro nós desestruturamos nosso objeto, escolhemos quais propriedades desejamos, 
-    e por fim, atribuimos uma variável a ela.  
-*/
 
 
     
