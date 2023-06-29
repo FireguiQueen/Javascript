@@ -48,6 +48,10 @@ const {cor} = caneca;
 console.log(cor) // preta
 
 
-
-const {endereco: full_address, endereco: {rua: street, casa: house}} = pessoa;
-console.log(full_address, street, house)
+// Operador "rest"
+/*
+    Podemos pegar outras propriedades também, e lhes atribuir a uma variável que resultará
+    em um objeto.
+*/
+const {nome, ...omg} = pessoa;
+console.log(omg)
