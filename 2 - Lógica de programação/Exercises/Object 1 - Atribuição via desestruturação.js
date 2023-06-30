@@ -26,9 +26,18 @@ const otavio = new worker(
 )
 
 function sayWorkerInf(worker){
+    const {name, gender, age, department, address, ...rest} = otavio;
+    return `
+    name: ${name}
+    gender: ${gender}
+    age: ${age}
+    department: ${department}
 
+    address: ${address}
+    `
 }
-const {name, gender, age} = otavio;
+
+console.log(sayWorkerInf(otavio))
 
 
 
