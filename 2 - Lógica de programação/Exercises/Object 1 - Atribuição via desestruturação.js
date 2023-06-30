@@ -16,7 +16,7 @@ function worker1(name = 'none', gender = 'none', age, NIN, city, postcode, house
             house
         },
         department,
-        workerId: this.age
+        workerId: `${year - age}.${NIN}`
     }
 }
 const otavio = new worker1('Adam Doe Lemster', 'male', 36, 'AB123456C', 'Ely', 'CB61SA', 42, 'Marketing / design')
@@ -30,13 +30,11 @@ const worker = {
     gender: 'male',
     age: 36,
     NIN: 'AB123456C',
-
     address: {
         city: 'Ely',
         postcode: 'CB61SA',
         house: 42
     },
-
     derpartment: 'Marketing / design',
     workerId(){
         const date = new Date();
@@ -44,6 +42,8 @@ const worker = {
         return typeof worker.age
     },
 }
+
+
 function aboutWorker(worker){
     const list = [];
     const {name, gender, age, NIN, address, derpartment, workerId} = worker;
