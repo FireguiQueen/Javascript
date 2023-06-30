@@ -42,6 +42,8 @@ const person = {
 };
 const {nome, idade} = person;
 
+
+
 // Considere o seguinte objeto.
 // Atribua os valores do objeto às variáveis title, author e year.
 const book = { 
