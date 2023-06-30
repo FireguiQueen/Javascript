@@ -6,7 +6,7 @@ function calcId(age, NIN){
     return `${year - age}.${NIN}`
 }
 
-function worker1(name = 'none', gender = 'none', age, NIN, city, postcode, house, department){
+function worker(name, gender, age, NIN, city, postcode, house, department){
     return{
         name,
         gender,
@@ -21,8 +21,14 @@ function worker1(name = 'none', gender = 'none', age, NIN, city, postcode, house
         workerId: calcId(age, NIN)
     }
 }
-const otavio = new worker1('Adam Doe Lemster', 'male', 36, 'AB123456C', 'Ely', 'CB61SA', 42, 'Marketing / design')
+const otavio = new worker(
+    'Adam Doe Lemster', 'male', 36, 'AB123456C', 'Ely', 'CB61SA', 42, 'Marketing / design'
+)
 
+function sayWorkerInf(worker){
+
+}
+const {name, gender, age} = otavio;
 
 
 
