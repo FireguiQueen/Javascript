@@ -6,16 +6,18 @@ const worker = {
     gender: 'male',
     age: 36,
     NIN: 'AB123456C',
+
     address: {
         city: 'Ely',
         postcode: 'CB61SA',
         house: 42
     },
+
     derpartment: 'Marketing / design',
-    workerId(){
+    workerId() => {
         const date = new Date();
         const year = date.getFullYear();
-        return `${year - this.age}.${this.NIN}`;
+        return typeof this.age
     },
 }
 function aboutWorker(worker){
@@ -28,7 +30,7 @@ function aboutWorker(worker){
         ${NIN}
         ${address}
         ${derpartment}
-        ${workerId}
+        ${workerId()}
     `
 } 
 console.log(aboutWorker(worker))
