@@ -54,7 +54,6 @@ const {title, author} = book;
 
 
 
-
 // Considere o seguinte objeto.
 // Atribua os valores do objeto às variáveis name, position e department.
 const employee = { 
