@@ -21,9 +21,6 @@ function worker(name, gender, age, NIN, city, postcode, house, department){
         workerId: calcId(age, NIN)
     }
 }
-const otavio = new worker(
-    'Adam Doe Lemster', 'male', 36, 'AB123456C', 'Ely', 'CB61SA', 42, 'Marketing / design'
-)
 
 function sayWorkerInf(worker){
     const {name, gender, age, department, address, ...rest} = otavio;
@@ -32,10 +29,12 @@ function sayWorkerInf(worker){
     gender: ${gender}
     age: ${age}
     department: ${department}
-
-    address: ${address}
+    address: England - ${address.city}, ${address.postcode}, ${address.house}
     `
 }
+
+const otavio = new worker('Adam Doe Lemster', 'male', 36, 'AB123456C', 'Ely', 'CB61SA', 42, 'Marketing / design')
+const guilherme = new worker('Guilherme Pires', 'male', 19, 'A424114J', 'Ely', )
 
 console.log(sayWorkerInf(otavio))
 
