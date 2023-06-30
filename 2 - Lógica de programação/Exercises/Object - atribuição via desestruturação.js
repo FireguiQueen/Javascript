@@ -80,10 +80,9 @@ const worker = {
     NIN: 'AB123456C',
     address: {
         city: 'Ely',
-        postcode: 'CB61SA'
-        house: 414
-    }
-
+        postcode: 'CB61SA',
+        house: 42
+    },
 
     companyDerpartment: 'Marketing / design',
     worker_id(){
