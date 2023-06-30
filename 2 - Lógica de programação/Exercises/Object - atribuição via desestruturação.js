@@ -45,12 +45,12 @@ const {nome, idade} = person;
 
 
 // Considere o seguinte objeto.
-// Atribua os valores do objeto às variáveis title, author e year.
+// Atribua os valores do objeto às variáveis title e author.
 const book = { 
     title: 'The Great Gatsby', 
-    author: 'F. Scott Fitzgerald', 
-    year: 1925 
+    author: 'F. Scott Fitzgerald',  
 };
+const {title, author} = book;
 
 
 
