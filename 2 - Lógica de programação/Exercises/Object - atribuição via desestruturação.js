@@ -78,9 +78,18 @@ const worker = {
     gender: 'male',
     age: 36,
     NIN: 'AB123456C',
+    address: {
+        postcode: 'CB61SA'
+        ci
+    }
+
 
     companyDerpartment: 'Marketing / design',
-    worker_id: 41404114,
-}
+    worker_id(){
+        const date = new Date();
+        const year = date.getFullYear();
+        return `${year - this.age}.${this.NIN}`;
+    },
 
+}
 
