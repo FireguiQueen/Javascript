@@ -79,8 +79,9 @@ const worker = {
     age: 36,
     NIN: 'AB123456C',
     address: {
+        city: 'Ely',
         postcode: 'CB61SA'
-        ci
+        house: 414
     }
 
 
