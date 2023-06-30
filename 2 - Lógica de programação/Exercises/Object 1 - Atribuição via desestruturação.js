@@ -1,7 +1,10 @@
 // Crie um objeto relacionado a um funcionário, o mesmo deve possuir muitas informações. 
 // Crie uma função que o capture e devolve os valores das propriedades de maneira "mastigada".
 
-function worker(name, gender, age, NIN, city, postcode, house, department, workerId){
+const date = new Date();
+const year = date.getFullYear();
+
+function worker1(name = 'none', gender = 'none', age, NIN, city, postcode, house, department){
     return{
         name,
         gender,
@@ -13,9 +16,14 @@ function worker(name, gender, age, NIN, city, postcode, house, department, worke
             house
         },
         department,
-        workerId
+        workerId: this.age
     }
 }
+const otavio = new worker1('Adam Doe Lemster', 'male', 36, 'AB123456C', 'Ely', 'CB61SA', 42, 'Marketing / design')
+console.log(otavio)
+
+
+
 
 const worker = {
     name: 'Adam Doe Lemster',
@@ -49,4 +57,3 @@ function aboutWorker(worker){
         ${workerId()}
     `
 } 
-console.log(aboutWorker(worker))
