@@ -39,4 +39,3 @@ const flora = new worker('Flora Mijanha', 'female', 21, 'A424114J', 'Littleport'
 console.log(sayWorkerInf(flora))
 
 
-
