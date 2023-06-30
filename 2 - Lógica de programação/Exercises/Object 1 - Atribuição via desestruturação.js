@@ -34,7 +34,7 @@ function sayWorkerInf(worker){
 }
 
 const otavio = new worker('Adam Doe Lemster', 'male', 36, 'AB123456C', 'Ely', 'CB61SA', 42, 'Marketing / design')
-const flora = new worker('Flora Mijanha', 'female', 21, 'A424114J', '', )
+const flora = new worker('Flora Mijanha', 'female', 21, 'A424114J', 'Littleport', '' )
 
 console.log(sayWorkerInf(otavio))
 
