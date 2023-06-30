@@ -23,7 +23,7 @@ function worker(name, gender, age, NIN, city, postcode, house, department){
 }
 
 function sayWorkerInf(worker){
-    const {name, gender, age, department, address, ...rest} = otavio;
+    const {name, gender, age, department, address, ...rest} = worker;
     return `
     name: ${name}
     gender: ${gender}
@@ -34,8 +34,8 @@ function sayWorkerInf(worker){
 }
 
 const otavio = new worker('Adam Doe Lemster', 'male', 36, 'AB123456C', 'Ely', 'CB61SA', 42, 'Marketing / design')
-const flora = new worker('Flora Mijanha', 'female', 21, 'A424114J', 'Littleport', 'CB61PZ', 26, 'Back-end; Junior' )
+const guilherme = new worker('Guilherme Pires Gonçalves', 'male', 19, 'A424114J', 'Littleport', 'CB61PZ', 26, 'Back-end; Junior' )
 
-console.log(sayWorkerInf(flora))
+console.log(sayWorkerInf(guilherme))
 
 
