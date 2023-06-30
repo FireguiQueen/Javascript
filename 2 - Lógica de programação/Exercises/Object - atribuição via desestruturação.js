@@ -8,7 +8,6 @@ const person_01 = {
 const {name, age, city} = person_01;
 
 
-
 // Considere o seguinte objeto.
 // Atribua os valores do objeto às variáveis brand, model e year.
 const car = { 
