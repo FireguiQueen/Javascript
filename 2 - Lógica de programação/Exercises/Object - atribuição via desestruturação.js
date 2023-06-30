@@ -57,7 +57,8 @@ const {title, author} = book;
 // Considere o seguinte objeto.
 // Atribua os valores do objeto às variáveis name, position e department.
 const employee = { 
-    name: 'John Doe', 
+    fullName: 'John Doe', 
     position: 'Manager', 
     department: 'Sales' 
 };
+const {fullName, position, department} = employee;
