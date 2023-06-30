@@ -67,7 +67,7 @@ const {fullName, position, department} = employee;
 
 // ********************************************************* // 
 
-// Crie um objeto relacionado a um funcionário, deve possuir muitas informações. 
+// Crie um objeto relacionado a um funcionário, o mesmo deve possuir muitas informações. 
 // Crie uma função que o capture e devolve os valores das propriedades de maneira "mastigada".
 const worker = {
     nameSurname: 'Adam Doe Lemster',
