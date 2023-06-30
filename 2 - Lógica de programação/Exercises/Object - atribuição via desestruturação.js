@@ -67,14 +67,14 @@ const {fullName, position, department} = employee;
 
 // ********************************************************* // 
 
-// Considere o objeto seguinte.
+// Crie um objeto relacionado a um funcionário, deve possuir muitas informações. 
 // Crie uma função que o capture e devolve os valores das propriedades de maneira "mastigada".
 const worker = {
     nameSurname: 'Adam Doe Lemster',
     gender: 'male',
     age: 36,
     NIN: 'AB123456C',
-     
+
     companyDerpartment: 'Marketing / design',
     worker_id: 41404114,
 }
