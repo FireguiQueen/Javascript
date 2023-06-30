@@ -19,6 +19,16 @@ const worker = {
     },
 }
 function aboutWorker(worker){
+    const list = [];
     const {name, gender, age, NIN, address, derpartment, workerId} = worker;
-    return 
-}
+    return `
+        ${name}
+        ${gender}
+        ${age} 
+        ${NIN}
+        ${address}
+        ${derpartment}
+        ${workerId}
+    `
+} 
+console.log(aboutWorker(worker))
