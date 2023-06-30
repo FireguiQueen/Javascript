@@ -93,3 +93,4 @@ const worker = {
 
 }
 
+console.log(worker)
