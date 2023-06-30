@@ -32,7 +32,6 @@ const {name: studentName, grade: studentGrade} = student;
 console.log(studentName, studentGrade)
 
 
-
 // Considere o seguinte objeto.
 /* Atribua o valor da propriedade name a uma variável chamada name e o valor da propriedade age a uma variável chamada age.
 const person = { 
