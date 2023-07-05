@@ -13,6 +13,3 @@ for (let i = 6; i < lista_frutas.length; i++ ){
 
 
 
-
-
-
