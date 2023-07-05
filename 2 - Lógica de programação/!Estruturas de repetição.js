@@ -15,7 +15,7 @@
 
 // Por que variáveis de controle são chamadas de "I"?
 /*
-    A letra "i" nesses casos significa "indice".
+    A letra "i" nesses casos significa "index".
 */
     
 
@@ -23,3 +23,5 @@
 for(let i = 0; i < 10; i++){
     console.log(i)
 }
+
+

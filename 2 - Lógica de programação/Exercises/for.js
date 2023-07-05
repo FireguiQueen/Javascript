@@ -12,7 +12,7 @@ for (let i = 6; i < lista_frutas.length; i++ ){
 }
 
 
-// Consoles
-for (let i = 1; i <= 5; ){
-    console.log(`Lista ${i}`)
-}
+
+
+
+
