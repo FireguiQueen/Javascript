@@ -22,11 +22,11 @@ function imparPar(){
     const numbers = [0, 23, 52, 56, 73, 82, 91, 107, 143, 167];
     const impares = [];
     const pares = [];
-    for(let i = 0; i <numbers.length; i++){
+    for(let i = 0; i < numbers.length; i++){
         if(i % 2 === 0 ){
-            pares.push(i)
+            pares.push(numbers[i])
         } else {
-            impares.push(i)
+            impares.push(numbers[i])
         }
     }
     return `
