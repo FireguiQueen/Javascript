@@ -29,9 +29,13 @@ function imparPar(){
             impares.push(numbers[i])
         }
     }
+
+    function spaceBetween(parouimpar){
+        return parouimpar.toString().replaceAll(',', ', ');
+    }
     return `
-    Impares = ${impares}
-    Pares = ${pares}
+    Impares = ${spaceBetween(impares)}
+    Pares = ${spaceBetween(pares)}
     `
 } 
 console.log(imparPar())
