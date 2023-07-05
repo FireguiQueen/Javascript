@@ -1,7 +1,12 @@
 // FOR 
 /*  
     1. Criar uma variável e atribuir um valor a ela; 
+    > Chamamos ela de "variável de controle", pois o valor dela que será analisado para ver
+    se a repetição deve continuar ou não.
+
     2. Criar uma condição (caso seja verdadeira, a repetição irá continuar);
+    > Esta condição faz uso da nossa variável de controle
+
     3. Incrementar/decrementar o valor de nossa variável.
 
     >> Esses passos são separados por ponto e vírgula dentro dos parêntesis.
