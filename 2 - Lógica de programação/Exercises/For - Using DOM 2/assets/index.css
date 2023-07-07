@@ -8,8 +8,9 @@ body{
     height: 100vh;
     width: 100%; 
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-image: linear-gradient(rgb(38, 38, 55), rgb(25, 25, 54));
-
+    margin-top: 13em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +18,7 @@ body{
 
 section.container{
     width: 60%;
-    height: 65%;
+    height: 200px;
     border-radius: 17px;
     background-color: rgba(255, 255, 255, 0.925);
     padding-left: 41px;
@@ -28,9 +29,26 @@ section.container{
 h1{
     margin-bottom: 52px;
 }
-main{
+ul{ 
+    padding-top: 3px;
+    width: 100%;
+    height: fit-content;
     display: flex;
-    justify-content: center;
     gap: 30px;
     flex-direction: column;
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+        filter: blur(100px);
+    } 
+    100%{
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+.cu{
+    opacity: 0; 
+    filter:blue(100px); 
 }
