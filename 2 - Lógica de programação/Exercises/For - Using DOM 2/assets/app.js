@@ -56,10 +56,10 @@ let frutas = [
 let atraso = 0;
 const writeOn = document.querySelector('.lista');
 function write(fruta){
-    atraso += 0.08;
+    atraso += 0.06;
     
     return `
-        <div class='cu' style="animation: appear .5s linear forwards ${atraso}s";>> 
+        <div style="opacity: 0; filter:blue(100px); animation: appear .5s linear forwards ${atraso}s";>> 
             ${fruta} 
         </div>
     `
