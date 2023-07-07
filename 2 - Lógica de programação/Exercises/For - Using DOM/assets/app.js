@@ -7,7 +7,10 @@ const elementos = [
 
 const writeOn = document.querySelector('.container');
 for(let i = 0; i < elementos.length; i++){
-    const creatElement = document.createElement(elementos[i].tag)
-    writeOn.appendChild(creatElement)
+    const createElement = document.createElement(elementos[i].tag)
+    const creatText = document.i
+    writeOn.appendChild(createElement);
+
+    
 }
 
