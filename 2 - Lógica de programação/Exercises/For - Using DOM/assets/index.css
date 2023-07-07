@@ -25,3 +25,12 @@ section.container{
     letter-spacing: 1.3px;
     font-size: 32px;
 }
+h1{
+    margin-bottom: 52px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}

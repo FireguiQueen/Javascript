@@ -5,7 +5,7 @@ const elementos = [
     {tag: 'section', texto: 'Frase 4'}
 ];
 
-const writeOn = document.querySelector('.container');
+const writeOn = document.querySelector('main');
 for(let i = 0; i < elementos.length; i++){
     writeOn.innerHTML += `<${elementos[i].tag}> ${elementos[i].texto} </${elementos[i].tag}`
 }
