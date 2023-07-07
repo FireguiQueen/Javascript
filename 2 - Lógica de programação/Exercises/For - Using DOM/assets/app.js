@@ -7,10 +7,7 @@ const elementos = [
 
 const writeOn = document.querySelector('.container');
 for(let i = 0; i < elementos.length; i++){
-    const createElement = document.createElement(elementos[i].tag)
-    const creatText = document.i
-    writeOn.appendChild(createElement);
-
-    
+    writeOn.innerHTML += `<${elementos[i].tag}> ${elementos[i].texto} </${elementos[i].tag}`
 }
+
 
