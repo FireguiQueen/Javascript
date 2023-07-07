@@ -5,11 +5,9 @@ const elementos = [
     {tag: 'section', texto: 'Frase 4'}
 ];
 
-
 const writeOn = document.querySelector('.container');
-createElement('p')
-// for(let i = 0; i < elementos.length; i++){
-//     writeOn.innerHTML += elementos[i].tag
-//     // p.innerText = elementos[i].texto
-// }
+for(let i = 0; i < elementos.length; i++){
+    const creatElement = document.createElement(elementos[i].tag)
+    writeOn.appendChild(creatElement)
+}
 

@@ -15,7 +15,7 @@ body{
     align-items: center;
 }
 
-section{
+section.container{
     width: 60%;
     height: 65%;
     border-radius: 17px;
