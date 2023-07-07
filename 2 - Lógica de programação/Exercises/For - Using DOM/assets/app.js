@@ -7,8 +7,8 @@ const elementos = [
 
 const writeOn = document.querySelector('main');
 for(let i = 0; i < elementos.length; i++){
-    
-    writeOn.innerHTML += `<${elementos[i].tag}> ${elementos[i].texto} </${elementos[i].tag}`
+    let {tag, texto} = elementos[i]
+    writeOn.innerHTML += `<${tag}> ${texto} </${tag}`
 }
 
 
