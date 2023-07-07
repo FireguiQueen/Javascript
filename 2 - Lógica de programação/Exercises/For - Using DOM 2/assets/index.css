@@ -18,7 +18,7 @@ body{
 
 section.container{
     width: 60%;
-    height: 200px;
+    height: fit-content;
     border-radius: 17px;
     background-color: rgba(255, 255, 255, 0.925);
     padding-left: 41px;
@@ -33,9 +33,6 @@ ul{
     padding-top: 3px;
     width: 100%;
     height: fit-content;
-    display: flex;
-    gap: 30px;
-    flex-direction: column;
 }
 
 @keyframes appear{
