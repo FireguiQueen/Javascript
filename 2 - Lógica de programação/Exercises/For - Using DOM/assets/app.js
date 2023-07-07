@@ -6,7 +6,10 @@ const elementos = [
 ];
 
 
-const writeOn = document.querySelector()
-for(let i = 0; i < elementos.length; i++){
-    
-}
+const writeOn = document.querySelector('.container');
+createElement('p')
+// for(let i = 0; i < elementos.length; i++){
+//     writeOn.innerHTML += elementos[i].tag
+//     // p.innerText = elementos[i].texto
+// }
+
