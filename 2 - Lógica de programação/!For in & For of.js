@@ -48,8 +48,26 @@ console.log(person['name'])
 
 // POR QUE SABER TER O CONHECIMENTO SOBRE ESSAS DUAS MANEIRAS?
 /*
-
+    O método onde utilizamos ponto final pode não funcionar muito bem em nosso código
+    quando fazemos uso do for...in, pois ao tentar acessar o valor de uma propriedade com uma 
+    váriavel, é entendido que esta variável na verdade é uma propriedade.
 */
+const passaro = {
+    cor: 'azul',
+    peso: '3kg'
+}
+
+for(let informacoes in passaro){
+    // "passaro.informacoes" estamos tentando acessar o valor de cada propriedade do objeto.
+    // mas o javascript entende que o objeto passaro possui a propriedade "informacoes"
+    console.log(passaro.informacoes) //irá retornar undefined
+}
+
+for(let informacoes in passaro){
+    // O colchetes funciona como uma temple string.
+    // Aqui estamos colocando o valor real, e não o nome da variável em si.
+    console.log(passaro[informacoes])
+}
 
 
 
