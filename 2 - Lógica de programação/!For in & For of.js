@@ -14,14 +14,21 @@
 // SEGUNDO MÉTODO PARA ACESSAR VALORES DE PROPRIEDADES DE UM OBJETO.
 /*
     Por padrão, nós temos o método "tradicional", onde colocamos um ponto final (.)
-    e passamos o nome da propriedade que desejamos pegar o valor. Por exemplo:
+    e passamos o nome da propriedade que desejamos pegar o valor.
 */
-const pessoa = {
-    name: 'Victoria'
-}
+
+// Ponto final
+const pessoa = { name: 'Victoria' }
 console.log(pessoa.name)
 
-// P
+// Colchetes
+const person = { name: 'Western '}
+console.log(person['name'])
+
+
+// POR QUE SABER TER O CONHECIMENTO SOBRE ESSAS DUAS MANEIRAS?
+/*
+    
 
 
 
