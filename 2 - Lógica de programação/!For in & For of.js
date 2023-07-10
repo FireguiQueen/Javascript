@@ -11,11 +11,11 @@
     Se você usar o for...in em um array, ele irá iterar sobre os índices do array. 
     A cada iteração, ele atribui o índice à variável especificada e executa o bloco de código.
 
-    Colocaremos o tipo de variável que iremos trabalhar, e após isto, iremos colocar
-    onde desajamos iterar.
-    Se for em um objeto por exemplo, o for será executado pela primeira vez, e irá atruibir
-    a variável "informações" a propriedade 0 (nome), e enquanto o objeto possuir propriedades,
-    ele fará isto.
+    No exemplo abaixo, o for...in iterará sobre as propriedades do objeto "cachorro".
+    A cada iteração, ele atribuirá o nome da propriedade à variável informacoes
+    Portanto, na primeira iteração, informacoes terá o valor 'nome'
+    Na segunda iteração, informacoes terá o valor 'sexo'
+    Na terceira iteração, informacoes terá o valor 'raça'
 */
 
 const cachorro = {
