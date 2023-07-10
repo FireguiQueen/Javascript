@@ -1,18 +1,22 @@
 // FOR IN 
 /*
-    For in irá sempre nos retornar números. 
+    "For in" irá sempre nos retornar números. 
     Por exemplo, caso você utilize do For in em uma string, ele irá retornar a quantidade
     de caracteres que esta string possui.
-    Porém uma de cada vez, permitindo que você acesse o valor deste caractere.
-
     Se você utilizar o For in em um objeto, ele irá retornar a quantidade de propriedades 
     que o mesmo possui.
     E se for um array, ele irá retornar a quantidade de elementos que este array possui.
 */
+
 const cachorro = {
     nome: 'Bolinha',
     sexo: 'Feminino',
-    raça: 'Pitti'
+    raça: 'Pinscher'
+}
+// "Cachorro" é um objeto, logo, ao colocar "in cachorro" o Javascript entende que desejamos
+// saber a quantidade de propriedades DENTRO do objeto. 
+for(let informacoes in cachorro){
+    console.log(cachorro[informacoes])
 }
 
 
@@ -33,7 +37,7 @@ console.log(person['name'])
 
 // POR QUE SABER TER O CONHECIMENTO SOBRE ESSAS DUAS MANEIRAS?
 /*
-
+*/
 
 
 
