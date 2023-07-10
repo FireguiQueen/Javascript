@@ -1,11 +1,15 @@
 // FOR IN 
 /*
-    "For in" irá sempre nos retornar números. 
-    Por exemplo, caso você utilize do For in em uma string, ele irá retornar a quantidade
-    de caracteres que esta string possui.
-    Se você utilizar o For in em um objeto, ele irá retornar a quantidade de propriedades 
-    que o mesmo possui.
-    E se for um array, ele irá retornar a quantidade de elementos que este array possui.
+    Se você usar o loop for...in com uma string, ele irá iterar sobre cada caractere da string. 
+    A cada iteração, ele atribui o valor do caractere à variável especificada e executa o bloco 
+    de código.
+
+    Se você usar o for...in em um objeto, ele irá iterar sobre as propriedades do objeto. 
+    A cada iteração, ele atribui o nome da propriedade à variável especificada e executa o 
+    bloco de código.
+
+    Se você usar o for...in em um array, ele irá iterar sobre os índices do array. 
+    A cada iteração, ele atribui o índice à variável especificada e executa o bloco de código.
 
     Colocaremos o tipo de variável que iremos trabalhar, e após isto, iremos colocar
     onde desajamos iterar.
