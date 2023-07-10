@@ -6,6 +6,12 @@
     Se você utilizar o For in em um objeto, ele irá retornar a quantidade de propriedades 
     que o mesmo possui.
     E se for um array, ele irá retornar a quantidade de elementos que este array possui.
+
+    Colocaremos o tipo de variável que iremos trabalhar, e após isto, iremos colocar
+    onde desajamos iterar.
+    Se for em um objeto por exemplo, o for será executado pela primeira vez, e irá atruibir
+    a variável "informações" a propriedade 0 (nome), e enquanto o objeto possuir propriedades,
+    ele fará isto.
 */
 
 const cachorro = {
