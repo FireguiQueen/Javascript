@@ -12,10 +12,10 @@
     A cada iteração, ele atribui o índice à variável especificada e executa o bloco de código.
 
     No exemplo abaixo, o for...in iterará sobre as propriedades do objeto "cachorro".
-    A cada iteração, ele atribuirá o nome da propriedade à variável informacoes
-    Portanto, na primeira iteração, informacoes terá o valor 'nome'
-    Na segunda iteração, informacoes terá o valor 'sexo'
-    Na terceira iteração, informacoes terá o valor 'raça'
+    A cada iteração, ele atribuirá o nome da propriedade à variável "informacoes"
+    Portanto, na primeira iteração, informacoes terá o valor 'nome';
+    Na segunda iteração, informacoes terá o valor 'sexo';
+    Na terceira iteração, informacoes terá o valor 'raça'.
 */
 
 const cachorro = {
