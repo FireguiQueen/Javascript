@@ -9,6 +9,11 @@
     que o mesmo possui.
     E se for um array, ele irá retornar a quantidade de elementos que este array possui.
 */
+const cachorro = {
+    nome: 'Bolinha',
+    sexo: 'Feminino',
+    raça: 'Pitti'
+}
 
 
 // SEGUNDO MÉTODO PARA ACESSAR VALORES DE PROPRIEDADES DE UM OBJETO.
@@ -28,7 +33,7 @@ console.log(person['name'])
 
 // POR QUE SABER TER O CONHECIMENTO SOBRE ESSAS DUAS MANEIRAS?
 /*
-    
+
 
 
 
