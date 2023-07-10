@@ -23,11 +23,11 @@ const cachorro = {
     sexo: 'Feminino',
     raça: 'Pinscher'
 }
-// "Cachorro" é um objeto, logo, ao colocar "in cachorro" o Javascript entende que desejamos
-// saber a quantidade de propriedades DENTRO do objeto. 
+
 for(let informacoes in cachorro){
     console.log(cachorro[informacoes])
 }
+
 
 
 // SEGUNDO MÉTODO PARA ACESSAR VALORES DE PROPRIEDADES DE UM OBJETO.
@@ -45,8 +45,10 @@ const person = { name: 'Western '}
 console.log(person['name'])
 
 
+
 // POR QUE SABER TER O CONHECIMENTO SOBRE ESSAS DUAS MANEIRAS?
 /*
+
 */
 
 
