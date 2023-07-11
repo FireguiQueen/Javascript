@@ -5,7 +5,8 @@ const carro = {
     ano: 2022,
     cor: 'Prata'
 };
-  
+
+// Resposta
 
 
 // Conte o número de propriedades do objeto aluno
