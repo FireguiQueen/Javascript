@@ -5,8 +5,15 @@ const carro = {
     ano: 2022,
     cor: 'Prata'
 };
+    // Resposta
+    let carro_inf = ''
+    for(let caracteristicas in carro){
+        carro_inf += `${caracteristicas}: ${carro[caracteristicas]}
+        `
+    }
+    console.log(carro_inf)
 
-// Resposta
+
 
 
 // Conte o número de propriedades do objeto aluno
@@ -16,9 +23,24 @@ const aluno = {
     curso: 'Engenharia',
     universidade: 'Universidade XYZ'
 };
+    // Resposta
+    let qntPropriedade = 0;
+    for(let NumeroPropriedades in aluno){
+        qntPropriedade++
+    }
+    console.log(qntPropriedade)
+
+    // Resposta II 
+    const propriedades = [];
+    for(let NumeroPropriedades in aluno){
+        propriedades.push(NumeroPropriedades);
+    }
+    console.log(propriedades.length)
 
 
 
 
 // Imprima os índices e valores do array de frutas
 const frutas = ['maçã', 'banana', 'laranja', 'uva'];
+
+// Resposta
