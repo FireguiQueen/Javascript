@@ -70,5 +70,3 @@ for(let informacoes in passaro){
 }
 
 
-
-
