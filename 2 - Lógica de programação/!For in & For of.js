@@ -28,11 +28,7 @@ for(let informacoes in cachorro){
 
 
 
-// SEGUNDO MÉTODO PARA ACESSAR VALORES DE PROPRIEDADES DE UM OBJETO.
-/*
-    Por padrão, nós temos o método "tradicional", onde colocamos um ponto final (.)
-    e passamos o nome da propriedade que desejamos pegar o valor.
-*/
+// ACESSANDO VALORES DAS PROPRIEDADES DE UM OBJETO
 
 // Ponto final
 const pessoa = { name: 'Victoria' }
@@ -43,12 +39,11 @@ const person = { name: 'Western '}
 console.log(person['name'])
 
 
-
 // POR QUE SABER TER O CONHECIMENTO SOBRE ESSAS DUAS MANEIRAS?
 /*
     O método onde utilizamos ponto final pode não funcionar muito bem em nosso código
-    quando fazemos uso do for...in, pois ao tentar acessar o valor de uma propriedade com uma 
-    váriavel, é entendido que esta variável na verdade é uma propriedade.
+    quando fazemos uso do for...in. Ao tentar acessar o valor de uma propriedade com uma 
+    váriavel, é entendido que esta variável, na verdade, é uma propriedade.
 */
 const passaro = {
     cor: 'azul',
@@ -56,14 +51,12 @@ const passaro = {
 }
 
 for(let informacoes in passaro){
-    // "passaro.informacoes" estamos tentando acessar o valor de cada propriedade do objeto.
     // mas o javascript entende que o objeto passaro possui a propriedade "informacoes"
-    console.log(passaro.informacoes) //irá retornar undefined
+    console.log(passaro.informacoes) // irá retornar undefined
 }
 
 for(let informacoes in passaro){
-    // O colchetes funciona como uma temple string.
-    // Aqui estamos colocando o valor real, e não o nome da variável em si.
+    // O colchetes armazena a variável informações, e esta variável possui como valor um nome de uma propriedade
     console.log(passaro[informacoes])
 }
 
