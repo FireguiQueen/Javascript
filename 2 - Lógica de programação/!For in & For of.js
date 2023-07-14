@@ -1,20 +1,26 @@
 // FOR IN 
 /*
     O for..in serve para nós iteramos sobre cada propriedade enumerável.
-    Por
+    Ao definirmos uma variável em nosso laço de repetição for...in, esta mesma variável
+    será relacionada as propriedades enumáriaveis.
+
+    No caso de arrays, as "propriedades enumeráveis" são os índices. 
+    Por isso, ao utilizar o for..in em um array, sempre nos retornará números. 
+
+    Em objetos, as "propriedades enumeráveis" são justamente as propriedades do objeto.
+    Logo, ao usar o for..in em objetos, sempre será retornado os nomes das propriedades.
 
     No exemplo abaixo, o for...in iterará sobre as propriedades do objeto "cachorro".
-    A cada iteração, ele atribuirá o nome da propriedade à variável "informacoes"
-    Portanto, na primeira iteração, informacoes terá o valor 'nome';
-    Na segunda iteração, informacoes terá o valor 'sexo';
-    Na terceira iteração, informacoes terá o valor 'raça'.
+    Na primeira vez que o for..in for executado, ele irá pegar a primeira propriedade do objeto,
+    e irá atribuir ela a variável "informações". Em seguida, ele será inicializado novamente,
+    mas desta vez usando a segunda propriedade do objeto "cachorros".. Ele irá pegar este propriedade
+    e atribuir ela a variável "informações." 
 */
 
 const cachorro = {
     nome: 'Bolinha',
     sexo: 'Feminino',
-    raça: 'Pinscher'
-}
+    raça: 'Pinscher' } 
 
 for(let informacoes in cachorro){
     console.log(cachorro[informacoes])
