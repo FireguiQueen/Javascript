@@ -8,8 +8,9 @@ const pessoa = {
 function arrayToOB(obj){
     const keysInArray = [];
     for(let inf in obj){
-        keysInArray.push('oi' + 'oi')
+        keysInArray.push(`${inf}: ${obj[inf]}`)
     }    
 
     return keysInArray
 }
+console.log(arrayToOB(pessoa))
