@@ -51,7 +51,7 @@ const passaro = {
 }
 
 for(let informacoes in passaro){
-    // mas o javascript entende que o objeto passaro possui a propriedade "informacoes"
+    // javascript entende que o objeto passaro possui a propriedade "informacoes"
     console.log(passaro.informacoes) // irá retornar undefined
 }
 
