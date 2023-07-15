@@ -61,3 +61,6 @@ for(let informacoes in passaro){
 }
 
 
+
+
+// FOR OF
