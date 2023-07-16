@@ -26,12 +26,10 @@ function letterOcurrency(str){
         const letra = str[char].toLowerCase();
         const string = str.replaceAll(' ', '')
         ocorrencia[letra] = (ocorrencia[letra] || 0 ) + 1;
-
     }
-
     return ocorrencia
 }
-console.log(letterOcurrency('Livroo'))
+console.log(letterOcurrency('Hello World'))
 
 
 // Objeto representando a lista de compras
