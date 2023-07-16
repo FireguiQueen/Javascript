@@ -5,12 +5,34 @@ const pessoa = {
     profissao: 'Engenheiro'
 };
 // USANDO O FOR...IN PARA PERCORRER AS PROPRIEDADES DO OBJETO
+function allKeys(obj){
+    let chavesObj = 'Propriedades do objeto.: ';
+    for(const keys in pessoa){
+        chavesObj += `${keys}, `
+    }
+    return chavesObj.slice(0, -2)    
+}
+console.log(allKeys(pessoa))
 
 
   
-// Função que conta a ocorrência de cada letra em uma string
 
 
+// FUNÇÃO QUE CONTA A OCORRÊNCIA DE CADA LETRA EM UMA STRING
+function letterOcurrency(string){
+    const ocurrency = {};
+
+    for(let letra in string){
+        const formattedLetter = string[letra];
+
+        if(formattedLetter !== ' '){
+            ocurrency[formattedLetter] =  ocurrency[formattedLetter || 0] + 1
+        }
+    }
+
+    return ocurrency
+}
+console.log(letterOcurrency('Livro'))
 
 
 // Objeto representando a lista de compras
@@ -20,5 +42,4 @@ const listaDeCompras = {
     laranja: 3,
     pão: 2,
     leite: 1
-  };
-  
+};
