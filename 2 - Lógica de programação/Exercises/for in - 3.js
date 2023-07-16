@@ -19,20 +19,19 @@ console.log(allKeys(pessoa))
 
 
 // FUNÇÃO QUE CONTA A OCORRÊNCIA DE CADA LETRA EM UMA STRING
-function letterOcurrency(string){
-    const ocurrency = {};
+function letterOcurrency(str){
+    const ocorrencia = {};
 
-    for(let letra in string){
-        const formattedLetter = string[letra];
+    for(let char in str){
+        const letra = str[char].toLowerCase();
+        const string = str.replaceAll(' ', '')
+        ocorrencia[letra] = (ocorrencia[letra] || 0 ) + 1;
 
-        if(formattedLetter !== ' '){
-            ocurrency[formattedLetter] =  ocurrency[formattedLetter || 0] + 1
-        }
     }
 
-    return ocurrency
+    return ocorrencia
 }
-console.log(letterOcurrency('Livro'))
+console.log(letterOcurrency('Livroo'))
 
 
 // Objeto representando a lista de compras
