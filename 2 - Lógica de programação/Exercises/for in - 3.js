@@ -77,10 +77,21 @@ const notasDosEstudantes = {
     Ana: 8.9
   };
   
-  // Usando o for...in para percorrer os estudantes e calcular a média
-  for (const estudante in notasDosEstudantes) {
-    const notas = notasDosEstudantes[estudante];
-    const media = notas.reduce((acc, nota) => acc + nota, 0) / notas.length;
-    console.log(`${estudante}: Média ${media.toFixed(2)}`);
-  }
+// Usando o for...in para percorrer os estudantes e calcular a média
+function calcularMedia(estudantes){
+    const notas = [];
+
+    for(let aluno in estudantes){
+        notas.push(estudantes[aluno])
+    }
+    
+    const todasAsNotas = notas.length;
+    let notaTotal = 0;
+    for(let teste in notas){
+        notaTotal += notas[teste]
+    }
+    return notaTotal/ todasAsNotas
+}
+
+console.log(calcularMedia(notasDosEstudantes))
   
