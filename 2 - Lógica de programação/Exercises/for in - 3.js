@@ -24,7 +24,6 @@ function letterOcurrency(str){
 
     for(let char in str){
         const letra = str[char].toLowerCase();
-        const string = str.replaceAll(' ', '')
         ocorrencia[letra] = (ocorrencia[letra] || 0 ) + 1;
     }
     return ocorrencia
@@ -40,3 +39,32 @@ const listaDeCompras = {
     pão: 2,
     leite: 1
 };
+// Usando o for...in para percorrer os itens da lista de compras
+for(let item in listaDeCompras){
+    console.log(item)
+}
+
+
+
+
+// Função que separa números pares e ímpares em duas listas
+// Usando o for...in para percorrer a lista de números
+function separarParesEImpares(numeros) {
+    const resultado = {
+      pares: [],
+      impares: []
+};
+
+    for(let i in numeros.sort()){
+        if((numeros[i] % 2) !== 0){
+            resultado.impares.push(numeros[i])
+        } else{
+            resultado.pares.push(numeros[i])
+        }
+    }
+    
+    return resultado
+}
+const myNumbers = [1,5,623,6,3,23]
+console.log(separarParesEImpares(myNumbers))
+
