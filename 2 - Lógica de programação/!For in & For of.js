@@ -1,4 +1,4 @@
-// FOR IN 
+// FOR...IN 
 /*
     O for..in serve para nós iteramos sobre cada propriedade enumerável.
     Ao definirmos uma variável em nosso laço de repetição for...in, esta mesma variável
@@ -65,5 +65,9 @@ for(let informacoes in passaro){
 }
 
 
+
+// ****************************************************************
+
+// FOR...OF
 
 
