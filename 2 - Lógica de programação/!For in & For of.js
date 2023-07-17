@@ -9,6 +9,10 @@
 
     Em objetos, as "propriedades enumeráveis" são justamente as propriedades do objeto.
     Logo, ao usar o for..in em objetos, sempre será retornado os nomes das propriedades.
+    
+    --> Em resumo, o for...in trabalha com índices cada tipo de dado. O indice 0 numa string
+    seria o primeiro caractere. O indice 0 num objeto seria a primeira 'key' deste objeto. E num
+    array, o indice 0 seria o primeiro elemento.
 
     No exemplo abaixo, o for...in iterará sobre as propriedades do objeto "cachorro".
     Na primeira vez que o for..in for executado, ele irá pegar a primeira propriedade do objeto,
@@ -63,26 +67,3 @@ for(let informacoes in passaro){
 
 
 
-function greet(language = 'english') {
-	const languagesList = {
-    english: 'Welcome',
-    czech: 'Vitejte',
-    danish: 'Velkomst',
-    dutch: 'Welkom',
-    estonian: 'Tere tulemast',
-    finnish: 'Tervetuloa',
-    flemish: 'Welgekomen',
-    french: 'Bienvenue',
-    german: 'Willkommen',
-    irish: 'Failte',
-    italian: 'Benvenuto',
-    latvian: 'Gaidits',
-    lithuanian: 'Laukiamas',
-    polish: 'Witamy',
-    spanish: 'Bienvenido',
-    swedish: 'Valkommen',
-    welsh: 'Croeso'
-  }
-  return languagesList[language]
-}
-console.log(greet())
