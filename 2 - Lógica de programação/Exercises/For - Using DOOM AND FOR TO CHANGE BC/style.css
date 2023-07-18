@@ -5,12 +5,16 @@
 }
 
 body{
-    background-color: blue;
+    background-color: rgb(47, 47, 176);
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
+    border-radius: 13px;
     padding: 30px;
     background-color: white;
 }

@@ -1,0 +1,3 @@
+function changeParagrafhBC(){
+    const allStyles = 
+}
