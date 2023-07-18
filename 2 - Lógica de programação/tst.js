@@ -1,5 +1,5 @@
-const array = ['Juliann', 'Jota', 'Dabliú', 'cocozinmole'];
-
-for(let nomes of array){
-    console.log(nomes)
+const str = 'Caneca bacana';
+const newArray
+for(let nomes of str.split('a')){
+    
 }

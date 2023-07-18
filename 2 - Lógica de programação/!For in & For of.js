@@ -71,5 +71,21 @@ for(let informacoes in passaro){
 
 
 // FOR...OF
+/*
+    O for..of serve para nós iteramos sobre cada ELEMENTO dentro de uma coleção.
+    
+    Ao definirmos uma variável em nosso laço de repetição for...of, esta mesma variável
+    será relacionada aos caracteres ou elementos.
+    
+    --> Em resumo, o for...of trabalha com os elementos de arrays ou strings. 
 
+    No exemplo abaixo, o for...of iterará sobre cada elemento de nosso array.
+    Na primeira vez, ele irá atribuir o primeiro elemento ('Flora') a nossa variável de controle (i),
+    na segunda vez, ele atribuir o segundo elemento ('Julia') a nossa variável de controle.
+    
+*/
+const names = ['Flora', 'Julia', 'Paulo', 'Vitor'];
+for(let i of names){
+    console.log(i)
+}
 
