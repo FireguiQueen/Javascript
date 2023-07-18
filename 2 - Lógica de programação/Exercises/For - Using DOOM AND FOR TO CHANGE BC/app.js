@@ -8,6 +8,7 @@ function changeParagrafhBC(){
     console.log(myParagrafhs)
 
     for(let paragrafos of myParagrafhs){
+        paragrafos.style.color = 'white'
         paragrafos.style.backgroundColor = pageBackground
     }
 
