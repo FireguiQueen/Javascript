@@ -82,10 +82,16 @@ for(let informacoes in passaro){
     No exemplo abaixo, o for...of iterará sobre cada elemento de nosso array.
     Na primeira vez, ele irá atribuir o primeiro elemento ('Flora') a nossa variável de controle (i),
     na segunda vez, ele atribuir o segundo elemento ('Julia') a nossa variável de controle.
-    
+
 */
 const names = ['Flora', 'Julia', 'Paulo', 'Vitor'];
 for(let i of names){
     console.log(i)
 }
+
+/*
+    A mesma lógica vale para quando trabalhamos com strings.
+    Ele irá pegar o primeiro caractere e atribuir ele a variável de controle, e assim 
+    por diante. 
+*/
 
