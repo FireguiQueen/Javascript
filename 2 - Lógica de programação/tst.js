@@ -1,5 +1,5 @@
-const list = ['julia', 'pablo', 'Paulo']
+const array = ['Juliann', 'Jota', 'Dabliú', 'cocozinmole'];
 
-const [pessoaF, pessoaM, pessoaM2] = list
-
-console.log(pessoaM2)
+for(let nomes of array){
+    console.log(nomes)
+}
