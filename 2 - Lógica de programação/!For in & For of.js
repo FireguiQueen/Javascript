@@ -94,4 +94,7 @@ for(let i of names){
     Ele irá pegar o primeiro caractere e atribuir ele a variável de controle, e assim 
     por diante. 
 */
-
+const str = 'Hello world :0'
+for(let i of str){
+    console.log(i)
+}
