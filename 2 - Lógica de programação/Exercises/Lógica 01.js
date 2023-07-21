@@ -23,4 +23,4 @@ function checkNum(num){
     }
     return 'Passe um número como argumento!'
 }
-console.log(checkNum(''))
+console.log(checkNum(1.3))
