@@ -40,3 +40,20 @@ for(let nome of nomes){
     }
     console.log(nome)
 }
+
+
+console.log('***************************************')
+
+
+// O Continue é muito utilizado para encontrar elementos desejados de maneira eficiente.
+/*
+    Vamos supor que, dentro de uma enorme lista, você deseja apenas um único nome, e nenhum
+    outro além deste.
+*/
+const pessoas = ['Joao Paulo', 'Fred Melson', 'Walter White', 'Julia Anhkmi'];
+for(let pessoa of pessoas){
+    if(pessoa !== 'Walter White'){
+        continue;
+    } 
+    console.log(pessoa)
+}
