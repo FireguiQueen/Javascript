@@ -57,3 +57,4 @@ for(let pessoa of pessoas){
     } 
     console.log(pessoa)
 }
+
