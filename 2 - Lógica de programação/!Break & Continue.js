@@ -26,3 +26,17 @@ for(let nome of names){
     }
     console.log(nome)
 }
+
+
+console.log('********************************************************')
+
+
+// EXEMPLO 02 - break
+const nomes = ['Ana', 'Julia', 'Paulo', 'Claudia', 'Amanda'];
+for(let nome of nomes){
+    // Quando nome for igual a "Julia", o loop será completamente "quebrado", sairemos completamente do loop.
+    if(nome === 'Julia'){ 
+        break;
+    }
+    console.log(nome)
+}
