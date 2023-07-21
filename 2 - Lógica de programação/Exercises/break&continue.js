@@ -31,9 +31,8 @@ const numeros = [2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32];
 for(let num of numeros){
     if(num % 2 !== 0){
         continue;
-    } else{
-        console.log(num)
     }
+    console.log(num)
 }  
   
   /* 
