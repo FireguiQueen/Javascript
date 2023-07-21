@@ -2,4 +2,5 @@
 function maxNum(x, y){
     return Math.max(x, y)
 }
-console.log(maxNum(1,4))
+console.log(maxNum(6,4))
+
