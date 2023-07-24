@@ -71,6 +71,15 @@ console.log(fatorial(10))
 
 // Exercício 6: Contagem de vogais
 // Escreva uma função que recebe uma string como parâmetro e retorna o número de vogais presentes nessa string.
+function manyVowels(str){
+    const vowels = [];
+
+    for(let i of str.replace(' ', '')){
+        if(i.includes()){
+
+        }
+    }
+}
 
 // Exercício 7: Média e desvio padrão
 // Escreva uma função que recebe um array de números como parâmetro e retorna tanto a média quanto o desvio padrão dos elementos no array.
