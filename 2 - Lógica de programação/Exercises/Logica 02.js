@@ -75,11 +75,14 @@ function manyVowels(str){
     const vowels = [];
 
     for(let i of str.replace(' ', '')){
-        if(i.includes()){
-
+        if(i.match(/[aeiou]/gi)){
+            
         }
     }
 }
+
+const t = 'minecraft'
+console.log(t.match(/[aeiou]/gi))
 
 // Exercício 7: Média e desvio padrão
 // Escreva uma função que recebe um array de números como parâmetro e retorna tanto a média quanto o desvio padrão dos elementos no array.
