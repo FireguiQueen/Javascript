@@ -61,10 +61,14 @@ console.log(palidromo('Bacana'))
 function fatorial(num){
     let fatorial = 1;
     
-    for(let i = 10; i >= 0; i--){
-        console.log(i)   
+    for(let i = num; i >= 1; i--){
+        fatorial *= i;
     }
+    return fatorial
 }
+console.log(fatorial(10))
+
+
 // Exercício 6: Contagem de vogais
 // Escreva uma função que recebe uma string como parâmetro e retorna o número de vogais presentes nessa string.
 
