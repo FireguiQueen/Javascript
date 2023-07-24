@@ -58,7 +58,13 @@ console.log(palidromo('Bacana'))
 
 // Exercício 5: Fatorial
 // Escreva uma função que recebe um número inteiro como parâmetro e retorna o fatorial desse número. O fatorial de um número é o produto de todos os inteiros positivos menores ou iguais a ele.
-
+function fatorial(num){
+    let fatorial = 1;
+    
+    for(let i = 10; i >= 0; i--){
+        console.log(i)   
+    }
+}
 // Exercício 6: Contagem de vogais
 // Escreva uma função que recebe uma string como parâmetro e retorna o número de vogais presentes nessa string.
 
