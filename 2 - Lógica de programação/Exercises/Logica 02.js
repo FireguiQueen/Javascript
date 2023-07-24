@@ -16,9 +16,31 @@ console.log(sumElements([4]))
 
 // Exercício 2: Encontre o maior elemento em um array
 // Escreva uma função que recebe um array de números como parâmetro e retorna o maior elemento presente no array.
+function maxNum(array){
+    array.sort().reverse()
+    return array[0]
+
+    // or
+    // return Math.max(...array)
+}
+console.log(maxNum([1,424,52]))
 
 // Exercício 3: Filtrar números pares
 // Escreva uma função que recebe um array de números como parâmetro e retorna um novo array contendo apenas os números pares do array original.
+function apenasPares(array){
+    const pares = [];
+    
+    for(let numero of array){
+        if(numero % 2 === 0){
+            pares.push(numero)
+        } else{
+            continue;
+        }
+    }
+    return pares.sort()
+} 
+console.log(apenasPares([4,41,42,13,14]))
+
 
 // Exercício 4: Verificar se uma palavra é um palíndromo
 // Escreva uma função que recebe uma string como parâmetro e retorna true se a string for um palíndromo (ou seja, se ela permanecer igual quando lida de trás para frente), e false caso contrário.
