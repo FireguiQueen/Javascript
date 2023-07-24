@@ -72,17 +72,11 @@ console.log(fatorial(10))
 // Exercício 6: Contagem de vogais
 // Escreva uma função que recebe uma string como parâmetro e retorna o número de vogais presentes nessa string.
 function manyVowels(str){
-    const vowels = [];
+    const vowels = str.match(/[aeiou]/gi);
+    return vowels.length
 
-    for(let i of str.replace(' ', '')){
-        if(i.match(/[aeiou]/gi)){
-            
-        }
-    }
 }
-
-const t = 'minecraft'
-console.log(t.match(/[aeiou]/gi))
+console.log(manyVowels('Guilherme'))
 
 // Exercício 7: Média e desvio padrão
 // Escreva uma função que recebe um array de números como parâmetro e retorna tanto a média quanto o desvio padrão dos elementos no array.
