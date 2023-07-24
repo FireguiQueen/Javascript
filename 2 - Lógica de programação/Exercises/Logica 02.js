@@ -81,6 +81,7 @@ console.log(manyVowels('Guilherme'))
 // Exercício 7: Média e desvio padrão
 // Escreva uma função que recebe um array de números como parâmetro e retorna tanto a média quanto o desvio padrão dos elementos no array.
 
+
 // Exercício 8: Verificar número primo
 // Escreva uma função que recebe um número inteiro como parâmetro e retorna true se o número for primo, e false caso contrário. Um número primo é aquele que é maior que 1 e possui apenas dois divisores, 1 e ele mesmo.
 
