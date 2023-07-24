@@ -44,6 +44,16 @@ console.log(apenasPares([4,41,42,13,14]))
 
 // Exercício 4: Verificar se uma palavra é um palíndromo
 // Escreva uma função que recebe uma string como parâmetro e retorna true se a string for um palíndromo (ou seja, se ela permanecer igual quando lida de trás para frente), e false caso contrário.
+function palidromo(str){
+    let newArray = ''
+    for(let i of str.split('').reverse()){
+        newArray += i;
+    }
+    
+    const checkPalidromo = str === newArray? 'Esta palavra é um palidromo' : 'Não é!!'
+    return checkPalidromo
+}
+console.log(palidromo(''))
 
 // Exercício 5: Fatorial
 // Escreva uma função que recebe um número inteiro como parâmetro e retorna o fatorial desse número. O fatorial de um número é o produto de todos os inteiros positivos menores ou iguais a ele.
