@@ -49,5 +49,19 @@ try{
     em uma função, e se a condição for verdadeira,
     o throw será acionado e irá interromper o resto da função (como se fosse um 'break').
 
-    Vale lembrar o throw não retorna nada, 
+    É importante ressaltar que o javascript não consegue entender os erros pela parte do usuário,
+    e para explicarmos isto a ele, usaremos o 'throw'. Quando ele ver que o throw foi lançado 
+    pela função, ele vai compreender que isto é um erro.
 */
+function sum(x,y){
+    if(typeof x !== 'number' || typeof y !== 'number'){
+        throw('Por favor digite apenas números!');
+    } 
+    return x + y
+}
+
+try{
+    console.log(sum(4,'4'))
+} catch(error){
+    console.log(error)
+}
