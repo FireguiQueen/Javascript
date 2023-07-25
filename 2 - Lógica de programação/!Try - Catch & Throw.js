@@ -28,4 +28,5 @@ try{
 }
 
 // No bloco try, iremos colocar o nosso código potencialmente perigoso (ou seja, pode gerar erros) ao programa 
-// No bloco catch, 
+// No bloco catch, iremos colocar o tratamento do erro ocasionado pelo bloco "try"
+// Ao lado do 'catch' iremos colocar os parentesis, e o erro será armazenado dentro dele.
