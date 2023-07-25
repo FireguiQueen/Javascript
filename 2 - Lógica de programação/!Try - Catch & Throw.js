@@ -52,7 +52,13 @@ try{
     É importante ressaltar que o javascript não consegue entender os erros pela parte do usuário,
     e para explicarmos isto a ele, usaremos o 'throw'. Quando ele ver que o throw foi lançado 
     pela função, ele vai compreender que isto é um erro.
+
+    No exemplo abaixo, ao passar uma string como segundo argumento, isto não nos retornaria 
+    erro algum, mas através do throw, podemos fazer com o que javascript entenda isto como um
+    erro.
+    E ao colocar o código em 'try', ele irá detectar o erro e mandar para o 'catch'.
 */
+
 function sum(x,y){
     if(typeof x !== 'number' || typeof y !== 'number'){
         throw('Por favor digite apenas números!');
