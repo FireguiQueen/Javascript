@@ -72,3 +72,9 @@ try{
     console.log(error)
 }
 
+
+function oi(c){
+    if(!typeof c !== 'number'){
+        console.log('oi')
+    }
+} oi(4)
