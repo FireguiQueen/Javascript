@@ -34,14 +34,20 @@ try{
 
 
 
-function sum(x,y){
-    if(typeof x !== 'number' || typeof y !== 'number'){
-        throw Error('KKKKKK')
-    }
-    return x + y
-}
-try{
-    console.log(sum(4,'1'))
-} catch(error){
-    console.log(error)
-}
+// THROW
+/*
+    O throw significa "lançar", ou seja, estamos lançando um erro. 
+    Um erro não necessariamente é uma consequência de um código, pois ele também 
+    pode significar que algo foi feito de maneira incorreta pelo usuário.
+
+    Por exemplo, você possui um programa capaz de soma dois operandos. Mas em um deses,
+    o usuário coloca uma string, e não um número.
+    Sendo assim, em seu código, você pode informar a ele por exemplo: 
+    "Erro de escrita: por favor coloque apenas números".
+
+    Caso você faça uso do 'throw' numa condicional (if por exemplo) que está
+    em uma função, e se a condição for verdadeira,
+    o throw será acionado e irá interromper o resto da função (como se fosse um 'break').
+
+    Vale lembrar o throw não retorna nada, 
+*/
