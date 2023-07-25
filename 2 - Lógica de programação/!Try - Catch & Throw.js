@@ -30,3 +30,18 @@ try{
 // No bloco try, iremos colocar o nosso código potencialmente perigoso (ou seja, pode gerar erros) ao programa 
 // No bloco catch, iremos colocar o tratamento do erro ocasionado pelo bloco "try"
 // Ao lado do 'catch' iremos colocar os parentesis, e o erro será armazenado dentro dele.
+
+
+
+
+function sum(x,y){
+    if(typeof x !== 'number' || typeof y !== 'number'){
+        throw Error('KKKKKK')
+    }
+    return x + y
+}
+try{
+    console.log(sum(4,'1'))
+} catch(error){
+    console.log(error)
+}
