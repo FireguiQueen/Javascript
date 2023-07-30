@@ -57,3 +57,26 @@ console.log(data_com_ano_alterado);
 </br>
 
 # Métodos 
+
+### `getFullYear()`
+Pega o ano como um número de 4 digítos (yyyy).
+
+### `getMonth()`
+Pega o mês como um número (0-11).
+O mês '0' sendo janeiro, mês '1' sendo fevereiro e assim pro diante.
+
+### `getDate()`
+Pega o dia como um número (1-31).
+
+### `getDay()`
+Pega o dia da semana como um número (0-6).
+Sendo '0' domingo, '1' segunda-feira, '2' terça feira e assim por diante.
+
+### `getHours()`
+Pega o horário (0-23).
+
+### `getMinutes()`
+Pega os minutos (0-59).
+
+### `getSeconds()`
+Pega os segundos (0-59).

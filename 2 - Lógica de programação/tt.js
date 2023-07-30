@@ -1,2 +1,2 @@
-const ano_alterado = new Date(2020, 3)
-console.log(ano_alterado);
+const ano_alterado = new Date('2023-07-31T03:00:00')
+console.log(ano_alterado.getDay());
