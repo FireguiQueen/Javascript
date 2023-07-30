@@ -6,7 +6,7 @@
 </br>
 
 ## Entendendo os parâmetros
-Os parâmetros deste objeto seguem esta ordem.:
+Os parâmetros deste seguem a seguinte ordem.:
 <ol>
     <li>Year </li>
     <li>Month </li>
