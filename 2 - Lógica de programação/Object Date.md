@@ -84,5 +84,11 @@ Pega os segundos (0-59).
 ### `GetMilliseconds()`
 Pega os milisegundos (0-999);
 
+
 ### `GetTime`
 Pega quantos milsegundos se passaram desde 1 de janeiro de 1970 até o tempo do objeto.
+
+
+### `toLocaleDateString()`
+Representa o 'time' através do idioma colocado como argumento.
+
