@@ -21,7 +21,7 @@ Os parâmetros deste seguem a seguinte ordem.:
 
 
 ## Observações
-Caso você deseja definir sua própria data, saiba que apenas o _ano_ e o _mês_ são obrigatórios, o restante você não precisa colocar (por padrão o dia será definido para 1, o horário será 3 e o restante será 0). 
+Saiba que apenas o _ano_ e o _mês_ são obrigatórios, o restante você não precisa colocar (por padrão o dia será definido para 1, o horário será 3 e o restante será 0). 
 </br>
 
 Como já sabemos, todo primeiro elemento de um array é representado pelo indíce 0, e não é diferente quando fazemos uso do `Date()`.
