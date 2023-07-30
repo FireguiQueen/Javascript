@@ -96,6 +96,7 @@ Parâmetros em ordem: idioma, objeto com configurações de representação. Por
 const data = new Date('2020-12-03T12:03:10');
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}
 console.log(data.toLocaleDateString('pt-br', options))
+// output: quinta-feira, 3 de dezembro de 2020
 
 // valores alteranativos e seus retornos (PT-BR)
 // weekday-long: 'quinta-feira'  ;   weekday-short: 'quin. '
