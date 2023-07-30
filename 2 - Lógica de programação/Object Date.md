@@ -80,3 +80,9 @@ Pega os minutos (0-59).
 
 ### `getSeconds()`
 Pega os segundos (0-59).
+
+### `GetMilliseconds()`
+Pega os milisegundos (0-999);
+
+### `GetTime`
+Pega quantos milsegundos se passaram desde 1 de janeiro de 1970 até o tempo do objeto.
