@@ -36,8 +36,8 @@ Para pegar o dia da semana, utilizamos o `date.getDay();`. O domingo é represen
 
 ## Alterando a data usando o tipo de dado `Number`
 ```js
-const data_com_ano_alterado = new Date(2020, 3)
-console.log(data_com_ano_alterado);
+const ano_alterado = new Date(2020, 3)
+console.log(ano_alterado);
 // Os outros parâmetros não foram definidos, logo, o dia será 1, as horas serão 3, e o restante será 0.
 // output: 2020, april, 1, 3, 00, 00, 00
 ```
