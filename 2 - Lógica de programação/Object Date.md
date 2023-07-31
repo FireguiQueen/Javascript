@@ -1,7 +1,7 @@
 # Date
 - Nada mais é do que uma função construtora;
-- Por ser uma função construtora, usaremos o 'new' e criaremos uma variável;
-- Facilita trabalharmos com datas; 
+- Usaremos a palavra-chave "new" para criar uma instância de "date";
+- Facilita trabalharmos com datas.
 
 </br>
 
