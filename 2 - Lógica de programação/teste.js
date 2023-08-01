@@ -1,2 +1,6 @@
-const data = new Date(1* 1000)
-console.log(data)
+let segundo = 0;
+const data = new Date()
+setInterval(function(){
+    segundo++
+    console.log(new Date(segundo * 1000))
+}, 1000)
