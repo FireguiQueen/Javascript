@@ -55,21 +55,25 @@
         let segundos = 0;
 
         function addOneSec(oneMillisec){
-            const data = new Date(oneMillisec * 100000);
+            const data = new Date(oneMillisec * 1000);
             return data.toLocaleTimeString('pt-br', {
                 timeZone:"GMT"
             });
         }
 
         const main = document.querySelector('#timer')
+        let atualizarTimer; 
         function timer(){
-            setInterval(function(){
+                atualizarTimer = setInterval(function(){
                 segundos++
                 main.innerText = addOneSec(segundos)
 
             }, 1000)
         }
-
+        
+        function stop(){
+            clearInterval(atualizarTimer)
+        }
         const botoes = document.querySelectorAll('.botao');
         const [start, pause, reset] = botoes;
         
@@ -80,12 +84,12 @@
 
         // pausa o timer
         pause.addEventListener('click', function(){
-            window.alert('você pausou')
+            stop()
         })
 
         // reseta o timer
         reset.addEventListener('click', function(){
-            window.alert('você resetou')
+            reset()
         })
 
 
