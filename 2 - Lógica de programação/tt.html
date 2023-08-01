@@ -89,7 +89,10 @@
 
         // reseta o timer
         reset.addEventListener('click', function(){
-            reset()
+            clearInterval(atualizarTimer)
+
+            main.innerText = '00:00:00'
+
         })
 
 
