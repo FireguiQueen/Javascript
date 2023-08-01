@@ -54,6 +54,21 @@
     <script>
         let segundos = 0;
 
+        function addOneSec(oneMillisec){
+            const data = new Date(oneMillisec * 100000);
+            return data.toLocaleTimeString('pt-br', {
+                timeZone:"GMT"
+            });
+        }
+
+        const main = document.querySelector('#timer')
+        function timer(){
+            setInterval(function(){
+                segundos++
+                main.innerText = addOneSec(segundos)
+
+            }, 1000)
+        }
 
         const botoes = document.querySelectorAll('.botao');
         const [start, pause, reset] = botoes;
