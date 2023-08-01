@@ -29,13 +29,25 @@
             justify-content: center;
             flex-direction: column;
             
-        } 
+        } button{
+            width: fit-content;
+            padding: 10px;
+        }
+        section{
+            display: flex;
+            gap: 10px;
+        }
     </style>
 </head>
 <body>
     <main>
         <h1> Timer </h1>
         <h2 id="timer">..</h2> 
+        <section>
+            <button class="botao">Iniciar </button>
+            <button class="botao">Pausar</button>
+            <button class="botao">Resetar </button>
+        </section>
     </main>
 
 
@@ -45,6 +57,26 @@
         function timer(){
 
         } 
+
+
+        const botoes = document.querySelectorAll('.botao');
+        const [start, pause, reset] = botoes;
+        
+        // inicia o timer
+        start.addEventListener('click', function(){
+            window.alert('você iniciou')
+        })
+
+        // pausa o timer
+        pause.addEventListener('click', function(){
+            window.alert('você pausou')
+        })
+
+        reset.addEventListener('click', function(){
+            window.alert('você resetou')
+        })
+
+        // reseta o timer
 
     </script>
 </body>
