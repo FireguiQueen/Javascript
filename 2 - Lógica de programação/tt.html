@@ -53,10 +53,12 @@
 
     <script>
         const data = new Date();
-        
-        function timer(){
+        let segundos = 0;
 
-        } 
+        function timer(){
+            const timer = document.querySelector('#timer');
+            timer.innerText = data;
+        }  
 
 
         const botoes = document.querySelectorAll('.botao');
@@ -64,7 +66,7 @@
         
         // inicia o timer
         start.addEventListener('click', function(){
-            window.alert('você iniciou')
+            timer();
         })
 
         // pausa o timer
@@ -72,11 +74,11 @@
             window.alert('você pausou')
         })
 
+        // reseta o timer
         reset.addEventListener('click', function(){
             window.alert('você resetou')
         })
 
-        // reseta o timer
 
     </script>
 </body>
