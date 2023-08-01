@@ -25,7 +25,7 @@
             padding: 10%;
 
             display: flex;
-            font-size: larger;
+            font-size: 40px;
             justify-content: center;
             flex-direction: column;
             
@@ -42,7 +42,7 @@
 <body>
     <main>
         <h1> Timer </h1>
-        <h2 id="timer">..</h2> 
+        <h2 id="timer">00:00:00</h2> 
         <section>
             <button class="botao">Iniciar </button>
             <button class="botao">Pausar</button>
@@ -53,18 +53,6 @@
 
     <script>
         let segundos = 0;
-        
-        function time(s){
-            const data = new Date();
-            const config = {
-                hour24: false,
-            }
-            return data.toLocaleDateString('pt-br', config)
-        }
-        function timer(){
-            const timer = document.querySelector('#timer');
-            timer.innerText = data;
-        }  
 
 
         const botoes = document.querySelectorAll('.botao');
