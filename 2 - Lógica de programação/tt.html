@@ -52,9 +52,15 @@
 
 
     <script>
-        const data = new Date();
         let segundos = 0;
-
+        
+        function time(s){
+            const data = new Date();
+            const config = {
+                hour24: false,
+            }
+            return data.toLocaleDateString('pt-br', config)
+        }
         function timer(){
             const timer = document.querySelector('#timer');
             timer.innerText = data;
