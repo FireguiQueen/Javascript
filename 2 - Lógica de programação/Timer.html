@@ -52,49 +52,50 @@
 
 
     <script>
-        let segundos = 0;
+        function allTimer(){
+            let segundos = 0;
 
         function addOneSec(oneMillisec){
-            const data = new Date(oneMillisec * 1000);
-            return data.toLocaleTimeString('pt-br', {
-                timeZone:"GMT"
-            });
+        const data = new Date(oneMillisec * 1000);
+        return data.toLocaleTimeString('pt-br', {
+        timeZone:"GMT"
+        });
         }
 
         const main = document.querySelector('#timer')
         let atualizarTimer; 
         function timer(){
-                atualizarTimer = setInterval(function(){
-                segundos++
-                main.innerText = addOneSec(segundos)
+        atualizarTimer = setInterval(function(){
+        segundos++
+        main.innerText = addOneSec(segundos)
 
-            }, 1000)
-        }
-        
-        function stop(){
+    }, 1000)
+}
+
+document.addEventListener('click', function(e){
+    const elementoClicado = e.target;
+    const botoes = document.querySelectorAll('.botao');
+    const [start, pause, reset] = botoes;
+
+    switch(elementoClicado){
+        case start: 
             clearInterval(atualizarTimer)
-        }
-        const botoes = document.querySelectorAll('.botao');
-        const [start, pause, reset] = botoes;
-        
-        // inicia o timer
-        start.addEventListener('click', function(){
             timer();
-        })
+            break;
+        
+        case pause:
+            clearInterval(atualizarTimer);
+            break;
 
-        // pausa o timer
-        pause.addEventListener('click', function(){
-            stop()
-        })
-
-        // reseta o timer
-        reset.addEventListener('click', function(){
+        case reset:
             clearInterval(atualizarTimer)
-
-            main.innerText = '00:00:00'
-
-        })
-
+            segundos = 0;
+            main.innerHTML = '00:00:00';
+            break;          
+    }
+})
+        } 
+        allTimer();
 
     </script>
 </body>
