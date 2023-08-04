@@ -6,10 +6,10 @@ function tasksToDo(){
     
     const createLi = document.createElement('li');
     const deleteTask = document.createElement('button');
-
+    
     function addTask(task){
         document.querySelector('.task-list').appendChild(createLi).innerText = task;
-        
+
         taskTyped.value = '';
 
         tasks.push({
