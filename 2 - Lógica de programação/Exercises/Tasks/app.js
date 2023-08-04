@@ -3,15 +3,21 @@ function tasksToDo(){
     const botoes = document.querySelectorAll('.btn')
     const [taskTyped, sendTask] = botoes;
     
-    const deleteTask = document.createElement('button');
     
     function addTask(task){
         const createLi = document.createElement('li');
-        document.querySelector('.task-list').appendChild(createLi).innerText = task;
+        document.querySelector('.task-list').appendChild(createLi).innerText = `${task} `;
+        createDeleteButton(createLi);
         taskTyped.value = '';
         taskTyped.focus()
     }
-    
+
+    let deleteButton;
+    function createDeleteButton(father){
+        const createButton = document.createElement('button')
+        createButton.setAttribute('class', 'delete');
+        deleteButton = father.appendChild(createButton).innerText = 'Delete'
+    }
     taskTyped.addEventListener('keypress', function(e){
         const task = e.target
         if(!taskTyped.value) return;      
@@ -24,6 +30,11 @@ function tasksToDo(){
 
         if(whichBtn === sendTask) addTask(taskTyped.value);
         
+    })
+
+    deleteButton.addEventListener('click', function(e){
+        const eTarget = e.target;
+        eTarget.parentElement.remove()
     })
 
 } tasksToDo()
