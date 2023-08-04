@@ -12,7 +12,6 @@ function tasksToDo(){
         taskTyped.focus()
     }
 
-    let deleteButton;
     function createDeleteButton(father){
         const createButton = document.createElement('button')
         createButton.setAttribute('class', 'delete');
@@ -32,9 +31,11 @@ function tasksToDo(){
         
     })
 
-    deleteButton.addEventListener('click', function(e){
-        const eTarget = e.target;
-        eTarget.parentElement.remove()
+    document.addEventListener('click', function(e){
+        const el = e.target;
+        if(el.classList.contains('delete')){
+            el.parentElement.remove()
+        }
     })
 
 } tasksToDo()
