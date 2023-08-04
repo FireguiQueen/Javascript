@@ -1,5 +1,5 @@
 function tasksToDo(){
-
+    const tasks = [];
     const botoes = document.querySelectorAll('.btn')
     const [taskTyped, sendTask] = botoes;
     
@@ -8,6 +8,7 @@ function tasksToDo(){
         const createLi = document.createElement('li');
         document.querySelector('.task-list').appendChild(createLi).innerText = `${task} `;
         createDeleteButton(createLi);
+        tasks.push(task)
         taskTyped.value = '';
         taskTyped.focus()
     }
