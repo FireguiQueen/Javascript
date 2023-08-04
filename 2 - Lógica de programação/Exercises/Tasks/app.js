@@ -4,8 +4,9 @@ function tasksToDo(){
     const botoes = document.querySelectorAll('.btn')
     const [taskTyped, sendTask] = botoes;
     
+    const createLi = document.createElement('li');
+    const deleteTask = document.createElement('button');
     function addTask(task){
-        const createLi = document.createElement('li');
         document.body.appendChild(createLi).innerText = task;
         taskTyped.value = '';
 
