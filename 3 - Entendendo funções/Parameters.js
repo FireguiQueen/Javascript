@@ -74,4 +74,15 @@ soma1()
 function sum(a, b, c){
     console.log(a + b + c);
 }
-sum(10, null, 20)
+sum(10, null, 20) // retorna trinta
+
+// Agora vamos supor que você queira pular um parâmetro, porém mantendo seu valor padrão
+/*
+    Quando usamos o "null" para pular um parâmetro na hora de passar os argumentos, o valor
+    padrão definido ao parâmetro é "ignorado", afinal, você já passou um valor à ele.
+    Para resolvermos isto, será necessário o uso do "undefined".
+*/
+function sum1(a = 1, b = 1, c = 1){
+    console.log(a + b + c)
+}
+sum1(50, undefined, 10) // retorna 61.
