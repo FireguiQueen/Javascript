@@ -28,3 +28,23 @@ function sayHello(person){
 }
 sayHello()
 
+
+
+// DEFININDO VALORES PADRÕES AOS PARÂMETROS
+/*
+    Os valores padrões são chamados caso não tenha sido passado argumentos aos parâmetros
+    chamados.
+    Há duas maneiras de definir um valor padrão.
+    Em ambas estaremos definindo o valor padrão para 0.
+*/
+// 1 - 
+function soma(a = 0, b = 0){
+    console.log(a + b)
+}
+soma()
+
+// 2 -
+function soma(a,b){
+    a = a || 0;
+    b = b || 0;
+}
