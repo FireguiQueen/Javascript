@@ -11,10 +11,20 @@ function sayHi(){
 // Criamos uma variável e atribuimos a ela uma função;
 // Se chama "expression" pois a variável colocada está expressando uma função anônima
 // Funções anônimas são aquelas que não possuem nomes -> function(){}
-const saiHi = function(){
-    console.log('hi')
-}
+const sayHiAgain = function(){
+    return 'Hi';
+} 
+
 
 
 // ARROW
-// Criamos uma "function expression" e colocamos 
+// Criamos uma "function expression" e seguimos uma ordem de: 1. parâmetros; 2. corpo da função
+// Quando não há parâmetros, os parentesis são obrigatórios.
+const sayHello = () => {
+    return 'Hello'
+}
+
+// Quando há somente um parâmetro, não há necessidade de parentesis.
+// E quando há somente uma linha de código, não há necessidade das chaves {} nem do return.
+const sayHelloAgain = person => `Olá ${person}`
+console.log(sayHelloAgain('Guilherme'))
