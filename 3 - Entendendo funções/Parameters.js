@@ -37,14 +37,21 @@ sayHello()
     Há duas maneiras de definir um valor padrão.
     Em ambas estaremos definindo o valor padrão para 0.
 */
-// 1 - 
-function soma(a = 0, b = 0){
+/* 1 - É bem simples, dentro do parentesis iremos colocar um sinal, e escolher qual será 
+       o valor padrão do parâmetro */
+function soma(a = 1, b = 1){
     console.log(a + b)
 }
 soma()
 
-// 2 -
-function soma(a,b){
+/* 2 - Olhando parece um pouco complexo, porém é bem simples. Estamos fazendo uso do 
+       operador lógico "OR", e este operador só precisa que um operando seja "TRUE". 
+       Como o parâmetro 'a' não foi definido, seu valor é undefined, ou seja, estamos
+       fazendo "undefined || 0". Como undefined é "falsy", o nosso operador lógico 
+       irá retornar o último valor, que no caso, é 0. */
+function soma1(a,b){
     a = a || 0;
     b = b || 0;
+    console.log(a + b)
 }
+soma1()
