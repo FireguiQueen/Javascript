@@ -15,4 +15,7 @@ function sayHi(){
     console.log(arguments)
 }
 sayHi(525, 'Broly', 154);
+// Será retornado todos os argumentos enviados a função: 525, 'Broly', 154
+
+
 
