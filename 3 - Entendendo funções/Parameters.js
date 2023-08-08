@@ -18,6 +18,8 @@ sayHi(525, 'Broly', 154);
 // Será retornado todos os argumentos enviados a função: 525, 'Broly', 154
 
 
+
+
 // O QUE OCORRE AO CHAMAR UM PARÂMETRO QUE NÃO FOI DADO NENHUM ARGUMENTO A ELE
 /*
     Ao tentar chamar o parêmetro que não foi passado nenhum argumento a ele, seu valor
@@ -27,6 +29,7 @@ function sayHello(person){
     console.log(`Olá, ${person}!`)
 }
 sayHello()
+
 
 
 
