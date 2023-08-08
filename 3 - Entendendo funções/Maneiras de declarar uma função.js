@@ -7,6 +7,8 @@ function sayHi(){
 }
 
 
+
+
 // EXPRESSION
 // Criamos uma variável e atribuimos a ela uma função;
 // Se chama "expression" pois a variável colocada está expressando uma função anônima
@@ -14,6 +16,7 @@ function sayHi(){
 const sayHiAgain = function(){
     return 'Hi';
 } 
+
 
 
 
