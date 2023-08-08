@@ -90,15 +90,13 @@ sum1(50, undefined, 10) // retorna 61.
 
 
 
-function acumulador(operador, tipoDeAcumulacao, ...numbers){
-    let valorFinal = 0;
+function acumulador(operador, numeroAcumulacao, ...numbers){
+    let valorFinal = numeroAcumulacao;
     for(let i of numbers){
         if(operador === '+') valorFinal += i;
             else if (operador === '-') valorFinal -= i;
-            else if (operador === '+') valorFinal += i;
-            else if(operador === '+') valorFinal += i;
-                else valorFinal += i;
-
+            else if (operador === '*') valorFinal *= i;
+                else valorFinal /= i;
     }
+    return valorFinal
 }
-console.log(acumulador('+'))
