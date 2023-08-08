@@ -31,3 +31,12 @@ const sayHello = () => {
 // E quando há somente uma linha de código, não há necessidade das chaves {} nem do return.
 const sayHelloAgain = person => `Olá ${person}`
 console.log(sayHelloAgain('Guilherme'))
+
+
+
+// First Class Object
+/*
+Em javascript e em diversas outras linguages, as funções são entidades "first class object".
+Isto significa que
+
+*/
