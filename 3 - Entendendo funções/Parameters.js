@@ -86,3 +86,12 @@ function sum1(a = 1, b = 1, c = 1){
     console.log(a + b + c)
 }
 sum1(50, undefined, 10) // retorna 61.
+
+
+
+
+function acumulador(operador, tipoDeAcumulacao, ...numbers){
+   const a = 2
+    return (1) a(2) 
+}
+console.log(acumulador('+'))
