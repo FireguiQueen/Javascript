@@ -12,7 +12,9 @@
     variável chamada "arguments". 
 */
 function sayHi(){
-    console.log(arguments)
+    for(let i of arguments){
+        console.log(i)
+    }
 }
 sayHi(525, 'Broly', 154);
 
