@@ -7,5 +7,14 @@ function sayHi(){
 }
 
 
-// Expression
-// 
+// EXPRESSION
+// Criamos uma variável e atribuimos a ela uma função;
+// Se chama "expression" pois a variável colocada está expressando uma função anônima
+// Funções anônimas são aquelas que não possuem nomes -> function(){}
+const saiHi = function(){
+    console.log('hi')
+}
+
+
+// ARROW
+// Criamos uma "function expression" e colocamos 
