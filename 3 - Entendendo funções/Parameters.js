@@ -58,3 +58,20 @@ function soma1(a,b){
     console.log(a + b)
 }
 soma1()
+
+
+
+
+// QUAL A MELHOR FORMA PARA PASSAR ARGUMENTOS PARA PARÂMETROS ESPECÍFICOS? 
+/*
+    Podemos imaginar que você está com uma função que possui 3 parâmetros: a, b, c.
+    No final desta função, ela irá retornar a soma entre os 3 parâmetros.
+
+    Mas como pular o parâmetro 'b' e passar o argumento para o 'c'?
+    Neste caso, iremos fazer o uso do "null".
+    Não coloque outro valor além do "null" caso seu objetivo seja pular um ou mais parâmetros
+*/
+function sum(a, b, c){
+    console.log(a + b + c);
+}
+sum(10, null, 20)
