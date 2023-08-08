@@ -91,7 +91,14 @@ sum1(50, undefined, 10) // retorna 61.
 
 
 function acumulador(operador, tipoDeAcumulacao, ...numbers){
-   const a = 2
-    return (1) a(2) 
+    let valorFinal = 0;
+    for(let i of numbers){
+        if(operador === '+') valorFinal += i;
+            else if (operador === '-') valorFinal -= i;
+            else if (operador === '+') valorFinal += i;
+            else if(operador === '+') valorFinal += i;
+                else valorFinal += i;
+
+    }
 }
 console.log(acumulador('+'))
