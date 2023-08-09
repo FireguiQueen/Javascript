@@ -29,17 +29,51 @@
     que os outros tipos de dados fazem.
 */
 
+
+
+
+
+
+
+
+
 // ESCOPO LÉXICO
 /*
     Um escopo léxico, também conhecido como escopo estático, refere-se à maneira como as 
     variáveis são acessadas e atribuídas em um programa de computador, com base na estrutura 
     de aninhamento de blocos de código.    
+*/  
+//  Observamos que há uma variável que recebe "oi" como valor.
+//  E dentro de uma função, podemos chamar esta variável. 
+const palavra = "oi"
+function digaOi(){
+    console.log('oi')
+}
 
-    Podemos fazer uma analogia usando uma casa como um exemplo.
-    A casa é uma enorme função. 
-    Dentro desta casa há diversos cômodos, e cada cômodo é uma função diferente. 
-    Agora vamos supor que você possua duas geladeiras, uma no seu quarto e uma na cozinha.
-     
+// Pense numa hierarquia, onde o filho pode gastar o dinheiro do pai, mas o pai não pode gastar o dinheiro do filho
+// A função "greetings" seria o pai, a função "sayGreetings" a filha, e isto permite a função
+// filha fazer uso da variável criada pela função pai, mas a função pai não pode fazer uso da variável
+// da função filha
+function greetings(){
+    const saudacoes = "Olá!"
+    function sayGreetings(){
+        console.log(saudacoes)
+    }
+}
+
+// Há uma variável dentro de uma função, e esta variável recebe "olá" como valor.
+// E fora da função, tentamos chamar esta variável.
+// Porém, isto não dará certo, pois a variável foi criada num CONTEXTO FECHADO.
+// Como já sabemos, funções possuem seu próprio escopo
+function digaOla(){
+    const ola = "Olá!"
+}
+console.log(ola) // retorna "undefined"
+
+
+
+
+
 
 
 
