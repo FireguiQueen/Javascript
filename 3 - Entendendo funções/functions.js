@@ -29,6 +29,11 @@
     que os outros tipos de dados fazem.
 */
 
+// ESCOPO LÉXICO
+/*
+    Um escopo léxico nad
+
+
 
 // DIFERENTES FORMAS DE SE DECLARAR UMA FUNÇÃO:
 
