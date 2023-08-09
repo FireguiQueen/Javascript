@@ -31,8 +31,15 @@
 
 // ESCOPO LÉXICO
 /*
-    Antes de tudo, há uma pequena analogia.
-    
+    Um escopo léxico, também conhecido como escopo estático, refere-se à maneira como as 
+    variáveis são acessadas e atribuídas em um programa de computador, com base na estrutura 
+    de aninhamento de blocos de código.    
+
+    Podemos fazer uma analogia usando uma casa como um exemplo.
+    A casa é uma enorme função. 
+    Dentro desta casa há diversos cômodos, e cada cômodo é uma função diferente. 
+    Agora vamos supor que você possua duas geladeiras, uma no seu quarto e uma na cozinha.
+     
 
 
 
