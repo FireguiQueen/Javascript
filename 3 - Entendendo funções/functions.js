@@ -20,7 +20,13 @@
             Podem ser criadas dinamicamente: 
             Você pode criar funções dinamicamente durante a execução do programa, o que permite uma flexibilidade adicional.
 
-    Resumidamente, 
+    Sabemos que uma STR (string) pode ser: 
+        - Atribuida à uma variável
+        - Usada como argumento para uma função
+        - O valor da propriedade de um objeto
+
+    E pelo fato das funções serem "first class object", elas também podem fazer a mesma coisa
+    que os outros tipos de dados fazem.
 */
 
 
