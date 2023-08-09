@@ -100,3 +100,18 @@ function acumulador(operador, numeroAcumulacao, ...numbers){
     }
     return valorFinal
 }
+
+
+
+
+function multiplicador(multiplicaPorQuanto){
+
+    function multiplicando(n){
+        return n * multiplicaPorQuanto;
+    }
+
+    return multiplicando;
+}
+
+const triplicar = multiplicador(3);
+console.log(triplicar(4))
