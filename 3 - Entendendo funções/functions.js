@@ -61,14 +61,18 @@ function greetings(){
     }
 }
 
-// Há uma variável dentro de uma função, e esta variável recebe "olá" como valor.
-// E fora da função, tentamos chamar esta variável.
-// Porém, isto não dará certo, pois a variável foi criada num CONTEXTO FECHADO.
-// Como já sabemos, funções possuem seu próprio escopo
-function digaOla(){
-    const ola = "Olá!"
+/* Neste exemplo podemos ver que a função "dizerNome" printa no nosso console a variável 'nome'.
+Mas esta variável existe nos dois contextos, na função filha e na função pai.
+O resultado será "Pablo", pois primeiro é feito uma busca pela variável 'nome' dentro da função,
+caso esta variável não exista, ela será procurada na função anterior.
+*/
+function pessoa(){
+    const nome = "Paulo"
+    function dizerNome(){
+        const nome = 'Pablo'
+        console.log(nome)
+    }
 }
-console.log(ola) // retorna "undefined"
 
 
 
