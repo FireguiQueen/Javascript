@@ -31,7 +31,8 @@
 
 // ESCOPO LÉXICO
 /*
-    Um escopo léxico nad
+    Antes de tudo, há uma pequena analogia.
+    
 
 
 
