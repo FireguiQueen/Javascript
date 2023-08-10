@@ -6,12 +6,18 @@
 */  
 
 
-//  Observamos que há uma variável que recebe "oi" como valor.
+//  No contexto global, uma variável recebe a string "OI"
 //  E dentro de uma função, podemos chamar esta variável. 
 const palavra = "oi"
 function digaOi(){
     console.log('oi')
 }
+
+// O contrário disso não funcionaria
+function digaOla(){
+    const palavra2 = "Oi"
+}
+console.log(palavra2) // retorna um erro dizendo que esta variável não foi definida.
 
 // Pense numa hierarquia, onde o filho pode gastar o dinheiro do pai, mas o pai não pode gastar o dinheiro do filho
 // A função "greetings" seria o pai, a função "sayGreetings" a filha, e isto permite a função
@@ -36,6 +42,12 @@ function pessoa(){
         console.log(nome)
     }
 }
+
+/*
+O escopo lexical descreve como as funções aninhadas (também conhecidas como "filho") 
+têm acesso a variáveis definidas em escopos pai.
+*/
+
 
 
 
