@@ -8,8 +8,7 @@
 
     Independente se o argumento será passado para um parâmetro ou não, ele irá ir para a variável
     chamada "arguments".
-    Em resumo, todos os argumentos passados para uma function declaration irão ser armezenados numa
-    variável chamada "arguments". 
+    Em resumo, todos os argumentos passados irão ser armezenados numa variável chamada "arguments". 
 */
 function sayHi(){
     console.log(arguments)
