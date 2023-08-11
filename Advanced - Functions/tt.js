@@ -1,8 +1,15 @@
-function oi(){
-    function tt(){
+const myFunction = () => {
+    let myValue = 2;
+    console.log(myValue);
 
-        var oi = 'cu'
+    const childFunction = () => {
+         console.log(myValue += 1);
     }
+
+    return childFunction;
 }
 
-console.log(oi)
+const result = myFunction();
+result();
+result();
+result();
