@@ -27,7 +27,6 @@ function funcao(){
     }
 }
 
-
 //  No contexto global, uma variável recebe a string "OI";
 //  E dentro de uma função, podemos chamar esta variável. 
 const palavra = "oi"
@@ -54,6 +53,8 @@ function pessoa(){
         console.log(nome)
     }
 }
+
+
 
 
 
@@ -89,3 +90,11 @@ const somarMaisUm = somar();
 somar() // retorna 1
 somar() // retorna 2
 somar() // retorna 3
+
+
+
+
+
+
+
+// Callbacks
