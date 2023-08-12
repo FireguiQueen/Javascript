@@ -9,19 +9,19 @@
     Geralmente, o escopo léxico é definido pela estrutura hierárquica do código fonte e pela 
     forma como as funções e blocos estão aninhados.
 */  
-/*  Um exemplo bem simples é uma função com um 'while' dentro.
+/*  
+    Um exemplo bem simples é uma função com um 'while' dentro.
     O 'While' é capaz de acessar valores de variáveis nos escopos anteriores.
     Além de poder acessar o valor, ele também é capaz de modificá-lo.
+    
+    - No exemplo, o loop (while) está acessando o valor de X e perguntando se ele é maior que 5.
+    - E enquanto o valor da variável 'X' for maior que 5, ele irá tirar -1 do valor do X.
 */
 function funcao(){
     while(x > 5){
-        let i = 0;
         x--
     }
 }
-
-
-
 
 
 //  No contexto global, uma variável recebe a string "OI"
