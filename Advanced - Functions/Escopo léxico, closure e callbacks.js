@@ -61,5 +61,26 @@ function pessoa(){
 
 // CLOSURES 
 /*
-    Closure é a capacidade das informações 
+    Closure é a capacidade de salvar dados de um escopo léxico onde a função
+    foi chamada. 
+
+    No exemplo abaixo, temos uma função.
+    No escopo desta função há uma variável 'X' que recebe '0'.
+    No final, ela irá retornar 
+
 */
+// Por exemplo
+function somar(){
+    let x = 0;
+
+    function incrementar(){
+        x++
+        console.log(x)
+    } 
+
+    return incrementar()
+}
+const somarMaisUm = somar();
+somar() // retorna 1
+somar() // retorna 2
+somar() // retorna 3

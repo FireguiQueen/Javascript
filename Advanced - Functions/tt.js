@@ -28,3 +28,17 @@
 
 // console.log(parImpar('onlyImpar', 222, 10, 5))
 
+function somar(){
+    let x = 0;
+
+    function incrementar(){
+        x++
+        return 'olá'
+    } 
+
+    return incrementar()  
+}
+
+const somarX = somar()
+somarX()
+somarX()
