@@ -38,16 +38,6 @@ function digaOla(){
 }
 console.log(palavra2) // retorna um erro dizendo que esta variável não foi definida.
 
-// Pense numa hierarquia, onde o filho pode gastar o dinheiro do pai, mas o pai não pode gastar o dinheiro do filho
-// A função "greetings" seria o pai, a função "sayGreetings" a filha, e isto permite a função
-// filha fazer uso da variável criada pela função pai, mas a função pai não pode fazer uso da variável
-// da função filha
-function greetings(){
-    const saudacoes = "Olá!"
-    function sayGreetings(){
-        console.log(saudacoes)
-    }
-}
 
 /* Neste exemplo podemos ver que a função "dizerNome" printa no nosso console a variável 'nome'.
 Mas esta variável existe nos dois contextos, na função filha e na função pai.
@@ -62,10 +52,6 @@ function pessoa(){
     }
 }
 
-/*
-O escopo lexical descreve como as funções aninhadas (também conhecidas como "filho") 
-têm acesso a variáveis definidas em escopos pai.
-*/
 
 
 
