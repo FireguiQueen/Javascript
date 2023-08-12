@@ -2,8 +2,13 @@
 /*
     Um escopo 'léxico', também conhecido como escopo 'estático' nos diz como as variáveis serão
     acessadas e distribuidas em nosso programa. 
-*/  
+    Por exemplo, você pode ter uma função que contem duas coisas:
+    - Uma variável;
+    - Uma função (seria a "filha" dela).
 
+    Nesta função "filha" é possível acessar o valor da variável colocada na função pai, porém,
+    o contrário não é possível.
+*/  
 
 //  No contexto global, uma variável recebe a string "OI"
 //  E dentro de uma função, podemos chamar esta variável. 
