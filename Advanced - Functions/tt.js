@@ -1,15 +1,29 @@
-const myFunction = () => {
-    let myValue = 2;
-    console.log(myValue);
+function whatToDo(parOrImpar, n){
+    const numbers = [];
 
-    const childFunction = () => {
-         console.log(myValue += 1);
+    if(parOrImpar === 'onlyPar'){
+        for(let i of n){
+            if(i % 2 === 0){
+                numbers.push(i)
+                continue;
+            }
+        }
+        return numbers.sort();
     }
 
-    return childFunction;
+    if(parOrImpar === 'onlyImpar'){
+        for(let i of n){
+            if(i % 2 !== 0){
+                numbers.push(i)
+                continue;
+            }
+        }
+        return numbers.sort();
+    }
 }
 
-const result = myFunction();
-result();
-result();
-result();
+function parImpar(which, ...numbers){
+    return whatToDo(which, numbers)
+}
+
+console.log(parImpar('onlyImpar', 222, 10, 5))
