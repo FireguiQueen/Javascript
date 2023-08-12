@@ -3,8 +3,8 @@
     Um escopo 'léxico', também conhecido como escopo 'estático' é um conceito que nos diz 
     "quem pode acessar quem".
 
-    As variáveis e símbolos podem ser declarados em diferentes partes do código, como dentro de 
-    funções, blocos condicionais (if/switch) ou loops(while, for..). 
+    As variáveis podem ser declaradas em diferentes partes do código, como dentro de 
+    funções, blocos condicionais (if/switch) ou loops(while, for e etc). 
     O escopo léxico determina onde essas variáveis podem ser referenciadas ou modificadas. 
     Geralmente, o escopo léxico é definido pela estrutura hierárquica do código fonte e pela 
     forma como as funções e blocos estão aninhados.
@@ -18,20 +18,21 @@
     - E enquanto o valor da variável 'X' for maior que 5, ele irá tirar -1 do valor do X.
 */
 function funcao(){
+    let x = 10;
     while(x > 5){
         x--
     }
 }
 
 
-//  No contexto global, uma variável recebe a string "OI"
+//  No contexto global, uma variável recebe a string "OI";
 //  E dentro de uma função, podemos chamar esta variável. 
 const palavra = "oi"
 function digaOi(){
-    console.log('oi')
+    console.log(palavra) // retorna "oi"
 }
 
-// O contrário disso não funcionaria
+// O contrário disso não funcionaria.
 function digaOla(){
     const palavra2 = "Oi"
 }
