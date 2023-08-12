@@ -1,14 +1,28 @@
 // ESCOPO LÉXICO
 /*
-    Um escopo 'léxico', também conhecido como escopo 'estático' nos diz como as variáveis serão
-    acessadas e distribuidas em nosso programa. 
-    Por exemplo, você pode ter uma função que contem duas coisas:
-    - Uma variável;
-    - Uma função (seria a "filha" dela).
+    Um escopo 'léxico', também conhecido como escopo 'estático' é um conceito que nos diz 
+    "quem pode acessar quem".
 
-    Nesta função "filha" é possível acessar o valor da variável colocada na função pai, porém,
-    o contrário não é possível.
+    As variáveis e símbolos podem ser declarados em diferentes partes do código, como dentro de 
+    funções, blocos condicionais (if/switch) ou loops(while, for..). 
+    O escopo léxico determina onde essas variáveis podem ser referenciadas ou modificadas. 
+    Geralmente, o escopo léxico é definido pela estrutura hierárquica do código fonte e pela 
+    forma como as funções e blocos estão aninhados.
 */  
+/*  Um exemplo bem simples é uma função com um 'while' dentro.
+    O 'While' é capaz de acessar valores de variáveis nos escopos anteriores.
+    Além de poder acessar o valor, ele também é capaz de modificá-lo.
+*/
+function funcao(){
+    while(x > 5){
+        let i = 0;
+        x--
+    }
+}
+
+
+
+
 
 //  No contexto global, uma variável recebe a string "OI"
 //  E dentro de uma função, podemos chamar esta variável. 
