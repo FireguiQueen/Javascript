@@ -66,8 +66,13 @@ function pessoa(){
 
     No exemplo abaixo, temos uma função.
     No escopo desta função há uma variável 'X' que recebe '0'.
-    No final, ela irá retornar 
+    E embaixo desta variável, há uma função responsável por somar '+1' à variável '0'.
 
+    Por fim, estamos retornando a função "incrementar" (que é a responsável por somar +1), e quando
+    retornamos ela, ele executa seu bloco de códigos, adicionando +1 a nossa variável.
+
+    Para salvar o valor da nossa variável "X", colocamos nossa função em uma variável, criando
+    assim, uma closure.
 */
 // Por exemplo
 function somar(){
