@@ -8,6 +8,9 @@
     O escopo léxico determina onde essas variáveis podem ser referenciadas ou modificadas. 
     Geralmente, o escopo léxico é definido pela estrutura hierárquica do código fonte e pela 
     forma como as funções e blocos estão aninhados.
+
+    De forma resumida, o escopo léxico refere-se à região do código fonte de um programa 
+    onde uma determinada variável é visível e acessível.
 */  
 /*  
     Um exemplo bem simples é uma função com um 'while' dentro.
