@@ -1,8 +1,7 @@
 // ESCOPO LÉXICO
 /*
-    Um escopo léxico, também conhecido como escopo estático, refere-se à maneira como as 
-    variáveis são acessadas e atribuídas em um programa de computador, com base na estrutura 
-    de aninhamento de blocos de código.    
+    Um escopo 'léxico', também conhecido como escopo 'estático' nos diz como as variáveis serão
+    acessadas e distribuidas em nosso programa. 
 */  
 
 
