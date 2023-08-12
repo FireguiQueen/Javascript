@@ -61,5 +61,5 @@ function pessoa(){
 
 // CLOSURES 
 /*
-    Closure é a capacidade 
+    Closure é a capacidade das informações 
 */
