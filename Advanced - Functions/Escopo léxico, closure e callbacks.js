@@ -58,4 +58,4 @@ function pessoa(){
 
 // CLOSURES 
 /*
-    Clou
+    Closure é a capacidade 
