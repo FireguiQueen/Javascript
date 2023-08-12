@@ -56,6 +56,6 @@ function pessoa(){
 
 
 
-// CLOUSURES 
-
-
+// CLOSURES 
+/*
+    Clou
