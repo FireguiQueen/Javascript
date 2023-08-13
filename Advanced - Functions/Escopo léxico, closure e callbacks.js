@@ -113,5 +113,35 @@ function qualFuncaoExecutar(funcao){
     console.log('Executando a função..:')
     funcao();
 }
-
 qualFuncaoExecutar(funcaoB)
+
+
+// Por qual motivo não fazer isto de maneira direta? Afinal, nos pouparia linhas de código
+// Por exemplo:
+function qualFuncaoExecutar(){
+    funcaoB();
+}
+qualFuncaoExecutar()
+
+/*
+    ~~~ Explicação
+    Sim, isto de fato nos poupou linhas de código, porém, deixou o nosso código menos flexível.
+    Agora, para executar outra função (funcaoA) por exemplo, teriamos que mudar isto no nosso
+    próprio código, sendo que, ao utilizar callback, teriamos apenas de mudar o argumento.
+    
+    Um exemplo de callback seria: 
+    > O usuário escolhe dois números.
+    > O usuário escolhe qual operação fazer com esses dois números (multiplicação, divisão e soma).
+
+*/
+function somarNumeros(x,y){
+    return x + y;
+}
+function multiplicarNumeros(x,y){
+    return x*y;
+}
+function escolherOperacao(x,y, operacao){
+    return operacao(x,y);
+}
+
+console.log(escolherOperacao(4,2, somarNumeros))
