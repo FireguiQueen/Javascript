@@ -31,7 +31,12 @@
 
 
 
+
+//******************************************************************************* */
+
 // DIFERENTES FORMAS DE SE DECLARAR UMA FUNÇÃO:
+
+
 
 // DECLARATION
     /*  Colocamos a keyword "function" e a idêntificamos com um nome;
@@ -40,6 +45,8 @@
 function sayHi(){
     console.log('hi')
 }
+
+
 
 
 // EXPRESSION
@@ -51,6 +58,8 @@ const sayHiAgain = function(){
 const sayHiPlease = function sayhi(){
     return 'Hi';
 }
+
+
 
 
 // ARROW
@@ -66,10 +75,21 @@ const sayHelloAgain = person => `Olá ${person}`
 console.log(sayHelloAgain('Guilherme'));
 
 
+
+
+
 // IIFE (Immeadiatly Invoked Function Expression)
-/* É importante saber que os paretensis em Javascript possui várias finalidades, como por exemplo:
-- 
-*/
+// Sintaxe
 (function(){
     console.log('Olá!')
 }) ();
+
+/* É importante saber que os paretensis em Javascript possui várias finalidades, como por exemplo:
+- Agrupar expressões, igual na matemática:  5 * (2+4)
+- Criação de parâmetros e argumentos para funções
+- Criação de IIFE.
+- Entre outras.. 
+
+Logo, já deve-se imaginar que é importante colocar ";" (que indica o fim de uma instrução).
+Vamos supor que voc
+*/
