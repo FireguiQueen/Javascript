@@ -31,7 +31,6 @@
 
 
 
-
 //******************************************************************************* */
 
 // DIFERENTES FORMAS DE SE DECLARAR UMA FUNÇÃO:
@@ -133,5 +132,28 @@ function criarPessoa2(nome, idade){
     return {
         nomePessoa: nome,
         idadePessoa: idade
+    }
+}
+
+
+
+//******************************************************************************* */
+
+// THIS
+/*
+    O 'this' é uma maneira de se referir ao contexto atual.
+    No exemplo abaixo vemos um objeto que possui dois métodos, no final, ambos fazem a mesma coisa.
+    Porém, um faz o uso do "this" e o outro método não faz.
+
+    Observe que o 'this' foi utilizado para referencia ao contexto atual, ou seja, o objeto 'caneca'.
+*/
+const caneca = {
+    cor: 'preta',
+
+    dizerCor(){
+        return `A caneca é ${this.cor}`
+    },
+    dizerCorNovamente(){
+        return `A caneca é ${caneca.cor}`
     }
 }
