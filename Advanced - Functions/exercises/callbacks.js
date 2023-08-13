@@ -44,11 +44,9 @@
 
 
 // 1. Crie uma função que retorna um objeto com as propriedades: name, age e profession.
-// 2. Crie 
-// 2. Crie uma função chamada "showInformations", recebe por args um objeto, e imprime o valor das propriedades.
-// 3. Crie uma função chamada "processPerson" que recebe um objeto e uma função de callback.
-//    Esta função deve executar o callback, passando o objeto e uma propriedade como argumentos.
-
+// 2. Crie um array onde armazena o retorno desta função.
+// 3. Utilize do callback para poder acessar informações de cada
+//    pessoa, além de outras funcionalidades.
 function buildWorkerProperties(name, age, profession){
     return {
         name,
