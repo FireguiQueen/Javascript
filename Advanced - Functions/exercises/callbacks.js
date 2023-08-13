@@ -1,8 +1,18 @@
 // Utilize callbacks para determinar operações matemáticas usando X e Y. 
 function sum(x,y){
-    return x +y;
+    return x + y;
 }
-function multip
+function multiply(x,y){
+    return x * y
+}
+function subtract(x,y){
+    return x - y;
+}
+function devide(x, y){
+    return x / y;
+}
 function mathOperation(x,y, operacao){
-    return operacao(y, x)
+    console.log(operacao(x, y))
 }
+
+mathOperation(562, 12, devide)
