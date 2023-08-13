@@ -157,3 +157,23 @@ const caneca = {
         return `A caneca é ${caneca.cor}`
     }
 }
+
+/*
+    A diferença é que, com o 'this', podemos escalar as coisas.
+    De modo grosseiro, o nosos método diz:
+    "Retorna a cor do objeto atual".
+
+    É claro que, quando há parâmetros, não somos "obrigados" a fazer uso do 'this'.
+    Pois podemos colocar ${cor}, e este 'cor' se refere ao parâmetro.
+*/
+function criarCanecasNovas(cor){
+    return {
+        cor,
+        dizerACor(){
+            return `${this.cor}`
+        }
+    }
+}
+const caneca1 = criarCanecasNovas('verde')
+const caneca2 = criarCanecasNovas('vermelha')
+console.log(caneca1.dizerACor()) // retorna verde;
