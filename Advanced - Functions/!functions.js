@@ -105,6 +105,12 @@ eram pra ser do '8'. */
 
 
 // FACTORY 
+/*
+    Uma função factory nada mais é do que uma função que retorna um objeto.
+    Esta é uma função extremamente útil quando você deseja criar diversos objetos com as mesmas
+    propriedades, porém, com valores diferentes. 
+*/
+
 // Você concordaria comigo que ao criar uma função factory, seria uma ma pratica de programação
 // ao colocar um método nela? 
 // Pois agora se criamos 200 metodos diferentes, teremos 200 métodos idênticos, sendo que só seria necessário um.
