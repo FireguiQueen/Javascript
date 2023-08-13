@@ -93,9 +93,32 @@ console.log(sayHelloAgain('Guilherme'));
 Logo, já deve-se imaginar que é importante colocar ";" (que indica o fim de uma instrução).
 Vemos no exemplo abaixo.:
 */
-let numero = 8 // não foi colocado ";" aqui.
+let numero = 8; // não foi colocado ";" aqui.
 (function(){
     console.log('Olá')
 }) (); 
 /* Invocar esta função trará um erro. Pois foi entendido que os parentesis desta função
 eram pra ser do '8'. */
+
+
+
+
+
+// FACTORY 
+// Você concordaria comigo que ao criar uma função factory, seria uma ma pratica de programação
+// ao colocar um método nela? 
+// Pois agora se criamos 200 metodos diferentes, teremos 200 métodos idênticos, sendo que só seria necessário um.
+function createPerson(name, age){
+    const person = Object.create(personMethods);
+    person.name = name;
+    person.age = age;
+    return person;
+}
+
+const personMethods = {
+    calcAge() {
+        return 2023 - this.age;
+    }
+};
+
+const pessoa1 = createPerson('Paulo', 24);
