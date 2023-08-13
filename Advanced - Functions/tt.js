@@ -1,11 +1,12 @@
-function somarNumeros(x,y){
-    return x + y;
-}
-function multiplicarNumeros(x,y){
-    return x*y;
-}
-function escolherOperacao(x,y, operacao){
-    return operacao(x,y);
+let x = 30000000000000000
+let mee = []
+while(x > 0){
+    x -= 40000000000000
+    let i = Math.random() * (5100 - 2000) + 2000;
+    if(i === 5000 || i >= 5000){
+        mee.push(i);
+        continue;
+    }
 }
 
-console.log(escolherOperacao(4,2, somarNumeros))
+console.log(mee)
