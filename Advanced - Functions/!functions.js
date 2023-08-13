@@ -109,18 +109,27 @@ eram pra ser do '8'. */
     Uma função factory nada mais é do que uma função que retorna um objeto.
     Esta é uma função extremamente útil quando você deseja criar diversos objetos com as mesmas
     propriedades, porém, com valores diferentes. 
+
+    No exemplo abaixo vemos uma função que cria um objeto com duas propriedades.:
+    - nome
+    - idade
+
+    Após isto, é só criar uma variável que recebe e executa esta função, fazendo assim
+    com que a nossa variável receba aquele objeto.
+
 */
+function criarPessoa(nome, idade){
+    return {
+        nome,
+        idade
+    }
+}
+const paulo = criarPessoa('Paulo', 22);
 
-// Você concordaria comigo que ao criar uma função factory, seria uma ma pratica de programação
-// ao colocar um método nela? 
-// Pois agora se criamos 200 metodos diferentes, teremos 200 métodos idênticos, sendo que só seria necessário um.
-
-
-const numeros = [223, 523, 522, 22]
-const maiorQue100 = []
-
-for(let numero of numeros){
-    if(numero >= 100){
-        maiorQue100.push(numero);
-    } 
+// Caso você queira dar nomes diferentes as propriedades do objeto, faça desta forma:
+function criarPessoa2(nome, idade){
+    return {
+        nomePessoa: nome,
+        idadePessoa: idade
+    }
 }
