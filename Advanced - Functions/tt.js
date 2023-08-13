@@ -1,6 +1,15 @@
-const p = {
-    name: 't',
-    age: '22'
-}
+function newObj(name, age){
+    return {
+       name, 
+       age, 
+       calcAge(){
+         const data = new Date();
+         const ano = data.getFullYear();
+         return ano - age;
+  }
+   }
+ }
 
-console.log(p[`name`])
+
+const p1 = newObj('Julia', 17)
+console.log(p1.calcAge())
