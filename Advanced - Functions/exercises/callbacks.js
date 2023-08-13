@@ -27,16 +27,58 @@
 //    Esta função deve executar o callback para cada tarefa na lista.
 
 // Teste chamando a função "processTasks" com a lista de tarefas e a função "logTask" como callback.
+(function(){
+    const taskList = ['Wake up, make the bed, brush teeth and take a shower', 'Go to School', 'Practice music', 'Lunch and gym', 'Work', 'Study']
+    function logTask(tarefa){
+        console.log(`${(taskList.indexOf(tarefa)) + 1} ${tarefa}`)
+    }
+    
+    function processTasks(tasks, printTask){
+        console.log('~ Tarefas')
+        for(let i of tasks){
+            printTask(i)
+        }
+    }
+    processTasks(taskList, logTask)
+}) ();
 
-const taskList = ['Wake up, make the bed, brush teeth and take a shower', 'Go to School', 'Practice music', 'Lunch and gym', 'Work', 'Study']
-function logTask(tarefa){
-    console.log(`${(taskList.indexOf(tarefa)) + 1} ${tarefa}`)
-}
 
-function processTasks(tasks, printTask){
-    console.log('~ Tarefas')
-    for(let i of tasks){
-        printTask(i)
+// 1. Crie um objeto chamado "person" com propriedades como nome, idade e profissão.
+// 2. Crie uma função chamada "showInformations", recebe por args um objeto, e imprime o valor das propriedades.
+// 3. Crie uma função chamada "processPerson" que recebe um objeto e uma função de callback.
+//    Esta função deve executar o callback, passando o objeto e uma propriedade como argumentos.
+
+function buildWorkerProperties(name, age, profession){
+    return {
+        name,
+        age,
+        profession
     }
 }
-processTasks(taskList, logTask)
+const workers = [
+    buildWorkerProperties('Paulo', 22, 'Fireman'),
+    buildWorkerProperties('Julia', 21, 'Fireman'),
+    buildWorkerProperties('Edgar', 19, 'Fireman'),
+    buildWorkerProperties('Maria', 25, 'Fireman'),
+]
+
+function showInformations(obj){
+    for(let i in obj){
+        console.log(obj[i]);
+    }
+}
+
+function calcAge(obj){
+    const data = new Date();
+    const year = data.getFullYear()
+    console.log(`Nascido em ${year - obj.age}`)
+}
+
+
+function processPerson(callback, obj){
+    callback(obj)
+}
+
+for(let i of workers){
+    processPerson(showInformations, i)
+}
