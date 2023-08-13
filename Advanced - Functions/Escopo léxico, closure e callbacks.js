@@ -96,5 +96,7 @@ somar() // retorna 3
 
 
 
-
 // Callbacks
+/*
+    Callback é um conceito
+*/
