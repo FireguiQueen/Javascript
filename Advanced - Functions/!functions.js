@@ -37,7 +37,6 @@
 // DIFERENTES FORMAS DE SE DECLARAR UMA FUNÇÃO:
 
 
-
 // DECLARATION
     /*  Colocamos a keyword "function" e a idêntificamos com um nome;
         Este nome seria justamente a "declaração", já que não é uma função anônima;
@@ -45,6 +44,7 @@
 function sayHi(){
     console.log('hi')
 }
+
 
 
 
@@ -62,6 +62,7 @@ const sayHiPlease = function sayhi(){
 
 
 
+
 // ARROW
 // Criamos uma "function expression" e seguimos uma ordem de: 1. parâmetros; 2. corpo da função
 // Quando não há parâmetros, os parentesis são obrigatórios.
@@ -73,6 +74,7 @@ const sayHello = () => {
 // E quando há somente uma linha de código, não há necessidade das chaves {} nem do return.
 const sayHelloAgain = person => `Olá ${person}`
 console.log(sayHelloAgain('Guilherme'));
+
 
 
 
