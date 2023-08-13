@@ -108,17 +108,13 @@ eram pra ser do '8'. */
 // Você concordaria comigo que ao criar uma função factory, seria uma ma pratica de programação
 // ao colocar um método nela? 
 // Pois agora se criamos 200 metodos diferentes, teremos 200 métodos idênticos, sendo que só seria necessário um.
-function createPerson(name, age){
-    const person = Object.create(personMethods);
-    person.name = name;
-    person.age = age;
-    return person;
+
+
+const numeros = [223, 523, 522, 22]
+const maiorQue100 = []
+
+for(let numero of numeros){
+    if(numero >= 100){
+        maiorQue100.push(numero);
+    } 
 }
-
-const personMethods = {
-    calcAge() {
-        return 2023 - this.age;
-    }
-};
-
-const pessoa1 = createPerson('Paulo', 24);

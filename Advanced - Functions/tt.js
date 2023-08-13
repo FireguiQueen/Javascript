@@ -3,4 +3,4 @@ const p = {
     age: '22'
 }
 
-console.log(p[0])
+console.log(p[`name`])
