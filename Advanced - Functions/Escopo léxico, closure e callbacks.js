@@ -98,5 +98,20 @@ somar() // retorna 3
 
 // Callbacks
 /*
-    Callback é um conceito
+    Callback nada mais é do que uma função passada para outra através de argumentos.
+
+    O callback está por toda a parte. Podemos vê-lo no 'setTimeOut', 'setInterval',
+    'addEventListener'.. 
+    
+    Teremos uma função principal, e ela possui um parâmetro.
+    Ao invocarmos esta função, passaremos como argumento qual outra função desejamos executar.
 */
+function funcaoB(){
+    console.log('B')
+}
+function qualFuncaoExecutar(funcao){
+    console.log('Executando a função..:')
+    funcao();
+}
+
+qualFuncaoExecutar(funcaoB)
