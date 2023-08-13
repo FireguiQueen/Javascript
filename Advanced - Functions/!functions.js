@@ -91,5 +91,11 @@ console.log(sayHelloAgain('Guilherme'));
 - Entre outras.. 
 
 Logo, já deve-se imaginar que é importante colocar ";" (que indica o fim de uma instrução).
-Vamos supor que voc
+Vemos no exemplo abaixo.:
 */
+let numero = 8 // não foi colocado ";" aqui.
+(function(){
+    console.log('Olá')
+}) (); 
+/* Invocar esta função trará um erro. Pois foi entendido que os parentesis desta função
+eram pra ser do '8'. */
