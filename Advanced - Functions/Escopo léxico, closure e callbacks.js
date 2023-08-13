@@ -141,7 +141,10 @@ function multiplicarNumeros(x,y){
     return x*y;
 }
 function escolherOperacao(x,y, operacao){
+    // manda os dois números colocados ao invocar a função, e coloca paratensis ao lado do nosso
+    // parâmetro. O nome "operacao" será substituído pelo terceiro argumento que passamos.
     return operacao(x,y);
 }
 
+//Passa 3 argumentos: valor do 1º número, valor do 2º, qual operação fazer com esses dois números
 console.log(escolherOperacao(4,2, somarNumeros))
