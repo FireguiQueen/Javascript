@@ -6,3 +6,10 @@ function digaOi(){
     digaOi()
 }
 digaOi()
+
+
+function frasesDeBomDia(){
+    frase1: '...'
+}
+
+console.log(frasesDeBomDia.frase1)
