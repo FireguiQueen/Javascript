@@ -196,3 +196,6 @@ function criarCanecasNovas(cor){
 const caneca1 = criarCanecasNovas('verde')
 const caneca2 = criarCanecasNovas('vermelha')
 console.log(caneca1.dizerACor()) // retorna verde;
+
+
+//******************************************************************************* */
