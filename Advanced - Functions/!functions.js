@@ -199,3 +199,5 @@ console.log(caneca1.dizerACor()) // retorna verde;
 
 
 //******************************************************************************* */
+
+// Funções recursivas
