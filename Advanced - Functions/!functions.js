@@ -143,9 +143,16 @@ function criarPessoa2(nome, idade){
 /*
     O objetivo de um construtor é criar um novo objeto e definir valores para quaisquer 
     propriedades deste objeto.
+    De forma bem simplificada, você fará a instância desta função com o NEW
 
-    Considera-se uma boa prática nomear funções de construtor com uma primeira letra maiúscula.
-    Exemplos: function Car(){ }, function Person(){}, function Animal(){}
+    > Considera-se uma boa prática nomear funções de construtor com uma primeira letra maiúscula.
+        Exemplos: function Car(){ }, function Person(){}, function Animal(){}
+            Isso ocorre porque, ao criar uma função destinada a produzir novas 
+            instâncias por meio de objetos, você normalmente nomearia-a, por exemplo, 
+            newPerson(){ }. Contudo, já usamos o operador 'new' para fazer a instância, 
+            o que resultaria em um uso redundante de 'new'. Além disso, aderir ao padrão 
+            camelCase implica que a segunda palavra do nome da função comece com letra maiúscula.
+
 
 
 
