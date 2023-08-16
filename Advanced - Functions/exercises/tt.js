@@ -1,9 +1,7 @@
-class gamer{
-    constructor(cara){
-        cara
-    }
+function Person(name){
+    name
 }
 
-const oi = new gamer('dude')
+const oi = new Person('oi')
 
 console.log(oi)

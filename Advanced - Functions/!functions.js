@@ -127,13 +127,26 @@ function criarPessoa(nome, idade){
 }
 const paulo = criarPessoa('Paulo', 22);
 
-// Caso você queira dar nomes diferentes as propriedades do objeto, faça desta forma:
+// Caso você queira dar NOMES diferentes as PROPRIEDADES DO OBJETO, faça desta forma:
 function criarPessoa2(nome, idade){
     return {
         nomePessoa: nome,
         idadePessoa: idade
     }
 }
+
+
+
+
+
+// Function construction
+/*
+    O objetivo de um construtor é criar um novo objeto e definir valores para quaisquer 
+    propriedades deste objeto.
+
+    Considera-se uma boa prática nomear funções de construtor com uma primeira letra maiúscula.
+    Exemplos: function Car(){ }, function Person(){}, function Animal(){}
+
 
 
 
