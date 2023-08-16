@@ -1,8 +1,8 @@
-let i = 20; 
-function t(){
-    if(i >= 20) return;
-    i++
-    t()
-} t()
-
-console.log(i)
+let x = 0
+function digaOi(){
+    if(x >= 10) return
+    x++
+    console.log(`${x} - oi`)
+    digaOi()
+}
+digaOi()
