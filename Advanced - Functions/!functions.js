@@ -201,3 +201,20 @@ console.log(caneca1.dizerACor()) // retorna verde;
 //******************************************************************************* */
 
 // Funções recursivas
+/*
+    Função recursiva é uma função que invoca ela mesma durante sua execução, gerando
+    uma espécie de "loop".
+
+    É de extrema importância colocar a instrução para a função se executar apenas no final
+    do seu corpo. Pois caso seja antes, entrará num loop infinito, pois ela será executada,
+    e irá ler a linha, onde é informado para ela se executar.. 
+    
+    Podemos fazer da seguintes forma:
+*/
+let i = 0;
+function dizerOla(){
+    if(i > 500) return  // caso a variável I seja maior que 500, a função para pelo 'return'
+    console.log('Olá!')
+    i++                 // acrescenta +1 ao nosso I
+    dizerOla()          // faz com que a função seja executada novamente
+}
