@@ -1,7 +1,6 @@
-function Person(name){
-    name
-}
+let i = 0;
+function t(){
+    i++
+} t()
 
-const oi = new Person('oi')
-
-console.log(oi)
+console.log(i)
