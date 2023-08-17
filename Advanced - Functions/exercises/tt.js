@@ -1,13 +1,8 @@
-const t = []
-function createArray(n){
-    while(n > 0){
-        t.push(n)
-        n--
-    } 
+function* oi(){
+    console.log('oi!!!')
+    console.log('oi!!!')
+    console.log('oi!!!')
+    return `oi1kcar`
 }
-createArray(200)
 
-
-for(let i of t.reverse()){
-    console.log(i)
-}
+console.log(oi().next())

@@ -218,3 +218,7 @@ function dizerOla(){
     i++                 // acrescenta +1 ao nosso I
     dizerOla()          // faz com que a função seja executada novamente
 }
+
+
+
+// Funções geradoras 
