@@ -1,8 +1,13 @@
-let i = 0;
-function digaOi(){
-    if(i > 11293) return;
-    console.log(`Ois ditos: ${i}`)
-    i++
-    digaOi()
+const t = []
+function createArray(n){
+    while(n > 0){
+        t.push(n)
+        n--
+    } 
 }
-digaOi()
+createArray(200)
+
+
+for(let i of t.reverse()){
+    console.log(i)
+}
