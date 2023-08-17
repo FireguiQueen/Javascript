@@ -222,3 +222,17 @@ function dizerOla(){
 
 
 // Funções geradoras 
+function* digaOi(){
+    let contador = 0;
+
+    while(true){
+        contador++
+        console.log(contador)
+    }
+}
+
+for(let i of digaOi()){
+    console.log(i)
+}
+
+

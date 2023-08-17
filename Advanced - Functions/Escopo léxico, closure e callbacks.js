@@ -38,7 +38,7 @@ function digaOi(){
 function digaOla(){
     const palavra2 = "Oi"
 }
-console.log(palavra2) // retorna um erro dizendo que esta variável não foi definida.
+// console.log(palavra2) retorna um erro dizendo que esta variável não foi definida.
 
 
 /* Neste exemplo podemos ver que a função "dizerNome" printa no nosso console a variável 'nome'.
@@ -84,12 +84,12 @@ function somar(){
         console.log(x)
     } 
 
-    return incrementar()
+    return incrementar
 }
 const somarMaisUm = somar();
-somar() // retorna 1
-somar() // retorna 2
-somar() // retorna 3
+somarMaisUm() // retorna 1
+somarMaisUm() // retorna 2
+somarMaisUm() // retorna 3
 
 
 
