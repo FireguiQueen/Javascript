@@ -1,5 +1,8 @@
-function argumentsLength(){
-    return arguments.length;
+function oi(n){
+    function oii(b){
+        return n +b
+    } oii()
 }
 
-console.log(argumentsLength(2,52,52, null, undefined))
+
+console.log(oi(4).oii(3))
