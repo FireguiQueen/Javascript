@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road-36</title>
+    <style>
+        body{
+            background-color:rgb(255, 229, 196);
+            color: rgb(41, 40, 40);
+            font: 23pt Arial;
+        }
+
+        h1 {
+            background-color: rgb(250, 223, 179);            
+            margin-bottom: 30px;
+            color: black;
+            font: 29pt Impact;
+        }
+        input.estilo{
+            background-color: rgb(250, 246, 194);
+            font-weight: bolder;
+            font-size: medium;
+            height: 25px;
+            width: 320px;
+            text-align: center;
+            border: 2px solid black;
+            margin-bottom: 2.2px;
+        }
+        input#now {
+            margin-left: 28px;
+            margin-bottom: 25px;
+        }
+        input#botão { 
+            background-color: rgb(246, 241, 170);
+            background-color: rgb(236, 227, 102);
+
+            text-align: center;
+            padding-left: 1.5%;
+            padding-right: 1.5%;
+            padding-top: 0.209%;
+            padding-bottom: 0.209%;
+
+        }
+
+    </style> 
+</head>
+<body>
+    <h1> Informações sobre o nascimento/localidade: </h1>
+    Aonde você nasceu (país)? <input type="string" class="estilo" id="nationality"> </br>
+    Aonde você mora (país)?  <input type="string" class="estilo" id="now">
+    <input type="button" id="botão" value="Verificar" onclick="verificar()" onmouseenter="enter()" onmouseleave="leave()">
+    <div id="informações"></div>
+    
+    <script>
+        const inf = document.getElementById('informações');
+
+        function verificar(){
+            var nacionalidade = document.getElementById('nationality');
+            var localidade = document.getElementById('now');
+            
+            var nacio = nacionalidade.value.toLowerCase()
+            var loca = localidade.value.toLowerCase()
+
+            if (nacio == 'brasil' && loca == 'brasil'){
+                inf.innerHTML = 'Você nasceu no Brasil e mora no Brasil atualmente!'
+            } else if (nacio.length < 3 || loca.length < 3){
+                inf.innerHTML='Por favor, digite um país existente'
+            }
+            else if (nacio == 'brasil' && loca != 'brasil'){
+                inf.innerHTML = 'Você nasceu no Brasil, porém, você não mora no Brasil atualmente.'
+            }
+            else if (nacio != 'brasil' && loca == 'brasil') {
+                inf.innerHTML = 'Você não nasceu no Brasil, porém, você mora no Brasil'
+            }
+            else{
+                inf.innerHTML = 'Você não nasceu no Brasil e não mora no Brasil!'
+            }
+        }
+        const botão_cor = document.getElementById('botão');
+
+        function enter(){
+            botão_cor.style.color = 'rgb(246, 160, 22)';
+            botão_cor.style.fontWeight = 'Bolder';
+        }
+        function leave(){
+            botão_cor.style.color = '';
+            botão_cor.style.fontWeight = '';
+
+        }
+    </script>
+</body>
+</html>

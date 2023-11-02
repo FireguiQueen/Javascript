@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning JavaScript</title>
+    <style> 
+        body{
+            background-color:aquamarine;
+            font: impact;
+        }
+        h1 {
+            color:burlywood;
+            font: 45pt;
+        }
+        p{
+            color: burlywood;
+            font: 35pt;
+        }
+    </style>
+
+</head>
+<body>
+    <h1> <strong>Informações de usuário</strong> </h1>
+    <script>
+        window.alert('Favor, não julgar. Eu estou aprendendo JavaScript. (11/11/2021 - Data do dia em que este código foi criado')
+        window.confirm('Ao clicar em "OK" você estará confirmando que danos causados ao seu navegador não serão minha culpa. Ao acessar um site mal feito por um iniciante em JavaScript, hemorragias internas e externas podem ocorrer')
+        var nome = window.prompt('Digite seu nome: ')
+        var idade = window.prompt('Digite sua idade: ')
+        var salário = Number(window.prompt('Digite seu salário: '))
+        document.write(`Informações pessoais do usuário <br/>
+        <strong>Nome:</strong> ${nome} <br/>
+        <strong>Quantidade de letras que o nome possui:</strong>: ${nome.length} <br/>
+        <strong>Idade:</strong> ${idade} <br/>
+        <strong>Salário: <strong> ${salário.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`)
+    </script>
+</body>
+</html>

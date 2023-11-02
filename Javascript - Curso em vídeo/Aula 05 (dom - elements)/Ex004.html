@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício em DOM</title>
+    <style> 
+        body {background-color: aqua;}
+        h1 {color: black; font: 50pt Impact;}
+        p {color: rgb(34, 34, 34); font: 35pt Arial;}
+    </style>
+</head>
+<body>
+    <h1 id=titulo>Oi, isto é um título que será alterado.</h1>
+    <p>Oi, isto é um paragráfo que será alterado.</p>
+    <p>Oi, isto é um paragráfo que será alterado.</p>
+
+
+    <script>
+        var título = prompt(`Digite o título para esta página: `)
+        var p1 = prompt(`Digite o primeiro paragráfo para esta página: `)
+        var p2 = prompt(`Digite o segundo paragráfo para esta página: `)
+        
+        var tít = document.getElementById('titulo')
+        var paragrafo = document.getElementsByTagName('p')[0]
+        var paragrafo2 = document.getElementsByTagName('p')[1] 
+        
+        tít.innerText = título
+        paragrafo.innerText = p1 
+        document.write('</br>')       
+        paragrafo2.innerText = p2        
+
+
+    </script>
+    
+</body>
+</html>

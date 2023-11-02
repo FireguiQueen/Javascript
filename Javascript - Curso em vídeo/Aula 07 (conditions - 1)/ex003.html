@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de multa</title>
+</head>
+<body>
+    <h1>Sistema de multa da ROAD-36 (uma estrada privatizada)</h1>
+    <input type='number' id='verificador'>
+    <input type="button" id="botão" value="Verificar"> 
+    <div id="resultado">
+    </div>
+    
+    <script>
+        const verificar = document.getElementById('botão');
+        verificar.addEventListener('click', verificador1)
+
+        function verificador1(){
+            var resultado = document.getElementById('resultado')
+            var velocidade = document.getElementById('verificador')
+            var vel = Number(velocidade.value)
+            resultado.innerHTML = `<p> Sua velocidade atual é de <strong>${vel}km/h</strong> </p>`
+            if (vel > 60) {
+                resultado.innerHTML += `Sua velocidade (${vel}km/h) está acima do limite, favor abaixe imediatamente!`
+            } else {
+                resultado.innerHTML += `Sua velocidade (${vel}km/h) está de acordo, agradecemos o respeito pelas regras da estrada ROAD-36!`
+            } 
+            }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto final da Aula 06</title>
+    <style> 
+        body {background-color: cadetblue;}   
+        h1{
+            font: 45pt Impact;
+            color:darkblue;
+        }
+        p{
+            font: 32pt Impact;
+            color: darkblue;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h1><strong>Olá, mundo, eu estou aprendendo JavaScript!</strong></h1>
+    <p>Irei aprender JavaScript, custe o que custar!</p>
+        <script> 
+            window.alert("Eu estou aprendendo JavaScript, não julgue meu código!")
+            window.confirm('Ao clicar em "OK" você irá concordar que o código a seguir pode causar hemorragias internas e externas no seu navegador, eu, Guilherme, não me responsabilizo por isto!')
+            var nome = window.prompt('Qual é o seu nome? ')
+            var idade = window.prompt('Qual é a sua idade? ')
+            var tokens = Number(window.prompt('Quantas metaheros você tem na Wallet? '))
+            document.write(`Nossa, o nome "${nome}" é um nome lindo! O seu nome em negrito e em letras maiúsculas ficaria <strong>"${nome.toUpperCase()}"</strong>. <br/> 
+            Você sabia que o nome "${nome}" possui ${nome.length} letras? <br/> Interessante saber que você possui ${tokens.toFixed(2)} de Metaheros na Wallet,
+            é uma quantia relativamente alta!`)
+     </script>
+</body>
+</html>

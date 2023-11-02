@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculations</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            font: 22pt Arial;
+        }
+        input.inputs{
+            font-weight: bolder;
+            text-align: center;
+            font-size: medium;
+            border: 2px black solid;
+        }
+        div.results{
+            margin-bottom: 80px;
+        }
+        input#button1{
+            text-align: center;
+            position: relative; right: 500px; top: 75px;
+            padding-left: 2390px;
+            padding-bottom: 429px;
+            line-height: 150px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Basic calculations: </h1>
+    
+    <strong>Subtraction: </strong> 
+    <input type="number" id="-n1" class="inputs"> - <input type="number" id="-n2" class="inputs">
+    <div id="resultado-" class="results"></div>
+
+    <strong>Addition:</strong> 
+    <input type="number" id="n1" class="inputs"> + <input type="number" id="n2" class="inputs">
+    <div id="resultado+" class="results"></div>
+
+    <strong>Percentage:</strong>
+    <input type="number" id="n%" class="inputs"> % <input type="number" id="ofn" class="inputs">
+
+    <input type="button" id="button1" value="Add">
+
+
+
+    <script>
+        var button = document.getElementById('button1');
+        button.addEventListener('click', click);
+
+        var mInputs = [document.getElementById('n1'), document.getElementById('n2'), document.getElementById('resultado+')]
+        var nInputs = [document.getElementById('-n1'), document.getElementById('-n2'), document.getElemetById('resultado-')]
+        function click(){
+            if (mInputs[0].value && mInputs[1].value > 0){
+                var n1 = Number(mInputs[0].value);
+                var n2 = Number(mInputs[1].value);
+                var total = n1 + n2
+                mInputs[2].innerHTML = `The sum between ${n1} and ${n2} is equal to: <strong>${total}<strong>`
+        } else {
+            mInputs[2].innerHTML = 'You need to type another number above 0!'
+        } if (nInputs[0].value && nInputs[1]){
+            nInputs[2].innerHTML = 'You need to type another number above or bellow 0!'
+            
+        }   
+        }
+        
+
+
+    </script>
+    
+</body>
+</html>

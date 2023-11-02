@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando números com inputs, de novo.. Praticar é sempre bom!</title>
+    <style>
+        body{
+            font: 25pt Arial; 
+            color: black;
+            background-color: rgb(185, 35, 35);
+        }
+        input#input1 {
+            margin-bottom: 20px;
+        }
+        input.inputs{
+            background-color: aquamarine;
+            width: 200px;
+            height: 24px;
+            text-align: center;
+        }
+        div#resultado {
+            margin-top: 12px;
+            color:rgb(15, 15, 15);
+            font: 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando números!</h1>
+    <input id='input1' class='inputs' type='number'> +
+    <input id='input2' class='inputs' type='number'>
+    <input id='button' type='button' value='Somar'>
+    <div id='resultado'> O resultado irá aparcer aqui</div>
+    
+    <script>
+        var botão = document.getElementById('button')
+        botão.addEventListener('click', somar)
+        function somar(){
+
+            var div1 = document.getElementById('resultado')
+
+            var in1 = document.getElementById('input1')
+            var in2 = document.getElementById('input2')
+
+            var n1 = Number(in1.value)
+            var n2 = Number(in2.value)
+
+            var total = n1 + n2
+            div1.innerHTML = `A soma entre ${n1} e ${n2} é igual a: <strong>${total}</strong> </br> </br> Em reias: ` + total.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) + '</br>Em dólar: ' + total.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+        }
+
+    </script>
+    
+</body>
+</html>

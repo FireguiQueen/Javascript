@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Practice 5</title>
+    <style>
+        body {
+            background-color: aqua;
+            color: black;
+            font: 35pt Arial;
+        }
+
+        h1 {
+            color: rgb(12, 11, 11);
+            font: 45pt Impact; 
+        }
+
+        h2 {
+            color: rgb(26, 22, 22);
+            font: 38pt Impact;
+        }
+        
+        p{
+            color: rgb(19, 18, 18);
+            font: 35pt Arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Isto é apenas uma prática diária.<h1>
+    <h2>Informações de usuário:  </h2>
+
+    <script> 
+        alert(`O site que será carregado foi feito por um iniciante em JS!`)
+        confirm(`Atenção, problemas visuais causados não serão de minha responsabilidade.`)
+
+        var name = prompt(`Qual é o seu nome? `)
+        var age = Number.parseInt(prompt(`Olá, ${name}, me diga, qual sua idade? `))
+        var age2 = age >= 18? 'Você é maior que 18, você pode assistir isto: <a href=https://www.pornhub.com/>Pornhub</a>' : 'Você é mais novo do que 18 anos, assista a isto: <a href=https://youtu.be/0AwqDLs1pwE>Alanzoka - Fears to fathom</a>'
+
+        var salary = Number.parseFloat(prompt(`Agora me diga seu salário..`))
+        var salarya = salary * 12
+
+        var salarya = salarya.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) 
+        var salary = salary.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) 
+
+        var metahero = Number(prompt(`E agora, me diga a quantidade de hero que você possui na wallet! `))
+
+        document.write(`<p>
+        <strong>Nome:</strong> ${name} (possui ${name.length} letras) </br> 
+        <strong>Idade:</strong> ${age} (${age2}) </br>    
+        <strong>Salário:</strong> ${salary} </br>
+        <strong>Salário anual:</strong> ${salarya} </br> 
+        <strong>Quantidade hero:</strong> ${metahero.toFixed(2).replace(',','.')}
+        </p>`)
+
+    </script>
+</body>
+</html>

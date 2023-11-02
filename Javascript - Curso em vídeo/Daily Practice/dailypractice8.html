@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando valores!</title>
+    <style>
+        body {
+            color: black;
+            font: 25pt Arial;
+            background-color: rgb(218, 126, 126);
+        }
+        input.valor {
+            background-color: paleturquoise;
+            height: 20px;
+            width: 230px;
+            text-align: center;
+        }
+        div.escrita {
+            font: 22pt Impact;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Somando valores</h1>
+    <input type='number' id='valor1' class='valor'> + 
+    <input type='number' id='valor2' class='valor'> 
+    <input type='button' id='button' value='Somar' onclick='somar()'>
+    <div id='resultado' class='escrita'> O resultado irá aparecer aqui!</div>
+    <div id='resultadoformatado' class='escrita'> O resultado formatado irá aparecer aqui!</div>
+
+    
+    
+    <script>
+        var resultado = document.getElementById('resultado')
+        var resultadoformatado = document.getElementById('resultadoformatado')
+
+        function somar(){
+            var input1 = document.getElementById('valor1')
+            var input2 = document.getElementById('valor2')
+
+            var n1 = Number(input1.value)
+            var n2 = Number(input2.value)
+            var total = n1 + n2
+            resultado.innerHTML = `A soma entre ${n1} e ${n2} é igual a: ${total}`
+            resultadoformatado.innerHTML = 'Este valor em moeda estatal falida: ' + total.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+        }
+
+    </script>
+</body>
+</html>

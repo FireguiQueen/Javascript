@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Practice</title>
+    <style> 
+        body{
+            background-color: aqua;
+        }
+        h1 {
+            color: rgb(34, 50, 195);
+            font: 45pt Impact; 
+        }
+        p {
+            color: rgb(59, 29, 143); 
+            font: 32pt Arial; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Informações de Usário: </h1>
+
+    <script>
+        window.alert(`This is just an alert, keep going..`)
+        window.confirm(`If you wanna see the website, click "Ok" `)
+
+        var name = window.prompt(`Type your name here: `)
+        var age = Number.parseInt(window.prompt(`Type your age here: `))
+        var salary = Number.parseFloat(window.prompt(`Type your monthly salary here: `))
+
+        var url1 = 'https://treedefi.com'
+        var url2 = 'https://pancakeswap.finance/poools'
+
+        var sundae = 'https://www.sundaeswap.finance/'
+        var smallcap = 'https://coinmarketcap.com/'
+
+        document.write(`<p> <strong>Name: </strong> ${name.toUpperCase()} (possui ${name.length} letras) </br>`)
+        document.write(`<strong>Salary: </strong>` + salary.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}))
+        document.write(`</br> <strong>Age: </strong> ${age} </br>`)
+        document.write(age >= 18? `You're older than 18, take a look at this: <a href=${url1}>Hentai da Riven</a> ` : `You're younger than 18, sorry, you can't see the hentai of Riven, but you can see this: <a href=${url2}>South park - Episodio 11</a> </br>`)
+        document.write(salary >= 3000? `You have a good monthly salary, buy some Sundaes: <a href=${sundae}>SundaeSwap Dex</a>` : `You need to buy some small cap coins, take a look: <a href=${smallcap}>Cryptocurrencies with a small captalization</a>`)
+    </script>
+</body>
+</html>

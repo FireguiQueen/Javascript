@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando números! </title>
+    <style>
+        body{
+            background-color: bisque;
+            font: 22pt Arial;
+        }
+        input.inSoma{ 
+            background-color: aquamarine;
+            color:rgb(128, 128, 241);
+            height: 39px;
+            width: 340px;
+            font-size: x-large;
+            text-align: center;
+            border: 2.9px solid black;
+
+        }
+        input#button{ 
+            background-color: rgb(207, 220, 240);
+            color:rgb(147, 147, 253);
+            height: 44px;
+            width: 98px;
+            border: 1.9px solid black;
+            font-weight:bolder;
+            font-size:medium;
+            
+        }   
+
+    </style> 
+</head>
+<body>
+    <h1>Somando números: </h1>
+    <input type="number" id='input1' class='inSoma'> + 
+    <input type="number" id='input2' class='inSoma'>
+    <input type="button" id='button' value="Somar">
+    <div id="result">O resultado irá aparecer aqui</div>
+
+    <script>
+        const resultado = document.getElementById('result');
+        const botão_cor = document.getElementById('button')
+
+        botão_cor.addEventListener('click', botão);
+        botão_cor.addEventListener('mouseenter', enter);
+        botão_cor.addEventListener('mouseout', out);
+
+        function botão(){
+            var input1 = document.getElementById('input1');
+            var input2 = document.getElementById('input2');
+
+            var n1 = Number(input1.value)
+            var n2 = Number(input2.value)
+            var total = n1 + n2 
+            resultado.innerHTML = `A soma entre ${n1} e ${n2} é igual a: <strong>${total}</strong>  </br>`
+            resultado.innerHTML += total>=0 && total<=9? 'O resultado é uma <strong>unidade</strong> ' : ''
+            resultado.innerHTML += total>=10 && total<=99? 'O resultado é uma <strong>dezena</strong> ' : ''
+            resultado.innerHTML += total>=100 && total<=999? 'O resultado é uma <strong>centena</strong>' : 'O resultado é maior do que 999, o que você está somando?'
+            resultado.innerHTML += '</br> </br>Resultado formatado em moedas fiat: </br> <strong>Dólar: </strong>' + total.toLocaleString('pt-br', {style: 'currency', currency: 'USD'}) +
+            '</br><strong>Real: </strong>' + total.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}) + '</br><strong>Euro: </strong>' + total.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})  
+
+
+
+
+        }
+        function enter(){
+            botão_cor.style.color = 'rgb(29, 29, 218)'
+            botão_cor.style.background = 'rgb(95, 95, 251)'
+
+        }
+        function out(){
+            botão_cor.style.color = ''
+            botão_cor.style.background = ''
+        }
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando números - Prática diária</title>
+    <style>
+        body{
+            color: black; 
+            background-color: aquamarine;
+            font: 25pt Arial;
+        }
+        input.inSoma {
+            background-color: antiquewhite;
+            color: rgb(32, 30, 30);
+            height: 50px;
+            width: 460px;
+            border:3.5px solid rgb(58, 57, 57); 
+            text-align: center; 
+            font-size:xx-large;
+        }
+        input#button{
+            background-color: rgb(140, 140, 230); 
+            color: rgb(88, 75, 185);
+            color: rgb(40, 33, 93);
+
+            height: 55px;
+            width: 120px;
+            font-size:x-large;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Somando números: </h1>
+    <input type="number" id='input1' class='inSoma'> + 
+    <input type="number" id='input2' class='inSoma'> 
+    <input type="button" value='Somar' id='button'>
+    <div id="resultado">O resultado irá aparecer aqui! </div>
+
+
+
+    <script>
+        const soma = document.getElementById('button');
+        soma.addEventListener('click', somar)
+        soma.addEventListener('mouseenter', botão_enter)
+        soma.addEventListener('mouseout', botão_leave)
+        function somar(){
+            var resultado = document.querySelector('div#resultado')
+            var in1 = document.getElementById('input1');
+            var in2 = document.getElementById('input2');
+
+            var n1 = Number(in1.value)
+            var n2 = Number(in2.value)
+
+            var total = n1 + n2 
+            resultado.innerHTML = `A soma entre ${n1} e ${n2} é igual a: <strong>${total.toFixed(2)}</strong>`
+            resultado.innerHTML += '</br> </br> <strong> Valores formatados: </strong> </br> <strong>Dolár:</strong> ' + total.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) +
+            '</br> <strong>Real:</strong>   ' + total.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) + 
+            '</br> <strong>Euro: </strong>' + total.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+
+        }
+        const estilo = document.getElementById('button')
+
+        function botão_enter(){
+            estilo.style.color = 'blue'
+        }
+        function botão_leave(){
+            estilo.style.color = 'rgb(58, 48, 129)'
+        }
+    </script>
+
+
+
+</body>
+</html>

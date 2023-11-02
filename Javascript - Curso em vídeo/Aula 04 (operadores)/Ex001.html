@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+    <style> 
+    body {background-color: rgba(12, 12, 12, 0.719); color: rgba(241, 240, 240, 0.979); font: 25pt Arial;}
+    /* 
+    O Style foi feito da forma mais minimalista possível, não queria separar "background", 'color' e 'font' por linha.. 
+    */
+    </style>
+</head>
+<body>
+    <h1>Brincando com operadores :D </h1>
+    <script>
+        alert(`Atenção, esta página foi feita por iniciante em JS, não se assuste :( `)
+        var name = prompt(`Olá, digite seu nome: `)
+        var age = Number(prompt(`Olá, ${name}, qual sua idade? `))
+        var salary = Number(prompt(`Me diga o seu salário: `))
+        var salaryF = salary.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+    
+        document.write(`<strong>Nome: </strong>${name.toUpperCase()} </br>`)
+        document.write(`<strong>Idade: </strong>`)
+        document.write(age >= 100? 'Nem fudendo que você tem mais do que 100 anos de idade!' : age)
+        document.write(` </br><strong>Salário: </strong>${salaryF}</br> </br>`)
+
+        document.write('<strong>Informações sobre você: </strong> </br>')
+        document.write(`Seu nome (${name}) possui ${name.length} letras! </br>`)
+        document.write(age >= 18? 'Você é maior de 18 anos </br>' : 'Você não é maior de 18 anos </br>')
+        document.write(salary > name.length? 'Seu salário é maior do que a quantidade de letras em seu nome, wow' : 'Você não me engana, você recebe muito mais do que isto.' )
+
+
+         
+
+    
+    
+    </script>    
+</body>
+</html>

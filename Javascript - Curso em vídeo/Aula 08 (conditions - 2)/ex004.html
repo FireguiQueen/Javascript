@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições!</title>
+    <style>
+        body{ 
+            background-color:rgb(243, 221, 190);
+            color: rgb(0, 0, 0);
+            font: 15pt Arial;
+        }
+        h1{
+            font-weight: bolder;
+            background-color: rgb(245, 209, 161);
+            font: 25pt Impact;
+            color:rgb(22, 21, 21);
+        }
+        input.inf{
+            background-color: rgb(230, 246, 241);
+            margin-bottom: 0.01px;
+        }
+        input#inputAge{
+            margin-bottom: 45px;
+        }
+        input#button{
+            background-color:rgb(230, 248, 243);
+            text-align: center;
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-bottom: 18px;
+            padding-top: 18px;
+            background-color: rgb(245, 209, 161);
+            font-size: medium;
+            color:rgb(121, 52, 7);
+            font-weight: 'bolder';
+            position: relative; top: -25px; right: -60px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ver resultados sobre informações dadas: </h1>
+
+    Nome <input type="string" id="inputName" class="inf" value="Digite seu nome aqui"> </br>
+    Idade <input type="number" id="inputAge" class="inf">
+
+
+    <input type="button" id="button" value="Checar informações de usuário" onmouseenter="entrou()" onmouseout="saiu()" onclick="clicou()">
+    <div id="resultado"></div>
+
+    <script>
+        var int = document.getElement
+
+
+        // Estilo do BOTÃO
+        const botão = document.getElementById('button')
+        function clicou(){
+            var nome1 = document.getElementById('inputName');
+            var idade2 = document.getElementById('inputAge');
+
+            var nm = nome1.value.toLowerCase()
+            var ag = Number(idade2.value)
+            const result = window.document.getElementById('resultado');
+            switch(nm){
+                case '':
+                    result.innerHTML = 'Digite um nome válido'
+                    break
+                case 'guilherme':
+                    result.innerHTML = `Olá, Guilherme! Sei que parece meio bobo.. Mas o nome Guilherme tem origem no nome germânico Willahelm, composto pela união dos elementos will, vilja, wailja, que quer dizer “vontade, desejo”, e helm, hilms, que quer dizer “proteção, capacete”. Significa “protetor decidido" ou "protetor corajoso”.'`
+                    break
+                case 'julia':
+                    result.innerHTML = 'Olá, Julia! Sei que parece meio bobo, e é mesmo.. Mas no Latim - Julia significa: Cheia de juventude.'
+                    break
+                default: 
+                    result.innerHTML= 'Desculpe, mas o seu nome não é relevante para mim (NESTE EXERCÍCIO)'
+             }
+             if (ag > 18) {
+                result.innerHTML += '</br> Btw, você é maior do que 18 anos!'
+            } else {
+                result.innerHTML += '</br> Btw, você é menor do que 18 anos!'
+            }
+            }
+            
+
+        function entrou(){
+            botão.style.color = 'blue'
+            botão.style.background = 'rgb(230, 190, 101)'
+        }
+        function saiu(){
+            botão.style.color = ''
+            botão.style.background = ''
+        }
+    </script>
+</body>
+</html>

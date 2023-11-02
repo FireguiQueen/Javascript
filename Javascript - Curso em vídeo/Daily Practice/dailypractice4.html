@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Practice 4</title>
+    <style>
+        body {
+            background-color: rgb(77, 221, 221);
+        }
+        h1 {
+            color: rgb(14, 12, 12);
+            font: 45pt Impact; 
+        }
+        p {
+            color: rgb(12, 11, 11);
+            font: 34pt Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Informações de usuário</h1>
+    
+    <script>
+        window.alert('Atenção, o site que será carregado foi feito por um iniciante em JS!')
+        window.confirm('Dude, be careful..')
+
+        var name = window.prompt('Type your name: ')
+        var age = Number.parseInt(window.prompt('Type your age: '))
+
+        var salary = Number(window.prompt(`Hey, ${name}, type your salary`))
+        var sundae = Number.parseFloat(window.prompt(`How many sundaes do you have, ${name}? `))
+        var Asalary = salary * 12 
+        var salary = salary.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+        var sundae = sundae.toFixed(2)
+        var hentai = window.prompt(`Dude, do u like hentais? 1 = "yes", 0 = "no".. Type here: `)
+
+
+
+
+        document.write(`<p> <strong>Name: </strong>${name} (your name has ${name.length} letters) </br> </p>`) 
+        document.write(`<p> <strong>Age: </strong>`)
+        document.write(age >= 18? "You're older than 18 </br></p>" : "You're youngest than 18 </br></p>")
+        document.write(`<p><strong>Monthly salary: </strong> ${salary}</p>`)
+        document.write(`<p><strong>Annual salary: </strong>`)
+        document.write(Asalary.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) + ' </p> </br>')
+        document.write(hentai >= 1? `<p> <strong>Nice hentais:</strong> <a href=https://animeshentai.biz/>Click here!</a> </p>` : `:c, why you don't like hentais? Fuck u and take this: <a href=https://www.youtube.com/watch?v=SkvfWD75JNM>Click here!<`)
+
+
+    </script>
+</body>
+</html>

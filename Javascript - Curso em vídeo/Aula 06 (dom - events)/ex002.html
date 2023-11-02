@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#quadrado { 
+            background-color: red;
+            color: black;
+            font: 22pt Arial; 
+            height: 600px;
+            width: 600px;
+            line-height: 600px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id='quadrado'>
+        Interaja aqui! 
+    </div>
+    
+    <script>
+        var area = document.getElementById('quadrado')
+        area.addEventListener('click', clicou)
+        area.addEventListener('mouseover', entrou)
+        area.addEventListener('mouseleave', saiu)
+
+        function clicou(){
+            area.innerText = 'Você clicou!'
+            area.style.background = 'green'
+        }
+
+        function entrou(){
+            area.innerText = 'Seu mouse entrou na area'
+            area.style.background = 'blue'
+        }
+        function saiu(){
+            area.innerText = 'Seu mouse saiu desta area'
+            area.style.background = 'yellow'
+        }
+
+    </script>
+</body>
+</html>

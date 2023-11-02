@@ -1,0 +1,50 @@
+<!-- 
+5 + 2   =  7     (adição)
+5 - 2   =  3     (subtração)
+5 * 2   =  10    (multiplicação)
+5 / 2   =  2,5   (divisão REAL)
+5 % 2   =  1     (divisão inteira - Irá pegar o número que sobrou após dividir)
+5 ** 2  =  25    (ao quadrado)
+
+
+CUIDADO COM A PRECEDÊNCIA DOS OPERADORES
+Ordem de precedência: 
+() 
+** 
+*       /          % 
++     - 
+
+5+3 /2 = 6.5 
+O resultado é de 6.5 pois dividimos e depois somamos! 
+Caso você queira SOMAR 5 + 3 e DEPOIS dividir por 2, basta utilizir os parenteses (pois ele ignora a precedência).
+(5 + 3) /2 = 
+__________________________________________________________________________________________________________________________________________________________________________________________
+Atribuição simples<
+
+var a = 5 + 3                  (8)
+var b = a % 5                  (3)
+var c = 5 * b ** 2             (45)
+var d = 10 - a/2               (6)    
+var e = 6 * 2/d                (2)
+var f = b % e + 4/e            (3)
+___________________________________________________________________________________________________________________________________________________________________________________________
+Auto-atribuição<                --                              >Maneira encurtada<
+var a = 3                      (3)                               var a = 3
+a = a + 2                      (5)                               a += 2
+a = a - 1                      (4)                               a -= 1
+a = a ** 2                     (16)                              a **= 2
+a = a / 2                      (8)                               a /= 2 
+___________________________________________________________________________________________________________________________________________________________________________________________
+Pré-decremento
+var a = 5
+a ++                           (6)  // Está somando a ++ (a+1)
+a --                           (4)  // Está subtraindo a -- (a-1)
+OBS: Caso você digite no terminal 'var a = 5,  a++' <- O resultado será 5 
+Só mostrará '6' caso você digite a variável 'a' novamente, por isso chamamos de pré-incremento
+___________________________________________________________________________________________________________________________________________________________________________________________
+Pós-incremento
+var a = 5
+++ a                              (6)  // Pois está somando ++ a (a+1)
+-- a                              (4)  // Pois está subtraindo -- a (a-1)
+OBS: Caso você digite no terminal 'var a = 5,  ++a' <- O resultado de imediato será "6", por isso chamamos de pós-incremento  
+-->

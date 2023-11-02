@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Basilisco</title>
+    <style>
+        #sumS {
+            margin-left: 42px;
+        }
+        #resultadoSS{ 
+            margin: 2px 220px 34px;
+        }
+        input.inputsS{
+            text-align: center;
+            border: solid black 1.5px; 
+            margin-bottom: 25px;
+        }
+        input.styleB{
+            text-align: center;
+            margin-left: 14px;
+            padding: 4px;
+            position: relative; top: 670px; left: 750px;
+        } input#color0{
+            position: relative; top: 720px; left: 480px;
+            text-align: center;
+            border: solid black 1.5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Calculando:</h1>
+    <div id="sumS">
+    Sum <input type="number" id="+n1" class="inputsS"> + <input type="number" id="+n2" class="inputsS"> </br>
+    </div>
+    Subtraction <input type="number" id="-n1" class="inputsS"> - <input type="number" id="-n2" class="inputsS"> </br>
+    <div id="resultadoSS">
+    <input type="button" value='resultado' id="botão" onclick="clickB()"> </br>
+    </div>
+    <div id="resultadoS"> </div>
+    <div id="resultadoN"> </div>
+    <div id="resultadosort"> </div>
+
+    <input type="button" value = 'BurlyWood' id='color1' class="styleB" onmouseenter='entrou()' onmouseleave="out()"> 
+    <input type="button" value = 'DarkSlateGray' id='color2' class="styleB" onmouseenter="entrou1()" onmouseleave="out1()"> 
+    <input type="button" value = 'MediumSlateBlue' id='color3' class="styleB" onmouseenter="entrou2()" onmouseleave="out2()">
+    <input type="string" value = 'or type a color/id' id="color0" onclick="inputSc()" onmouseleave='inputScl()'>
+
+    
+    <script>
+        function clickB(){
+            const sum = [document.getElementById('+n1').value, document.getElementById('+n2').value, 
+            document.getElementById('-n1').value, document.getElementById('-n2').value, 
+            document.querySelector('div#resultadoS'),  document.querySelector('div#resultadoN'), document.querySelector('div#resultadosort')]
+            var numbers = [Number(sum[0]), Number(sum[1]), Number(sum[2]), Number(sum[3])]
+            var totalS = numbers[0] + numbers[1]
+            var totalN = numbers[2] - numbers[3] 
+
+
+            // + SUM 
+            if (sum[0] == 0 || sum[1] == 0 ){
+                sum[4].innerHTML = `Please, type a number above 0 to sum!`
+            } else {
+                sum[4].innerHTML = `The reseult between ${numbers[0]} + ${numbers[1]} is: ${totalS}`
+            }
+
+            // - SUBTRACT
+            if (sum[2] == 0 || sum[3] == 0){
+                sum[6].innerHTML = 'Please, type a number above or below 0 to subtract << '
+            } else {
+                sum[6].innerHTML = `The reseult between ${numbers[2]} - ${numbers[3]} is: ${totalN} </br>`
+                var a = []
+                a.push(totalN,totalS) 
+                sum[6].innerHTML += `Sort values: ${a.sort()}`
+            }   
+        }
+        var btt = [document.getElementById('color1'), document.getElementById('color2'), document.getElementById('color3')]
+        var body = document.getElementsByTagName('body')[0]
+        btt[0].addEventListener('click', clicou0)
+        btt[1].addEventListener('click', clicou1)
+        btt[2].addEventListener('click', clicou2)
+
+        function clicou0(){
+            body.style.background = '#DEB887'
+        } function clicou1(){
+            body.style.background = '#2F4F4F'
+        } function clicou2(){
+            body.style.background = '#7B68EE'
+        }
+        function entrou(){
+            btt[0].style.fontWeight = 'lighter'
+            btt[0].style.background = '#DEB887'
+            btt[0].style.fontSize = '19px'
+        } function out(){
+            btt[0].style.fontWeight = ''
+            btt[0].style.background = ''
+            btt[0].style.fontSize = ''
+        }
+        function entrou1(){
+            btt[1].style.fontWeight = 'lighter'
+            btt[1].style.background = '#2F4F4F'
+            btt[1].style.fontSize = '19px'
+        } function out1(){
+            btt[1].style.fontWeight = ''
+            btt[1].style.background = ''
+            btt[1].style.fontSize = ''
+        }
+        function entrou2(){
+            btt[2].style.fontWeight = 'lighter'
+            btt[2].style.background = '#7B68EE'
+            btt[2].style.fontSize = '19px'
+        } function out2(){
+            btt[2].style.fontWeight = ''
+            btt[2].style.background = ''
+            btt[2].style.fontSize = ''
+        }
+        var value3 = document.getElementById('color0')
+        var value2 = toString(value3.value)
+        function inputScl(){
+            btt.push(int)
+            document.getElementsByTagName('body')[0].style.background = value2
+        }
+
+    </script>
+</body>
+</html>

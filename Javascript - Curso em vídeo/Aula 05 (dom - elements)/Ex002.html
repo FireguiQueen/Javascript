@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pegando elementos por outras formas!</title>
+    <style>
+        body{color: black; background-color: aqua; }
+        p{font: 11.1pt Arial}
+        h1{color:rgb(24, 18, 18); font: 21pt Arial;}
+    </style>
+</head>
+<body>
+    <h1>Aprendendo novas formas para pegar um elemento</h1>
+    <h2><strong>Paragráfos sem ID: </strong></h2>
+    <p>Paragráfo de teste - Oiii</p>
+    <p>Paragráfo de teste - Oi</p>
+    <p>Paragráfo de teste - Olá</p>
+    <p>Paragráfo de teste - Oiee</p>
+    <p>Paragráfo de teste - Até logo</p>
+    <p>Paragráfo de teste - Vejo você em breve</p>
+    <p>Paragráfo de teste - Adeus</p>
+
+    <h2><strong>Paragráfos com ID: </strong></h2>
+<!--
+    Vemos que acima, há diversos paragráfos, nesta situação, o ideal não seria usar "getElementsByTagName('p')", 
+    por um simples motivo, há muitas TAGS da mesma, pegar elementos por nomes de tags seria algo muito genérico.
+    Então irémos dar um id para cada parágrafo. 
+    <p id="nome_do_id">   Isto é um paragráfo   </p>
+-->
+    <p id='paragráfo_1'> Paragráfo de teste - Oiii</p>
+    <p id='p2'> Paragráfo de teste - Oi</p>
+    <p id='p3'> Paragráfo de teste - Olá</p>
+
+    <h2><strong>Paragráfos com Class: </strong></h2>
+    <p class='seinao'> Paragráfo de teste - Oiii</p>
+    <p class='senao'> Paragráfo de teste - Oi</p>
+    <h2><strong>Elementos pegos por ID:</strong></h2>
+    <script>
+        var paragráfo = document.getElementById('p3')
+        document.write(paragráfo.innerText)
+        paragráfo.innerText = 'Novo paragráfo'
+        // Aqui estamandos mandando a váriavel paragráfo que recebe o id 'p3' mudar o seu texto para 'Novo paragráfo'
+        paragráfo.style.color = 'blue'
+        paragráfo.style.background = 'red'
+    </script>
+
+    <h2><strong>Elementos pegos por Class: </strong></h2>
+    <script>
+        var classe = document.getElementsByClassName('seinao')[0]
+        document.write(classe.innerText)
+        classe.innerText = 'novo paragrafo'
+
+
+    </script>
+</body>
+</html>

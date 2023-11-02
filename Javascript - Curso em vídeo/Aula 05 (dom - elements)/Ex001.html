@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo DOM</title>
+    <style>
+        body{
+            background-color:rgba(44, 44, 122, 0.733);
+            color: black; 
+            font: 18pt Arial;
+            }
+    </style>
+</head>
+<body>
+    <h1>Iniciando os estudos com DOM :)</h1>
+    <p>Aprendendo a usar o DOOM!</p>
+    <p> <strong>Resultado: </strong> </p>
+    <div>Clique aqui</div>
+     <!--
+        O QUE SÂO TAGS?  
+        As tags são interpretadas pelo navegador, produzindo assim a estrutura e o conteúdo visual da página.
+        Dentro da página, as tags são utilizadas para criar imagens, paragráfos, títulos e etc..
+        Exemplos de tags: <h1> <h1> ,  <img> <img> , <p> </p>
+    -->
+    
+    <script> 
+        var paragráfo = window.document.getElementsByTagName('p')[0] //Os colchetes são 
+        /* A variável acima, está recebendo o comando "getElementsByTagName"
+           Este comando significa "Pegar os elementos pelo o nome de sua tag"
+           Como aprendemos na linha 21, os nomes de tags são "img, h1, p.."
+           Note que está escrito "elementos", no plural, isto signifca que, temos que especificar qual tag será puxada, por exemplo: 
+           Em uma página, pode haver diversos paragráfos, mas entre todos eles, você deseja alterar somente um
+           Para isto, é necessário especificar qual é este paragráfo, utilizando os colchetes [].
+           getElementsByTagName('p')[0]
+           Pelo 0 estar entre os colchetes, será pego o primeiro paragráfo da página.
+        */ 
+        document.write(paragráfo.innerText)             
+        // O "innerText" significa "texto interno", ou seja, a váriavel "paragráfo" recebe a TAG <p>, porém, precisamos dizer que ela fará com esta TAG.
+        // No caso, estamos mandando pegar o TEXTO INTERNO da tag, que no caso seria "Resultado:"
+
+        paragráfo.style.color = 'blue'
+        // Acima estamos mandando a variável entrar nos estilos, depois nas cores, para assim receber uma cor, que será dada depois do sinal de igual. 
+        
+        var corpo = document.body
+        // Acima estamos pegando tudo que tem no body, ou seja: 
+        // a cor do fundo, o estilo das letras, as cores, tamanhos e etc.. 
+
+        corpo.style.background = 'yellow'
+        // Acima estamos mandando a variável entrar nos estilos, depois no fundo da página, para assim receber uma cor, que será dada depois do sinal de igual. 
+        
+        
+        var paragráfo2 = document.getElementsByTagName('p')[1]
+        document.write('</br> ' + paragráfo2.innerText)
+        // O InnerText está puxando o TEXTO INTERNO, porém apenas o texto/frase, ele não está pegando as FORMATAÇÔES! 
+        // E o que isto significa? Significa que, mesmo o paragráfo tendo uma palavra em NEGRITO, quando usamos o innerText, o negrito não virá.
+        // Para "arrumar" isto, caso queira, use o: innerHTML
+        document.write('</br>' + paragráfo2.innerHTML)
+
+
+    
+    </script>
+</body>
+</html>

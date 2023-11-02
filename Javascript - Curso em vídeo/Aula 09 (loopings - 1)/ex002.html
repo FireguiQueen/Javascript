@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping (while and do while)..</title>
+    <style>
+        body{ 
+            background-color: blanchedalmond;
+            font: 21pt Arial;
+        }
+        input#inF{ 
+            text-align: center;
+            font-size: x-large;
+            border: 1px black solid;
+
+        }
+        input#botão{
+            width: 79px;
+            height: 28px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Eating pizza:</h1>
+    Pizza slices: <input type='number' id="inF">
+    <input type="button" value='verificar' id="botão" onclick="clicou()">
+    <div id="slice"></div>
+
+    <script>
+        var input = document.querySelector('input#inF')
+
+        function clicou() {
+            var vvalor = document.getElementById('inF')
+            var valor = Number(vvalor.value) 
+            var slice1 = document.getElementById('slice');
+                while (valor >= 1){
+                    slice1.innerHTML += `Você comeu um pedaço </br>`
+                    valor --
+                }
+        }
+    </script>
+    
+</body>
+</html>

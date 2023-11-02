@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTOS DOM</title>
+    <style>
+        div#changing {
+            background-color: rgb(235, 17, 17);
+            font: 45pt Impact;
+            color: rgb(0, 0, 0);
+            width: 700px;
+            height: 500px;
+            line-height: 500px;
+            text-align: center;
+            font-size: 45px;
+        }
+    </style>
+</head>
+<body>
+    <div id='changing' onclick='clicou()' onmouseenter="entrou()" onmouseout="saiu()"> 
+        Clique, coloque ou tire o mouse daqui. 
+    </div>
+
+    <script>
+        var div_vibes = document.getElementById('changing') 
+        function saiu(){
+            div_vibes.innerText = 'Seu mouse saiu'
+            div_vibes.style.background = 'yellow'
+        }
+        function clicou() {
+            div_vibes.innerText = 'Você clicou'
+            div_vibes.style.background = 'green'
+        }
+        function entrou(){
+            div_vibes.innerText = 'Seu mouse entrou'
+            div_vibes.style.background = 'blue'
+        }
+    </script>
+</body>
+</html>

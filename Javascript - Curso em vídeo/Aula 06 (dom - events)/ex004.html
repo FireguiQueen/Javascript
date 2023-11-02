@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando números (com eventos no JS)</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            font: 25pt Arial;
+        }
+        input.inputsoma{
+            color: rgb(163, 19, 19);
+            background-color: rgb(117, 117, 177);
+            text-align: center;
+            height: 35px;
+            width: 362px;
+            margin-bottom: 25px;
+        }
+        input#button{ 
+            background-color: rgb(97, 97, 197);
+            height: 32px;
+            width: 99px;
+        }
+        div#resultado{
+            color: rgb(72, 72, 160);
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando números: </h1>
+    <input type='number' id='input1' class='inputsoma'>
+    <input type='number' id='input2' class='inputsoma'> 
+    <input type='button' value='Somar' id='button'> 
+    <div id='resultado'>O resultado e as informações da soma irá aparecer aqui! </div>
+    <div id='formatado'></div>
+
+    <script>
+        const soma = document.getElementById('button')
+        soma.addEventListener('click', somar)
+
+        function somar(){
+            var resultado = document.getElementById('resultado')
+            var formatado = document.getElementById('formatado')
+            var in1 = document.getElementById('input1');
+            var in2 = document.getElementById('input2');
+            var n1 = Number(in1.value)
+            var n2 = Number(in2.value)
+
+            var total = n1 + n2 
+            resultado.innerHTML = `O resultado entre ${n1} e ${n2} é igual a: <strong>${total}</strong>`
+            formatado.innerHTML = `Valores formatados em moedas FIAT: </br> Dólar: ` + 
+            total.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) + 
+            '</br> Real: ' + total.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) +
+            '</br> Euro: ' + total.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+            resultado.style.color = 'blue'
+            window.alert('Cálculo concluído!')
+        }
+    </script>
+    
+</body>
+</html>

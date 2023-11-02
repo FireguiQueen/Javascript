@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo DOM!</title>
+    <style> body {background-color: aqua; color: black; font: normal 32pt Arial;} </style> 
+</head>
+<body>
+    <h1 id ='t1'> Isto é apenas um título h1 <strong> criado para testes! </strong></h1>
+    <p name='cu'> Isto é um paragráfo</p>
+    <script> 
+    var id = window.document.getElementById('t1');
+    var cs = window.document.getElementsByName('cu')[0]
+    document.write(`the title of this page is: ${id.innerHTML}`)
+    document.write(`teste: ${cs.innerHTML}`)
+
+    </script>
+</body>
+</html>

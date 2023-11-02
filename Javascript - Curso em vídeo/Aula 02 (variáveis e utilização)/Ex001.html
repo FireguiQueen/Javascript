@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JavaScript</title>
+    <style>
+        body{ 
+            background-color: rgb(186, 116, 50);
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var name = window.prompt("What's ur name? ");
+        var age = window.prompt("How old are u?");
+        var movie = window.prompt("What's ur favorite movie?");
+        window.alert(`Prazer em conhece-lo, ${name}! De ${age} anos de idade. O seu filme favorito é ${movie}? O meu também!`) 
+
+        /* 
+        Invés de utilizarmos a maneira de concatenação normal:
+        "Prazer em conhece-lo" + name + "de" + age + "anos de idade. O seu filme favorito é" + movie + "? O meu também!"
+        
+        Resultado: Prazer em conhece-lo (nome) de (anos de idade). O seu filme favorito é (filme)? O meu também!
+        _____________________________________________________________________________________________________________________
+        
+        
+        Podemos fazer simplesmente da seguinte maneira:
+        `Prazer em conhece-lo, ${variavel}! De ${variavel} anos de idade. O seu filme favorito é ${variavel}? O meu também!`
+        */
+    </script>
+</body>
+</html>

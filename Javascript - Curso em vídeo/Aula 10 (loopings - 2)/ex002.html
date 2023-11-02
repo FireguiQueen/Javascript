@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura - FOR </title>
+</head>
+<body>
+    <h1>Eating a pizza:</h1>
+    Pizza slices: <input type="number" id="slice"> <input type="button" id="botão" value="check" class="btn">
+    <div id="restante"></div>
+
+    <script> 
+        var button = document.querySelector('input#botão');
+        button.addEventListener('mouseenter', uwu)
+        button.addEventListener('mouseout', out)
+        button.addEventListener('click', checkS);
+
+        function checkS(){
+            var div = document.getElementById('restante');
+            div.innerHTML = ''
+            var pizza = document.getElementById('slice').value;
+            var slice = Number(pizza)
+            for (slc = slice; slc >= 1 ; slc --) {
+            document.getElementById('restante').innerHTML += `Comeu um pedaço (${slc}) </br>`
+            }
+        }
+        const stl = document.getElementsByClassName('btn')[0];    
+        function uwu() { 
+            stl.style.color = 'blue'
+            stl.style.fontWeight = 'bolder'
+        } function out(){
+            stl.style.color = ''
+            stl.style.fontWeight = ''
+
+        }
+    </script>   
+
+    
+</body>
+</html>

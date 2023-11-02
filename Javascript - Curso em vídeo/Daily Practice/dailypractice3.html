@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily practice</title>
+    <style>
+        body{
+            background-color:rgb(92, 224, 224);
+            color:rgb(68, 64, 64);
+            font: 25pt Arial;
+        }
+        h1{
+            color:rgb(17, 12, 12);
+            font: 38pt Impact;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Isto é apenas uma prática diária no JS!</h1>
+    <h2>Informações de usuário: </h2>
+
+    <script>
+        window.alert(`O site que será carregado foi feito por um iniciante em JS, não se espante.. `)
+        
+        var name = window.prompt(`Qual é o seu nome? `)
+        var age = window.prompt(`Qual é sua idade, ${name}? `)
+        var salário = Number.parseFloat(window.prompt(`Qual é o seu salário mensal? `))
+        var salárioM = salário.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
+        document.write(`<p> <strong>Nome: </strong>${name.toUpperCase()} (possui ${name.length} letras) </br> </p>`) 
+        document.write(` <strong>Idade: </strong>`)  
+        document.write(age >= 18? 
+        'Você é maior do que 18 anos, assista um pouco de hentai: <a href=https://rule34>Hentais bacanas</a></br>' 
+                                                : 
+        'Você é menor de 18 anos, não pode assistir hentai, assista isso: <a href=https://youtube.com>Hentais leves</a></br>')
+        
+        document.write(`<strong>Salário: </strong>${salárioM}`)
+        
+    
+                
+
+    
+    </script>
+</body>
+</html>

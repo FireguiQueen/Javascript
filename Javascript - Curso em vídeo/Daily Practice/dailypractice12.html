@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM! </title>
+    <style>
+        body{ 
+            background-color: rgb(255, 219, 219);
+            font: 25pt Arial;
+            color: black;
+
+        }
+        h1{
+            margin-bottom: 24px;
+            margin-top: 10px;
+            font: 55pt Impact;
+        }
+        input.colors{
+            padding: 10px;
+            position: relative; top: 640px; left: 700px
+        }
+        input.inpTXT{
+            height: 25px;
+            width: 320px;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: x-large;
+            border: 0.8px solid rgb(54, 53, 53) ;
+
+        }
+        input#age{
+            width: 120px;
+            font-size: medium;
+            margin-bottom: 50px;
+        }
+        input#send_button{
+            height: 30px;
+            width: 90px;
+            position: relative; top: -2px;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>user information: </h1>
+
+    <strong>Name:</strong> <input type="txt" id="name" class="inpTXT"> </br>
+    <strong>Age:</strong> <input type="txt" id="age" class="inpTXT"> 
+    <input type="button" value="Send" id="send_button" onclick="clickB()" onmouseenter="enterB()"> 
+    <div id="div1"></div>
+
+
+    <input type="button" value="Medium-Slate-Blue" id="color1" class="colors" onclick="clicked1()" onmouseenter="entrada0()" > 
+    <input type="button" value="Light-Sea-Green" id="color2" class="colors" onclick="clicked2()" onmouseenter="entrada1()">
+    <input type="button" value="Slate-Gray" id="color3" class="colors" onclick="clicked3()" onmouseenter="entrada2()">
+
+
+    <script>
+        var in1 = document.getElementById('color1').addEventListener('mouseout', out0);
+        var in2 = document.getElementById('color2').addEventListener('mouseout', out1);
+        var in3 = document.getElementById('color3').addEventListener('mouseout', out2);
+
+        
+        const corpo = document.getElementsByTagName('body')[0]
+        function clicked1(){
+            var botão = document.getElementById('color1');
+            corpo.style.background = '#7B68EE'
+        }  
+        function clicked2(){
+            corpo.style.background = '#20B2AA'
+        }
+        function clicked3(){
+            corpo.style.background = '#708090'
+        }
+
+        // Button(input)_style
+        function entrada0(){
+            var bStyle = document.getElementById('color1');
+            bStyle.style.fontSize = '21px';
+            bStyle.style.color = '#7B68EE';
+            bStle.style.fontWeight = 'bolder';
+        }
+        function entrada1(){
+            var bStyle = document.getElementById('color2')
+            bStyle.style.fontSize = '21px'
+            bStyle.style.color = '#20B2AA'
+            bStyle.style.fontWeight = 'bolder'
+        }
+        function entrada2(){
+            var bStyle = document.getElementById('color3');
+            bStyle.style.fontSize = '21px';
+            bStyle.style.color = '#708090';
+            bStyle.style.fontWeight = 'bolder';
+        
+        }
+        function out0(){
+            var bStyle = document.getElementById('color1');
+            bStyle.style.fontSize = '';
+            bStyle.style.color = '';
+            bStyle.style.fontWeight = '';
+        }
+        function out1(){
+            var bStyle = document.getElementById('color2');
+            bStyle.style.fontSize = '';
+            bStyle.style.color = '';
+            bStyle.style.fontWeight = '';
+        }
+        function out2(){
+            var bStyle = document.getElementById('color3');
+            bStyle.style.fontSize = '';
+            bStyle.style.color = '';
+            bStyle.style.fontWeight = '';
+        } 
+        function clickB(){
+            var divin = document.getElementById('div1')
+            var name1 = document.getElementById('name').value.toLowerCase()
+            switch(name1){
+                case 'guilherme':
+                    divin.innerHTML = `Olá, ${name1.toUpperCase()}! Em minha opinião você possui um belo nome! Aqui vai o significado do seu nome: “protetor decidido” ou “protetor corajoso”. 
+                    Guilherme tem origem no nome germânico Willahelm, composto pela união dos elementos will, vilja, wailja, que quer dizer “vontade, desejo”, e helm, hilms, que quer dizer “proteção, capacete”. Significa “protetor decidido" ou "protetor corajoso”.`
+                    break
+                case 'davi':
+                    divin.innerHTML = `Significa "o amado", "querido", "predileto". Tem origem no nome hebraico Dawid, Dawídh, que significa "o amado", "querido", "predileto".
+                    Davi foi o mais famoso rei de Israel, que reinou durante o século 10 a.C. Ele foi responsável pela expansão da sua nação.`
+                    break 
+                case 'vinicio':
+                    divin.innerHTML = `Significa “vinho”, "vinicultor" ou “da natureza do vinho”. Vinícius tem origem no nome latim Vinicius, que possivelmente deriva de vinum, que significa literalmente “vinho”.
+                    Assim sendo, por extensão, Vinícius significaria “vinicultor, "aquele que produz vinho". Trata-se de um bonito nome masculino que reflete a simbologia do vinho, que é essencialmente a bebida sagrada dos deuses.`
+                    break
+                default:
+                    divin.innerHTML = `Desculpe, mas o seu nome não está na minha lista de nomes favoritos :( ... </br> 
+                    Mas você pode pesquisar o significado dele <a href="https://www.significadodosnomes.com/"target=_blank>aqui</a>`
+                    break
+
+            }
+        }
+
+    </script> 
+    
+</body>
+</html>

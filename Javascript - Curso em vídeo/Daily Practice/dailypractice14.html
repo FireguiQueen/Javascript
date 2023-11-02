@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            font: 18pt Arial Black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <input id='name' type="string" value="teste">
+    <input id="button1" type="button" value="Alterar a div" onclick='change_div()'>
+    <div id="div1">..</div>
+
+    <script>
+        function change_div(){      
+            palavra = document.getElementById('name').value
+            quantidade_de_letra = palavra.length 
+            document.getElementById('div1').innerText= quantidade_de_letra
+        }
+    </script>
+    
+</body>
+</html>

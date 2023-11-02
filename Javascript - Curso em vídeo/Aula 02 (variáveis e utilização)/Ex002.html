@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JavaScript</title>
+    <style>
+        body{
+            background-color: gray;
+            font: 45pt Impact;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendendo JS</h1>
+    <p>i'm just learning</p>
+        <script>
+            /* 
+            "Number" já identifica se o que há dentro da String é um número inteiro ou não.
+            "Number.parseInt" transforma em Number (para números INTEIROS: 1, 2, 3, 4, 5.. )
+            "Number.float" transforma em Number (para números quebrados: 8,5  10,2  1,1 e assim por diante)
+            Conversão de String para Number: Use "Number", "Number.parseInt" (número intero) ou "Number.Float" (número quebrado)
+            Conversão de um Number para String: Use "String(n)" ou "n.toString()" <-- 'n' seria a variável.
+            */
+            var n1 = Number(window.prompt("Digite um número: "))
+            var n2 = Number(window.prompt("Digite outro número: "))
+            window.alert(`A soma entre ${n1} e ${n2} é resultante em ${n1 + n2}`)
+            // Caso coloquemos "Number.parseInt", contas utilizando números quebrados não irão funcionar.
+            // Ou seja, caso você tente somar 1,5 + 1,5 o resultado será dois, e não três.
+            // Caso coloquemos "Number.parseInt" em apenas uma variável. Só iremos conseguir somar números quebrados 
+            // caso este número quebrado esteja na variável que aceite números quebrados. 
+        </script>
+</body>
+</html>
+
+
+

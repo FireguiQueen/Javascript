@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Practice 2</title>
+    <style>
+        body{
+            background-color:rgb(51, 153, 153);
+            font: 45pt Arial;
+            color:rgb(66, 56, 56);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Informações de usário: </h1>
+
+    <script> 
+        window.alert('Você está entrando em uma página feita por um iniciante em JS!')
+
+        var nome = window.prompt('Digite o seu nome: ');
+        var idade = Number.parseInt(window.prompt('Digite sua idade: '))
+        var salário_m = Number.parseFloat(window.prompt('Digite seu salário mensal: '))
+        var hero = Number(window.prompt('Digite a quantidade de  metahero na Wallet: '))
+        window.alert(`Olá, ${nome}, abaixo você verá suas informações de usário!`)
+        
+        salário = salário_m.toLocaleString('pt-BR',{style:'currency', currency: 'BRL'})
+        metahero = hero.toFixed(2)
+
+        document.write(`<p> <strong>Nome: </strong>${nome} (o nome ${nome.toUpperCase()} possui ${nome.length} letras) </br>`)   
+        document.write(idade >= 18? `<strong>Idade: </strong>${idade} (você é mais velho do que 18 anos) </br>` : `<strong>Idade: </strong>${idade} (você é mais novo do que 18 anos) </br>`)
+        document.write(salário >= 3000? `<strong>Salário: </strong>${salário} (seu salário mensal é alto) </br>` : `<strong>Salário: </strong>${salário} (seu salário mensal não é alto) </br>`)    
+        document.write(hero >=1000? `Heros na Wallet: </strong>${metahero}` : `Heros na Wallet: </strong>${metahero}`)
+    
+    </script> 
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Daily Practice 6 </title>
+    <style>
+        body{
+            background-color: aqua;
+            color: black;
+            font: 45pt Arial;
+        }
+
+        h1 {
+            color: black;
+            font: 50pt Impact 
+        }
+
+        
+    </style> 
+</head>
+
+<body>
+    <h1>Informações de usuário: </h1>
+        <img scr='Mage.jfif'>
+
+    <script>
+        var name = prompt(`Olá, você poderia me dizer o seu nome? `)
+        confirm(`Você deseja continuar neste site? Desculpe, ${name}, esqueci que agora não há mais escapatória.`)
+        var age = prompt(`Haha, só estou brincando com você! Me diga sua idade: `)
+        var hentai = prompt('Você gosta de hentai? 1=Sim 2= Não')
+
+        document.write(`<strong>Nome: </strong>${name} (possui ${name.length} letras em seu nome) </br>`)
+        document.write(`<strong>Idade: </strong>${age} `)
+        document.write(age >= 18    &&    hentai == 1? '(cocê pode assistir hentai, <a href=https://www.rule34.com<Clique aqui para ver hentai</a> )' : '(Você não pode assitir hentai <a href=https://youtu.be/uk1TvO9CFb8>Tudo exceto conteúdo NSFW</a> )')
+
+    </script>     
+</body>
+</html>
